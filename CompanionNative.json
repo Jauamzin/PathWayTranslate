@@ -3201,29 +3201,29 @@ export const translations = {
             }
         },
         "aboutScreen": {
-            "title": "About",
+            "title": "Sobre",
             "sections": {
-                "about": "About",
-                "getHelp": "Get help",
+                "about": "Sobre",
+                "getHelp": "Obter ajuda",
                 "legal": "Legal"
             },
             "items": {
-                "version": "Version",
-                "build": "Build",
-                "sendCrashReports": "Send crash reports",
-                "submitTicket": "Submit a Ticket",
-                "suggestions": "Suggestions",
-                "termsOfService": "Terms of Service",
-                "privacyPolicy": "Privacy Policy"
+                "version": "Versão",
+                "build": "Compilação",
+                "sendCrashReports": "Enviar relatórios de erro",
+                "submitTicket": "Enviar um tíquete",
+                "suggestions": "Sugestões",
+                "termsOfService": "Termos de Serviço",
+                "privacyPolicy": "Política de Privacidade"
             },
             "footer": "Copyright © 2025 Companion"
-        },
-        "signOutScreen": {
-            "title": "Sign Out",
-            "message": "Are you sure you want to sign out?",
+        }
+          "signOutScreen": {
+            "title": "Sair",
+            "message": "Tem certeza de que deseja sair?",
             "buttons": {
-                "cancel": "Cancel",
-                "confirm": "Sign Out"
+                "cancel": "Cancelar",
+                "confirm": "Sair"
             }
         }
     }
