@@ -3218,12 +3218,12 @@ export const translations = {
             },
             "footer": "Copyright © 2025 Companion"
         },
-        "signOutScreen": {
-            "title": "Sign Out",
-            "message": "Are you sure you want to sign out?",
+          "signOutScreen": {
+            "title": "Sair",
+            "message": "Tem certeza de que deseja sair?",
             "buttons": {
-                "cancel": "Cancel",
-                "confirm": "Sign Out"
+                "cancel": "Cancelar",
+                "confirm": "Sair"
             }
         }
     }
