@@ -1,0 +1,3230 @@
+export const translations = {
+    "en": {
+        "loginScreen": {
+            "title": "Welcome to Companion",
+            "onboardingCarousel": [
+            {
+                "title": "Notifications",
+                "description": "Receive the latest notifications directly to your mobile device to stay updated on important deadlines, submitted cases, when registration opens, and more!. We will inform you about everything so you don't miss anything."
+            },
+            {
+                "title": "Services",
+                "description": "If you are experiencing an issue, you can create, update, and review submitted cases. You also have easy access to services like official transcript requests, enrollment verification, applying for graduation, and registering for upcoming terms."
+            },
+            {
+                "title": "AI Assistance",
+                "description": "Access AI Assistance designed especially for you!. This assistance can help you frequently with asked questions, specific course inquiries, and improve your English. You can find this resource in the 'AI Assistans' app."
+            }
+            ],
+            "buttons": [
+            {
+                "label": "Sign In"
+            },
+            {
+                "label": "Not a Student"
+            }
+            ],
+            "termsText": "By downloading, accessing, or using Companion, you agree to these terms of use. Please read them carefully before using the app."
+        },
+        "notStudentScreen": {
+            "banner": "BYU-Pathway Worldwide provides access to spiritually based degrees completely online at an affordable price.",
+            "ourStudents&Alumni": {
+            "title": "Our Students & Alumni",
+            "testimonialsCarousel": [
+            {
+                "text": "There is never a perfect time to finish your degree. There will always be things that make it hard, but you can do hard things. I learned exactly what I needed to learn and it not only helped me academically, it helped me in my life!."
+            },
+            {
+                "text": "I decided to try my best to pave the way for my dream of earning a degree by enrolling at BYU-Pathway Worldwide courses."
+            },
+            {
+                "text": "As a non-latter-day Saint, joining BYU-Pathway bought me initial apprehension. However, I was immediately greeted with open arms by the missionaries and my classmates."
+            }
+                ]
+            },
+            "degreesInformation": {
+            "title": "Degrees Information",
+            "card": {
+                "title": "Want a Better Job Before You Graduate?",
+                "description": "Earn a Job-Ready Certificate While Earning a Bachelor's Degree.",
+                "button": "View Degrees"
+            }
+            },
+            "moreInformationSection": {
+            "title": "More Information",
+            "cards": [
+                {
+                "applyPCToday": "Apply to Pathway Connect Today",
+                "description": "Start Your Journey",
+                "buttonLabel": "Apply Now"
+                },
+                {
+                "learnMore": "Learn More About Pathway Connect",
+                "buttonLabel": "Request Info"
+                },
+                {
+                "help": "Need Help? Our AI Assistant Has Answers",
+                "buttonLabel": "AI Assistant"
+                }
+            ],
+            "finalButton": "Go to Login"
+            }
+        },
+        "authenthicationLoadingPage": {
+            "title": "Procecing Authenthication..."
+        },
+        "menuScreen": {
+            "greeting": "Hello 👋🏻, {studentName}",
+            "appsSection": {
+                "title": "Apps",
+                "appsCarousel": [
+                    { "aiAssistance": "AI Assistance" },
+                    { "academicCenter": "Academic Center" },
+                    { "network": "Network" },
+                    { "jobs": "Jobs" },
+                    { "ec3": "EC3" },
+                    { "openAllApps": "Open All Apps" }
+                ]
+            },
+            "notificationsSection": {
+                "title": "Latest Notifications",
+                "viewAllButton": "View All Notifications"
+            },
+            "academicProgressSection": {
+                "title": "My Academic Progress",
+                "programsCarousel":[
+                    {
+                    "subject": "Religion",
+                    "institution": "BYU-Idaho",
+                    "credits": {
+                        "label": "Credits",
+                        "Value": "8"
+                    },
+                    "progressBar": {
+                        "percentage": 60,
+                        "label": "% Completed"
+                        }
+                    }
+                ]
+            }
+        },
+        "notificationsScreen": {
+            "noNotificationsTitle": "No Notifications Available",
+            "noNotificationsMessage": "There are no items available at this time."
+        },
+        "aiAssistanceScreen": {
+            "title": "Companion Assistant",
+            "infoPopup": {
+                "message": "This artificial intelligence (AI) chatbot is powered by generative AI technology that refers to the BYU-Pathway website and Support Knowledge Base website. This chatbot can analyze questions, search the mentioned websites, and summarize potentially relevant information. Generative AI is not always correct. Please personally confirm the answer provided by this chatbot by reading the sections it identifies in the mentioned websites. Use of this chatbot is anonymous. Do not enter any personal information. By using this chatbot, you agree that anything you enter can be saved and reviewed by Church personnel to improve this chatbot and make it more accurate",
+                "button": "Acknowledge"
+        },
+        "typeBoxMessage" : "Type a message...",
+        "assistantSwitcher": {
+            "title" :"AI Assistats",
+            "options": [
+                { "label": "Companion Assistant" },
+                { "label": "Course Assistant" }
+            ]
+        }
+        },
+        "appsMenuScreen": {
+            "title": "Apps",
+            "appsGrid": [
+                { "AcademicCenter": "Academic Center" },
+                { "Tickets": "Tickets" },
+                { "Network": "Network" },
+                { "Registration": "Registration" },
+                { "Jobs": "Jobs" }
+                ]
+        },
+        "academicCenterScreen": {
+            "recommendedActions": {
+            "title": "Recommended Actions",
+            "carousel": [
+                {
+                "ResultHolds": {
+                    "title": "Result Holds",
+                    "description": "Account Holds require you to follow specific steps to register for and complete course.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "EcclesiasticalEndorsement": {
+                    "title": "Ecclesiastical Endorsement",
+                    "description": "It is time to renew your Ecclesiastical Endorsement.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "HerbertJGrantScholarship": {
+                    "title": "Herbert J. Grant Scholarship",
+                    "description": "Apply to HJG Scholarship by March 21.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "YouDidIt": {
+                    "title": "🏆 You did it",
+                    "description": "Great job! You completed all the recommended actions."
+                }
+                }
+            ]
+            },
+            "services": {
+            "title": "Services",
+            "carousel": [
+                { "enrollmentVerification": "Enrollment Verification" },
+                { "officialTransferRequest": "Official Transfer Request" },
+                { "academicAcception": "Academic Acception" },
+                { "graduationApplication": "Graduation Application" },
+                { "allServices": "All Services" }
+            ]
+            },
+            "academicProgress": {
+            "title": "Academic Progress",
+            "carousel": [
+                {
+                "program": {
+                "courseTitle": "Software Development",
+                "institution": "BYU-Idaho",
+                "credits": "credits",
+                "progressBar": {
+                    "percentage": 75,
+                    "label": "Completed"
+                },
+                "c1": "C1: Technical Support Engineer",
+                "c2": "C2: It Fundamentals",
+                "c3": "C3: System Administration",
+                "GPA": "GPA: 3.871",
+                "button": "Details"
+                }
+                }
+            ]
+            },
+            "courseRegistration": {
+            "title": "Course Registration",
+            "carousel": [
+                {
+                "term": "2025 Term 2",
+                "status": "Registered",
+                "courses": [
+                    { "code": "COMM122", "name": "Interpersonal Communications" },
+                    { "code": "IT350", "name": "Network Configuration and Design" },
+                    { "code": "R1KY301", "name": "Power Platform" }
+                ],
+                "button": "Details"
+                },
+                {
+                "term": "2025 Term 3",
+                "status": "Not Registered",
+                "courses": [
+                    { "code": "COMM122", "name": "Interpersonal Communications" },
+                    { "code": "IT350", "name": "Network Configuration and Design" },
+                    { "code": "R1KY301", "name": "Power Platform" }
+                ],
+                "button": "Details"
+                }
+            ]
+            },
+            "courseAccess": {
+            "title": "Course Access",
+            "goToClass":{
+                "title": "Go to Class",
+                "description": "Open your Canvas Dashboard to continue with your assigments."
+            }
+            }
+        },
+        "hjgSection1Screen": {
+            "header": {
+                "title": "Heber J. Grant Application"
+            },
+            "descriptionHJG": {
+                "title": "Heber J. Grant Scholarship",
+                "description": "BYU-Pathway Worldwide offers a needs based scholarship named after Heber J. Grant, a former president of The Church of Jesus Christ of Latter-day Saints. To be eligible to receive this scholarship, you must complete this informational module.",
+                "moduleSections": {
+                    "title": "This module contains five sections:",
+                    "items": [
+                    "1. Survey",
+                    "2. Persistence & Tenacity",
+                    "3. Love of Learning",
+                    "4. Self-Reliance",
+                    "5. Stewardship & Replenishment"
+                    ]
+                },
+                "timeEstimate": "You should anticipate this module taking about 45 to 60 minutes to complete. If you do not have that much time, please wait to start the module at another time. Not only will this resource help BYU-Pathway evaluate your financial needs, it will also help cultivate the characteristics needed for your continued success as a BYU-Pathway student. Thank you."
+            },
+            "bioSection": {
+                "title": "Who is Heber J. Grant?",
+                "content": "Heber J. Grant was the seventh president of The Church of Jesus Christ of Latter-day Saints. Born in Salt Lake City in 1856, Grant was raised by his mother, Rachel Ridgway Ivins Grant, after his father, Jedediah Grant (a counselor to Brigham Young) died when Heber was only a few days old. Heber was called as a stake president at age 23 and ordained an Apostle two years later. One of the most dramatic incidents in his apostolic service came in 1893, when he sought divine aid to secure loans to save the Church. Grant's efforts protected the Church from financial collapse during a nationwide economic crisis. The characteristics and life of Heber J. Grant embody principles of self-reliance and persistence that will resonate and be a strength to many BYU-Pathway students around the world."
+            },
+            "form": {
+                "sectionTitle": "Section 1: Heber J. Grant Scholarship Survey",
+                "sectionDescription": "First, to help us better understand your current needs and situation, please answer following questions:",
+                "questions": {
+                "parentsUniversityDegree": {
+                    "question": "Have either of your parents obtained a university degree?",
+                    "options": [
+                    "Yes",
+                    "No",
+                    "I don't know"
+                    ]
+                },
+                "singleParent": {
+                    "question": "Are you a single parent?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "reliableHousing": {
+                    "question": "Do you have reliable housing?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "struggleMeals": {
+                    "question": "Do you struggle to have enough food for yourself and your family to eat three meals per day?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "accessDevice": {
+                    "question": "Do you have access to a device (computer, phone, or tablet) to complete your coursework?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "reliableInternet": {
+                    "question": "Do you have access to reliable internet?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "tuitionAffordability": {
+                    "question": "Is your tuition affordable for you and your family?",
+                    "options": [
+                    "Yes, my tuition is affordable and I am able to pay for it.",
+                    "My tuition is not affordable, but I am able to find other means to pay for it.",
+                    "No, my tuition is not affordable and I have no means to pay for it."
+                    ]
+                },
+                "circumstancesAffectingPayment": {
+                    "question": "Are there any other circumstances that affect your ability to pay for your education?",
+                    "options": [
+                    "Yes",
+                    "No",
+                    "Additional Information (Please type below)"
+                    ]
+                },
+                "additionalInformation": {
+                    "label": "",
+                    "placeholder": "Type Here",
+                    "description": "(This field appears if 'Additional Information' is selected for the previous question)"
+                }
+                }
+            },
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "alert": "All fields are required",
+            "message": "Progress saved."
+        },
+        "hjgSection2Screen": {
+            "header": {
+                "title": "Heber J. Grant Application",
+                "buttons": [
+                { "label": "Save and Exit" },
+                { "label": "Leave Without Saving" }
+                ]
+            },
+            "description": {
+                "title": "Section 2: Persistence & Tenacity",
+                "description": "Poverty defined Heber's growing years, but not negatively. Having little money was a challenge that never deterred him. Wanting to learn to pitch a baseball but not having enough money for a ball, Heber earned the money by shining boots for his mother's boarders. Later he longed to attend the Salt Lake Theatre; instead of feeling sorry that he had no money to buy tickets, he obtained a job as a water carrier for theater patrons and was thus allowed to watch the plays.\n\nAs Heber grew older, his persistence and fortitude were put to good use in business ventures. Offered an appointment to the United States Naval Academy, he opted to stay near his mother and to become a businessman instead. After finishing his schooling at age 16, Heber got a job as a bank clerk and learned bookkeeping. His honesty, ability to work hard, and great desire to learn soon opened up many opportunities. By the time he was 20 years old, he had been made the assistant cashier of Zion's Savings Bank and Trust Company, and he had purchased an insurance agency. The poverty of Heber's youth made him compassionate and prepared him to lead the Church through the aftermath of World War I, the Great Depression, and World War II.",
+                "video": {
+                "text": "Watch the following video: Link",
+                "transcriptLinkText": "If you would like to read a transcript of this video instead click here"
+                }
+            },
+            "form": {
+                "questions": {
+                "usedMoneyFor": {
+                    "question": "How have you used money or resources to overcome challenges related to your education?",
+                    "options": [
+                    "Purchased study materials",
+                    "Paid for transportation",
+                    "Covered living expenses",
+                    "Invested in a device for coursework",
+                    "Other (please specify)"
+                    ]
+                },
+                "scriptureReview": {
+                    "text": "Please choose one of the following scriptures to review:",
+                    "links": [
+                    "Mosiah 2:14",
+                    "Mosiah 27:5",
+                    "Doctrine & Covenants 42:42",
+                    "Moses 4:25",
+                    "Joseph Smith - History 1:55"
+                    ]
+                },
+                "scriptureSelected": {
+                    "question": "Which scripture(s) did you select? What are some specific ways work helps us become more self-reliant?",
+                    "placeholder": "Type Here"
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "savedAlertMessage": "Progress saved.",
+            "fieldsRequired": "All fields are required"
+        },
+        "hjgSection3Screen": {
+            "header": {
+                "title": "Heber J. Grant Application",
+            },
+            "section": {
+                "title": "Section 3: Love of Learning",
+                "description": "In 1901, Heber J. Grant was called to open and preside over the Japanese Mission. There, Elder Grant dedicated the land for the preaching and reception of the gospel. But the mission did not immediately flourish, partly because of the cultural differences and communication barriers. That did not stop Elder Grant. He worked diligently to learn the new language and to learn of the new culture he was immersed in. Despite the limited missionary success there at the time, Elder Grant oversaw the first translation of the Book of Mormon into Japanese. Of his missionary efforts, President Grant later taught: \"I want you young people to know that in all my labors I got nearer to the Lord, and accomplished more and had more joy while in the mission field than ever before or ever since. Man is that he might have joy, and the joy that I had in the mission field was superior to any I had ever experienced elsewhere.\"\n\nPresident Grant loved to give away books to all those around him; he knew that learning was one of the most important things you could do to further yourself, and he felt a true sense of peace giving away books that had taught him in the past. He gave away thousands of them, most of which he personally inscribed. In giving so many gifts he sometimes lost track of what he had done. \"I once gave a man a book,\" he said, \"and he thanked me very kindly for it, and said, 'Brother Grant, I thoroughly appreciate this book. It is the third copy you have given me of it.'\" After that experience, President Grant kept an index of the books he had given."
+            },
+            "form": {
+                "questions": {
+                "question1": {
+                    "question": "How did Heber J. Grant earn money to buy a baseball?",
+                    "options": [
+                    "By shining boots for his mother's boarders",
+                    "By carrying water for theater patrons",
+                    "By working as a bank clerk",
+                    "By selling insurance"
+                    ]
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert":"All fields are required"
+        },
+        "hjgSection4Screen": {
+            "header": {
+                "title": "Heber J. Grant Application"
+            },
+            "section": {
+                "title": "Section 4: Self Reliance",
+                "description": "In 1936, seven years into the Great Depression, the United States had yet to emerge from the huge losses and downward trends that began with the stock market crash in 1929. When President Heber J. Grant spoke of the welfare system in 1936, he envisioned that \"no new Church machinery\" would be required but that \"stake and ward organizations, the priesthood quorums, the Relief Society, and the various auxiliary organizations [would] render the maximum service [they] could furnish in the interest of the general welfare of the Church.\" The Lord had already established the organization needed to bless the poor and needy—priesthood quorums were in place, Relief Societies were organized, and the priesthood of God was on the earth.\n\nSince the welfare program was introduced in 1936, members of the Church have labored together to relieve the suffering of those who stand in need. Economic downturns, natural disasters, unemployment, sickness and disability, or times of loss have all required the direction of the priesthood to ensure that needs are met and that individuals and families are blessed. Over the years millions of members have willingly given of their time and talents to bless others.\n\nSince the creation of the Bishop's Storehouse, many United States presidents and other leaders from around the world have come to visit the renowned storehouse and to learn more of how they can implement similar welfare ideologies as did President Heber J. Grant. \"The aim of the Church is to help the people help themselves. Work is to be re-enthroned as the ruling principle of the lives of our Church membership\" (Heber J.\nGrant, in Conference Report, Oct. 1936, 3).",
+            },
+            "form": {
+                "questions": {
+                "question1": {
+                    "question": "What was the purpose of the welfare program introduced by President Heber J. Grant?",
+                    "options": [
+                    "To provide government assistance to the unemployed",
+                    "To help Church members help themselves and relieve suffering",
+                    "To establish new Church machinery for financial aid",
+                    "To gather resources for future investments"
+                    ]
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert": "All fields are required"
+        },
+        "hjgSection5Screen": {
+            "header": {
+            "title": "Heber J. Grant Application",
+            },
+            "section": {
+            "title": "Section 5: Stewardship & Replenishment"
+            },
+            "form": {
+            "questions": {
+                "lowTuition": {
+                "question": "BYU-Pathway's low tuition is made possible both by support from The Church of Jesus Christ of Latter-day Saints and from philanthropic donors. If you would like to thank the individuals who have donated money to lower your tuition costs, what would you say to them? (Your comment may be shared with current and future donors.)",
+                "placeholder": "Type Here"
+                }
+            }
+            },
+            "previousButton": "Previous",
+            "submitButton": "Submit",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert": "All fields are required",
+            "submissionAlerts": {
+            "successMessage": "Your request has been successfully submitted.",
+            "errorMessage": "Not found",
+            "loadingDescription": "Submitting Heber J. Grant Application..."
+            }
+        },
+        "enrollmentVerificationScreen": {
+            "title": "Enrollment Verification",
+            "description": "This form allows students to request official enrollment verification to provide to a third party as proof of their enrollment at BYU Pathway Worldwide. For details about your enrollment courses, please visit your student portal. On the homepage, navigate to Classes, tile for app to the date enrollment information.",
+            "form": {
+                "question1": {
+                    "question": "Which institution would you like your enrollment verification for?*",
+                    "description": "Enrollment Verifications are specific to enrollment.",
+                    "options": [
+                        "BYU-Idaho",
+                        "Ensign College",
+                        "BYU Pathway"
+                    ]
+                },
+                "question2": { 
+                    "question": "What would you like to include on your enrollment verification?",
+                    "description": "All verifications will list your full name and your student ID. Choose what else you'd like to provide below.",
+                    "options": [
+                        "Enrollment status",
+                        "Date of birth",
+                        "Address",
+                        "Social security number",
+                        "Declared programs",
+                        "Grade point average (GPA)",
+                        "Earned credentials, certificates and degrees",
+                        "Withdrawal date, if applicable",
+                        "Academic standing",
+                        "Tuition cost per credit hour"
+                    ]
+                },
+                "question3": {
+                    "question": "Would you like to include details about your currently enrolled courses?",
+                    "description": "The following information will be provided for any courses you are currently enrolling. Course code, section, title, credits and instructor name.",
+                    "options": [
+                        "Just include information about my current courses",
+                        "No, do not include information about my current courses"
+                    ]
+                },
+                "question4": {
+                    "question": "What would you like to include on your enrollment verification?",
+                    "description": "All verification will list your full name and your student ID. Choose what else you'd like to provide below.",
+                    "options": [
+                        "Provide current term summary",
+                        "Provide future term summary"
+                    ]
+                },
+                "question5": {
+                    "question": "Which reason best describes why you need an enrollment verification?",
+                    "options": [
+                        "Provide to employer",
+                        "Housing request",
+                        "Scholarship / Financial aid",
+                        "Other"
+                    ]
+                },
+                "Button": "Submit"
+            }
+        },
+        "officialTranscriptScreen": {
+            "title": "Official transcript",
+            "firstScreen": {
+                "description": "An Official Transcript is a copy of your permanent academic record issued by Student Record & Resgitration and is typically sent to third parties, e.g., (colleges, graduate programs companies).* An Unofficial Transcript is only avalible through your student account and is typically for personal use.* Please contact your recipient regarding which transcript type they will accpt and meets their requirements.",
+                "button": "Continue"
+            },
+            "secondScreen":{
+                "title": "Official transcript Request Policy",
+                "description": "BYU-Pathway Worldwide will cover the cost of the first two official transcript requests for each institution: - BYU-Pathway Worldwide - BYU-Idaho - Ensign College Additional official transcript requests may be subject to a fee. Students are encouraged to plan accordingly. Students may view their unofficial transcripts at no cost through their student portal.",
+                "form":{
+                    "question1": {
+                        "question": "From which institution are you requesting your transcript?",
+                        "answers": [
+                            "Select item",
+                            "BYU-Pathway Worldwide",
+                            "BYU-Idaho",
+                            "Ensign College"
+                        ]
+                    },
+                    "question2": {
+                        "question": "*Name of institution, group, or person receiving this transcript:",
+                        "answerBox": "Type Here"
+                    },
+                    "question3":{
+                        "question": "*Enter the email of the recipient that should receive your official transcript",
+                        "answerBox": "Type Here"
+                        
+                    }
+                },
+                "errorAlert": {
+                    "title": "Error!",
+                    "description": "Not found",
+                    "button": "Go back"
+                }
+            }
+        },
+        "AcademicExceptionsScreen": {
+            "title": "Academic Exceptions",
+            "disclaimer": "Disclaimer: Submitting this request does not guarantee approval. Approval or denial of this petition may affect your tuition, academic status international status, etc. It is your responsibility to explore and understand these impacts. Decisions by the committee are permanent and final.",
+            "form": {
+                "question1": {
+                    "question": "What academic exception would you like to escalate?",
+                    "answers": [
+                            "Select item",
+                            "Withdraw/Drop",
+                            "Other"
+                        ]
+                },
+                "withdrawDrop": {
+                    "question": "Select the term from which you would like to submit the exception",
+                    "answers": [
+                            "Select item",
+                            "One Option"
+                        ]
+                },
+                "Other": {
+                    "question": "Please explain what is your academic exception petition.*",
+                    "typingBox": "Type here"
+                },
+                "button": "Continue"
+            },
+            "successAlert": {
+                "Title":  "Success!",
+                "message": "You request has been successfully submitted.",
+                "button": "Go back"
+            }
+        },
+        "graduationApplicationScreen": {
+            "title": "Graduation Application",
+            "description": "This application is for English Connect, Pathway Connect and all certificates & degrees offered through BYU-Pathway Worldwide in partnership with BYU-Idaho and Ensign College. You will need to fill out a separate Graduation Application for each credential you are applying for.",
+            "form": {
+                "question1": {
+                    "question": "In which term or semester did/will you complete the requirements for the credentials you are applying for.",
+                    "options": [
+                        "Select a term/semester",
+                        "2025 - Term 2",
+                        "2025 - Term 3"
+                    ]
+                },
+                "question2": {
+                    "question": "What credentials are you completing requirements for?",
+                    "options": [
+                        "Select credential",
+                        "Pathway Connect Completion Certificate",
+                        "English Connect Completion Certificate",
+                        "Certificate",
+                        "Associate's Degree",
+                        "Bachelor's Degree"
+                    ]
+                }
+            },
+            "requiredFieldsNote": "Fields marked with * are required.",
+            "submitButton": "Submit",
+            "successAlert": {
+                "Title":  "Success!",
+                "message": "You request has been successfully submitted.",
+                "button": "Go back"
+            }
+        },
+        "submittedRequestsScreen": {
+            "filter": {
+                "label": "Filter By",
+                "options": [
+                    "All Requests",
+                    "Open Requests",
+                    "Closed Requests"
+                ]
+            },
+            "goBack": "Go Back"
+        },
+        "servicesScreen": {
+            "title": "Services",
+            "servicesOptions": [
+                {
+                    "academicExceptions": "Academic Exceptions",
+                    "description": "Submit and Review Requests for an Exception to Academic Policies"
+                },
+                {
+                    "enrollmentVerification": "Enrollment Verification",
+                    "description": "Obtain Official Proof of Enrollment for Employment, Scholarship, or Other Verifications"
+                },
+                {
+                    "graduationApplication": "Graduation Application",
+                    "description": "Apply for Graduation and Ensure You Meet All Requirements"
+                },
+                {
+                    "registration": "Registration",
+                    "description": "Register for a Course, Manage Your Class Schedule, and Access Important Enrollment Deadlines"
+                },
+                {
+                    "submitRequest": "Submit Requests",
+                    "description": "Lorem Ipsum Dolor sit amet, consectetur adipiscing elit. Curabitur risus lacus"
+                }
+            ]
+        },
+        "ticketsScreen": {
+            "title": "Tickets",
+            "ticketsOptions": [
+                {
+                    "openTickets": "Open Tickets",
+                    "description": "Track Ongoing tickets in progress"
+                },
+                {
+                    "closedTickets": "Closed Tickets",
+                    "description": "View tickets that have been resolved"
+                },
+                {
+                    "submitNewTicket": "Submit New Ticket",
+                    "description": "Create and submit a new request"
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance"
+                }
+            ]
+        },
+        "submitNewTicketScreen": {
+            "title": "Submit a New Ticket",
+            "form": {
+                "mainTopic": {
+                    "label": "Main Topic",
+                    "options": [
+                        "Select an item",
+                        "Canvas-CourseIssue",
+                        "Canvas-LoginIssue",
+                        "CanvasAccess",
+                        "EnglishConnectModule-LoginIssue",
+                        "EnglishConnect",
+                        "EnglishConnectModule-CourseIssue",
+                        "Finance-PaymentIssue",
+                        "Finance-HerbertJGrantDiscount",
+                        "GatheringsQuestion-Finance",
+                        "Hold-Gathering",
+                        "Hold-EcclesiasticalEndorsement",
+                        "MeetWithAnAcademicAdvisor",
+                        "Mentoring",
+                        "MicrosoftOffice-LoginIssue",
+                        "MissionarySupport",
+                        "StudentPortland-LoginIssue",
+                        "StudentWellness",
+                        "TransferEvaluation",
+                        "WorkStudy",
+                        "Others"
+                    ]
+                    },
+                "detailedDescription": {
+                    "label": "Detailed Description",
+                    "placeholder": "Type Here"
+                    },
+                "preferredContactMethod": {
+                    "label": "Preferred Contact Method",
+                    "options": [
+                        "Select an Item",
+                        "Email",
+                        "Phone"
+                    ]
+                },
+                "contactInfo": {
+                    "label": "Contact Info",
+                    "placeholder": "Type Here"
+                },
+                "screenshotUpload": {
+                    "label": "Submit a Screenshot with Your Ticket",
+                    "buttonText": "Attach File",
+                    "description": "This file must be a file of type PNG-JPG-JPEG."
+                }
+            },
+            "submitButton": "Submit"
+        },
+        "contactUsScreen": {
+            "text": "Need help? -You can call us at 1-801-655-6424.\nMon–Fri, 9am to 5pm (local time).",
+            "callButton": {
+                "label": "Call +1 (801)-655-6424"
+            }
+        },
+        "networkScreen": {
+            "title": "Network",
+            "networkOptions": [
+                {
+                    "mentorInformation": "Mentor Information",
+                    "description": "Access details about mentors and how to connect with them."
+                },
+                {
+                    "gatheringInformation": "Gathering Information",
+                    "description": "Find details about upcoming gatherings, locations, and schedules."
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance."
+                }
+            ]
+        },
+        "mentorInformationScreen": {
+            "title": "Mentor Information",
+            "description": "BYU Pathway Mentors are a resource to students through their education journey, offering strategies for success, important reminders, connecting students to support resources, and providing encouragement to help students achieve their goals.",
+            "noMentorMessage": "No Mentor Information available at this time."
+        },
+        "gatheringInformationScreen": {
+            "title": "Gathering Information",
+            "noGatheringsMessage": "You are not currently involved in any gathering."
+        },
+        "jobsScreen": {
+            "title": "Jobs",
+            "options": [
+                {
+                "jobsAvailable": "Jobs Available",
+                "description": "Explore entry-level job opportunities that match your skills and career goals."
+                },
+                {
+                "jobsAppliedTo": "Jobs Applied To",
+                "description": "Track the status of your job application and stay updated on potential opportunities."
+                },
+                {
+                "jobProfile": "Job Profile",
+                "description": "Create and manage your job profile to showcase your skill and experience."
+                }
+            ]
+        },
+        "jobsAvailableScreen": {
+            "noJobsAvalibleMessage": "Empty"
+        },
+        "jobsAppliedToScreen": {
+            "noJobsAppliedToMessage": "Empty"
+        },
+        "jobProfileNavScreen": {
+            "title": "Job Profile",
+            "sections": [
+                {
+                "section1": "Section 1",
+                "description": "Share your job status, give sharing permissions, and list your work history."
+                },
+                {
+                "section2": "Section 2",
+                "description": "Share how we can reach to you your work preference, language skills, education, and access to technology."
+                },
+                {
+                "section3": "Section 3",
+                "description": "You will be directed to convenient web app to complete a quick internet speed test and typing speed test."
+                }
+            ],
+            "footerText": "Please, complete your profile."
+        },
+        "jobProfileSection1Screen": {
+            "title": "Job Profile - Section 1",
+            "introduction": "Welcome to Jobs Profile. This tool helps us gather key information to support your career goals. Please fill it out honestly and completely so we can best understand your goals. If you need a break, click Save Progress to return and continue later.",
+            "form": {
+                "termsOfUse": {
+                    "title": "Terms of Use",
+                    "questions": [
+                        {
+                        "question1": "Are you seeking a better job?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]
+                        },
+                        {
+                        "question2": "Do we have your permission to share your information with other departments in the Church of Jesus Christ of Latter-day Saints?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]   
+                        },
+                        {
+                        "question3": "Do we have your permission to share your information with third party hiring firms and other employers?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]
+                        }
+                    ],
+                    "infoButton": {
+                        "label": "Click here for details on what information may be shared",
+                        "popup": {
+                            "content": [
+                                "The answers you provide in this survey.",
+                                "Your contact information including name, address, phone number, email, etc.",
+                                "Any credentials you have earned, including a Pathway Connect Completion Certificate and/or any online certificates and degrees you have completed or are currently working toward. This could also include any relevant coursework.",
+                                "Information related to marketable skills and language abilities."
+                            ],
+                            "closeButton": "Close"
+                        }
+                    }
+                },
+                "employmentHistory": {
+                    "title": "Employment History",
+                    "description": "Please share with us your employment history starting one year before you started BYU Pathway Worldwide.",
+                    "buttons": {
+                        "add": {
+                        "label": "Add +"
+                        },
+                        "reviewSavedItems": {
+                        "label": "Review Saved Items",
+                        "count": 0
+                        }
+                    }
+                }
+            },
+            "submitButton": "Complete Module"
+        },
+        "jobProfileSection2Screen": {
+            "title": "Job Profile - Section 2",
+            "form": {
+                "contactInformation": {
+                "title": "Contact Information",
+                "questions": [
+                    {
+                    "question": "What is the best way to contact you?",
+                    "options": [
+                        "Select an item",
+                        "Whatsapp",
+                        "Email"
+                    ]
+                    },
+                    {
+                    "question": "What language do you speak? Select all that apply.",
+                    "input": {
+                        "placeholder": "Add language"
+                    }
+                    }
+                ]
+                },
+                "jobPreferences": {
+                "title": "Job Preferences",
+                "questions": [
+                    {
+                    "question": "What type of job are you looking for? Select all that apply.",
+                    "options": [
+                        "Remote",
+                        "In-person (Local)"
+                    ]
+                    },
+                    {
+                    "question": "How many hours are you available to work per week? Select all that apply.",
+                    "options": [
+                        "Full time (up to 40 hours per week)",
+                        "Part time (up to 20 hours per week)"
+                    ]
+                    },
+                    {
+                    "question": "What industries are you interested in? Select all that apply.",
+                    "options": [
+                        "Accounting/Finance",
+                        "Health Care",
+                        "Technology",
+                        "Artificial Intelligence",
+                        "Marketing"
+                    ]
+                    },
+                    {
+                    "question": "Please indicate how much money you usually earn in one month in your local currency.",
+                    "inputs": {
+                        "salaryAmountPlaceholder": "Salary amount",
+                        "currencyPlaceholder": "Currency"
+                    }
+                    }
+                ]
+                },
+                "educationHistory": {
+                "title": "Education History",
+                "description": "Please describe any higher education you completed prior to BYU Pathway, including degrees, diplomas, or certificates from other colleges or universities. Do not include BYU Pathway, BYU-Idaho, or Ensign College certificates or degrees.",
+                "buttons": {
+                    "add": "Add",
+                    "reviewSavedItems": "Review Saved Items"
+                }
+                },
+                "technologyAndAccessibility": {
+                "title": "Technology and Accessibility",
+                "questions": [
+                    {
+                    "question": "What electronic devices do you have access to? Select all that apply.",
+                    "options": [
+                        "Computer (Personal)",
+                        "Computer (Shared or Public)",
+                        "Smartphone (Personal)",
+                        "Smartphone (Shared or Public)",
+                        "Tablet (Personal)",
+                        "Tablet (Shared or Public)"
+                    ]
+                    },
+                    {
+                    "question": "On average, how many times a week do you experience power outage?",
+                    "options": [
+                        "0",
+                        "1–2",
+                        "3–5",
+                        "5–10",
+                        "10+"
+                    ]
+                    }
+                ]
+                },
+                "profileQuestions": {
+                "title": "Profile Questions",
+                "description": "Answer the following questions as truly as possible, two minutes max.",
+                "questions": [
+                    {
+                    "question": "Describe an experience where you used your leadership skills. What was the situation? What did you do? What was the result?"
+                    },
+                    {
+                    "question": "Your team member let you borrow something. While using it, you accidentally broke it. Leave a voicemail for your team member to explain the problem and recommend a solution."
+                    }
+                ]
+                }
+            },
+            "alerts": [
+                "There are missing or invalid fields.",
+                "Audio response is required."
+            ],
+            "completeModuleButton": "Complete Module"
+            },
+        "jobProfileSection3Screen": {
+            "title": "External Test",
+            "description": "Please complete the following tests. (Copy the URLs and paste them into your desktop browser.)",
+            "links": [
+                {
+                "label": "Internet Speed Test",
+                "urlPlaceholder": "Link to Internet Speed Test"
+                },
+                {
+                "label": "Typing Speed Test",
+                "urlPlaceholder": "Link to Typing Speed Test"
+                }
+            ],
+            "checkbox": {
+                "label": "I have completed the test"
+            },
+            "button": {
+                "label": "Go Back"
+            },
+            "successPopup": {
+                "title": "Success!",
+                "message": "External test marked as completed",
+                "button": "Go Back"
+            }
+        },
+        "feedbackScreen": {
+            "title": "Submit Feedback",
+            "FeedbackOptions": [
+                {
+                    "submitfeedback": "Submit Feedback",
+                    "description": "Share your thoughts or suggestions to help us improve the app"
+                },
+                {
+                    "reportanissue": "Report an Issue",
+                    "description": "Let us know about any technical problems or bugs you've encountered"
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance."
+                }
+            ]
+        },
+        "submitFeedbackScreen": {
+            "question": "How satisfied are you with the Companion experience?",
+            "ratingNumbers": ["1", "2", "3", "4", "5"]
+        },
+        "settingsScreen": {
+            "title": "Settings",
+            "profileOption": {
+                "title": "Profile",
+                "description": "View and update your personal details, preferences, and account settings." 
+            },
+            "pushNotificationsOption": {
+                "title": "Push Notifications",
+                "description": "Manage your notifications preferences to stay informed about important updates."
+            },
+            "signOutOption": {
+                "title": "Sign Out",
+                "description": "Log out of your account and end your current session."
+            },
+            "aboutOption": {
+                "title": "About",
+                "description": "Learn more about Companion, and its features."
+            }
+        },
+        "profileScreen": {
+            "title": "Profile",
+            "fields": {
+                "preferredName": "Preferred Name",
+                "preferredContact": "Preferred Method of Contact",
+                "whatsappNumber": "WhatsApp Number",
+                "preferredLanguage": "Preferred Language",
+                "updateButton": "Update"
+            }
+        },
+        "aboutScreen": {
+            "title": "About",
+            "sections": {
+                "about": "About",
+                "getHelp": "Get help",
+                "legal": "Legal"
+            },
+            "items": {
+                "version": "Version",
+                "build": "Build",
+                "sendCrashReports": "Send crash reports",
+                "submitTicket": "Submit a Ticket",
+                "suggestions": "Suggestions",
+                "termsOfService": "Terms of Service",
+                "privacyPolicy": "Privacy Policy"
+            },
+            "footer": "Copyright © 2025 Companion"
+        },
+        "signOutScreen": {
+            "title": "Sign Out",
+            "message": "Are you sure you want to sign out?",
+            "buttons": {
+                "cancel": "Cancel",
+                "confirm": "Sign Out"
+            }
+        }
+    },
+    "sp": {
+        "loginScreen": {
+            "title": "Welcome to Companion",
+            "onboardingCarousel": [
+            {
+                "title": "Notifications",
+                "description": "Receive the latest notifications directly to your mobile device to stay updated on important deadlines, submitted cases, when registration opens, and more!. We will inform you about everything so you don't miss anything."
+            },
+            {
+                "title": "Services",
+                "description": "If you are experiencing an issue, you can create, update, and review submitted cases. You also have easy access to services like official transcript requests, enrollment verification, applying for graduation, and registering for upcoming terms."
+            },
+            {
+                "title": "AI Assistance",
+                "description": "Access AI Assistance designed especially for you!. This assistance can help you frequently with asked questions, specific course inquiries, and improve your English. You can find this resource in the 'AI Assistans' app."
+            }
+            ],
+            "buttons": [
+            {
+                "label": "Sign In"
+            },
+            {
+                "label": "Not a Student"
+            }
+            ],
+            "termsText": "By downloading, accessing, or using Companion, you agree to these terms of use. Please read them carefully before using the app."
+        },
+        "notStudentScreen": {
+            "banner": "BYU-Pathway Worldwide provides access to spiritually based degrees completely online at an affordable price.",
+            "ourStudents&Alumni": {
+            "title": "Our Students & Alumni",
+            "testimonialsCarousel": [
+            {
+                "text": "There is never a perfect time to finish your degree. There will always be things that make it hard, but you can do hard things. I learned exactly what I needed to learn and it not only helped me academically, it helped me in my life!."
+            },
+            {
+                "text": "I decided to try my best to pave the way for my dream of earning a degree by enrolling at BYU-Pathway Worldwide courses."
+            },
+            {
+                "text": "As a non-latter-day Saint, joining BYU-Pathway bought me initial apprehension. However, I was immediately greeted with open arms by the missionaries and my classmates."
+            }
+                ]
+            },
+            "degreesInformation": {
+            "title": "Degrees Information",
+            "card": {
+                "title": "Want a Better Job Before You Graduate?",
+                "description": "Earn a Job-Ready Certificate While Earning a Bachelor's Degree.",
+                "button": "View Degrees"
+            }
+            },
+            "moreInformationSection": {
+            "title": "More Information",
+            "cards": [
+                {
+                "applyPCToday": "Apply to Pathway Connect Today",
+                "description": "Start Your Journey",
+                "buttonLabel": "Apply Now"
+                },
+                {
+                "learnMore": "Learn More About Pathway Connect",
+                "buttonLabel": "Request Info"
+                },
+                {
+                "help": "Need Help? Our AI Assistant Has Answers",
+                "buttonLabel": "AI Assistant"
+                }
+            ],
+            "finalButton": "Go to Login"
+            }
+        },
+        "authenthicationLoadingPage": {
+            "title": "Procecing Authenthication..."
+        },
+        "menuScreen": {
+            "greeting": "Hello 👋🏻, {studentName}",
+            "appsSection": {
+                "title": "Apps",
+                "appsCarousel": [
+                    { "aiAssistance": "AI Assistance" },
+                    { "academicCenter": "Academic Center" },
+                    { "network": "Network" },
+                    { "jobs": "Jobs" },
+                    { "ec3": "EC3" },
+                    { "openAllApps": "Open All Apps" }
+                ]
+            },
+            "notificationsSection": {
+                "title": "Latest Notifications",
+                "viewAllButton": "View All Notifications"
+            },
+            "academicProgressSection": {
+                "title": "My Academic Progress",
+                "programsCarousel":[
+                    {
+                    "subject": "Religion",
+                    "institution": "BYU-Idaho",
+                    "credits": {
+                        "label": "Credits",
+                        "Value": "8"
+                    },
+                    "progressBar": {
+                        "percentage": 60,
+                        "label": "% Completed"
+                        }
+                    }
+                ]
+            }
+        },
+        "notificationsScreen": {
+            "noNotificationsTitle": "No Notifications Available",
+            "noNotificationsMessage": "There are no items available at this time."
+        },
+        "aiAssistanceScreen": {
+            "title": "Companion Assistant",
+            "infoPopup": {
+                "message": "This artificial intelligence (AI) chatbot is powered by generative AI technology that refers to the BYU-Pathway website and Support Knowledge Base website. This chatbot can analyze questions, search the mentioned websites, and summarize potentially relevant information. Generative AI is not always correct. Please personally confirm the answer provided by this chatbot by reading the sections it identifies in the mentioned websites. Use of this chatbot is anonymous. Do not enter any personal information. By using this chatbot, you agree that anything you enter can be saved and reviewed by Church personnel to improve this chatbot and make it more accurate",
+                "button": "Acknowledge"
+        },
+        "typeBoxMessage" : "Type a message...",
+        "assistantSwitcher": {
+            "title" :"AI Assistats",
+            "options": [
+                { "label": "Companion Assistant" },
+                { "label": "Course Assistant" }
+            ]
+        }
+        },
+        "appsMenuScreen": {
+            "title": "Apps",
+            "appsGrid": [
+                { "AcademicCenter": "Academic Center" },
+                { "Tickets": "Tickets" },
+                { "Network": "Network" },
+                { "Registration": "Registration" },
+                { "Jobs": "Jobs" }
+                ]
+        },
+        "academicCenterScreen": {
+            "recommendedActions": {
+            "title": "Recommended Actions",
+            "carousel": [
+                {
+                "ResultHolds": {
+                    "title": "Result Holds",
+                    "description": "Account Holds require you to follow specific steps to register for and complete course.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "EcclesiasticalEndorsement": {
+                    "title": "Ecclesiastical Endorsement",
+                    "description": "It is time to renew your Ecclesiastical Endorsement.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "HerbertJGrantScholarship": {
+                    "title": "Herbert J. Grant Scholarship",
+                    "description": "Apply to HJG Scholarship by March 21.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "YouDidIt": {
+                    "title": "🏆 You did it",
+                    "description": "Great job! You completed all the recommended actions."
+                }
+                }
+            ]
+            },
+            "services": {
+            "title": "Services",
+            "carousel": [
+                { "enrollmentVerification": "Enrollment Verification" },
+                { "officialTransferRequest": "Official Transfer Request" },
+                { "academicAcception": "Academic Acception" },
+                { "graduationApplication": "Graduation Application" },
+                { "allServices": "All Services" }
+            ]
+            },
+            "academicProgress": {
+            "title": "Academic Progress",
+            "carousel": [
+                {
+                "program": {
+                "courseTitle": "Software Development",
+                "institution": "BYU-Idaho",
+                "credits": "credits",
+                "progressBar": {
+                    "percentage": 75,
+                    "label": "Completed"
+                },
+                "c1": "C1: Technical Support Engineer",
+                "c2": "C2: It Fundamentals",
+                "c3": "C3: System Administration",
+                "GPA": "GPA: 3.871",
+                "button": "Details"
+                }
+                }
+            ]
+            },
+            "courseRegistration": {
+            "title": "Course Registration",
+            "carousel": [
+                {
+                "term": "2025 Term 2",
+                "status": "Registered",
+                "courses": [
+                    { "code": "COMM122", "name": "Interpersonal Communications" },
+                    { "code": "IT350", "name": "Network Configuration and Design" },
+                    { "code": "R1KY301", "name": "Power Platform" }
+                ],
+                "button": "Details"
+                },
+                {
+                "term": "2025 Term 3",
+                "status": "Not Registered",
+                "courses": [
+                    { "code": "COMM122", "name": "Interpersonal Communications" },
+                    { "code": "IT350", "name": "Network Configuration and Design" },
+                    { "code": "R1KY301", "name": "Power Platform" }
+                ],
+                "button": "Details"
+                }
+            ]
+            },
+            "courseAccess": {
+            "title": "Course Access",
+            "goToClass":{
+                "title": "Go to Class",
+                "description": "Open your Canvas Dashboard to continue with your assigments."
+            }
+            }
+        },
+        "hjgSection1Screen": {
+            "header": {
+                "title": "Heber J. Grant Application"
+            },
+            "descriptionHJG": {
+                "title": "Heber J. Grant Scholarship",
+                "description": "BYU-Pathway Worldwide offers a needs based scholarship named after Heber J. Grant, a former president of The Church of Jesus Christ of Latter-day Saints. To be eligible to receive this scholarship, you must complete this informational module.",
+                "moduleSections": {
+                    "title": "This module contains five sections:",
+                    "items": [
+                    "1. Survey",
+                    "2. Persistence & Tenacity",
+                    "3. Love of Learning",
+                    "4. Self-Reliance",
+                    "5. Stewardship & Replenishment"
+                    ]
+                },
+                "timeEstimate": "You should anticipate this module taking about 45 to 60 minutes to complete. If you do not have that much time, please wait to start the module at another time. Not only will this resource help BYU-Pathway evaluate your financial needs, it will also help cultivate the characteristics needed for your continued success as a BYU-Pathway student. Thank you."
+            },
+            "bioSection": {
+                "title": "Who is Heber J. Grant?",
+                "content": "Heber J. Grant was the seventh president of The Church of Jesus Christ of Latter-day Saints. Born in Salt Lake City in 1856, Grant was raised by his mother, Rachel Ridgway Ivins Grant, after his father, Jedediah Grant (a counselor to Brigham Young) died when Heber was only a few days old. Heber was called as a stake president at age 23 and ordained an Apostle two years later. One of the most dramatic incidents in his apostolic service came in 1893, when he sought divine aid to secure loans to save the Church. Grant's efforts protected the Church from financial collapse during a nationwide economic crisis. The characteristics and life of Heber J. Grant embody principles of self-reliance and persistence that will resonate and be a strength to many BYU-Pathway students around the world."
+            },
+            "form": {
+                "sectionTitle": "Section 1: Heber J. Grant Scholarship Survey",
+                "sectionDescription": "First, to help us better understand your current needs and situation, please answer following questions:",
+                "questions": {
+                "parentsUniversityDegree": {
+                    "question": "Have either of your parents obtained a university degree?",
+                    "options": [
+                    "Yes",
+                    "No",
+                    "I don't know"
+                    ]
+                },
+                "singleParent": {
+                    "question": "Are you a single parent?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "reliableHousing": {
+                    "question": "Do you have reliable housing?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "struggleMeals": {
+                    "question": "Do you struggle to have enough food for yourself and your family to eat three meals per day?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "accessDevice": {
+                    "question": "Do you have access to a device (computer, phone, or tablet) to complete your coursework?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "reliableInternet": {
+                    "question": "Do you have access to reliable internet?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "tuitionAffordability": {
+                    "question": "Is your tuition affordable for you and your family?",
+                    "options": [
+                    "Yes, my tuition is affordable and I am able to pay for it.",
+                    "My tuition is not affordable, but I am able to find other means to pay for it.",
+                    "No, my tuition is not affordable and I have no means to pay for it."
+                    ]
+                },
+                "circumstancesAffectingPayment": {
+                    "question": "Are there any other circumstances that affect your ability to pay for your education?",
+                    "options": [
+                    "Yes",
+                    "No",
+                    "Additional Information (Please type below)"
+                    ]
+                },
+                "additionalInformation": {
+                    "label": "",
+                    "placeholder": "Type Here",
+                    "description": "(This field appears if 'Additional Information' is selected for the previous question)"
+                }
+                }
+            },
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "alert": "All fields are required",
+            "message": "Progress saved."
+        },
+        "hjgSection2Screen": {
+            "header": {
+                "title": "Heber J. Grant Application",
+                "buttons": [
+                { "label": "Save and Exit" },
+                { "label": "Leave Without Saving" }
+                ]
+            },
+            "description": {
+                "title": "Section 2: Persistence & Tenacity",
+                "description": "Poverty defined Heber's growing years, but not negatively. Having little money was a challenge that never deterred him. Wanting to learn to pitch a baseball but not having enough money for a ball, Heber earned the money by shining boots for his mother's boarders. Later he longed to attend the Salt Lake Theatre; instead of feeling sorry that he had no money to buy tickets, he obtained a job as a water carrier for theater patrons and was thus allowed to watch the plays.\n\nAs Heber grew older, his persistence and fortitude were put to good use in business ventures. Offered an appointment to the United States Naval Academy, he opted to stay near his mother and to become a businessman instead. After finishing his schooling at age 16, Heber got a job as a bank clerk and learned bookkeeping. His honesty, ability to work hard, and great desire to learn soon opened up many opportunities. By the time he was 20 years old, he had been made the assistant cashier of Zion's Savings Bank and Trust Company, and he had purchased an insurance agency. The poverty of Heber's youth made him compassionate and prepared him to lead the Church through the aftermath of World War I, the Great Depression, and World War II.",
+                "video": {
+                "text": "Watch the following video: Link",
+                "transcriptLinkText": "If you would like to read a transcript of this video instead click here"
+                }
+            },
+            "form": {
+                "questions": {
+                "usedMoneyFor": {
+                    "question": "How have you used money or resources to overcome challenges related to your education?",
+                    "options": [
+                    "Purchased study materials",
+                    "Paid for transportation",
+                    "Covered living expenses",
+                    "Invested in a device for coursework",
+                    "Other (please specify)"
+                    ]
+                },
+                "scriptureReview": {
+                    "text": "Please choose one of the following scriptures to review:",
+                    "links": [
+                    "Mosiah 2:14",
+                    "Mosiah 27:5",
+                    "Doctrine & Covenants 42:42",
+                    "Moses 4:25",
+                    "Joseph Smith - History 1:55"
+                    ]
+                },
+                "scriptureSelected": {
+                    "question": "Which scripture(s) did you select? What are some specific ways work helps us become more self-reliant?",
+                    "placeholder": "Type Here"
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "savedAlertMessage": "Progress saved.",
+            "fieldsRequired": "All fields are required"
+        },
+        "hjgSection3Screen": {
+            "header": {
+                "title": "Heber J. Grant Application",
+            },
+            "section": {
+                "title": "Section 3: Love of Learning",
+                "description": "In 1901, Heber J. Grant was called to open and preside over the Japanese Mission. There, Elder Grant dedicated the land for the preaching and reception of the gospel. But the mission did not immediately flourish, partly because of the cultural differences and communication barriers. That did not stop Elder Grant. He worked diligently to learn the new language and to learn of the new culture he was immersed in. Despite the limited missionary success there at the time, Elder Grant oversaw the first translation of the Book of Mormon into Japanese. Of his missionary efforts, President Grant later taught: \"I want you young people to know that in all my labors I got nearer to the Lord, and accomplished more and had more joy while in the mission field than ever before or ever since. Man is that he might have joy, and the joy that I had in the mission field was superior to any I had ever experienced elsewhere.\"\n\nPresident Grant loved to give away books to all those around him; he knew that learning was one of the most important things you could do to further yourself, and he felt a true sense of peace giving away books that had taught him in the past. He gave away thousands of them, most of which he personally inscribed. In giving so many gifts he sometimes lost track of what he had done. \"I once gave a man a book,\" he said, \"and he thanked me very kindly for it, and said, 'Brother Grant, I thoroughly appreciate this book. It is the third copy you have given me of it.'\" After that experience, President Grant kept an index of the books he had given."
+            },
+            "form": {
+                "questions": {
+                "question1": {
+                    "question": "How did Heber J. Grant earn money to buy a baseball?",
+                    "options": [
+                    "By shining boots for his mother's boarders",
+                    "By carrying water for theater patrons",
+                    "By working as a bank clerk",
+                    "By selling insurance"
+                    ]
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert":"All fields are required"
+        },
+        "hjgSection4Screen": {
+            "header": {
+                "title": "Heber J. Grant Application"
+            },
+            "section": {
+                "title": "Section 4: Self Reliance",
+                "description": "In 1936, seven years into the Great Depression, the United States had yet to emerge from the huge losses and downward trends that began with the stock market crash in 1929. When President Heber J. Grant spoke of the welfare system in 1936, he envisioned that \"no new Church machinery\" would be required but that \"stake and ward organizations, the priesthood quorums, the Relief Society, and the various auxiliary organizations [would] render the maximum service [they] could furnish in the interest of the general welfare of the Church.\" The Lord had already established the organization needed to bless the poor and needy—priesthood quorums were in place, Relief Societies were organized, and the priesthood of God was on the earth.\n\nSince the welfare program was introduced in 1936, members of the Church have labored together to relieve the suffering of those who stand in need. Economic downturns, natural disasters, unemployment, sickness and disability, or times of loss have all required the direction of the priesthood to ensure that needs are met and that individuals and families are blessed. Over the years millions of members have willingly given of their time and talents to bless others.\n\nSince the creation of the Bishop's Storehouse, many United States presidents and other leaders from around the world have come to visit the renowned storehouse and to learn more of how they can implement similar welfare ideologies as did President Heber J. Grant. \"The aim of the Church is to help the people help themselves. Work is to be re-enthroned as the ruling principle of the lives of our Church membership\" (Heber J.\nGrant, in Conference Report, Oct. 1936, 3).",
+            },
+            "form": {
+                "questions": {
+                "question1": {
+                    "question": "What was the purpose of the welfare program introduced by President Heber J. Grant?",
+                    "options": [
+                    "To provide government assistance to the unemployed",
+                    "To help Church members help themselves and relieve suffering",
+                    "To establish new Church machinery for financial aid",
+                    "To gather resources for future investments"
+                    ]
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert": "All fields are required"
+        },
+        "hjgSection5Screen": {
+            "header": {
+            "title": "Heber J. Grant Application",
+            },
+            "section": {
+            "title": "Section 5: Stewardship & Replenishment"
+            },
+            "form": {
+            "questions": {
+                "lowTuition": {
+                "question": "BYU-Pathway's low tuition is made possible both by support from The Church of Jesus Christ of Latter-day Saints and from philanthropic donors. If you would like to thank the individuals who have donated money to lower your tuition costs, what would you say to them? (Your comment may be shared with current and future donors.)",
+                "placeholder": "Type Here"
+                }
+            }
+            },
+            "previousButton": "Previous",
+            "submitButton": "Submit",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert": "All fields are required",
+            "submissionAlerts": {
+            "successMessage": "Your request has been successfully submitted.",
+            "errorMessage": "Not found",
+            "loadingDescription": "Submitting Heber J. Grant Application..."
+            }
+        },
+        "enrollmentVerificationScreen": {
+            "title": "Enrollment Verification",
+            "description": "This form allows students to request official enrollment verification to provide to a third party as proof of their enrollment at BYU Pathway Worldwide. For details about your enrollment courses, please visit your student portal. On the homepage, navigate to Classes, tile for app to the date enrollment information.",
+            "form": {
+                "question1": {
+                    "question": "Which institution would you like your enrollment verification for?*",
+                    "description": "Enrollment Verifications are specific to enrollment.",
+                    "options": [
+                        "BYU-Idaho",
+                        "Ensign College",
+                        "BYU Pathway"
+                    ]
+                },
+                "question2": { 
+                    "question": "What would you like to include on your enrollment verification?",
+                    "description": "All verifications will list your full name and your student ID. Choose what else you'd like to provide below.",
+                    "options": [
+                        "Enrollment status",
+                        "Date of birth",
+                        "Address",
+                        "Social security number",
+                        "Declared programs",
+                        "Grade point average (GPA)",
+                        "Earned credentials, certificates and degrees",
+                        "Withdrawal date, if applicable",
+                        "Academic standing",
+                        "Tuition cost per credit hour"
+                    ]
+                },
+                "question3": {
+                    "question": "Would you like to include details about your currently enrolled courses?",
+                    "description": "The following information will be provided for any courses you are currently enrolling. Course code, section, title, credits and instructor name.",
+                    "options": [
+                        "Just include information about my current courses",
+                        "No, do not include information about my current courses"
+                    ]
+                },
+                "question4": {
+                    "question": "What would you like to include on your enrollment verification?",
+                    "description": "All verification will list your full name and your student ID. Choose what else you'd like to provide below.",
+                    "options": [
+                        "Provide current term summary",
+                        "Provide future term summary"
+                    ]
+                },
+                "question5": {
+                    "question": "Which reason best describes why you need an enrollment verification?",
+                    "options": [
+                        "Provide to employer",
+                        "Housing request",
+                        "Scholarship / Financial aid",
+                        "Other"
+                    ]
+                },
+                "Button": "Submit"
+            }
+        },
+        "officialTranscriptScreen": {
+            "title": "Official transcript",
+            "firstScreen": {
+                "description": "An Official Transcript is a copy of your permanent academic record issued by Student Record & Resgitration and is typically sent to third parties, e.g., (colleges, graduate programs companies).* An Unofficial Transcript is only avalible through your student account and is typically for personal use.* Please contact your recipient regarding which transcript type they will accpt and meets their requirements.",
+                "button": "Continue"
+            },
+            "secondScreen":{
+                "title": "Official transcript Request Policy",
+                "description": "BYU-Pathway Worldwide will cover the cost of the first two official transcript requests for each institution: - BYU-Pathway Worldwide - BYU-Idaho - Ensign College Additional official transcript requests may be subject to a fee. Students are encouraged to plan accordingly. Students may view their unofficial transcripts at no cost through their student portal.",
+                "form":{
+                    "question1": {
+                        "question": "From which institution are you requesting your transcript?",
+                        "answers": [
+                            "Select item",
+                            "BYU-Pathway Worldwide",
+                            "BYU-Idaho",
+                            "Ensign College"
+                        ]
+                    },
+                    "question2": {
+                        "question": "*Name of institution, group, or person receiving this transcript:",
+                        "answerBox": "Type Here"
+                    },
+                    "question3":{
+                        "question": "*Enter the email of the recipient that should receive your official transcript",
+                        "answerBox": "Type Here"
+                        
+                    }
+                },
+                "errorAlert": {
+                    "title": "Error!",
+                    "description": "Not found",
+                    "button": "Go back"
+                }
+            }
+        },
+        "AcademicExceptionsScreen": {
+            "title": "Academic Exceptions",
+            "disclaimer": "Disclaimer: Submitting this request does not guarantee approval. Approval or denial of this petition may affect your tuition, academic status international status, etc. It is your responsibility to explore and understand these impacts. Decisions by the committee are permanent and final.",
+            "form": {
+                "question1": {
+                    "question": "What academic exception would you like to escalate?",
+                    "answers": [
+                            "Select item",
+                            "Withdraw/Drop",
+                            "Other"
+                        ]
+                },
+                "withdrawDrop": {
+                    "question": "Select the term from which you would like to submit the exception",
+                    "answers": [
+                            "Select item",
+                            "One Option"
+                        ]
+                },
+                "Other": {
+                    "question": "Please explain what is your academic exception petition.*",
+                    "typingBox": "Type here"
+                },
+                "button": "Continue"
+            },
+            "successAlert": {
+                "Title":  "Success!",
+                "message": "You request has been successfully submitted.",
+                "button": "Go back"
+            }
+        },
+        "graduationApplicationScreen": {
+            "title": "Graduation Application",
+            "description": "This application is for English Connect, Pathway Connect and all certificates & degrees offered through BYU-Pathway Worldwide in partnership with BYU-Idaho and Ensign College. You will need to fill out a separate Graduation Application for each credential you are applying for.",
+            "form": {
+                "question1": {
+                    "question": "In which term or semester did/will you complete the requirements for the credentials you are applying for.",
+                    "options": [
+                        "Select a term/semester",
+                        "2025 - Term 2",
+                        "2025 - Term 3"
+                    ]
+                },
+                "question2": {
+                    "question": "What credentials are you completing requirements for?",
+                    "options": [
+                        "Select credential",
+                        "Pathway Connect Completion Certificate",
+                        "English Connect Completion Certificate",
+                        "Certificate",
+                        "Associate's Degree",
+                        "Bachelor's Degree"
+                    ]
+                }
+            },
+            "requiredFieldsNote": "Fields marked with * are required.",
+            "submitButton": "Submit",
+            "successAlert": {
+                "Title":  "Success!",
+                "message": "You request has been successfully submitted.",
+                "button": "Go back"
+            }
+        },
+        "submittedRequestsScreen": {
+            "filter": {
+                "label": "Filter By",
+                "options": [
+                    "All Requests",
+                    "Open Requests",
+                    "Closed Requests"
+                ]
+            },
+            "goBack": "Go Back"
+        },
+        "servicesScreen": {
+            "title": "Services",
+            "servicesOptions": [
+                {
+                    "academicExceptions": "Academic Exceptions",
+                    "description": "Submit and Review Requests for an Exception to Academic Policies"
+                },
+                {
+                    "enrollmentVerification": "Enrollment Verification",
+                    "description": "Obtain Official Proof of Enrollment for Employment, Scholarship, or Other Verifications"
+                },
+                {
+                    "graduationApplication": "Graduation Application",
+                    "description": "Apply for Graduation and Ensure You Meet All Requirements"
+                },
+                {
+                    "registration": "Registration",
+                    "description": "Register for a Course, Manage Your Class Schedule, and Access Important Enrollment Deadlines"
+                },
+                {
+                    "submitRequest": "Submit Requests",
+                    "description": "Lorem Ipsum Dolor sit amet, consectetur adipiscing elit. Curabitur risus lacus"
+                }
+            ]
+        },
+        "ticketsScreen": {
+            "title": "Tickets",
+            "ticketsOptions": [
+                {
+                    "openTickets": "Open Tickets",
+                    "description": "Track Ongoing tickets in progress"
+                },
+                {
+                    "closedTickets": "Closed Tickets",
+                    "description": "View tickets that have been resolved"
+                },
+                {
+                    "submitNewTicket": "Submit New Ticket",
+                    "description": "Create and submit a new request"
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance"
+                }
+            ]
+        },
+        "submitNewTicketScreen": {
+            "title": "Submit a New Ticket",
+            "form": {
+                "mainTopic": {
+                    "label": "Main Topic",
+                    "options": [
+                        "Select an item",
+                        "Canvas-CourseIssue",
+                        "Canvas-LoginIssue",
+                        "CanvasAccess",
+                        "EnglishConnectModule-LoginIssue",
+                        "EnglishConnect",
+                        "EnglishConnectModule-CourseIssue",
+                        "Finance-PaymentIssue",
+                        "Finance-HerbertJGrantDiscount",
+                        "GatheringsQuestion-Finance",
+                        "Hold-Gathering",
+                        "Hold-EcclesiasticalEndorsement",
+                        "MeetWithAnAcademicAdvisor",
+                        "Mentoring",
+                        "MicrosoftOffice-LoginIssue",
+                        "MissionarySupport",
+                        "StudentPortland-LoginIssue",
+                        "StudentWellness",
+                        "TransferEvaluation",
+                        "WorkStudy",
+                        "Others"
+                    ]
+                    },
+                "detailedDescription": {
+                    "label": "Detailed Description",
+                    "placeholder": "Type Here"
+                    },
+                "preferredContactMethod": {
+                    "label": "Preferred Contact Method",
+                    "options": [
+                        "Select an Item",
+                        "Email",
+                        "Phone"
+                    ]
+                },
+                "contactInfo": {
+                    "label": "Contact Info",
+                    "placeholder": "Type Here"
+                },
+                "screenshotUpload": {
+                    "label": "Submit a Screenshot with Your Ticket",
+                    "buttonText": "Attach File",
+                    "description": "This file must be a file of type PNG-JPG-JPEG."
+                }
+            },
+            "submitButton": "Submit"
+        },
+        "contactUsScreen": {
+            "text": "Need help? -You can call us at 1-801-655-6424.\nMon–Fri, 9am to 5pm (local time).",
+            "callButton": {
+                "label": "Call +1 (801)-655-6424"
+            }
+        },
+        "networkScreen": {
+            "title": "Network",
+            "networkOptions": [
+                {
+                    "mentorInformation": "Mentor Information",
+                    "description": "Access details about mentors and how to connect with them."
+                },
+                {
+                    "gatheringInformation": "Gathering Information",
+                    "description": "Find details about upcoming gatherings, locations, and schedules."
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance."
+                }
+            ]
+        },
+        "mentorInformationScreen": {
+            "title": "Mentor Information",
+            "description": "BYU Pathway Mentors are a resource to students through their education journey, offering strategies for success, important reminders, connecting students to support resources, and providing encouragement to help students achieve their goals.",
+            "noMentorMessage": "No Mentor Information available at this time."
+        },
+        "gatheringInformationScreen": {
+            "title": "Gathering Information",
+            "noGatheringsMessage": "You are not currently involved in any gathering."
+        },
+        "jobsScreen": {
+            "title": "Jobs",
+            "options": [
+                {
+                "jobsAvailable": "Jobs Available",
+                "description": "Explore entry-level job opportunities that match your skills and career goals."
+                },
+                {
+                "jobsAppliedTo": "Jobs Applied To",
+                "description": "Track the status of your job application and stay updated on potential opportunities."
+                },
+                {
+                "jobProfile": "Job Profile",
+                "description": "Create and manage your job profile to showcase your skill and experience."
+                }
+            ]
+        },
+        "jobsAvailableScreen": {
+            "noJobsAvalibleMessage": "Empty"
+        },
+        "jobsAppliedToScreen": {
+            "noJobsAppliedToMessage": "Empty"
+        },
+        "jobProfileNavScreen": {
+            "title": "Job Profile",
+            "sections": [
+                {
+                "section1": "Section 1",
+                "description": "Share your job status, give sharing permissions, and list your work history."
+                },
+                {
+                "section2": "Section 2",
+                "description": "Share how we can reach to you your work preference, language skills, education, and access to technology."
+                },
+                {
+                "section3": "Section 3",
+                "description": "You will be directed to convenient web app to complete a quick internet speed test and typing speed test."
+                }
+            ],
+            "footerText": "Please, complete your profile."
+        },
+        "jobProfileSection1Screen": {
+            "title": "Job Profile - Section 1",
+            "introduction": "Welcome to Jobs Profile. This tool helps us gather key information to support your career goals. Please fill it out honestly and completely so we can best understand your goals. If you need a break, click Save Progress to return and continue later.",
+            "form": {
+                "termsOfUse": {
+                    "title": "Terms of Use",
+                    "questions": [
+                        {
+                        "question1": "Are you seeking a better job?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]
+                        },
+                        {
+                        "question2": "Do we have your permission to share your information with other departments in the Church of Jesus Christ of Latter-day Saints?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]   
+                        },
+                        {
+                        "question3": "Do we have your permission to share your information with third party hiring firms and other employers?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]
+                        }
+                    ],
+                    "infoButton": {
+                        "label": "Click here for details on what information may be shared",
+                        "popup": {
+                            "content": [
+                                "The answers you provide in this survey.",
+                                "Your contact information including name, address, phone number, email, etc.",
+                                "Any credentials you have earned, including a Pathway Connect Completion Certificate and/or any online certificates and degrees you have completed or are currently working toward. This could also include any relevant coursework.",
+                                "Information related to marketable skills and language abilities."
+                            ],
+                            "closeButton": "Close"
+                        }
+                    }
+                },
+                "employmentHistory": {
+                    "title": "Employment History",
+                    "description": "Please share with us your employment history starting one year before you started BYU Pathway Worldwide.",
+                    "buttons": {
+                        "add": {
+                        "label": "Add +"
+                        },
+                        "reviewSavedItems": {
+                        "label": "Review Saved Items",
+                        "count": 0
+                        }
+                    }
+                }
+            },
+            "submitButton": "Complete Module"
+        },
+        "jobProfileSection2Screen": {
+            "title": "Job Profile - Section 2",
+            "form": {
+                "contactInformation": {
+                "title": "Contact Information",
+                "questions": [
+                    {
+                    "question": "What is the best way to contact you?",
+                    "options": [
+                        "Select an item",
+                        "Whatsapp",
+                        "Email"
+                    ]
+                    },
+                    {
+                    "question": "What language do you speak? Select all that apply.",
+                    "input": {
+                        "placeholder": "Add language"
+                    }
+                    }
+                ]
+                },
+                "jobPreferences": {
+                "title": "Job Preferences",
+                "questions": [
+                    {
+                    "question": "What type of job are you looking for? Select all that apply.",
+                    "options": [
+                        "Remote",
+                        "In-person (Local)"
+                    ]
+                    },
+                    {
+                    "question": "How many hours are you available to work per week? Select all that apply.",
+                    "options": [
+                        "Full time (up to 40 hours per week)",
+                        "Part time (up to 20 hours per week)"
+                    ]
+                    },
+                    {
+                    "question": "What industries are you interested in? Select all that apply.",
+                    "options": [
+                        "Accounting/Finance",
+                        "Health Care",
+                        "Technology",
+                        "Artificial Intelligence",
+                        "Marketing"
+                    ]
+                    },
+                    {
+                    "question": "Please indicate how much money you usually earn in one month in your local currency.",
+                    "inputs": {
+                        "salaryAmountPlaceholder": "Salary amount",
+                        "currencyPlaceholder": "Currency"
+                    }
+                    }
+                ]
+                },
+                "educationHistory": {
+                "title": "Education History",
+                "description": "Please describe any higher education you completed prior to BYU Pathway, including degrees, diplomas, or certificates from other colleges or universities. Do not include BYU Pathway, BYU-Idaho, or Ensign College certificates or degrees.",
+                "buttons": {
+                    "add": "Add",
+                    "reviewSavedItems": "Review Saved Items"
+                }
+                },
+                "technologyAndAccessibility": {
+                "title": "Technology and Accessibility",
+                "questions": [
+                    {
+                    "question": "What electronic devices do you have access to? Select all that apply.",
+                    "options": [
+                        "Computer (Personal)",
+                        "Computer (Shared or Public)",
+                        "Smartphone (Personal)",
+                        "Smartphone (Shared or Public)",
+                        "Tablet (Personal)",
+                        "Tablet (Shared or Public)"
+                    ]
+                    },
+                    {
+                    "question": "On average, how many times a week do you experience power outage?",
+                    "options": [
+                        "0",
+                        "1–2",
+                        "3–5",
+                        "5–10",
+                        "10+"
+                    ]
+                    }
+                ]
+                },
+                "profileQuestions": {
+                "title": "Profile Questions",
+                "description": "Answer the following questions as truly as possible, two minutes max.",
+                "questions": [
+                    {
+                    "question": "Describe an experience where you used your leadership skills. What was the situation? What did you do? What was the result?"
+                    },
+                    {
+                    "question": "Your team member let you borrow something. While using it, you accidentally broke it. Leave a voicemail for your team member to explain the problem and recommend a solution."
+                    }
+                ]
+                }
+            },
+            "alerts": [
+                "There are missing or invalid fields.",
+                "Audio response is required."
+            ],
+            "completeModuleButton": "Complete Module"
+            },
+        "jobProfileSection3Screen": {
+            "title": "External Test",
+            "description": "Please complete the following tests. (Copy the URLs and paste them into your desktop browser.)",
+            "links": [
+                {
+                "label": "Internet Speed Test",
+                "urlPlaceholder": "Link to Internet Speed Test"
+                },
+                {
+                "label": "Typing Speed Test",
+                "urlPlaceholder": "Link to Typing Speed Test"
+                }
+            ],
+            "checkbox": {
+                "label": "I have completed the test"
+            },
+            "button": {
+                "label": "Go Back"
+            },
+            "successPopup": {
+                "title": "Success!",
+                "message": "External test marked as completed",
+                "button": "Go Back"
+            }
+        },
+        "feedbackScreen": {
+            "title": "Submit Feedback",
+            "FeedbackOptions": [
+                {
+                    "submitfeedback": "Submit Feedback",
+                    "description": "Share your thoughts or suggestions to help us improve the app"
+                },
+                {
+                    "reportanissue": "Report an Issue",
+                    "description": "Let us know about any technical problems or bugs you've encountered"
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance."
+                }
+            ]
+        },
+        "submitFeedbackScreen": {
+            "question": "How satisfied are you with the Companion experience?",
+            "ratingNumbers": ["1", "2", "3", "4", "5"]
+        },
+        "settingsScreen": {
+            "title": "Settings",
+            "profileOption": {
+                "title": "Profile",
+                "description": "View and update your personal details, preferences, and account settings." 
+            },
+            "pushNotificationsOption": {
+                "title": "Push Notifications",
+                "description": "Manage your notifications preferences to stay informed about important updates."
+            },
+            "signOutOption": {
+                "title": "Sign Out",
+                "description": "Log out of your account and end your current session."
+            },
+            "aboutOption": {
+                "title": "About",
+                "description": "Learn more about Companion, and its features."
+            }
+        },
+        "profileScreen": {
+            "title": "Profile",
+            "fields": {
+                "preferredName": "Preferred Name",
+                "preferredContact": "Preferred Method of Contact",
+                "whatsappNumber": "WhatsApp Number",
+                "preferredLanguage": "Preferred Language",
+                "updateButton": "Update"
+            }
+        },
+        "aboutScreen": {
+            "title": "About",
+            "sections": {
+                "about": "About",
+                "getHelp": "Get help",
+                "legal": "Legal"
+            },
+            "items": {
+                "version": "Version",
+                "build": "Build",
+                "sendCrashReports": "Send crash reports",
+                "submitTicket": "Submit a Ticket",
+                "suggestions": "Suggestions",
+                "termsOfService": "Terms of Service",
+                "privacyPolicy": "Privacy Policy"
+            },
+            "footer": "Copyright © 2025 Companion"
+        },
+        "signOutScreen": {
+            "title": "Sign Out",
+            "message": "Are you sure you want to sign out?",
+            "buttons": {
+                "cancel": "Cancel",
+                "confirm": "Sign Out"
+            }
+        }
+    },
+    "pt": {
+        "loginScreen": {
+            "title": "Welcome to Companion",
+            "onboardingCarousel": [
+            {
+                "title": "Notifications",
+                "description": "Receive the latest notifications directly to your mobile device to stay updated on important deadlines, submitted cases, when registration opens, and more!. We will inform you about everything so you don't miss anything."
+            },
+            {
+                "title": "Services",
+                "description": "If you are experiencing an issue, you can create, update, and review submitted cases. You also have easy access to services like official transcript requests, enrollment verification, applying for graduation, and registering for upcoming terms."
+            },
+            {
+                "title": "AI Assistance",
+                "description": "Access AI Assistance designed especially for you!. This assistance can help you frequently with asked questions, specific course inquiries, and improve your English. You can find this resource in the 'AI Assistans' app."
+            }
+            ],
+            "buttons": [
+            {
+                "label": "Sign In"
+            },
+            {
+                "label": "Not a Student"
+            }
+            ],
+            "termsText": "By downloading, accessing, or using Companion, you agree to these terms of use. Please read them carefully before using the app."
+        },
+        "notStudentScreen": {
+            "banner": "BYU-Pathway Worldwide provides access to spiritually based degrees completely online at an affordable price.",
+            "ourStudents&Alumni": {
+            "title": "Our Students & Alumni",
+            "testimonialsCarousel": [
+            {
+                "text": "There is never a perfect time to finish your degree. There will always be things that make it hard, but you can do hard things. I learned exactly what I needed to learn and it not only helped me academically, it helped me in my life!."
+            },
+            {
+                "text": "I decided to try my best to pave the way for my dream of earning a degree by enrolling at BYU-Pathway Worldwide courses."
+            },
+            {
+                "text": "As a non-latter-day Saint, joining BYU-Pathway bought me initial apprehension. However, I was immediately greeted with open arms by the missionaries and my classmates."
+            }
+                ]
+            },
+            "degreesInformation": {
+            "title": "Degrees Information",
+            "card": {
+                "title": "Want a Better Job Before You Graduate?",
+                "description": "Earn a Job-Ready Certificate While Earning a Bachelor's Degree.",
+                "button": "View Degrees"
+            }
+            },
+            "moreInformationSection": {
+            "title": "More Information",
+            "cards": [
+                {
+                "applyPCToday": "Apply to Pathway Connect Today",
+                "description": "Start Your Journey",
+                "buttonLabel": "Apply Now"
+                },
+                {
+                "learnMore": "Learn More About Pathway Connect",
+                "buttonLabel": "Request Info"
+                },
+                {
+                "help": "Need Help? Our AI Assistant Has Answers",
+                "buttonLabel": "AI Assistant"
+                }
+            ],
+            "finalButton": "Go to Login"
+            }
+        },
+        "authenthicationLoadingPage": {
+            "title": "Procecing Authenthication..."
+        },
+        "menuScreen": {
+            "greeting": "Hello 👋🏻, {studentName}",
+            "appsSection": {
+                "title": "Apps",
+                "appsCarousel": [
+                    { "aiAssistance": "AI Assistance" },
+                    { "academicCenter": "Academic Center" },
+                    { "network": "Network" },
+                    { "jobs": "Jobs" },
+                    { "ec3": "EC3" },
+                    { "openAllApps": "Open All Apps" }
+                ]
+            },
+            "notificationsSection": {
+                "title": "Latest Notifications",
+                "viewAllButton": "View All Notifications"
+            },
+            "academicProgressSection": {
+                "title": "My Academic Progress",
+                "programsCarousel":[
+                    {
+                    "subject": "Religion",
+                    "institution": "BYU-Idaho",
+                    "credits": {
+                        "label": "Credits",
+                        "Value": "8"
+                    },
+                    "progressBar": {
+                        "percentage": 60,
+                        "label": "% Completed"
+                        }
+                    }
+                ]
+            }
+        },
+        "notificationsScreen": {
+            "noNotificationsTitle": "No Notifications Available",
+            "noNotificationsMessage": "There are no items available at this time."
+        },
+        "aiAssistanceScreen": {
+            "title": "Companion Assistant",
+            "infoPopup": {
+                "message": "This artificial intelligence (AI) chatbot is powered by generative AI technology that refers to the BYU-Pathway website and Support Knowledge Base website. This chatbot can analyze questions, search the mentioned websites, and summarize potentially relevant information. Generative AI is not always correct. Please personally confirm the answer provided by this chatbot by reading the sections it identifies in the mentioned websites. Use of this chatbot is anonymous. Do not enter any personal information. By using this chatbot, you agree that anything you enter can be saved and reviewed by Church personnel to improve this chatbot and make it more accurate",
+                "button": "Acknowledge"
+        },
+        "typeBoxMessage" : "Type a message...",
+        "assistantSwitcher": {
+            "title" :"AI Assistats",
+            "options": [
+                { "label": "Companion Assistant" },
+                { "label": "Course Assistant" }
+            ]
+        }
+        },
+        "appsMenuScreen": {
+            "title": "Apps",
+            "appsGrid": [
+                { "AcademicCenter": "Academic Center" },
+                { "Tickets": "Tickets" },
+                { "Network": "Network" },
+                { "Registration": "Registration" },
+                { "Jobs": "Jobs" }
+                ]
+        },
+        "academicCenterScreen": {
+            "recommendedActions": {
+            "title": "Recommended Actions",
+            "carousel": [
+                {
+                "ResultHolds": {
+                    "title": "Result Holds",
+                    "description": "Account Holds require you to follow specific steps to register for and complete course.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "EcclesiasticalEndorsement": {
+                    "title": "Ecclesiastical Endorsement",
+                    "description": "It is time to renew your Ecclesiastical Endorsement.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "HerbertJGrantScholarship": {
+                    "title": "Herbert J. Grant Scholarship",
+                    "description": "Apply to HJG Scholarship by March 21.",
+                    "button": "Take Action"
+                }
+                },
+                {
+                "YouDidIt": {
+                    "title": "🏆 You did it",
+                    "description": "Great job! You completed all the recommended actions."
+                }
+                }
+            ]
+            },
+            "services": {
+            "title": "Services",
+            "carousel": [
+                { "enrollmentVerification": "Enrollment Verification" },
+                { "officialTransferRequest": "Official Transfer Request" },
+                { "academicAcception": "Academic Acception" },
+                { "graduationApplication": "Graduation Application" },
+                { "allServices": "All Services" }
+            ]
+            },
+            "academicProgress": {
+            "title": "Academic Progress",
+            "carousel": [
+                {
+                "program": {
+                "courseTitle": "Software Development",
+                "institution": "BYU-Idaho",
+                "credits": "credits",
+                "progressBar": {
+                    "percentage": 75,
+                    "label": "Completed"
+                },
+                "c1": "C1: Technical Support Engineer",
+                "c2": "C2: It Fundamentals",
+                "c3": "C3: System Administration",
+                "GPA": "GPA: 3.871",
+                "button": "Details"
+                }
+                }
+            ]
+            },
+            "courseRegistration": {
+            "title": "Course Registration",
+            "carousel": [
+                {
+                "term": "2025 Term 2",
+                "status": "Registered",
+                "courses": [
+                    { "code": "COMM122", "name": "Interpersonal Communications" },
+                    { "code": "IT350", "name": "Network Configuration and Design" },
+                    { "code": "R1KY301", "name": "Power Platform" }
+                ],
+                "button": "Details"
+                },
+                {
+                "term": "2025 Term 3",
+                "status": "Not Registered",
+                "courses": [
+                    { "code": "COMM122", "name": "Interpersonal Communications" },
+                    { "code": "IT350", "name": "Network Configuration and Design" },
+                    { "code": "R1KY301", "name": "Power Platform" }
+                ],
+                "button": "Details"
+                }
+            ]
+            },
+            "courseAccess": {
+            "title": "Course Access",
+            "goToClass":{
+                "title": "Go to Class",
+                "description": "Open your Canvas Dashboard to continue with your assigments."
+            }
+            }
+        },
+        "hjgSection1Screen": {
+            "header": {
+                "title": "Heber J. Grant Application"
+            },
+            "descriptionHJG": {
+                "title": "Heber J. Grant Scholarship",
+                "description": "BYU-Pathway Worldwide offers a needs based scholarship named after Heber J. Grant, a former president of The Church of Jesus Christ of Latter-day Saints. To be eligible to receive this scholarship, you must complete this informational module.",
+                "moduleSections": {
+                    "title": "This module contains five sections:",
+                    "items": [
+                    "1. Survey",
+                    "2. Persistence & Tenacity",
+                    "3. Love of Learning",
+                    "4. Self-Reliance",
+                    "5. Stewardship & Replenishment"
+                    ]
+                },
+                "timeEstimate": "You should anticipate this module taking about 45 to 60 minutes to complete. If you do not have that much time, please wait to start the module at another time. Not only will this resource help BYU-Pathway evaluate your financial needs, it will also help cultivate the characteristics needed for your continued success as a BYU-Pathway student. Thank you."
+            },
+            "bioSection": {
+                "title": "Who is Heber J. Grant?",
+                "content": "Heber J. Grant was the seventh president of The Church of Jesus Christ of Latter-day Saints. Born in Salt Lake City in 1856, Grant was raised by his mother, Rachel Ridgway Ivins Grant, after his father, Jedediah Grant (a counselor to Brigham Young) died when Heber was only a few days old. Heber was called as a stake president at age 23 and ordained an Apostle two years later. One of the most dramatic incidents in his apostolic service came in 1893, when he sought divine aid to secure loans to save the Church. Grant's efforts protected the Church from financial collapse during a nationwide economic crisis. The characteristics and life of Heber J. Grant embody principles of self-reliance and persistence that will resonate and be a strength to many BYU-Pathway students around the world."
+            },
+            "form": {
+                "sectionTitle": "Section 1: Heber J. Grant Scholarship Survey",
+                "sectionDescription": "First, to help us better understand your current needs and situation, please answer following questions:",
+                "questions": {
+                "parentsUniversityDegree": {
+                    "question": "Have either of your parents obtained a university degree?",
+                    "options": [
+                    "Yes",
+                    "No",
+                    "I don't know"
+                    ]
+                },
+                "singleParent": {
+                    "question": "Are you a single parent?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "reliableHousing": {
+                    "question": "Do you have reliable housing?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "struggleMeals": {
+                    "question": "Do you struggle to have enough food for yourself and your family to eat three meals per day?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "accessDevice": {
+                    "question": "Do you have access to a device (computer, phone, or tablet) to complete your coursework?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "reliableInternet": {
+                    "question": "Do you have access to reliable internet?",
+                    "options": [
+                    "Yes",
+                    "No"
+                    ]
+                },
+                "tuitionAffordability": {
+                    "question": "Is your tuition affordable for you and your family?",
+                    "options": [
+                    "Yes, my tuition is affordable and I am able to pay for it.",
+                    "My tuition is not affordable, but I am able to find other means to pay for it.",
+                    "No, my tuition is not affordable and I have no means to pay for it."
+                    ]
+                },
+                "circumstancesAffectingPayment": {
+                    "question": "Are there any other circumstances that affect your ability to pay for your education?",
+                    "options": [
+                    "Yes",
+                    "No",
+                    "Additional Information (Please type below)"
+                    ]
+                },
+                "additionalInformation": {
+                    "label": "",
+                    "placeholder": "Type Here",
+                    "description": "(This field appears if 'Additional Information' is selected for the previous question)"
+                }
+                }
+            },
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "alert": "All fields are required",
+            "message": "Progress saved."
+        },
+        "hjgSection2Screen": {
+            "header": {
+                "title": "Heber J. Grant Application",
+                "buttons": [
+                { "label": "Save and Exit" },
+                { "label": "Leave Without Saving" }
+                ]
+            },
+            "description": {
+                "title": "Section 2: Persistence & Tenacity",
+                "description": "Poverty defined Heber's growing years, but not negatively. Having little money was a challenge that never deterred him. Wanting to learn to pitch a baseball but not having enough money for a ball, Heber earned the money by shining boots for his mother's boarders. Later he longed to attend the Salt Lake Theatre; instead of feeling sorry that he had no money to buy tickets, he obtained a job as a water carrier for theater patrons and was thus allowed to watch the plays.\n\nAs Heber grew older, his persistence and fortitude were put to good use in business ventures. Offered an appointment to the United States Naval Academy, he opted to stay near his mother and to become a businessman instead. After finishing his schooling at age 16, Heber got a job as a bank clerk and learned bookkeeping. His honesty, ability to work hard, and great desire to learn soon opened up many opportunities. By the time he was 20 years old, he had been made the assistant cashier of Zion's Savings Bank and Trust Company, and he had purchased an insurance agency. The poverty of Heber's youth made him compassionate and prepared him to lead the Church through the aftermath of World War I, the Great Depression, and World War II.",
+                "video": {
+                "text": "Watch the following video: Link",
+                "transcriptLinkText": "If you would like to read a transcript of this video instead click here"
+                }
+            },
+            "form": {
+                "questions": {
+                "usedMoneyFor": {
+                    "question": "How have you used money or resources to overcome challenges related to your education?",
+                    "options": [
+                    "Purchased study materials",
+                    "Paid for transportation",
+                    "Covered living expenses",
+                    "Invested in a device for coursework",
+                    "Other (please specify)"
+                    ]
+                },
+                "scriptureReview": {
+                    "text": "Please choose one of the following scriptures to review:",
+                    "links": [
+                    "Mosiah 2:14",
+                    "Mosiah 27:5",
+                    "Doctrine & Covenants 42:42",
+                    "Moses 4:25",
+                    "Joseph Smith - History 1:55"
+                    ]
+                },
+                "scriptureSelected": {
+                    "question": "Which scripture(s) did you select? What are some specific ways work helps us become more self-reliant?",
+                    "placeholder": "Type Here"
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "savedAlertMessage": "Progress saved.",
+            "fieldsRequired": "All fields are required"
+        },
+        "hjgSection3Screen": {
+            "header": {
+                "title": "Heber J. Grant Application",
+            },
+            "section": {
+                "title": "Section 3: Love of Learning",
+                "description": "In 1901, Heber J. Grant was called to open and preside over the Japanese Mission. There, Elder Grant dedicated the land for the preaching and reception of the gospel. But the mission did not immediately flourish, partly because of the cultural differences and communication barriers. That did not stop Elder Grant. He worked diligently to learn the new language and to learn of the new culture he was immersed in. Despite the limited missionary success there at the time, Elder Grant oversaw the first translation of the Book of Mormon into Japanese. Of his missionary efforts, President Grant later taught: \"I want you young people to know that in all my labors I got nearer to the Lord, and accomplished more and had more joy while in the mission field than ever before or ever since. Man is that he might have joy, and the joy that I had in the mission field was superior to any I had ever experienced elsewhere.\"\n\nPresident Grant loved to give away books to all those around him; he knew that learning was one of the most important things you could do to further yourself, and he felt a true sense of peace giving away books that had taught him in the past. He gave away thousands of them, most of which he personally inscribed. In giving so many gifts he sometimes lost track of what he had done. \"I once gave a man a book,\" he said, \"and he thanked me very kindly for it, and said, 'Brother Grant, I thoroughly appreciate this book. It is the third copy you have given me of it.'\" After that experience, President Grant kept an index of the books he had given."
+            },
+            "form": {
+                "questions": {
+                "question1": {
+                    "question": "How did Heber J. Grant earn money to buy a baseball?",
+                    "options": [
+                    "By shining boots for his mother's boarders",
+                    "By carrying water for theater patrons",
+                    "By working as a bank clerk",
+                    "By selling insurance"
+                    ]
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert":"All fields are required"
+        },
+        "hjgSection4Screen": {
+            "header": {
+                "title": "Heber J. Grant Application"
+            },
+            "section": {
+                "title": "Section 4: Self Reliance",
+                "description": "In 1936, seven years into the Great Depression, the United States had yet to emerge from the huge losses and downward trends that began with the stock market crash in 1929. When President Heber J. Grant spoke of the welfare system in 1936, he envisioned that \"no new Church machinery\" would be required but that \"stake and ward organizations, the priesthood quorums, the Relief Society, and the various auxiliary organizations [would] render the maximum service [they] could furnish in the interest of the general welfare of the Church.\" The Lord had already established the organization needed to bless the poor and needy—priesthood quorums were in place, Relief Societies were organized, and the priesthood of God was on the earth.\n\nSince the welfare program was introduced in 1936, members of the Church have labored together to relieve the suffering of those who stand in need. Economic downturns, natural disasters, unemployment, sickness and disability, or times of loss have all required the direction of the priesthood to ensure that needs are met and that individuals and families are blessed. Over the years millions of members have willingly given of their time and talents to bless others.\n\nSince the creation of the Bishop's Storehouse, many United States presidents and other leaders from around the world have come to visit the renowned storehouse and to learn more of how they can implement similar welfare ideologies as did President Heber J. Grant. \"The aim of the Church is to help the people help themselves. Work is to be re-enthroned as the ruling principle of the lives of our Church membership\" (Heber J.\nGrant, in Conference Report, Oct. 1936, 3).",
+            },
+            "form": {
+                "questions": {
+                "question1": {
+                    "question": "What was the purpose of the welfare program introduced by President Heber J. Grant?",
+                    "options": [
+                    "To provide government assistance to the unemployed",
+                    "To help Church members help themselves and relieve suffering",
+                    "To establish new Church machinery for financial aid",
+                    "To gather resources for future investments"
+                    ]
+                }
+                }
+            },
+            "previousButton": "Previous",
+            "nextButton": "Next",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert": "All fields are required"
+        },
+        "hjgSection5Screen": {
+            "header": {
+            "title": "Heber J. Grant Application",
+            },
+            "section": {
+            "title": "Section 5: Stewardship & Replenishment"
+            },
+            "form": {
+            "questions": {
+                "lowTuition": {
+                "question": "BYU-Pathway's low tuition is made possible both by support from The Church of Jesus Christ of Latter-day Saints and from philanthropic donors. If you would like to thank the individuals who have donated money to lower your tuition costs, what would you say to them? (Your comment may be shared with current and future donors.)",
+                "placeholder": "Type Here"
+                }
+            }
+            },
+            "previousButton": "Previous",
+            "submitButton": "Submit",
+            "saveProgressButton": "Save Progress",
+            "progressSavedMessage": "Progress saved.",
+            "requiredFieldsAlert": "All fields are required",
+            "submissionAlerts": {
+            "successMessage": "Your request has been successfully submitted.",
+            "errorMessage": "Not found",
+            "loadingDescription": "Submitting Heber J. Grant Application..."
+            }
+        },
+        "enrollmentVerificationScreen": {
+            "title": "Enrollment Verification",
+            "description": "This form allows students to request official enrollment verification to provide to a third party as proof of their enrollment at BYU Pathway Worldwide. For details about your enrollment courses, please visit your student portal. On the homepage, navigate to Classes, tile for app to the date enrollment information.",
+            "form": {
+                "question1": {
+                    "question": "Which institution would you like your enrollment verification for?*",
+                    "description": "Enrollment Verifications are specific to enrollment.",
+                    "options": [
+                        "BYU-Idaho",
+                        "Ensign College",
+                        "BYU Pathway"
+                    ]
+                },
+                "question2": { 
+                    "question": "What would you like to include on your enrollment verification?",
+                    "description": "All verifications will list your full name and your student ID. Choose what else you'd like to provide below.",
+                    "options": [
+                        "Enrollment status",
+                        "Date of birth",
+                        "Address",
+                        "Social security number",
+                        "Declared programs",
+                        "Grade point average (GPA)",
+                        "Earned credentials, certificates and degrees",
+                        "Withdrawal date, if applicable",
+                        "Academic standing",
+                        "Tuition cost per credit hour"
+                    ]
+                },
+                "question3": {
+                    "question": "Would you like to include details about your currently enrolled courses?",
+                    "description": "The following information will be provided for any courses you are currently enrolling. Course code, section, title, credits and instructor name.",
+                    "options": [
+                        "Just include information about my current courses",
+                        "No, do not include information about my current courses"
+                    ]
+                },
+                "question4": {
+                    "question": "What would you like to include on your enrollment verification?",
+                    "description": "All verification will list your full name and your student ID. Choose what else you'd like to provide below.",
+                    "options": [
+                        "Provide current term summary",
+                        "Provide future term summary"
+                    ]
+                },
+                "question5": {
+                    "question": "Which reason best describes why you need an enrollment verification?",
+                    "options": [
+                        "Provide to employer",
+                        "Housing request",
+                        "Scholarship / Financial aid",
+                        "Other"
+                    ]
+                },
+                "Button": "Submit"
+            }
+        },
+        "officialTranscriptScreen": {
+            "title": "Official transcript",
+            "firstScreen": {
+                "description": "An Official Transcript is a copy of your permanent academic record issued by Student Record & Resgitration and is typically sent to third parties, e.g., (colleges, graduate programs companies).* An Unofficial Transcript is only avalible through your student account and is typically for personal use.* Please contact your recipient regarding which transcript type they will accpt and meets their requirements.",
+                "button": "Continue"
+            },
+            "secondScreen":{
+                "title": "Official transcript Request Policy",
+                "description": "BYU-Pathway Worldwide will cover the cost of the first two official transcript requests for each institution: - BYU-Pathway Worldwide - BYU-Idaho - Ensign College Additional official transcript requests may be subject to a fee. Students are encouraged to plan accordingly. Students may view their unofficial transcripts at no cost through their student portal.",
+                "form":{
+                    "question1": {
+                        "question": "From which institution are you requesting your transcript?",
+                        "answers": [
+                            "Select item",
+                            "BYU-Pathway Worldwide",
+                            "BYU-Idaho",
+                            "Ensign College"
+                        ]
+                    },
+                    "question2": {
+                        "question": "*Name of institution, group, or person receiving this transcript:",
+                        "answerBox": "Type Here"
+                    },
+                    "question3":{
+                        "question": "*Enter the email of the recipient that should receive your official transcript",
+                        "answerBox": "Type Here"
+                        
+                    }
+                },
+                "errorAlert": {
+                    "title": "Error!",
+                    "description": "Not found",
+                    "button": "Go back"
+                }
+            }
+        },
+        "AcademicExceptionsScreen": {
+            "title": "Academic Exceptions",
+            "disclaimer": "Disclaimer: Submitting this request does not guarantee approval. Approval or denial of this petition may affect your tuition, academic status international status, etc. It is your responsibility to explore and understand these impacts. Decisions by the committee are permanent and final.",
+            "form": {
+                "question1": {
+                    "question": "What academic exception would you like to escalate?",
+                    "answers": [
+                            "Select item",
+                            "Withdraw/Drop",
+                            "Other"
+                        ]
+                },
+                "withdrawDrop": {
+                    "question": "Select the term from which you would like to submit the exception",
+                    "answers": [
+                            "Select item",
+                            "One Option"
+                        ]
+                },
+                "Other": {
+                    "question": "Please explain what is your academic exception petition.*",
+                    "typingBox": "Type here"
+                },
+                "button": "Continue"
+            },
+            "successAlert": {
+                "Title":  "Success!",
+                "message": "You request has been successfully submitted.",
+                "button": "Go back"
+            }
+        },
+        "graduationApplicationScreen": {
+            "title": "Graduation Application",
+            "description": "This application is for English Connect, Pathway Connect and all certificates & degrees offered through BYU-Pathway Worldwide in partnership with BYU-Idaho and Ensign College. You will need to fill out a separate Graduation Application for each credential you are applying for.",
+            "form": {
+                "question1": {
+                    "question": "In which term or semester did/will you complete the requirements for the credentials you are applying for.",
+                    "options": [
+                        "Select a term/semester",
+                        "2025 - Term 2",
+                        "2025 - Term 3"
+                    ]
+                },
+                "question2": {
+                    "question": "What credentials are you completing requirements for?",
+                    "options": [
+                        "Select credential",
+                        "Pathway Connect Completion Certificate",
+                        "English Connect Completion Certificate",
+                        "Certificate",
+                        "Associate's Degree",
+                        "Bachelor's Degree"
+                    ]
+                }
+            },
+            "requiredFieldsNote": "Fields marked with * are required.",
+            "submitButton": "Submit",
+            "successAlert": {
+                "Title":  "Success!",
+                "message": "You request has been successfully submitted.",
+                "button": "Go back"
+            }
+        },
+        "submittedRequestsScreen": {
+            "filter": {
+                "label": "Filter By",
+                "options": [
+                    "All Requests",
+                    "Open Requests",
+                    "Closed Requests"
+                ]
+            },
+            "goBack": "Go Back"
+        },
+        "servicesScreen": {
+            "title": "Services",
+            "servicesOptions": [
+                {
+                    "academicExceptions": "Academic Exceptions",
+                    "description": "Submit and Review Requests for an Exception to Academic Policies"
+                },
+                {
+                    "enrollmentVerification": "Enrollment Verification",
+                    "description": "Obtain Official Proof of Enrollment for Employment, Scholarship, or Other Verifications"
+                },
+                {
+                    "graduationApplication": "Graduation Application",
+                    "description": "Apply for Graduation and Ensure You Meet All Requirements"
+                },
+                {
+                    "registration": "Registration",
+                    "description": "Register for a Course, Manage Your Class Schedule, and Access Important Enrollment Deadlines"
+                },
+                {
+                    "submitRequest": "Submit Requests",
+                    "description": "Lorem Ipsum Dolor sit amet, consectetur adipiscing elit. Curabitur risus lacus"
+                }
+            ]
+        },
+        "ticketsScreen": {
+            "title": "Tickets",
+            "ticketsOptions": [
+                {
+                    "openTickets": "Open Tickets",
+                    "description": "Track Ongoing tickets in progress"
+                },
+                {
+                    "closedTickets": "Closed Tickets",
+                    "description": "View tickets that have been resolved"
+                },
+                {
+                    "submitNewTicket": "Submit New Ticket",
+                    "description": "Create and submit a new request"
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance"
+                }
+            ]
+        },
+        "submitNewTicketScreen": {
+            "title": "Submit a New Ticket",
+            "form": {
+                "mainTopic": {
+                    "label": "Main Topic",
+                    "options": [
+                        "Select an item",
+                        "Canvas-CourseIssue",
+                        "Canvas-LoginIssue",
+                        "CanvasAccess",
+                        "EnglishConnectModule-LoginIssue",
+                        "EnglishConnect",
+                        "EnglishConnectModule-CourseIssue",
+                        "Finance-PaymentIssue",
+                        "Finance-HerbertJGrantDiscount",
+                        "GatheringsQuestion-Finance",
+                        "Hold-Gathering",
+                        "Hold-EcclesiasticalEndorsement",
+                        "MeetWithAnAcademicAdvisor",
+                        "Mentoring",
+                        "MicrosoftOffice-LoginIssue",
+                        "MissionarySupport",
+                        "StudentPortland-LoginIssue",
+                        "StudentWellness",
+                        "TransferEvaluation",
+                        "WorkStudy",
+                        "Others"
+                    ]
+                    },
+                "detailedDescription": {
+                    "label": "Detailed Description",
+                    "placeholder": "Type Here"
+                    },
+                "preferredContactMethod": {
+                    "label": "Preferred Contact Method",
+                    "options": [
+                        "Select an Item",
+                        "Email",
+                        "Phone"
+                    ]
+                },
+                "contactInfo": {
+                    "label": "Contact Info",
+                    "placeholder": "Type Here"
+                },
+                "screenshotUpload": {
+                    "label": "Submit a Screenshot with Your Ticket",
+                    "buttonText": "Attach File",
+                    "description": "This file must be a file of type PNG-JPG-JPEG."
+                }
+            },
+            "submitButton": "Submit"
+        },
+        "contactUsScreen": {
+            "text": "Need help? -You can call us at 1-801-655-6424.\nMon–Fri, 9am to 5pm (local time).",
+            "callButton": {
+                "label": "Call +1 (801)-655-6424"
+            }
+        },
+        "networkScreen": {
+            "title": "Network",
+            "networkOptions": [
+                {
+                    "mentorInformation": "Mentor Information",
+                    "description": "Access details about mentors and how to connect with them."
+                },
+                {
+                    "gatheringInformation": "Gathering Information",
+                    "description": "Find details about upcoming gatherings, locations, and schedules."
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance."
+                }
+            ]
+        },
+        "mentorInformationScreen": {
+            "title": "Mentor Information",
+            "description": "BYU Pathway Mentors are a resource to students through their education journey, offering strategies for success, important reminders, connecting students to support resources, and providing encouragement to help students achieve their goals.",
+            "noMentorMessage": "No Mentor Information available at this time."
+        },
+        "gatheringInformationScreen": {
+            "title": "Gathering Information",
+            "noGatheringsMessage": "You are not currently involved in any gathering."
+        },
+        "jobsScreen": {
+            "title": "Jobs",
+            "options": [
+                {
+                "jobsAvailable": "Jobs Available",
+                "description": "Explore entry-level job opportunities that match your skills and career goals."
+                },
+                {
+                "jobsAppliedTo": "Jobs Applied To",
+                "description": "Track the status of your job application and stay updated on potential opportunities."
+                },
+                {
+                "jobProfile": "Job Profile",
+                "description": "Create and manage your job profile to showcase your skill and experience."
+                }
+            ]
+        },
+        "jobsAvailableScreen": {
+            "noJobsAvalibleMessage": "Empty"
+        },
+        "jobsAppliedToScreen": {
+            "noJobsAppliedToMessage": "Empty"
+        },
+        "jobProfileNavScreen": {
+            "title": "Job Profile",
+            "sections": [
+                {
+                "section1": "Section 1",
+                "description": "Share your job status, give sharing permissions, and list your work history."
+                },
+                {
+                "section2": "Section 2",
+                "description": "Share how we can reach to you your work preference, language skills, education, and access to technology."
+                },
+                {
+                "section3": "Section 3",
+                "description": "You will be directed to convenient web app to complete a quick internet speed test and typing speed test."
+                }
+            ],
+            "footerText": "Please, complete your profile."
+        },
+        "jobProfileSection1Screen": {
+            "title": "Job Profile - Section 1",
+            "introduction": "Welcome to Jobs Profile. This tool helps us gather key information to support your career goals. Please fill it out honestly and completely so we can best understand your goals. If you need a break, click Save Progress to return and continue later.",
+            "form": {
+                "termsOfUse": {
+                    "title": "Terms of Use",
+                    "questions": [
+                        {
+                        "question1": "Are you seeking a better job?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]
+                        },
+                        {
+                        "question2": "Do we have your permission to share your information with other departments in the Church of Jesus Christ of Latter-day Saints?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]   
+                        },
+                        {
+                        "question3": "Do we have your permission to share your information with third party hiring firms and other employers?",
+                        "options": [
+                            "Select an item",
+                            "Yes",
+                            "No"
+                            ]
+                        }
+                    ],
+                    "infoButton": {
+                        "label": "Click here for details on what information may be shared",
+                        "popup": {
+                            "content": [
+                                "The answers you provide in this survey.",
+                                "Your contact information including name, address, phone number, email, etc.",
+                                "Any credentials you have earned, including a Pathway Connect Completion Certificate and/or any online certificates and degrees you have completed or are currently working toward. This could also include any relevant coursework.",
+                                "Information related to marketable skills and language abilities."
+                            ],
+                            "closeButton": "Close"
+                        }
+                    }
+                },
+                "employmentHistory": {
+                    "title": "Employment History",
+                    "description": "Please share with us your employment history starting one year before you started BYU Pathway Worldwide.",
+                    "buttons": {
+                        "add": {
+                        "label": "Add +"
+                        },
+                        "reviewSavedItems": {
+                        "label": "Review Saved Items",
+                        "count": 0
+                        }
+                    }
+                }
+            },
+            "submitButton": "Complete Module"
+        },
+        "jobProfileSection2Screen": {
+            "title": "Job Profile - Section 2",
+            "form": {
+                "contactInformation": {
+                "title": "Contact Information",
+                "questions": [
+                    {
+                    "question": "What is the best way to contact you?",
+                    "options": [
+                        "Select an item",
+                        "Whatsapp",
+                        "Email"
+                    ]
+                    },
+                    {
+                    "question": "What language do you speak? Select all that apply.",
+                    "input": {
+                        "placeholder": "Add language"
+                    }
+                    }
+                ]
+                },
+                "jobPreferences": {
+                "title": "Job Preferences",
+                "questions": [
+                    {
+                    "question": "What type of job are you looking for? Select all that apply.",
+                    "options": [
+                        "Remote",
+                        "In-person (Local)"
+                    ]
+                    },
+                    {
+                    "question": "How many hours are you available to work per week? Select all that apply.",
+                    "options": [
+                        "Full time (up to 40 hours per week)",
+                        "Part time (up to 20 hours per week)"
+                    ]
+                    },
+                    {
+                    "question": "What industries are you interested in? Select all that apply.",
+                    "options": [
+                        "Accounting/Finance",
+                        "Health Care",
+                        "Technology",
+                        "Artificial Intelligence",
+                        "Marketing"
+                    ]
+                    },
+                    {
+                    "question": "Please indicate how much money you usually earn in one month in your local currency.",
+                    "inputs": {
+                        "salaryAmountPlaceholder": "Salary amount",
+                        "currencyPlaceholder": "Currency"
+                    }
+                    }
+                ]
+                },
+                "educationHistory": {
+                "title": "Education History",
+                "description": "Please describe any higher education you completed prior to BYU Pathway, including degrees, diplomas, or certificates from other colleges or universities. Do not include BYU Pathway, BYU-Idaho, or Ensign College certificates or degrees.",
+                "buttons": {
+                    "add": "Add",
+                    "reviewSavedItems": "Review Saved Items"
+                }
+                },
+                "technologyAndAccessibility": {
+                "title": "Technology and Accessibility",
+                "questions": [
+                    {
+                    "question": "What electronic devices do you have access to? Select all that apply.",
+                    "options": [
+                        "Computer (Personal)",
+                        "Computer (Shared or Public)",
+                        "Smartphone (Personal)",
+                        "Smartphone (Shared or Public)",
+                        "Tablet (Personal)",
+                        "Tablet (Shared or Public)"
+                    ]
+                    },
+                    {
+                    "question": "On average, how many times a week do you experience power outage?",
+                    "options": [
+                        "0",
+                        "1–2",
+                        "3–5",
+                        "5–10",
+                        "10+"
+                    ]
+                    }
+                ]
+                },
+                "profileQuestions": {
+                "title": "Profile Questions",
+                "description": "Answer the following questions as truly as possible, two minutes max.",
+                "questions": [
+                    {
+                    "question": "Describe an experience where you used your leadership skills. What was the situation? What did you do? What was the result?"
+                    },
+                    {
+                    "question": "Your team member let you borrow something. While using it, you accidentally broke it. Leave a voicemail for your team member to explain the problem and recommend a solution."
+                    }
+                ]
+                }
+            },
+            "alerts": [
+                "There are missing or invalid fields.",
+                "Audio response is required."
+            ],
+            "completeModuleButton": "Complete Module"
+            },
+        "jobProfileSection3Screen": {
+            "title": "External Test",
+            "description": "Please complete the following tests. (Copy the URLs and paste them into your desktop browser.)",
+            "links": [
+                {
+                "label": "Internet Speed Test",
+                "urlPlaceholder": "Link to Internet Speed Test"
+                },
+                {
+                "label": "Typing Speed Test",
+                "urlPlaceholder": "Link to Typing Speed Test"
+                }
+            ],
+            "checkbox": {
+                "label": "I have completed the test"
+            },
+            "button": {
+                "label": "Go Back"
+            },
+            "successPopup": {
+                "title": "Success!",
+                "message": "External test marked as completed",
+                "button": "Go Back"
+            }
+        },
+        "feedbackScreen": {
+            "title": "Submit Feedback",
+            "FeedbackOptions": [
+                {
+                    "submitfeedback": "Submit Feedback",
+                    "description": "Share your thoughts or suggestions to help us improve the app"
+                },
+                {
+                    "reportanissue": "Report an Issue",
+                    "description": "Let us know about any technical problems or bugs you've encountered"
+                },
+                {
+                    "contactUs": "Contact Us",
+                    "description": "Call our support line for assistance."
+                }
+            ]
+        },
+        "submitFeedbackScreen": {
+            "question": "How satisfied are you with the Companion experience?",
+            "ratingNumbers": ["1", "2", "3", "4", "5"]
+        },
+        "settingsScreen": {
+            "title": "Settings",
+            "profileOption": {
+                "title": "Profile",
+                "description": "View and update your personal details, preferences, and account settings." 
+            },
+            "pushNotificationsOption": {
+                "title": "Push Notifications",
+                "description": "Manage your notifications preferences to stay informed about important updates."
+            },
+            "signOutOption": {
+                "title": "Sign Out",
+                "description": "Log out of your account and end your current session."
+            },
+            "aboutOption": {
+                "title": "About",
+                "description": "Learn more about Companion, and its features."
+            }
+        },
+        "profileScreen": {
+            "title": "Profile",
+            "fields": {
+                "preferredName": "Preferred Name",
+                "preferredContact": "Preferred Method of Contact",
+                "whatsappNumber": "WhatsApp Number",
+                "preferredLanguage": "Preferred Language",
+                "updateButton": "Update"
+            }
+        },
+        "aboutScreen": {
+            "title": "About",
+            "sections": {
+                "about": "About",
+                "getHelp": "Get help",
+                "legal": "Legal"
+            },
+            "items": {
+                "version": "Version",
+                "build": "Build",
+                "sendCrashReports": "Send crash reports",
+                "submitTicket": "Submit a Ticket",
+                "suggestions": "Suggestions",
+                "termsOfService": "Terms of Service",
+                "privacyPolicy": "Privacy Policy"
+            },
+            "footer": "Copyright © 2025 Companion"
+        },
+        "signOutScreen": {
+            "title": "Sign Out",
+            "message": "Are you sure you want to sign out?",
+            "buttons": {
+                "cancel": "Cancel",
+                "confirm": "Sign Out"
+            }
+        }
+    }
+}
