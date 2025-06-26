@@ -2178,9 +2178,7 @@ export const translations = {
                 }
                 ],
                 "termsText": "Ao baixar, acessar ou usar o Companion, você concorda com estes termos de uso. Por favor, leia-os cuidadosamente antes de usar o aplicativo."
-            }
-        },
-        {
+            },
             "notStudentScreen": {
                 "banner": "BYU-Pathway Worldwide oferece acesso a diplomas com base espiritual, completamente online e com preços acessíveis.",
                 "ourStudents&Alumni": {
@@ -2224,9 +2222,7 @@ export const translations = {
                 ],
                 "finalButton": "Ir para o Login"
                 }
-            }
-        },
-        {
+            },
         "authenthicationLoadingPage": {
             "title": "Processando Autenticação..."
         },
@@ -2268,9 +2264,7 @@ export const translations = {
         "notificationsScreen": {
             "noNotificationsTitle": "Nenhuma Notificação Disponível",
             "noNotificationsMessage": "Não há itens disponíveis no momento."
-        }
         },
-        {
         "aiAssistanceScreen": {
             "title": "Assistente Companion",
             "infoPopup": {
@@ -2392,155 +2386,154 @@ export const translations = {
                     "description": "Abra seu Painel do Canvas para continuar com suas tarefas."
                 }
                 }
-            }
-        },
-        "hjgSection1Screen": {
+            },
+          "hjgSection1Screen": {
             "header": {
-                "title": "Heber J. Grant Application"
+                "title": "Inscrição para a Bolsa Heber J. Grant"
             },
             "descriptionHJG": {
-                "title": "Heber J. Grant Scholarship",
-                "description": "BYU-Pathway Worldwide offers a needs based scholarship named after Heber J. Grant, a former president of The Church of Jesus Christ of Latter-day Saints. To be eligible to receive this scholarship, you must complete this informational module.",
+                "title": "Bolsa de Estudo Heber J. Grant",
+                "description": "BYU-Pathway Worldwide oferece uma bolsa de estudo baseada em necessidades, em homenagem a Heber J. Grant, um ex-presidente de A Igreja de Jesus Cristo dos Santos dos Últimos Dias. Para ser elegível para receber esta bolsa, você deve completar este módulo informativo.",
                 "moduleSections": {
-                    "title": "This module contains five sections:",
-                    "items": [
-                    "1. Survey",
-                    "2. Persistence & Tenacity",
-                    "3. Love of Learning",
-                    "4. Self-Reliance",
-                    "5. Stewardship & Replenishment"
-                    ]
+                "title": "Este módulo contém cinco seções:",
+                "items": [
+                "1. Pesquisa",
+                "2. Persistência e Tenacidade",
+                "3. Amor pelo Aprendizado",
+                "4. Autossuficiência",
+                "5. Mordomia e Reabastecimento"
+                ]
                 },
-                "timeEstimate": "You should anticipate this module taking about 45 to 60 minutes to complete. If you do not have that much time, please wait to start the module at another time. Not only will this resource help BYU-Pathway evaluate your financial needs, it will also help cultivate the characteristics needed for your continued success as a BYU-Pathway student. Thank you."
+                "timeEstimate": "Você deve prever que este módulo levará de 45 a 60 minutos para ser concluído. Se você não tiver tanto tempo, por favor, espere para iniciar o módulo em outro momento. Este recurso não só ajudará a BYU-Pathway a avaliar suas necessidades financeiras, mas também ajudará a cultivar as características necessárias para o seu sucesso contínuo como estudante da BYU-Pathway. Obrigado."
             },
             "bioSection": {
-                "title": "Who is Heber J. Grant?",
-                "content": "Heber J. Grant was the seventh president of The Church of Jesus Christ of Latter-day Saints. Born in Salt Lake City in 1856, Grant was raised by his mother, Rachel Ridgway Ivins Grant, after his father, Jedediah Grant (a counselor to Brigham Young) died when Heber was only a few days old. Heber was called as a stake president at age 23 and ordained an Apostle two years later. One of the most dramatic incidents in his apostolic service came in 1893, when he sought divine aid to secure loans to save the Church. Grant's efforts protected the Church from financial collapse during a nationwide economic crisis. The characteristics and life of Heber J. Grant embody principles of self-reliance and persistence that will resonate and be a strength to many BYU-Pathway students around the world."
+                "title": "Quem é Heber J. Grant?",
+                "content": "Heber J. Grant foi o sétimo presidente de A Igreja de Jesus Cristo dos Santos dos Últimos Dias. Nascido em Salt Lake City em 1856, Grant foi criado por sua mãe, Rachel Ridgway Ivins Grant, depois que seu pai, Jedediah Grant (um conselheiro de Brigham Young) faleceu quando Heber tinha apenas alguns dias de idade. Heber foi chamado como presidente de estaca aos 23 anos e ordenado Apóstolo dois anos depois. Um dos incidentes mais dramáticos em seu serviço apostólico ocorreu em 1893, quando ele buscou auxílio divino para garantir empréstimos para salvar a Igreja. Os esforços de Grant protegeram a Igreja do colapso financeiro durante uma crise econômica nacional. As características e a vida de Heber J. Grant incorporam princípios de autossuficiência e persistência que ressoarão e serão uma força para muitos estudantes da BYU-Pathway em todo o mundo."
             },
             "form": {
-                "sectionTitle": "Section 1: Heber J. Grant Scholarship Survey",
-                "sectionDescription": "First, to help us better understand your current needs and situation, please answer following questions:",
+                "sectionTitle": "Seção 1: Pesquisa da Bolsa Heber J. Grant",
+                "sectionDescription": "Primeiro, para nos ajudar a entender melhor suas necessidades e situação atuais, responda às seguintes perguntas:",
                 "questions": {
                 "parentsUniversityDegree": {
-                    "question": "Have either of your parents obtained a university degree?",
-                    "options": [
-                    "Yes",
-                    "No",
-                    "I don't know"
-                    ]
+                "question": "Algum de seus pais obteve um diploma universitário?",
+                "options": [
+                "Sim",
+                "Não",
+                "Não sei"
+                ]
                 },
                 "singleParent": {
-                    "question": "Are you a single parent?",
-                    "options": [
-                    "Yes",
-                    "No"
-                    ]
+                "question": "Você é pai/mãe solteiro(a)?",
+                "options": [
+                "Sim",
+                "Não"
+                ]
                 },
                 "reliableHousing": {
-                    "question": "Do you have reliable housing?",
-                    "options": [
-                    "Yes",
-                    "No"
-                    ]
+                "question": "Você tem moradia confiável?",
+                "options": [
+                "Sim",
+                "Não"
+                ]
                 },
                 "struggleMeals": {
-                    "question": "Do you struggle to have enough food for yourself and your family to eat three meals per day?",
-                    "options": [
-                    "Yes",
-                    "No"
-                    ]
+                "question": "Você tem dificuldade para ter comida suficiente para você e sua família fazerem três refeições por dia?",
+                "options": [
+                "Sim",
+                "Não"
+                ]
                 },
                 "accessDevice": {
-                    "question": "Do you have access to a device (computer, phone, or tablet) to complete your coursework?",
-                    "options": [
-                    "Yes",
-                    "No"
-                    ]
+                "question": "Você tem acesso a um dispositivo (computador, telefone ou tablet) para completar seu curso?",
+                "options": [
+                "Sim",
+                "Não"
+                ]
                 },
                 "reliableInternet": {
-                    "question": "Do you have access to reliable internet?",
-                    "options": [
-                    "Yes",
-                    "No"
-                    ]
+                "question": "Você tem acesso a internet confiável?",
+                "options": [
+                "Sim",
+                "Não"
+                ]
                 },
                 "tuitionAffordability": {
-                    "question": "Is your tuition affordable for you and your family?",
-                    "options": [
-                    "Yes, my tuition is affordable and I am able to pay for it.",
-                    "My tuition is not affordable, but I am able to find other means to pay for it.",
-                    "No, my tuition is not affordable and I have no means to pay for it."
-                    ]
+                "question": "Sua mensalidade é acessível para você e sua família?",
+                "options": [
+                "Sim, minha mensalidade é acessível e consigo pagá-la.",
+                "Minha mensalidade não é acessível, mas consigo encontrar outros meios para pagá-la.",
+                "Não, minha mensalidade não é acessível e não tenho meios para pagá-la."
+                ]
                 },
                 "circumstancesAffectingPayment": {
-                    "question": "Are there any other circumstances that affect your ability to pay for your education?",
-                    "options": [
-                    "Yes",
-                    "No",
-                    "Additional Information (Please type below)"
-                    ]
+                "question": "Existem outras circunstâncias que afetam sua capacidade de pagar sua educação?",
+                "options": [
+                "Sim",
+                "Não",
+                "Informações Adicionais (Por favor, digite abaixo)"
+                ]
                 },
                 "additionalInformation": {
-                    "label": "",
-                    "placeholder": "Type Here",
-                    "description": "(This field appears if 'Additional Information' is selected for the previous question)"
+                "label": "",
+                "placeholder": "Digite Aqui",
+                "description": "(Este campo aparece se 'Informações Adicionais' for selecionado para a pergunta anterior)"
                 }
                 }
             },
-            "nextButton": "Next",
-            "saveProgressButton": "Save Progress",
-            "alert": "All fields are required",
-            "message": "Progress saved."
+            "nextButton": "Próximo",
+            "saveProgressButton": "Salvar Progresso",
+            "alert": "Todos os campos são obrigatórios",
+            "message": "Progresso salvo."
         },
         "hjgSection2Screen": {
             "header": {
-                "title": "Heber J. Grant Application",
+                "title": "Inscrição para a Bolsa Heber J. Grant",
                 "buttons": [
-                { "label": "Save and Exit" },
-                { "label": "Leave Without Saving" }
+                { "label": "Salvar e Sair" },
+                { "label": "Sair Sem Salvar" }
                 ]
             },
             "description": {
-                "title": "Section 2: Persistence & Tenacity",
-                "description": "Poverty defined Heber's growing years, but not negatively. Having little money was a challenge that never deterred him. Wanting to learn to pitch a baseball but not having enough money for a ball, Heber earned the money by shining boots for his mother's boarders. Later he longed to attend the Salt Lake Theatre; instead of feeling sorry that he had no money to buy tickets, he obtained a job as a water carrier for theater patrons and was thus allowed to watch the plays.\n\nAs Heber grew older, his persistence and fortitude were put to good use in business ventures. Offered an appointment to the United States Naval Academy, he opted to stay near his mother and to become a businessman instead. After finishing his schooling at age 16, Heber got a job as a bank clerk and learned bookkeeping. His honesty, ability to work hard, and great desire to learn soon opened up many opportunities. By the time he was 20 years old, he had been made the assistant cashier of Zion's Savings Bank and Trust Company, and he had purchased an insurance agency. The poverty of Heber's youth made him compassionate and prepared him to lead the Church through the aftermath of World War I, the Great Depression, and World War II.",
+                "title": "Seção 2: Persistência e Tenacidade",
+                "description": "A pobreza definiu os anos de crescimento de Heber, mas não de forma negativa. Ter pouco dinheiro era um desafio que nunca o deteve. Querendo aprender a arremessar uma bola de beisebol, mas não tendo dinheiro suficiente para uma bola, Heber ganhou o dinheiro engraxando botas para os inquilinos de sua mãe. Mais tarde, ele desejava ir ao Teatro Salt Lake; em vez de sentir pena por não ter dinheiro para comprar ingressos, ele conseguiu um emprego como carregador de água para os frequentadores do teatro e, assim, foi autorizado a assistir às peças.\n\nÀ medida que Heber crescia, sua persistência e fortaleza foram bem utilizadas em empreendimentos comerciais. Tendo recebido uma nomeação para a Academia Naval dos Estados Unidos, ele optou por permanecer perto de sua mãe e se tornar um empresário. Depois de terminar seus estudos aos 16 anos, Heber conseguiu um emprego como balconista de banco e aprendeu contabilidade. Sua honestidade, capacidade de trabalhar duro e grande desejo de aprender logo abriram muitas oportunidades. Aos 20 anos, ele havia sido nomeado assistente de caixa do Zion's Savings Bank and Trust Company e havia comprado uma agência de seguros. A pobreza da juventude de Heber o tornou compassivo e o preparou para liderar a Igreja após a Primeira Guerra Mundial, a Grande Depressão e a Segunda Guerra Mundial.",
                 "video": {
-                "text": "Watch the following video: Link",
-                "transcriptLinkText": "If you would like to read a transcript of this video instead click here"
+                "text": "Assista ao seguinte vídeo: Link",
+                "transcriptLinkText": "Se você preferir ler uma transcrição deste vídeo, clique aqui"
                 }
             },
             "form": {
                 "questions": {
                 "usedMoneyFor": {
-                    "question": "How have you used money or resources to overcome challenges related to your education?",
+                    "question": "Como você usou dinheiro ou recursos para superar desafios relacionados à sua educação?",
                     "options": [
-                    "Purchased study materials",
-                    "Paid for transportation",
-                    "Covered living expenses",
-                    "Invested in a device for coursework",
-                    "Other (please specify)"
+                    "Comprou materiais de estudo",
+                    "Pagou pelo transporte",
+                    "Cobriu despesas de moradia",
+                    "Investiu em um dispositivo para o curso",
+                    "Outro (especifique)"
                     ]
                 },
                 "scriptureReview": {
-                    "text": "Please choose one of the following scriptures to review:",
+                    "text": "Por favor, escolha uma das seguintes escrituras para revisar:",
                     "links": [
-                    "Mosiah 2:14",
-                    "Mosiah 27:5",
-                    "Doctrine & Covenants 42:42",
-                    "Moses 4:25",
-                    "Joseph Smith - History 1:55"
+                    "Mosias 2:14",
+                    "Mosias 27:5",
+                    "Doutrina e Convênios 42:42",
+                    "Moisés 4:25",
+                    "Joseph Smith - História 1:55"
                     ]
                 },
                 "scriptureSelected": {
-                    "question": "Which scripture(s) did you select? What are some specific ways work helps us become more self-reliant?",
-                    "placeholder": "Type Here"
+                    "question": "Qual(is) escritura(s) você selecionou? De que maneiras específicas o trabalho nos ajuda a nos tornar mais autossuficientes?",
+                    "placeholder": "Digite Aqui"
                 }
                 }
             },
-            "previousButton": "Previous",
-            "nextButton": "Next",
-            "saveProgressButton": "Save Progress",
-            "savedAlertMessage": "Progress saved.",
-            "fieldsRequired": "All fields are required"
+            "previousButton": "Anterior",
+            "nextButton": "Próximo",
+            "saveProgressButton": "Salvar Progresso",
+            "savedAlertMessage": "Progresso salvo.",
+            "fieldsRequired": "Todos os campos são obrigatórios"
         },
         "hjgSection3Screen": {
             "header": {
