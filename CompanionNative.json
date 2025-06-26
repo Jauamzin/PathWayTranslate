@@ -2827,57 +2827,57 @@ export const translations = {
             ]
         },
         "submitNewTicketScreen": {
-            "title": "Submit a New Ticket",
+            "title": "Enviar um Novo Ticket",
             "form": {
                 "mainTopic": {
-                    "label": "Main Topic",
+                    "label": "Tópico Principal",
                     "options": [
-                        "Select an item",
-                        "Canvas-CourseIssue",
-                        "Canvas-LoginIssue",
-                        "CanvasAccess",
-                        "EnglishConnectModule-LoginIssue",
+                        "Selecionar um item",
+                        "Canvas-Problema no Curso",
+                        "Canvas-Problema de Login",
+                        "Acesso ao Canvas",
+                        "EnglishConnectModule-Problema de Login",
                         "EnglishConnect",
-                        "EnglishConnectModule-CourseIssue",
-                        "Finance-PaymentIssue",
-                        "Finance-HerbertJGrantDiscount",
-                        "GatheringsQuestion-Finance",
-                        "Hold-Gathering",
-                        "Hold-EcclesiasticalEndorsement",
-                        "MeetWithAnAcademicAdvisor",
-                        "Mentoring",
-                        "MicrosoftOffice-LoginIssue",
-                        "MissionarySupport",
-                        "StudentPortland-LoginIssue",
-                        "StudentWellness",
-                        "TransferEvaluation",
-                        "WorkStudy",
-                        "Others"
+                        "EnglishConnectModule-Problema no Curso",
+                        "Financeiro-Problema de Pagamento",
+                        "Financeiro-Desconto Herbert J. Grant",
+                        "Dúvida sobre Reuniões-Financeiro",
+                        "Retenção-Reunião",
+                        "Retenção-Endosso Eclesiástico",
+                        "Reunião com um Orientador Acadêmico",
+                        "Orientação",
+                        "MicrosoftOffice-Problema de Login",
+                        "Suporte Missionário",
+                        "Portal do Estudante-Problema de Login",
+                        "Bem-estar do Estudante",
+                        "Avaliação de Transferência",
+                        "Estágio/Trabalho",
+                        "Outros"
                     ]
                     },
                 "detailedDescription": {
-                    "label": "Detailed Description",
-                    "placeholder": "Type Here"
+                    "label": "Descrição Detalhada",
+                    "placeholder": "Digite aqui"
                     },
                 "preferredContactMethod": {
-                    "label": "Preferred Contact Method",
+                    "label": "Método de Contato Preferido",
                     "options": [
-                        "Select an Item",
-                        "Email",
-                        "Phone"
+                        "Selecionar um item",
+                        "E-mail",
+                        "Telefone"
                     ]
                 },
                 "contactInfo": {
-                    "label": "Contact Info",
-                    "placeholder": "Type Here"
+                    "label": "Informações de Contato",
+                    "placeholder": "Digite aqui"
                 },
                 "screenshotUpload": {
-                    "label": "Submit a Screenshot with Your Ticket",
-                    "buttonText": "Attach File",
-                    "description": "This file must be a file of type PNG-JPG-JPEG."
+                    "label": "Enviar uma Captura de Tela com Seu Ticket",
+                    "buttonText": "Anexar Arquivo",
+                    "description": "Este arquivo deve ser do tipo PNG-JPG-JPEG."
                 }
             },
-            "submitButton": "Submit"
+            "submitButton": "Enviar"
         },
         "contactUsScreen": {
             "text": "Need help? -You can call us at 1-801-655-6424.\nMon–Fri, 9am to 5pm (local time).",
