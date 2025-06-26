@@ -2536,84 +2536,84 @@ export const translations = {
             "fieldsRequired": "Todos os campos são obrigatórios"
         },
         "hjgSection3Screen": {
-            "header": {
-                "title": "Heber J. Grant Application",
-            },
-            "section": {
-                "title": "Section 3: Love of Learning",
-                "description": "In 1901, Heber J. Grant was called to open and preside over the Japanese Mission. There, Elder Grant dedicated the land for the preaching and reception of the gospel. But the mission did not immediately flourish, partly because of the cultural differences and communication barriers. That did not stop Elder Grant. He worked diligently to learn the new language and to learn of the new culture he was immersed in. Despite the limited missionary success there at the time, Elder Grant oversaw the first translation of the Book of Mormon into Japanese. Of his missionary efforts, President Grant later taught: \"I want you young people to know that in all my labors I got nearer to the Lord, and accomplished more and had more joy while in the mission field than ever before or ever since. Man is that he might have joy, and the joy that I had in the mission field was superior to any I had ever experienced elsewhere.\"\n\nPresident Grant loved to give away books to all those around him; he knew that learning was one of the most important things you could do to further yourself, and he felt a true sense of peace giving away books that had taught him in the past. He gave away thousands of them, most of which he personally inscribed. In giving so many gifts he sometimes lost track of what he had done. \"I once gave a man a book,\" he said, \"and he thanked me very kindly for it, and said, 'Brother Grant, I thoroughly appreciate this book. It is the third copy you have given me of it.'\" After that experience, President Grant kept an index of the books he had given."
-            },
-            "form": {
-                "questions": {
-                "question1": {
-                    "question": "How did Heber J. Grant earn money to buy a baseball?",
-                    "options": [
-                    "By shining boots for his mother's boarders",
-                    "By carrying water for theater patrons",
-                    "By working as a bank clerk",
-                    "By selling insurance"
-                    ]
-                }
-                }
-            },
-            "previousButton": "Previous",
-            "nextButton": "Next",
-            "saveProgressButton": "Save Progress",
-            "progressSavedMessage": "Progress saved.",
-            "requiredFieldsAlert":"All fields are required"
+           "header": {
+               "title": "Inscrição para a Bolsa Heber J. Grant"
+           },
+           "section": {
+               "title": "Seção 3: Amor pelo Aprendizado",
+               "description": "Em 1901, Heber J. Grant foi chamado para abrir e presidir a Missão Japonesa. Lá, Élder Grant dedicou a terra para a pregação e recepção do evangelho. Mas a missão não floresceu imediatamente, em parte devido às diferenças culturais e barreiras de comunicação. Isso não deteve o Élder Grant. Ele trabalhou diligentemente para aprender a nova língua e a nova cultura em que estava imerso. Apesar do sucesso missionário limitado na época, o Élder Grant supervisionou a primeira tradução do Livro de Mórmon para o japonês. Sobre seus esforços missionários, o Presidente Grant ensinou mais tarde: \"Quero que vocês, jovens, saibam que em todos os meus trabalhos me aproximei mais do Senhor, e realizei mais e tive mais alegria no campo missionário do que nunca antes ou depois. O homem existe para ter alegria, e a alegria que tive no campo missionário foi superior a qualquer outra que já havia experimentado em outro lugar.\"\n\nO Presidente Grant adorava dar livros a todos ao seu redor; ele sabia que aprender era uma das coisas mais importantes que se podia fazer para progredir, e sentia uma verdadeira sensação de paz ao dar livros que o haviam ensinado no passado. Ele distribuiu milhares deles, a maioria dos quais ele pessoalmente dedicou. Ao dar tantos presentes, às vezes perdia a noção do que havia feito. \"Uma vez dei um livro a um homem\", disse ele, \"e ele me agradeceu muito gentilmente, e disse: 'Irmão Grant, aprecio muito este livro. É a terceira cópia que você me dá dele.'\" Após essa experiência, o Presidente Grant manteve um índice dos livros que havia dado."
+           },
+           "form": {
+               "questions": {
+               "question1": {
+                   "question": "Como Heber J. Grant ganhou dinheiro para comprar uma bola de beisebol?",
+                   "options": [
+                   "Engraxando botas para os inquilinos de sua mãe",
+                   "Carregando água para os frequentadores do teatro",
+                   "Trabalhando como balconista de banco",
+                   "Vendendo seguros"
+                   ]
+               }
+               }
+           },
+           "previousButton": "Anterior",
+           "nextButton": "Próximo",
+           "saveProgressButton": "Salvar Progresso",
+           "progressSavedMessage": "Progresso salvo.",
+           "requiredFieldsAlert":"Todos os campos são obrigatórios"
         },
         "hjgSection4Screen": {
-            "header": {
-                "title": "Heber J. Grant Application"
-            },
-            "section": {
-                "title": "Section 4: Self Reliance",
-                "description": "In 1936, seven years into the Great Depression, the United States had yet to emerge from the huge losses and downward trends that began with the stock market crash in 1929. When President Heber J. Grant spoke of the welfare system in 1936, he envisioned that \"no new Church machinery\" would be required but that \"stake and ward organizations, the priesthood quorums, the Relief Society, and the various auxiliary organizations [would] render the maximum service [they] could furnish in the interest of the general welfare of the Church.\" The Lord had already established the organization needed to bless the poor and needy—priesthood quorums were in place, Relief Societies were organized, and the priesthood of God was on the earth.\n\nSince the welfare program was introduced in 1936, members of the Church have labored together to relieve the suffering of those who stand in need. Economic downturns, natural disasters, unemployment, sickness and disability, or times of loss have all required the direction of the priesthood to ensure that needs are met and that individuals and families are blessed. Over the years millions of members have willingly given of their time and talents to bless others.\n\nSince the creation of the Bishop's Storehouse, many United States presidents and other leaders from around the world have come to visit the renowned storehouse and to learn more of how they can implement similar welfare ideologies as did President Heber J. Grant. \"The aim of the Church is to help the people help themselves. Work is to be re-enthroned as the ruling principle of the lives of our Church membership\" (Heber J.\nGrant, in Conference Report, Oct. 1936, 3).",
-            },
-            "form": {
-                "questions": {
-                "question1": {
-                    "question": "What was the purpose of the welfare program introduced by President Heber J. Grant?",
-                    "options": [
-                    "To provide government assistance to the unemployed",
-                    "To help Church members help themselves and relieve suffering",
-                    "To establish new Church machinery for financial aid",
-                    "To gather resources for future investments"
-                    ]
-                }
-                }
-            },
-            "previousButton": "Previous",
-            "nextButton": "Next",
-            "saveProgressButton": "Save Progress",
-            "progressSavedMessage": "Progress saved.",
-            "requiredFieldsAlert": "All fields are required"
+           "header": {
+               "title": "Inscrição para a Bolsa Heber J. Grant"
+           },
+           "section": {
+               "title": "Seção 4: Autossuficiência",
+               "description": "Em 1936, sete anos após o início da Grande Depressão, os Estados Unidos ainda não haviam emergido das enormes perdas e tendências de queda que começaram com a quebra da bolsa de valores em 1929. Quando o Presidente Heber J. Grant falou sobre o sistema de bem-estar em 1936, ele imaginou que \"nenhuma nova máquina da Igreja\" seria necessária, mas que \"organizações de estaca e ala, os quóruns do sacerdócio, a Sociedade de Socorro e as várias organizações auxiliares [prestariam] o serviço máximo [que poderiam] em interesse do bem-estar geral da Igreja.\" O Senhor já havia estabelecido a organização necessária para abençoar os pobres e necessitados — os quóruns do sacerdócio estavam em vigor, as Sociedades de Socorro estavam organizadas e o sacerdócio de Deus estava na terra.\n\nDesde que o programa de bem-estar foi introduzido em 1936, os membros da Igreja têm trabalhado juntos para aliviar o sofrimento daqueles que necessitam. Crises econômicas, desastres naturais, desemprego, doenças e deficiências, ou tempos de perda, tudo exigiu a direção do sacerdócio para garantir que as necessidades fossem atendidas e que indivíduos e famílias fossem abençoados. Ao longo dos anos, milhões de membros têm doado voluntariamente seu tempo e talentos para abençoar outras pessoas.\n\nDesde a criação do Armazém do Bispo, muitos presidentes dos Estados Unidos e outros líderes de todo o mundo visitaram o renomado armazém para aprender mais sobre como eles podem implementar ideologias de bem-estar semelhantes às do Presidente Heber J. Grant. \"O objetivo da Igreja é ajudar as pessoas a se ajudarem. O trabalho deve ser re-entronizado como o princípio regente da vida de nossos membros da Igreja\" (Heber J. Grant, em Conference Report, out. de 1936, 3)."
+           },
+           "form": {
+               "questions": {
+               "question1": {
+                   "question": "Qual era o propósito do programa de bem-estar introduzido pelo Presidente Heber J. Grant?",
+                   "options": [
+                   "Fornecer assistência governamental aos desempregados",
+                   "Ajudar os membros da Igreja a se ajudarem e aliviar o sofrimento",
+                   "Estabelecer nova máquina da Igreja para auxílio financeiro",
+                   "Reunir recursos para investimentos futuros"
+                   ]
+               }
+               }
+           },
+           "previousButton": "Anterior",
+           "nextButton": "Próximo",
+           "saveProgressButton": "Salvar Progresso",
+           "progressSavedMessage": "Progresso salvo.",
+           "requiredFieldsAlert": "Todos os campos são obrigatórios"
         },
         "hjgSection5Screen": {
-            "header": {
-            "title": "Heber J. Grant Application",
-            },
-            "section": {
-            "title": "Section 5: Stewardship & Replenishment"
-            },
-            "form": {
-            "questions": {
-                "lowTuition": {
-                "question": "BYU-Pathway's low tuition is made possible both by support from The Church of Jesus Christ of Latter-day Saints and from philanthropic donors. If you would like to thank the individuals who have donated money to lower your tuition costs, what would you say to them? (Your comment may be shared with current and future donors.)",
-                "placeholder": "Type Here"
-                }
-            }
-            },
-            "previousButton": "Previous",
-            "submitButton": "Submit",
-            "saveProgressButton": "Save Progress",
-            "progressSavedMessage": "Progress saved.",
-            "requiredFieldsAlert": "All fields are required",
-            "submissionAlerts": {
-            "successMessage": "Your request has been successfully submitted.",
-            "errorMessage": "Not found",
-            "loadingDescription": "Submitting Heber J. Grant Application..."
-            }
+           "header": {
+           "title": "Inscrição para a Bolsa Heber J. Grant"
+           },
+           "section": {
+           "title": "Seção 5: Mordomia e Reabastecimento"
+           },
+           "form": {
+           "questions": {
+               "lowTuition": {
+               "question": "A baixa mensalidade da BYU-Pathway é possível tanto pelo apoio de A Igreja de Jesus Cristo dos Santos dos Últimos Dias quanto por doadores filantrópicos. Se você gostaria de agradecer aos indivíduos que doaram dinheiro para reduzir seus custos de mensalidade, o que você diria a eles? (Seu comentário pode ser compartilhado com doadores atuais e futuros.)",
+               "placeholder": "Digite Aqui"
+               }
+           }
+           },
+           "previousButton": "Anterior",
+           "submitButton": "Enviar",
+           "saveProgressButton": "Salvar Progresso",
+           "progressSavedMessage": "Progresso salvo.",
+           "requiredFieldsAlert": "Todos os campos são obrigatórios",
+           "submissionAlerts": {
+           "successMessage": "Sua solicitação foi enviada com sucesso.",
+           "errorMessage": "Não encontrado",
+           "loadingDescription": "Enviando Inscrição para a Bolsa Heber J. Grant..."
+           }
         },
         "enrollmentVerificationScreen": {
             "title": "Enrollment Verification",
