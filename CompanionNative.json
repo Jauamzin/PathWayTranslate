@@ -2270,126 +2270,128 @@ export const translations = {
             "noNotificationsMessage": "Não há itens disponíveis no momento."
         }
         },
+        {
         "aiAssistanceScreen": {
-            "title": "Companion Assistant",
+            "title": "Assistente Companion",
             "infoPopup": {
-                "message": "This artificial intelligence (AI) chatbot is powered by generative AI technology that refers to the BYU-Pathway website and Support Knowledge Base website. This chatbot can analyze questions, search the mentioned websites, and summarize potentially relevant information. Generative AI is not always correct. Please personally confirm the answer provided by this chatbot by reading the sections it identifies in the mentioned websites. Use of this chatbot is anonymous. Do not enter any personal information. By using this chatbot, you agree that anything you enter can be saved and reviewed by Church personnel to improve this chatbot and make it more accurate",
-                "button": "Acknowledge"
-        },
-        "typeBoxMessage" : "Type a message...",
-        "assistantSwitcher": {
-            "title" :"AI Assistats",
-            "options": [
-                { "label": "Companion Assistant" },
-                { "label": "Course Assistant" }
-            ]
-        }
+                "message": "Este chatbot de inteligência artificial (IA) é alimentado por tecnologia de IA generativa que faz referência ao site da BYU-Pathway e ao site da Base de Conhecimento de Suporte. Este chatbot pode analisar perguntas, pesquisar os sites mencionados e resumir informações potencialmente relevantes. A IA generativa nem sempre está correta. Por favor, confirme pessoalmente a resposta fornecida por este chatbot lendo as seções que ele identifica nos sites mencionados. O uso deste chatbot é anônimo. Não insira nenhuma informação pessoal. Ao usar este chatbot, você concorda que tudo o que você inserir pode ser salvo e revisado pelo pessoal da Igreja para melhorar este chatbot e torná-lo mais preciso.",
+                "button": "Reconhecer"
+            },
+            "typeBoxMessage" : "Digite uma mensagem...",
+            "assistantSwitcher": {
+                "title" :"Assistentes de IA",
+                "options": [
+                    { "label": "Assistente Companion" },
+                    { "label": "Assistente de Curso" }
+                ]
+            }
         },
         "appsMenuScreen": {
-            "title": "Apps",
+            "title": "Aplicativos",
             "appsGrid": [
-                { "AcademicCenter": "Academic Center" },
+                { "AcademicCenter": "Centro Acadêmico" },
                 { "Tickets": "Tickets" },
-                { "Network": "Network" },
-                { "Registration": "Registration" },
-                { "Jobs": "Jobs" }
+                { "Network": "Rede" },
+                { "Registration": "Matrícula" },
+                { "Jobs": "Vagas de Emprego" }
                 ]
         },
         "academicCenterScreen": {
             "recommendedActions": {
-            "title": "Recommended Actions",
+            "title": "Ações Recomendadas",
             "carousel": [
                 {
                 "ResultHolds": {
-                    "title": "Result Holds",
-                    "description": "Account Holds require you to follow specific steps to register for and complete course.",
-                    "button": "Take Action"
+                    "title": "Retenções de Resultado",
+                    "description": "As Retenções de Conta exigem que você siga etapas específicas para se registrar e concluir o curso.",
+                    "button": "Tomar Ação"
                 }
                 },
                 {
                 "EcclesiasticalEndorsement": {
-                    "title": "Ecclesiastical Endorsement",
-                    "description": "It is time to renew your Ecclesiastical Endorsement.",
-                    "button": "Take Action"
+                    "title": "Endosso Eclesiástico",
+                    "description": "É hora de renovar seu Endosso Eclesiástico.",
+                    "button": "Tomar Ação"
                 }
                 },
                 {
                 "HerbertJGrantScholarship": {
-                    "title": "Herbert J. Grant Scholarship",
-                    "description": "Apply to HJG Scholarship by March 21.",
-                    "button": "Take Action"
+                    "title": "Bolsa de Estudo Herbert J. Grant",
+                    "description": "Inscreva-se na Bolsa HJG até 21 de março.",
+                    "button": "Tomar Ação"
                 }
                 },
                 {
                 "YouDidIt": {
-                    "title": "🏆 You did it",
-                    "description": "Great job! You completed all the recommended actions."
+                    "title": "🏆 Você conseguiu!",
+                    "description": "Ótimo trabalho! Você concluiu todas as ações recomendadas."
                 }
                 }
             ]
             },
             "services": {
-            "title": "Services",
-            "carousel": [
-                { "enrollmentVerification": "Enrollment Verification" },
-                { "officialTransferRequest": "Official Transfer Request" },
-                { "academicAcception": "Academic Acception" },
-                { "graduationApplication": "Graduation Application" },
-                { "allServices": "All Services" }
-            ]
-            },
+                "title": "Serviços",
+                "carousel": [
+                    { "enrollmentVerification": "Verificação de Matrícula" },
+                    { "officialTransferRequest": "Solicitação de Transferência Oficial" },
+                    { "academicAcception": "Aceitação Acadêmica" },
+                    { "graduationApplication": "Solicitação de Colação de Grau" },
+                    { "allServices": "Todos os Serviços" }
+                ]
+                },
             "academicProgress": {
-            "title": "Academic Progress",
-            "carousel": [
-                {
-                "program": {
-                "courseTitle": "Software Development",
-                "institution": "BYU-Idaho",
-                "credits": "credits",
-                "progressBar": {
-                    "percentage": 75,
-                    "label": "Completed"
+                "title": "Progresso Acadêmico",
+                "carousel": [
+                    {
+                    "program": {
+                    "courseTitle": "Desenvolvimento de Software",
+                    "institution": "BYU-Idaho",
+                    "credits": "créditos",
+                    "progressBar": {
+                        "percentage": 75,
+                        "label": "Concluído"
+                    },
+                    "c1": "C1: Technical Support Engineer",
+                    "c2": "C2: It Fundamentals",
+                    "c3": "C3: System Administration",
+                    "GPA": "GPA: 3.871",
+                    "button": "Detalhes"
+                    }
+                    }
+                ]
                 },
-                "c1": "C1: Technical Support Engineer",
-                "c2": "C2: It Fundamentals",
-                "c3": "C3: System Administration",
-                "GPA": "GPA: 3.871",
-                "button": "Details"
-                }
-                }
-            ]
-            },
-            "courseRegistration": {
-            "title": "Course Registration",
-            "carousel": [
-                {
-                "term": "2025 Term 2",
-                "status": "Registered",
-                "courses": [
-                    { "code": "COMM122", "name": "Interpersonal Communications" },
-                    { "code": "IT350", "name": "Network Configuration and Design" },
-                    { "code": "R1KY301", "name": "Power Platform" }
-                ],
-                "button": "Details"
+                "courseRegistration": {
+                "title": "Matrícula no Curso",
+                "carousel": [
+                    {
+                    "term": "Período 2 de 2025",
+                    "status": "Matriculado",
+                    "courses": [
+                        { "code": "COMM122", "name": "Interpersonal Communications" },
+                        { "code": "IT350", "name": "Network Configuration and Design" },
+                        { "code": "R1KY301", "name": "Power Platform" }
+                    ],
+                    "button": "Detalhes"
+                    },
+                    {
+                    "term": "Período 3 de 2025",
+                    "status": "Não Matriculado",
+                    "courses": [
+                        { "code": "COMM122", "name": "Interpersonal Communications" },
+                        { "code": "IT350", "name": "Network Configuration and Design" },
+                        { "code": "R1KY301", "name": "Power Platform" }
+                    ],
+                    "button": "Detalhes"
+                    }
+                ]
                 },
-                {
-                "term": "2025 Term 3",
-                "status": "Not Registered",
-                "courses": [
-                    { "code": "COMM122", "name": "Interpersonal Communications" },
-                    { "code": "IT350", "name": "Network Configuration and Design" },
-                    { "code": "R1KY301", "name": "Power Platform" }
-                ],
-                "button": "Details"
+                "courseAccess": {
+                "title": "Acesso ao Curso",
+                "goToClass":{
+                    "title": "Ir para a Aula",
+                    "description": "Abra seu Painel do Canvas para continuar com suas tarefas."
                 }
-            ]
-            },
-            "courseAccess": {
-            "title": "Course Access",
-            "goToClass":{
-                "title": "Go to Class",
-                "description": "Open your Canvas Dashboard to continue with your assigments."
-            }
+                }
             }
         },
         "hjgSection1Screen": {
