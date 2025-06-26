@@ -2953,148 +2953,148 @@ export const translations = {
             "footerText": "Por favor, complete seu perfil."
         },
         "jobProfileSection1Screen": {
-            "title": "Job Profile - Section 1",
-            "introduction": "Welcome to Jobs Profile. This tool helps us gather key information to support your career goals. Please fill it out honestly and completely so we can best understand your goals. If you need a break, click Save Progress to return and continue later.",
+            "title": "Perfil Profissional - Seção 1",
+            "introduction": "Bem-vindo ao Perfil de Empregos. Esta ferramenta nos ajuda a coletar informações essenciais para apoiar seus objetivos de carreira. Por favor, preencha-o com honestidade e completamente para que possamos entender melhor seus objetivos. Se precisar de uma pausa, clique em Salvar Progresso para retornar e continuar mais tarde.",
             "form": {
                 "termsOfUse": {
-                    "title": "Terms of Use",
+                    "title": "Termos de Uso",
                     "questions": [
                         {
-                        "question1": "Are you seeking a better job?",
+                        "question1": "Você está procurando um emprego melhor?",
                         "options": [
-                            "Select an item",
-                            "Yes",
-                            "No"
+                            "Selecionar um item",
+                            "Sim",
+                            "Não"
                             ]
                         },
                         {
-                        "question2": "Do we have your permission to share your information with other departments in the Church of Jesus Christ of Latter-day Saints?",
+                        "question2": "Temos sua permissão para compartilhar suas informações com outros departamentos da Igreja de Jesus Cristo dos Santos dos Últimos Dias?",
                         "options": [
-                            "Select an item",
-                            "Yes",
-                            "No"
-                            ]   
+                            "Selecionar um item",
+                            "Sim",
+                            "Não"
+                            ]  
                         },
                         {
-                        "question3": "Do we have your permission to share your information with third party hiring firms and other employers?",
+                        "question3": "Temos sua permissão para compartilhar suas informações com empresas de recrutamento terceirizadas e outros empregadores?",
                         "options": [
-                            "Select an item",
-                            "Yes",
-                            "No"
+                            "Selecionar um item",
+                            "Sim",
+                            "Não"
                             ]
                         }
                     ],
                     "infoButton": {
-                        "label": "Click here for details on what information may be shared",
+                        "label": "Clique aqui para detalhes sobre quais informações podem ser compartilhadas",
                         "popup": {
                             "content": [
-                                "The answers you provide in this survey.",
-                                "Your contact information including name, address, phone number, email, etc.",
-                                "Any credentials you have earned, including a Pathway Connect Completion Certificate and/or any online certificates and degrees you have completed or are currently working toward. This could also include any relevant coursework.",
-                                "Information related to marketable skills and language abilities."
+                                "As respostas que você fornece nesta pesquisa.",
+                                "Suas informações de contato, incluindo nome, endereço, número de telefone, e-mail, etc.",
+                                "Quaisquer credenciais que você tenha obtido, incluindo um Certificado de Conclusão do Pathway Connect e/ou quaisquer certificados e diplomas online que você tenha concluído ou esteja cursando atualmente. Isso também pode incluir qualquer curso relevante.",
+                                "Informações relacionadas a habilidades comercializáveis e habilidades linguísticas."
                             ],
-                            "closeButton": "Close"
+                            "closeButton": "Fechar"
                         }
                     }
                 },
                 "employmentHistory": {
-                    "title": "Employment History",
-                    "description": "Please share with us your employment history starting one year before you started BYU Pathway Worldwide.",
+                    "title": "Histórico de Emprego",
+                    "description": "Por favor, compartilhe conosco seu histórico de emprego começando um ano antes de você iniciar a BYU Pathway Worldwide.",
                     "buttons": {
                         "add": {
-                        "label": "Add +"
+                        "label": "Adicionar +"
                         },
                         "reviewSavedItems": {
-                        "label": "Review Saved Items",
+                        "label": "Revisar Itens Salvos",
                         "count": 0
                         }
                     }
                 }
             },
-            "submitButton": "Complete Module"
+            "submitButton": "Concluir Módulo"
         },
         "jobProfileSection2Screen": {
-            "title": "Job Profile - Section 2",
+            "title": "Perfil Profissional - Seção 2",
             "form": {
                 "contactInformation": {
-                "title": "Contact Information",
+                "title": "Informações de Contato",
                 "questions": [
                     {
-                    "question": "What is the best way to contact you?",
+                    "question": "Qual a melhor forma de contatá-lo?",
                     "options": [
-                        "Select an item",
+                        "Selecionar um item",
                         "Whatsapp",
                         "Email"
                     ]
                     },
                     {
-                    "question": "What language do you speak? Select all that apply.",
+                    "question": "Qual idioma você fala? Selecione todos os que se aplicam.",
                     "input": {
-                        "placeholder": "Add language"
+                        "placeholder": "Adicionar idioma"
                     }
                     }
                 ]
                 },
                 "jobPreferences": {
-                "title": "Job Preferences",
+                "title": "Preferências de Emprego",
                 "questions": [
                     {
-                    "question": "What type of job are you looking for? Select all that apply.",
+                    "question": "Que tipo de trabalho você está procurando? Selecione todos os que se aplicam.",
                     "options": [
-                        "Remote",
-                        "In-person (Local)"
+                        "Remoto",
+                        "Presencial (Local)"
                     ]
                     },
                     {
-                    "question": "How many hours are you available to work per week? Select all that apply.",
+                    "question": "Quantas horas você está disponível para trabalhar por semana? Selecione todos os que se aplicam.",
                     "options": [
-                        "Full time (up to 40 hours per week)",
-                        "Part time (up to 20 hours per week)"
+                        "Tempo integral (até 40 horas por semana)",
+                        "Meio período (até 20 horas por semana)"
                     ]
                     },
                     {
-                    "question": "What industries are you interested in? Select all that apply.",
+                    "question": "Em quais setores você está interessado? Selecione todos os que se aplicam.",
                     "options": [
-                        "Accounting/Finance",
-                        "Health Care",
-                        "Technology",
-                        "Artificial Intelligence",
+                        "Contabilidade/Finanças",
+                        "Saúde",
+                        "Tecnologia",
+                        "Inteligência Artificial",
                         "Marketing"
                     ]
                     },
                     {
-                    "question": "Please indicate how much money you usually earn in one month in your local currency.",
+                    "question": "Por favor, indique quanto dinheiro você geralmente ganha em um mês em sua moeda local.",
                     "inputs": {
-                        "salaryAmountPlaceholder": "Salary amount",
-                        "currencyPlaceholder": "Currency"
+                        "salaryAmountPlaceholder": "Valor do salário",
+                        "currencyPlaceholder": "Moeda"
                     }
                     }
                 ]
                 },
                 "educationHistory": {
-                "title": "Education History",
-                "description": "Please describe any higher education you completed prior to BYU Pathway, including degrees, diplomas, or certificates from other colleges or universities. Do not include BYU Pathway, BYU-Idaho, or Ensign College certificates or degrees.",
+                "title": "Histórico Educacional",
+                "description": "Por favor, descreva qualquer ensino superior que você tenha concluído antes da BYU Pathway, incluindo diplomas, certificados ou títulos de outras faculdades ou universidades. Não inclua certificados ou diplomas da BYU Pathway, BYU-Idaho ou Ensign College.",
                 "buttons": {
-                    "add": "Add",
-                    "reviewSavedItems": "Review Saved Items"
+                    "add": "Adicionar",
+                    "reviewSavedItems": "Revisar Itens Salvos"
                 }
                 },
                 "technologyAndAccessibility": {
-                "title": "Technology and Accessibility",
+                "title": "Tecnologia e Acessibilidade",
                 "questions": [
                     {
-                    "question": "What electronic devices do you have access to? Select all that apply.",
+                    "question": "A quais dispositivos eletrônicos você tem acesso? Selecione todos os que se aplicam.",
                     "options": [
-                        "Computer (Personal)",
-                        "Computer (Shared or Public)",
-                        "Smartphone (Personal)",
-                        "Smartphone (Shared or Public)",
-                        "Tablet (Personal)",
-                        "Tablet (Shared or Public)"
+                        "Computador (Pessoal)",
+                        "Computador (Compartilhado ou Público)",
+                        "Smartphone (Pessoal)",
+                        "Smartphone (Compartilhado ou Público)",
+                        "Tablet (Pessoal)",
+                        "Tablet (Compartilhado ou Público)"
                     ]
                     },
                     {
-                    "question": "On average, how many times a week do you experience power outage?",
+                    "question": "Em média, quantas vezes por semana você experimenta falta de energia?",
                     "options": [
                         "0",
                         "1–2",
@@ -3106,47 +3106,47 @@ export const translations = {
                 ]
                 },
                 "profileQuestions": {
-                "title": "Profile Questions",
-                "description": "Answer the following questions as truly as possible, two minutes max.",
+                "title": "Perguntas do Perfil",
+                "description": "Responda às seguintes perguntas da forma mais verdadeira possível, no máximo dois minutos.",
                 "questions": [
                     {
-                    "question": "Describe an experience where you used your leadership skills. What was the situation? What did you do? What was the result?"
+                    "question": "Descreva uma experiência em que você usou suas habilidades de liderança. Qual foi a situação? O que você fez? Qual foi o resultado?"
                     },
                     {
-                    "question": "Your team member let you borrow something. While using it, you accidentally broke it. Leave a voicemail for your team member to explain the problem and recommend a solution."
+                    "question": "Seu colega de equipe te emprestou algo. Ao usá-lo, você acidentalmente o quebrou. Deixe uma mensagem de voz para seu colega de equipe para explicar o problema e recomendar uma solução."
                     }
                 ]
                 }
             },
             "alerts": [
-                "There are missing or invalid fields.",
-                "Audio response is required."
+                "Há campos ausentes ou inválidos.",
+                "A resposta de áudio é obrigatória."
             ],
-            "completeModuleButton": "Complete Module"
+            "completeModuleButton": "Concluir Módulo"
             },
         "jobProfileSection3Screen": {
-            "title": "External Test",
-            "description": "Please complete the following tests. (Copy the URLs and paste them into your desktop browser.)",
+            "title": "Teste Externo",
+            "description": "Por favor, complete os seguintes testes. (Copie os URLs e cole-os em seu navegador de desktop.)",
             "links": [
                 {
-                "label": "Internet Speed Test",
-                "urlPlaceholder": "Link to Internet Speed Test"
+                "label": "Teste de Velocidade da Internet",
+                "urlPlaceholder": "Link para Teste de Velocidade da Internet"
                 },
                 {
-                "label": "Typing Speed Test",
-                "urlPlaceholder": "Link to Typing Speed Test"
+                "label": "Teste de Velocidade de Digitação",
+                "urlPlaceholder": "Link para Teste de Velocidade de Digitação"
                 }
             ],
             "checkbox": {
-                "label": "I have completed the test"
+                "label": "Concluí o teste"
             },
             "button": {
-                "label": "Go Back"
+                "label": "Voltar"
             },
             "successPopup": {
-                "title": "Success!",
-                "message": "External test marked as completed",
-                "button": "Go Back"
+                "title": "Sucesso!",
+                "message": "Teste externo marcado como concluído",
+                "button": "Voltar"
             }
         },
         "feedbackScreen": {
