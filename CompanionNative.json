@@ -2226,47 +2226,49 @@ export const translations = {
                 }
             }
         },
+        {
         "authenthicationLoadingPage": {
-            "title": "Procecing Authenthication..."
+            "title": "Processando Autenticação..."
         },
         "menuScreen": {
-            "greeting": "Hello 👋🏻, {studentName}",
+            "greeting": "Olá 👋🏻, {studentName}",
             "appsSection": {
-                "title": "Apps",
+                "title": "Aplicativos",
                 "appsCarousel": [
-                    { "aiAssistance": "AI Assistance" },
-                    { "academicCenter": "Academic Center" },
-                    { "network": "Network" },
-                    { "jobs": "Jobs" },
+                    { "aiAssistance": "Assistência de IA" },
+                    { "academicCenter": "Centro Acadêmico" },
+                    { "network": "Rede" },
+                    { "jobs": "Empregos" },
                     { "ec3": "EC3" },
-                    { "openAllApps": "Open All Apps" }
+                    { "openAllApps": "Abrir Todos os Aplicativos" }
                 ]
             },
             "notificationsSection": {
-                "title": "Latest Notifications",
-                "viewAllButton": "View All Notifications"
+                "title": "Últimas Notificações",
+                "viewAllButton": "Ver Todas as Notificações"
             },
             "academicProgressSection": {
-                "title": "My Academic Progress",
+                "title": "Meu Progresso Acadêmico",
                 "programsCarousel":[
                     {
-                    "subject": "Religion",
+                    "subject": "Religião",
                     "institution": "BYU-Idaho",
                     "credits": {
-                        "label": "Credits",
+                        "label": "Créditos",
                         "Value": "8"
                     },
                     "progressBar": {
                         "percentage": 60,
-                        "label": "% Completed"
+                        "label": "% Concluído"
                         }
                     }
                 ]
             }
         },
         "notificationsScreen": {
-            "noNotificationsTitle": "No Notifications Available",
-            "noNotificationsMessage": "There are no items available at this time."
+            "noNotificationsTitle": "Nenhuma Notificação Disponível",
+            "noNotificationsMessage": "Não há itens disponíveis no momento."
+        }
         },
         "aiAssistanceScreen": {
             "title": "Companion Assistant",
