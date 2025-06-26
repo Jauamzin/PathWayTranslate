@@ -2880,77 +2880,77 @@ export const translations = {
             "submitButton": "Enviar"
         },
         "contactUsScreen": {
-            "text": "Need help? -You can call us at 1-801-655-6424.\nMon–Fri, 9am to 5pm (local time).",
+            "text": "Precisa de ajuda? - Você pode nos ligar no número 1-801-655-6424.\nSeg-Sex, das 9h às 17h (horário local).",
             "callButton": {
-                "label": "Call +1 (801)-655-6424"
+                "label": "Ligar para +1 (801)-655-6424"
             }
         },
         "networkScreen": {
-            "title": "Network",
+            "title": "Rede",
             "networkOptions": [
                 {
-                    "mentorInformation": "Mentor Information",
-                    "description": "Access details about mentors and how to connect with them."
+                    "mentorInformation": "Informações do Mentor",
+                    "description": "Acesse detalhes sobre mentores e como se conectar com eles."
                 },
                 {
-                    "gatheringInformation": "Gathering Information",
-                    "description": "Find details about upcoming gatherings, locations, and schedules."
+                    "gatheringInformation": "Informações de Reunião",
+                    "description": "Encontre detalhes sobre as próximas reuniões, locais e horários."
                 },
                 {
-                    "contactUs": "Contact Us",
-                    "description": "Call our support line for assistance."
+                    "contactUs": "Entre em Contato",
+                    "description": "Ligue para nossa linha de suporte para assistência."
                 }
             ]
         },
         "mentorInformationScreen": {
-            "title": "Mentor Information",
-            "description": "BYU Pathway Mentors are a resource to students through their education journey, offering strategies for success, important reminders, connecting students to support resources, and providing encouragement to help students achieve their goals.",
-            "noMentorMessage": "No Mentor Information available at this time."
+            "title": "Informações do Mentor",
+            "description": "Os Mentores da BYU Pathway são um recurso para os alunos em sua jornada educacional, oferecendo estratégias para o sucesso, lembretes importantes, conectando os alunos a recursos de apoio e fornecendo encorajamento para ajudar os alunos a alcançar seus objetivos.",
+            "noMentorMessage": "Nenhuma informação de mentor disponível no momento."
         },
         "gatheringInformationScreen": {
-            "title": "Gathering Information",
-            "noGatheringsMessage": "You are not currently involved in any gathering."
+            "title": "Informações de Reunião",
+            "noGatheringsMessage": "Você não está atualmente envolvido em nenhuma reunião."
         },
         "jobsScreen": {
-            "title": "Jobs",
+            "title": "Vagas de Emprego",
             "options": [
                 {
-                "jobsAvailable": "Jobs Available",
-                "description": "Explore entry-level job opportunities that match your skills and career goals."
+                "jobsAvailable": "Vagas Disponíveis",
+                "description": "Explore oportunidades de emprego de nível inicial que correspondam às suas habilidades e objetivos de carreira."
                 },
                 {
-                "jobsAppliedTo": "Jobs Applied To",
-                "description": "Track the status of your job application and stay updated on potential opportunities."
+                "jobsAppliedTo": "Vagas Candidatadas",
+                "description": "Acompanhe o status de sua candidatura a empregos e mantenha-se atualizado sobre possíveis oportunidades."
                 },
                 {
-                "jobProfile": "Job Profile",
-                "description": "Create and manage your job profile to showcase your skill and experience."
+                "jobProfile": "Perfil de Emprego",
+                "description": "Crie e gerencie seu perfil de emprego para mostrar suas habilidades e experiência."
                 }
             ]
         },
         "jobsAvailableScreen": {
-            "noJobsAvalibleMessage": "Empty"
+            "noJobsAvalibleMessage": "Vazio"
         },
         "jobsAppliedToScreen": {
-            "noJobsAppliedToMessage": "Empty"
+            "noJobsAppliedToMessage": "Vazio"
         },
         "jobProfileNavScreen": {
-            "title": "Job Profile",
+            "title": "Perfil de Emprego",
             "sections": [
                 {
-                "section1": "Section 1",
-                "description": "Share your job status, give sharing permissions, and list your work history."
+                "section1": "Seção 1",
+                "description": "Compartilhe seu status de emprego, conceda permissões de compartilhamento e liste seu histórico de trabalho."
                 },
                 {
-                "section2": "Section 2",
-                "description": "Share how we can reach to you your work preference, language skills, education, and access to technology."
+                "section2": "Seção 2",
+                "description": "Compartilhe como podemos contatá-lo, suas preferências de trabalho, habilidades linguísticas, educação e acesso à tecnologia."
                 },
                 {
-                "section3": "Section 3",
-                "description": "You will be directed to convenient web app to complete a quick internet speed test and typing speed test."
+                "section3": "Seção 3",
+                "description": "Você será direcionado para um aplicativo da web conveniente para concluir um teste rápido de velocidade da internet e um teste de velocidade de digitação."
                 }
             ],
-            "footerText": "Please, complete your profile."
+            "footerText": "Por favor, complete seu perfil."
         },
         "jobProfileSection1Screen": {
             "title": "Job Profile - Section 1",
