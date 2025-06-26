@@ -2152,74 +2152,78 @@ export const translations = {
         }
     },
     "pt": {
-        "loginScreen": {
-            "title": "Welcome to Companion",
-            "onboardingCarousel": [
-            {
-                "title": "Notifications",
-                "description": "Receive the latest notifications directly to your mobile device to stay updated on important deadlines, submitted cases, when registration opens, and more!. We will inform you about everything so you don't miss anything."
-            },
-            {
-                "title": "Services",
-                "description": "If you are experiencing an issue, you can create, update, and review submitted cases. You also have easy access to services like official transcript requests, enrollment verification, applying for graduation, and registering for upcoming terms."
-            },
-            {
-                "title": "AI Assistance",
-                "description": "Access AI Assistance designed especially for you!. This assistance can help you frequently with asked questions, specific course inquiries, and improve your English. You can find this resource in the 'AI Assistans' app."
-            }
-            ],
-            "buttons": [
-            {
-                "label": "Sign In"
-            },
-            {
-                "label": "Not a Student"
-            }
-            ],
-            "termsText": "By downloading, accessing, or using Companion, you agree to these terms of use. Please read them carefully before using the app."
-        },
-        "notStudentScreen": {
-            "banner": "BYU-Pathway Worldwide provides access to spiritually based degrees completely online at an affordable price.",
-            "ourStudents&Alumni": {
-            "title": "Our Students & Alumni",
-            "testimonialsCarousel": [
-            {
-                "text": "There is never a perfect time to finish your degree. There will always be things that make it hard, but you can do hard things. I learned exactly what I needed to learn and it not only helped me academically, it helped me in my life!."
-            },
-            {
-                "text": "I decided to try my best to pave the way for my dream of earning a degree by enrolling at BYU-Pathway Worldwide courses."
-            },
-            {
-                "text": "As a non-latter-day Saint, joining BYU-Pathway bought me initial apprehension. However, I was immediately greeted with open arms by the missionaries and my classmates."
-            }
-                ]
-            },
-            "degreesInformation": {
-            "title": "Degrees Information",
-            "card": {
-                "title": "Want a Better Job Before You Graduate?",
-                "description": "Earn a Job-Ready Certificate While Earning a Bachelor's Degree.",
-                "button": "View Degrees"
-            }
-            },
-            "moreInformationSection": {
-            "title": "More Information",
-            "cards": [
+        {
+            "loginScreen": {
+                "title": "Bem-vindo ao Companion",
+                "onboardingCarousel": [
                 {
-                "applyPCToday": "Apply to Pathway Connect Today",
-                "description": "Start Your Journey",
-                "buttonLabel": "Apply Now"
+                    "title": "Notificações",
+                    "description": "Receba as últimas notificações diretamente no seu dispositivo móvel para se manter atualizado sobre prazos importantes, casos enviados, quando as inscrições abrem e muito mais! Iremos informá-lo sobre tudo para que você não perca nada."
                 },
                 {
-                "learnMore": "Learn More About Pathway Connect",
-                "buttonLabel": "Request Info"
+                    "title": "Serviços",
+                    "description": "Se você estiver enfrentando um problema, pode criar, atualizar e revisar casos enviados. Você também tem acesso fácil a serviços como solicitações de histórico escolar oficial, verificação de matrícula, solicitação de graduação e registro para os próximos períodos."
                 },
                 {
-                "help": "Need Help? Our AI Assistant Has Answers",
-                "buttonLabel": "AI Assistant"
+                    "title": "Assistência de IA",
+                    "description": "Acesse a Assistência de IA projetada especialmente para você! Essa assistência pode ajudá-lo frequentemente com perguntas frequentes, perguntas específicas do curso e melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
                 }
-            ],
-            "finalButton": "Go to Login"
+                ],
+                "buttons": [
+                {
+                    "label": "Entrar"
+                },
+                {
+                    "label": "Não sou estudante"
+                }
+                ],
+                "termsText": "Ao baixar, acessar ou usar o Companion, você concorda com estes termos de uso. Por favor, leia-os cuidadosamente antes de usar o aplicativo."
+            }
+        },
+        {
+            "notStudentScreen": {
+                "banner": "BYU-Pathway Worldwide oferece acesso a diplomas com base espiritual, completamente online e com preços acessíveis.",
+                "ourStudents&Alumni": {
+                "title": "Nossos Alunos e Ex-Alunos",
+                "testimonialsCarousel": [
+                {
+                    "text": "Nunca há um momento perfeito para terminar seu diploma. Sempre haverá coisas que tornarão isso difícil, mas você pode fazer coisas difíceis. Aprendi exatamente o que precisava aprender e isso não só me ajudou academicamente, mas também na minha vida!"
+                },
+                {
+                    "text": "Decidi me esforçar ao máximo para pavimentar o caminho para meu sonho de obter um diploma, matriculando-me nos cursos da BYU-Pathway Worldwide."
+                },
+                {
+                    "text": "Como não sou membro de A Igreja de Jesus Cristo dos Santos dos Últimos Dias, ingressar na BYU-Pathway me causou apreensão inicial. No entanto, fui imediatamente recebido de braços abertos pelos missionários e meus colegas de classe."
+                }
+                    ]
+                },
+                "degreesInformation": {
+                "title": "Informações sobre Diplomas",
+                "card": {
+                    "title": "Quer um emprego melhor antes de se formar?",
+                    "description": "Obtenha um Certificado Profissional enquanto Conquista um Bacharelado.",
+                    "button": "Ver Diplomas"
+                }
+                },
+                "moreInformationSection": {
+                "title": "Mais Informações",
+                "cards": [
+                    {
+                    "applyPCToday": "Inscreva-se no PathwayConnect Hoje",
+                    "description": "Comece Sua Jornada",
+                    "buttonLabel": "Inscreva-se Agora"
+                    },
+                    {
+                    "learnMore": "Saiba Mais sobre o PathwayConnect",
+                    "buttonLabel": "Solicitar Informações"
+                    },
+                    {
+                    "help": "Precisa de Ajuda? Nosso Assistente de IA Tem Respostas",
+                    "buttonLabel": "Assistente de IA"
+                    }
+                ],
+                "finalButton": "Ir para o Login"
+                }
             }
         },
         "authenthicationLoadingPage": {
@@ -3217,8 +3221,8 @@ export const translations = {
                 "privacyPolicy": "Política de Privacidade"
             },
             "footer": "Copyright © 2025 Companion"
-        }
-          "signOutScreen": {
+        },
+        "signOutScreen": {
             "title": "Sair",
             "message": "Tem certeza de que deseja sair?",
             "buttons": {
