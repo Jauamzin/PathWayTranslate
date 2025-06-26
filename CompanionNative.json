@@ -2616,128 +2616,127 @@ export const translations = {
            }
         },
         "enrollmentVerificationScreen": {
-            "title": "Enrollment Verification",
-            "description": "This form allows students to request official enrollment verification to provide to a third party as proof of their enrollment at BYU Pathway Worldwide. For details about your enrollment courses, please visit your student portal. On the homepage, navigate to Classes, tile for app to the date enrollment information.",
-            "form": {
-                "question1": {
-                    "question": "Which institution would you like your enrollment verification for?*",
-                    "description": "Enrollment Verifications are specific to enrollment.",
-                    "options": [
-                        "BYU-Idaho",
-                        "Ensign College",
-                        "BYU Pathway"
-                    ]
-                },
-                "question2": { 
-                    "question": "What would you like to include on your enrollment verification?",
-                    "description": "All verifications will list your full name and your student ID. Choose what else you'd like to provide below.",
-                    "options": [
-                        "Enrollment status",
-                        "Date of birth",
-                        "Address",
-                        "Social security number",
-                        "Declared programs",
-                        "Grade point average (GPA)",
-                        "Earned credentials, certificates and degrees",
-                        "Withdrawal date, if applicable",
-                        "Academic standing",
-                        "Tuition cost per credit hour"
-                    ]
-                },
-                "question3": {
-                    "question": "Would you like to include details about your currently enrolled courses?",
-                    "description": "The following information will be provided for any courses you are currently enrolling. Course code, section, title, credits and instructor name.",
-                    "options": [
-                        "Just include information about my current courses",
-                        "No, do not include information about my current courses"
-                    ]
-                },
-                "question4": {
-                    "question": "What would you like to include on your enrollment verification?",
-                    "description": "All verification will list your full name and your student ID. Choose what else you'd like to provide below.",
-                    "options": [
-                        "Provide current term summary",
-                        "Provide future term summary"
-                    ]
-                },
-                "question5": {
-                    "question": "Which reason best describes why you need an enrollment verification?",
-                    "options": [
-                        "Provide to employer",
-                        "Housing request",
-                        "Scholarship / Financial aid",
-                        "Other"
-                    ]
-                },
-                "Button": "Submit"
-            }
+          "title": "Verificação de Matrícula",
+          "description": "Este formulário permite que os alunos solicitem uma verificação oficial de matrícula para fornecer a terceiros como comprovante de sua matrícula na BYU-Pathway Worldwide. Para detalhes sobre seus cursos de matrícula, visite seu portal do aluno. Na página inicial, navegue até Aulas, bloco para informações de matrícula atualizadas do aplicativo.",
+          "form": {
+              "question1": {
+                  "question": "Para qual instituição você gostaria de sua verificação de matrícula?*",
+                  "description": "As verificações de matrícula são específicas para a matrícula.",
+                  "options": [
+                    "BYU-Idaho",
+                    "Ensign College",
+                    "BYU Pathway"
+                  ]
+              },
+              "question2": {
+                  "question": "O que você gostaria de incluir em sua verificação de matrícula?",
+                  "description": "Todas as verificações listarão seu nome completo e seu ID de estudante. Escolha o que mais você gostaria de fornecer abaixo.",
+                  "options": [
+                    "Status de matrícula",
+                    "Data de nascimento",
+                    "Endereço",
+                    "Número de seguro social",
+                    "Programas declarados",
+                    "Média de notas (GPA)",
+                    "Credenciais, certificados e diplomas obtidos",
+                    "Data de desligamento, se aplicável",
+                    "Situação acadêmica",
+                    "Custo da mensalidade por hora de crédito"
+                  ]
+              },
+              "question3": {
+                  "question": "Gostaria de incluir detalhes sobre seus cursos atualmente matriculados?",
+                  "description": "As seguintes informações serão fornecidas para quaisquer cursos em que você esteja atualmente matriculado: código do curso, seção, título, créditos e nome do instrutor.",
+                  "options": [
+                    "Apenas incluir informações sobre meus cursos atuais",
+                    "Não, não incluir informações sobre meus cursos atuais"
+                  ]
+              },
+              "question4": {
+                  "question": "O que você gostaria de incluir em sua verificação de matrícula?",
+                  "description": "Todas as verificações listarão seu nome completo e seu ID de estudante. Escolha o que mais você gostaria de fornecer abaixo.",
+                  "options": [
+                    "Fornecer resumo do período atual",
+                    "Fornecer resumo do período futuro"
+                  ]
+              },
+              "question5": {
+                  "question": "Qual razão melhor descreve por que você precisa de uma verificação de matrícula?",
+                  "options": [
+                    "Fornecer ao empregador",
+                    "Solicitação de moradia",
+                    "Bolsa de estudo / Ajuda financeira",
+                    "Outro"
+                  ]
+              },
+              "Button": "Enviar"
+          }
         },
         "officialTranscriptScreen": {
-            "title": "Official transcript",
-            "firstScreen": {
-                "description": "An Official Transcript is a copy of your permanent academic record issued by Student Record & Resgitration and is typically sent to third parties, e.g., (colleges, graduate programs companies).* An Unofficial Transcript is only avalible through your student account and is typically for personal use.* Please contact your recipient regarding which transcript type they will accpt and meets their requirements.",
-                "button": "Continue"
-            },
-            "secondScreen":{
-                "title": "Official transcript Request Policy",
-                "description": "BYU-Pathway Worldwide will cover the cost of the first two official transcript requests for each institution: - BYU-Pathway Worldwide - BYU-Idaho - Ensign College Additional official transcript requests may be subject to a fee. Students are encouraged to plan accordingly. Students may view their unofficial transcripts at no cost through their student portal.",
-                "form":{
-                    "question1": {
-                        "question": "From which institution are you requesting your transcript?",
-                        "answers": [
-                            "Select item",
-                            "BYU-Pathway Worldwide",
-                            "BYU-Idaho",
-                            "Ensign College"
-                        ]
-                    },
-                    "question2": {
-                        "question": "*Name of institution, group, or person receiving this transcript:",
-                        "answerBox": "Type Here"
-                    },
-                    "question3":{
-                        "question": "*Enter the email of the recipient that should receive your official transcript",
-                        "answerBox": "Type Here"
-                        
-                    }
-                },
-                "errorAlert": {
-                    "title": "Error!",
-                    "description": "Not found",
-                    "button": "Go back"
-                }
-            }
+          "title": "Histórico Escolar Oficial",
+          "firstScreen": {
+              "description": "Um Histórico Escolar Oficial é uma cópia do seu registro acadêmico permanente emitido pelo Departamento de Registro de Estudantes e é normalmente enviado a terceiros, por exemplo, (faculdades, programas de pós-graduação, empresas).* Um Histórico Escolar Não Oficial está disponível apenas através da sua conta de estudante e é tipicamente para uso pessoal.* Entre em contato com o destinatário para saber qual tipo de histórico eles aceitarão e atende aos requisitos deles.",
+              "button": "Continuar"
+          },
+          "secondScreen":{
+              "title": "Política de Solicitação de Histórico Escolar Oficial",
+              "description": "A BYU-Pathway Worldwide cobrirá o custo das duas primeiras solicitações de histórico escolar oficial para cada instituição: - BYU-Pathway Worldwide - BYU-Idaho - Ensign College Solicitações adicionais de histórico escolar oficial podem estar sujeitas a uma taxa. Os alunos são incentivados a planejar de acordo. Os alunos podem visualizar seus históricos escolares não oficiais sem custo através de seu portal do aluno.",
+              "form":{
+                  "question1": {
+                    "question": "De qual instituição você está solicitando seu histórico escolar?",
+                    "answers": [
+                        "Selecionar item",
+                        "BYU-Pathway Worldwide",
+                        "BYU-Idaho",
+                        "Ensign College"
+                    ]
+                  },
+                  "question2": {
+                    "question": "*Nome da instituição, grupo ou pessoa que receberá este histórico escolar:",
+                    "answerBox": "Digite aqui"
+                  },
+                  "question3":{
+                    "question": "*Digite o e-mail do destinatário que deve receber seu histórico escolar oficial",
+                    "answerBox": "Digite aqui"
+                  }
+              },
+              "errorAlert": {
+                  "title": "Erro!",
+                  "description": "Não encontrado",
+                  "button": "Voltar"
+              }
+          }
         },
         "AcademicExceptionsScreen": {
-            "title": "Academic Exceptions",
-            "disclaimer": "Disclaimer: Submitting this request does not guarantee approval. Approval or denial of this petition may affect your tuition, academic status international status, etc. It is your responsibility to explore and understand these impacts. Decisions by the committee are permanent and final.",
-            "form": {
-                "question1": {
-                    "question": "What academic exception would you like to escalate?",
-                    "answers": [
-                            "Select item",
-                            "Withdraw/Drop",
-                            "Other"
-                        ]
-                },
-                "withdrawDrop": {
-                    "question": "Select the term from which you would like to submit the exception",
-                    "answers": [
-                            "Select item",
-                            "One Option"
-                        ]
-                },
-                "Other": {
-                    "question": "Please explain what is your academic exception petition.*",
-                    "typingBox": "Type here"
-                },
-                "button": "Continue"
-            },
-            "successAlert": {
-                "Title":  "Success!",
-                "message": "You request has been successfully submitted.",
-                "button": "Go back"
-            }
+          "title": "Exceções Acadêmicas",
+          "disclaimer": "Isenção de responsabilidade: O envio desta solicitação não garante a aprovação. A aprovação ou negação desta petição pode afetar sua mensalidade, status acadêmico, status internacional, etc. É sua responsabilidade explorar e entender esses impactos. As decisões do comitê são permanentes e finais.",
+          "form": {
+              "question1": {
+                  "question": "Qual exceção acadêmica você gostaria de escalar?",
+                  "answers": [
+                        "Selecionar item",
+                        "Retirada/Cancelamento",
+                        "Outro"
+                    ]
+              },
+              "withdrawDrop": {
+                  "question": "Selecione o período do qual você gostaria de enviar a exceção",
+                  "answers": [
+                        "Selecionar item",
+                        "Uma Opção"
+                    ]
+              },
+              "Other": {
+                  "question": "Por favor, explique qual é a sua petição de exceção acadêmica.*",
+                  "typingBox": "Digite aqui"
+              },
+              "button": "Continuar"
+          },
+          "successAlert": {
+              "Title": "Sucesso!",
+              "message": "Sua solicitação foi enviada com sucesso.",
+              "button": "Voltar"
+          }
         },
         "graduationApplicationScreen": {
             "title": "Graduation Application",
