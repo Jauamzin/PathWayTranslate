@@ -2152,7 +2152,6 @@ export const translations = {
         }
     },
     "pt": {
-        {
             "loginScreen": {
                 "title": "Bem-vindo ao Companion",
                 "onboardingCarousel": [
@@ -2739,69 +2738,69 @@ export const translations = {
           }
         },
         "graduationApplicationScreen": {
-            "title": "Graduation Application",
-            "description": "This application is for English Connect, Pathway Connect and all certificates & degrees offered through BYU-Pathway Worldwide in partnership with BYU-Idaho and Ensign College. You will need to fill out a separate Graduation Application for each credential you are applying for.",
+            "title": "Solicitação de Graduação",
+            "description": "Esta solicitação é para English Connect, Pathway Connect e todos os certificados e diplomas oferecidos através da BYU-Pathway Worldwide em parceria com a BYU-Idaho e a Ensign College. Você precisará preencher uma Solicitação de Graduação separada para cada credencial para a qual está se candidatando.",
             "form": {
                 "question1": {
-                    "question": "In which term or semester did/will you complete the requirements for the credentials you are applying for.",
+                    "question": "Em qual período ou semestre você concluiu/irá concluir os requisitos para as credenciais para as quais está se candidatando?",
                     "options": [
-                        "Select a term/semester",
-                        "2025 - Term 2",
-                        "2025 - Term 3"
+                        "Selecionar um período/semestre",
+                        "2025 - Período 2",
+                        "2025 - Período 3"
                     ]
                 },
                 "question2": {
-                    "question": "What credentials are you completing requirements for?",
+                    "question": "Para quais credenciais você está concluindo os requisitos?",
                     "options": [
-                        "Select credential",
-                        "Pathway Connect Completion Certificate",
-                        "English Connect Completion Certificate",
-                        "Certificate",
-                        "Associate's Degree",
-                        "Bachelor's Degree"
+                        "Selecionar credencial",
+                        "Certificado de Conclusão do Pathway Connect",
+                        "Certificado de Conclusão do English Connect",
+                        "Certificado",
+                        "Diploma de Associado",
+                        "Bacharelado"
                     ]
                 }
             },
-            "requiredFieldsNote": "Fields marked with * are required.",
-            "submitButton": "Submit",
+            "requiredFieldsNote": "Os campos marcados com * são obrigatórios.",
+            "submitButton": "Enviar",
             "successAlert": {
-                "Title":  "Success!",
-                "message": "You request has been successfully submitted.",
-                "button": "Go back"
+                "Title":  "Sucesso!",
+                "message": "Sua solicitação foi enviada com sucesso.",
+                "button": "Voltar"
             }
         },
         "submittedRequestsScreen": {
             "filter": {
-                "label": "Filter By",
+                "label": "Filtrar por",
                 "options": [
-                    "All Requests",
-                    "Open Requests",
-                    "Closed Requests"
+                    "Todas as Solicitações",
+                    "Solicitações Abertas",
+                    "Solicitações Fechadas"
                 ]
             },
-            "goBack": "Go Back"
+            "goBack": "Voltar"
         },
         "servicesScreen": {
-            "title": "Services",
+            "title": "Serviços",
             "servicesOptions": [
                 {
-                    "academicExceptions": "Academic Exceptions",
-                    "description": "Submit and Review Requests for an Exception to Academic Policies"
+                    "academicExceptions": "Exceções Acadêmicas",
+                    "description": "Envie e Revise Solicitações de Exceção às Políticas Acadêmicas"
                 },
                 {
-                    "enrollmentVerification": "Enrollment Verification",
-                    "description": "Obtain Official Proof of Enrollment for Employment, Scholarship, or Other Verifications"
+                    "enrollmentVerification": "Verificação de Matrícula",
+                    "description": "Obtenha Comprovante Oficial de Matrícula para Emprego, Bolsa de Estudo ou Outras Verificações"
                 },
                 {
-                    "graduationApplication": "Graduation Application",
-                    "description": "Apply for Graduation and Ensure You Meet All Requirements"
+                    "graduationApplication": "Solicitação de Graduação",
+                    "description": "Solicite a Graduação e Garanta que Você Atenda a Todos os Requisitos"
                 },
                 {
-                    "registration": "Registration",
-                    "description": "Register for a Course, Manage Your Class Schedule, and Access Important Enrollment Deadlines"
+                    "registration": "Matrícula",
+                    "description": "Matricule-se em um Curso, Gerencie sua Grade de Aulas e Acesse Prazos Importantes de Matrícula"
                 },
                 {
-                    "submitRequest": "Submit Requests",
+                    "submitRequest": "Enviar Solicitações",
                     "description": "Lorem Ipsum Dolor sit amet, consectetur adipiscing elit. Curabitur risus lacus"
                 }
             ]
@@ -2810,20 +2809,20 @@ export const translations = {
             "title": "Tickets",
             "ticketsOptions": [
                 {
-                    "openTickets": "Open Tickets",
-                    "description": "Track Ongoing tickets in progress"
+                    "openTickets": "Tickets Abertos",
+                    "description": "Acompanhe tickets em andamento"
                 },
                 {
-                    "closedTickets": "Closed Tickets",
-                    "description": "View tickets that have been resolved"
+                    "closedTickets": "Tickets Fechados",
+                    "description": "Visualize tickets que foram resolvidos"
                 },
                 {
-                    "submitNewTicket": "Submit New Ticket",
-                    "description": "Create and submit a new request"
+                    "submitNewTicket": "Enviar Novo Ticket",
+                    "description": "Crie e envie uma nova solicitação"
                 },
                 {
-                    "contactUs": "Contact Us",
-                    "description": "Call our support line for assistance"
+                    "contactUs": "Entre em Contato",
+                    "description": "Ligue para nossa linha de suporte para assistência"
                 }
             ]
         },
