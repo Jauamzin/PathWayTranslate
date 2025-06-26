@@ -3150,53 +3150,53 @@ export const translations = {
             }
         },
         "feedbackScreen": {
-            "title": "Submit Feedback",
+            "title": "Enviar Feedback",
             "FeedbackOptions": [
                 {
-                    "submitfeedback": "Submit Feedback",
-                    "description": "Share your thoughts or suggestions to help us improve the app"
+                    "submitfeedback": "Enviar Feedback",
+                    "description": "Compartilhe seus pensamentos ou sugestões para nos ajudar a melhorar o aplicativo"
                 },
                 {
-                    "reportanissue": "Report an Issue",
-                    "description": "Let us know about any technical problems or bugs you've encountered"
+                    "reportanissue": "Reportar um Problema",
+                    "description": "Informe-nos sobre quaisquer problemas técnicos ou bugs que você encontrou"
                 },
                 {
-                    "contactUs": "Contact Us",
-                    "description": "Call our support line for assistance."
+                    "contactUs": "Entre em Contato",
+                    "description": "Ligue para nossa linha de suporte para assistência."
                 }
             ]
         },
         "submitFeedbackScreen": {
-            "question": "How satisfied are you with the Companion experience?",
+            "question": "Quão satisfeito você está com a experiência do Companion?",
             "ratingNumbers": ["1", "2", "3", "4", "5"]
         },
         "settingsScreen": {
-            "title": "Settings",
+            "title": "Configurações",
             "profileOption": {
-                "title": "Profile",
-                "description": "View and update your personal details, preferences, and account settings." 
+                "title": "Perfil",
+                "description": "Visualize e atualize seus dados pessoais, preferências e configurações de conta."
             },
             "pushNotificationsOption": {
-                "title": "Push Notifications",
-                "description": "Manage your notifications preferences to stay informed about important updates."
+                "title": "Notificações Push",
+                "description": "Gerencie suas preferências de notificação para se manter informado sobre atualizações importantes."
             },
             "signOutOption": {
-                "title": "Sign Out",
-                "description": "Log out of your account and end your current session."
+                "title": "Sair",
+                "description": "Desconecte-se da sua conta e encerre sua sessão atual."
             },
             "aboutOption": {
-                "title": "About",
-                "description": "Learn more about Companion, and its features."
+                "title": "Sobre",
+                "description": "Saiba mais sobre o Companion e seus recursos."
             }
         },
         "profileScreen": {
-            "title": "Profile",
+            "title": "Perfil",
             "fields": {
-                "preferredName": "Preferred Name",
-                "preferredContact": "Preferred Method of Contact",
-                "whatsappNumber": "WhatsApp Number",
-                "preferredLanguage": "Preferred Language",
-                "updateButton": "Update"
+                "preferredName": "Nome Preferido",
+                "preferredContact": "Método de Contato Preferido",
+                "whatsappNumber": "Número do WhatsApp",
+                "preferredLanguage": "Idioma Preferido",
+                "updateButton": "Atualizar"
             }
         },
         "aboutScreen": {
