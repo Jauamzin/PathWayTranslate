@@ -2165,7 +2165,7 @@ export const translations = {
                 },
                 {
                     "title": "Assistência de IA",
-                    "description": "Acesse a Assistência de IA projetada especialmente para você! Essa assistência pode ajudá-lo frequentemente com perguntas frequentes, perguntas específicas do curso e melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
+                    "description": "Acesse a Assistência de IA projetada especialmente para você! Essa assistência pode ajudá-lo com perguntas frequentes, dúvidas específicas do curso e melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
                 }
                 ],
                 "buttons": [
@@ -2184,7 +2184,7 @@ export const translations = {
                 "title": "Nossos Alunos e Ex-Alunos",
                 "testimonialsCarousel": [
                 {
-                    "text": "Nunca há um momento perfeito para terminar seu diploma. Sempre haverá coisas que tornarão isso difícil, mas você pode fazer coisas difíceis. Aprendi exatamente o que precisava aprender e isso não só me ajudou academicamente, mas também na minha vida!"
+                    "text": "Nunca há um momento perfeito para terminar seu diploma. Sempre haverá coisas que tornarão isso difícil, mas você pode fazer coisas difíceis. Aprendi exatamente o que precisa e isso não só me ajudou academicamente, mas também na minha vida!"
                 },
                 {
                     "text": "Decidi me esforçar ao máximo para pavimentar o caminho para meu sonho de obter um diploma, matriculando-me nos cursos da BYU-Pathway Worldwide."
@@ -2295,23 +2295,23 @@ export const translations = {
             "carousel": [
                 {
                 "ResultHolds": {
-                    "title": "Retenções de Resultado",
+                    "title": "Ação Necessária",
                     "description": "As Retenções de Conta exigem que você siga etapas específicas para se registrar e concluir o curso.",
-                    "button": "Tomar Ação"
+                    "button": "Prosseguir"
                 }
                 },
                 {
                 "EcclesiasticalEndorsement": {
                     "title": "Endosso Eclesiástico",
                     "description": "É hora de renovar seu Endosso Eclesiástico.",
-                    "button": "Tomar Ação"
+                    "button": "Prosseguir"
                 }
                 },
                 {
                 "HerbertJGrantScholarship": {
                     "title": "Bolsa de Estudo Herbert J. Grant",
                     "description": "Inscreva-se na Bolsa HJG até 21 de março.",
-                    "button": "Tomar Ação"
+                    "button": "Prosseguir"
                 }
                 },
                 {
@@ -2403,7 +2403,7 @@ export const translations = {
                 "5. Mordomia e Reabastecimento"
                 ]
                 },
-                "timeEstimate": "Você deve prever que este módulo levará de 45 a 60 minutos para ser concluído. Se você não tiver tanto tempo, por favor, espere para iniciar o módulo em outro momento. Este recurso não só ajudará a BYU-Pathway a avaliar suas necessidades financeiras, mas também ajudará a cultivar as características necessárias para o seu sucesso contínuo como estudante da BYU-Pathway. Obrigado."
+                "timeEstimate": "Você deve este módulo levará de 45 a 60 minutos para ser concluído. Se você não tiver tanto tempo, por favor, espere para iniciar o módulo em outro momento. Este recurso não só ajudará a BYU-Pathway a avaliar suas necessidades financeiras, mas também ajudará a cultivar as características necessárias para o seu sucesso contínuo como estudante da BYU-Pathway. Obrigado."
             },
             "bioSection": {
                 "title": "Quem é Heber J. Grant?",
@@ -2429,14 +2429,14 @@ export const translations = {
                 ]
                 },
                 "reliableHousing": {
-                "question": "Você tem moradia confiável?",
+                "question": "Você mora em um lugar fixo e estável?",
                 "options": [
                 "Sim",
                 "Não"
                 ]
                 },
                 "struggleMeals": {
-                "question": "Você tem dificuldade para ter comida suficiente para você e sua família fazerem três refeições por dia?",
+                "question": "Você tem dificuldade para adquirir comida suficiente para você e sua família fazerem três refeições por dia?",
                 "options": [
                 "Sim",
                 "Não"
@@ -2465,7 +2465,7 @@ export const translations = {
                 ]
                 },
                 "circumstancesAffectingPayment": {
-                "question": "Existem outras circunstâncias que afetam sua capacidade de pagar sua educação?",
+                "question": "Existem outros fatores que afetam sua capacidade de pagar por sua educação?",
                 "options": [
                 "Sim",
                 "Não",
@@ -2916,7 +2916,7 @@ export const translations = {
             "options": [
                 {
                 "jobsAvailable": "Vagas Disponíveis",
-                "description": "Explore oportunidades de emprego de nível inicial que correspondam às suas habilidades e objetivos de carreira."
+                "description": "Explore oportunidades de emprego que correspondam às suas habilidades e objetivos de carreira."
                 },
                 {
                 "jobsAppliedTo": "Vagas Candidatadas",
