@@ -1968,7 +1968,8 @@ const translations = {
             "readingAssessmentPrompt": "Now, please complete your reading assessment",
             "readingAssessmentLinkText": "here",
             "leftTestMessage": "You left the test. All unsaved progress has been lost and the test has been reset.",
-            "passageValidationRequired": "Passage {number} answer is required.",
+            "passageValidationRequired1": "Passage 1 answer is required.",
+            "passageValidationRequired2": "Passage 2 answer is required.",
             "passageValidationMinLength": "Please write at least 4-5 sentences for Passage {number}."
         },
         "decisionInformation": {
@@ -2144,6 +2145,136 @@ const translations = {
             "continueButton": "Continue",
             "certificatesDegreesNextStep": "Use your institutional email to login: ",
             "goToLoginButton": "Go to Login"
+        },
+        "registrationScreen": {
+            "title": "Registration",
+            "subtitle": "Register your first course.",
+            "termTitle": "2025 Term 2",
+            "termDates": "Mar 3 - Apr 19",
+            "selectCourseQuestion": "Select Course",
+            "registerButton": "Register",
+            "validationMessage": {
+                "courseRequired": "Please select a course to register."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to register on ",
+                "confirmButton": "Confirm Registration",
+                "cancelButton": "Cancel"
+            },
+            "alert": {
+                "successTitle": "Registration Successful",
+                "successMessagePrefix": "You have registered for: ",
+                "nextStepMessage": "Now, please select your gathering time."
+            },
+            "loadingDescription": "Registering your course..."
+        },
+        "religionGatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "title2": "Religion",
+                "subtitle": "Please schedule your religion gathering time, even if you have completed all required religion courses."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "religionGatheringNote": "Please note: Religion gathering times are shown in your local time zone ({dynamicTimezone})."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messageSuffix": " at ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your religion gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Now, please lead to continue with your student experience."
+            },
+            "loading": {
+                "description": "Scheduling your religion gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "thur6PM": "Thur 6:00 PM",
+                "fri730PM": "Fri 7:30 PM",
+                "sat5PM": "Sat 5:00 PM"
+            },
+            "religionGatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
+        },
+        "gatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "titlePathwayConnect": "PathwayConnect",
+                "titleEnglishConnect3": "EnglishConnect3",
+                "subtitlePathwayConnect": "Please schedule your PC gathering time.",
+                "subtitleEnglishConnect3": "Please schedule your EC3 gathering time."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "gatheringNotePathwayConnect": "Please note: PC gathering times are displayed according to your local area schedule.",
+                "gatheringNoteEnglishConnect3": "Please note: EC3 gathering times are displayed according to your local area schedule."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messagePathwayConnect": "PC gathering on ",
+                "messageEnglishConnect3": "EC3 gathering on ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your PC gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Continue to select your religion gathering time."
+            },
+            "loading": {
+                "description": "Scheduling your gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "monday6PM": "Mon 6:00 PM",
+                "tuesday730PM": "Tue 7:30 PM",
+                "wednesday5PM": "Wed 5:00 PM"
+            },
+            "gatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
         }
     },
     "sp": {
@@ -4117,7 +4248,8 @@ const translations = {
             "readingAssessmentPrompt": "Now, please complete your reading assessment",
             "readingAssessmentLinkText": "here",
             "leftTestMessage": "You left the test. All unsaved progress has been lost and the test has been reset.",
-            "passageValidationRequired": "Passage {number} answer is required.",
+            "passageValidationRequired1": "Passage 1 answer is required.",
+            "passageValidationRequired2": "Passage 2 answer is required.",
             "passageValidationMinLength": "Please write at least 4-5 sentences for Passage {number}."
         },
         "decisionInformation": {
@@ -4293,6 +4425,136 @@ const translations = {
             "continueButton": "Continue",
             "certificatesDegreesNextStep": "Use your institutional email to login: ",
             "goToLoginButton": "Go to Login"
+        },
+        "registrationScreen": {
+            "title": "Registration",
+            "subtitle": "Register your first course.",
+            "termTitle": "2025 Term 2",
+            "termDates": "Mar 3 - Apr 19",
+            "selectCourseQuestion": "Select Course",
+            "registerButton": "Register",
+            "validationMessage": {
+                "courseRequired": "Please select a course to register."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to register on ",
+                "confirmButton": "Confirm Registration",
+                "cancelButton": "Cancel"
+            },
+            "alert": {
+                "successTitle": "Registration Successful",
+                "successMessagePrefix": "You have registered for: ",
+                "nextStepMessage": "Now, please select your gathering time."
+            },
+            "loadingDescription": "Registering your course..."
+        },
+        "religionGatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "title2": "Religion",
+                "subtitle": "Please schedule your religion gathering time, even if you have completed all required religion courses."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "religionGatheringNote": "Please note: Religion gathering times are shown in your local time zone ({dynamicTimezone})."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messageSuffix": " at ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your religion gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Now, please lead to continue with your student experience."
+            },
+            "loading": {
+                "description": "Scheduling your religion gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "thur6PM": "Thur 6:00 PM",
+                "fri730PM": "Fri 7:30 PM",
+                "sat5PM": "Sat 5:00 PM"
+            },
+            "religionGatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
+        },
+        "gatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "titlePathwayConnect": "PathwayConnect",
+                "titleEnglishConnect3": "EnglishConnect3",
+                "subtitlePathwayConnect": "Please schedule your PC gathering time.",
+                "subtitleEnglishConnect3": "Please schedule your EC3 gathering time."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "gatheringNotePathwayConnect": "Please note: PC gathering times are displayed according to your local area schedule.",
+                "gatheringNoteEnglishConnect3": "Please note: EC3 gathering times are displayed according to your local area schedule."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messagePathwayConnect": "PC gathering on ",
+                "messageEnglishConnect3": "EC3 gathering on ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your PC gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Continue to select your religion gathering time."
+            },
+            "loading": {
+                "description": "Scheduling your gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "monday6PM": "Mon 6:00 PM",
+                "tuesday730PM": "Tue 7:30 PM",
+                "wednesday5PM": "Wed 5:00 PM"
+            },
+            "gatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
         }
     },
     "pt": {
@@ -6371,7 +6633,8 @@ const translations = {
             "readingAssessmentPrompt": "Agora, por favor, complete sua avaliação de leitura",
             "readingAssessmentLinkText": "aqui",
             "leftTestMessage": "Você saiu do teste. Todo o progresso não salvo foi perdido e o teste foi redefinido.",
-            "passageValidationRequired": "A resposta da Passagem {number} é obrigatória.",
+            "passageValidationRequired1": "A resposta da Passagem 1 é obrigatória.",
+            "passageValidationRequired2": "A resposta da Passagem 2 é obrigatória.",
             "passageValidationMinLength": "Por favor, escreva pelo menos 4-5 frases para a Passagem {number}."
         },
         "decisionInformation": {
@@ -6547,6 +6810,136 @@ const translations = {
             "continueButton": "Continuar",
             "certificatesDegreesNextStep": "Use seu e-mail institucional para fazer login: ",
             "goToLoginButton": "Ir para o Login"
+        },
+        "registrationScreen": {
+            "title": "Registro",
+            "subtitle": "Registre seu primeiro curso.",
+            "termTitle": "2025 Período 2",
+            "termDates": "3 de Março - 19 de Abril",
+            "selectCourseQuestion": "Selecionar Curso",
+            "registerButton": "Registrar",
+            "validationMessage": {
+                "courseRequired": "Por favor, selecione um curso para registrar."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Tem certeza que deseja se registrar em ",
+                "confirmButton": "Confirmar Registro",
+                "cancelButton": "Cancelar"
+            },
+            "alert": {
+                "successTitle": "Registro Bem-sucedido",
+                "successMessagePrefix": "Você se registrou para: ",
+                "nextStepMessage": "Agora, por favor, selecione seu horário de reunião."
+            },
+            "loadingDescription": "Registrando seu curso..."
+        },
+        "religionGatheringScreen": {
+            "header": {
+                "title": "Reuniões",
+                "title2": "Religião",
+                "subtitle": "Por favor, agende seu horário de reunião de religião, mesmo que você tenha completado todos os cursos de religião necessários."
+            },
+            "termInfo": {
+                "title": "2025 Período 2",
+                "dates": "3 de Março - 19 de Abril"
+            },
+            "formLabels": {
+                "gatheringType": "Selecionar Fuso Horário",
+                "gatheringTime": "Selecionar Horário da Reunião",
+                "noAvailableTimes": "Nenhum horário disponível funciona para mim",
+                "scheduleButton": "Agendar",
+                "religionGatheringNote": "Observação: Os horários das reuniões de religião são mostrados no seu fuso horário local ({dynamicTimezone})."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Por favor, selecione um fuso horário.",
+                "gatheringTypeRequired": "Por favor, selecione um tipo de reunião (Virtual/Presencial).",
+                "gatheringTimeRequired": "Por favor, selecione um horário de reunião."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Tem certeza que deseja agendar sua reunião em ",
+                "messageSuffix": " às ",
+                "confirmButton": "Confirmar Agendamento",
+                "cancelButton": "Cancelar"
+            },
+            "successAlert": {
+            "title": "Sucesso!",
+                "messagePrefix": "Sua reunião de religião foi agendada com sucesso.",
+                "continueText": "Continuar",
+                "customComponentText": "Agora, por favor, continue para prosseguir com sua experiência de estudante."
+            },
+            "loading": {
+                "description": "Agendando sua reunião de religião..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Selecionar fuso horário",
+                "mountainTime": "Horário da Montanha (MDT)",
+                "easternTime": "Horário do Leste (EDT)",
+                "pacificTime": "Horário do Pacífico (PDT)",
+                "selectAnItem": "Selecionar um item",
+                "thur6PM": "Qui 18:00",
+                "fri730PM": "Sex 19:30",
+                "sat5PM": "Sáb 17:00"
+            },
+            "religionGatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "Presencial"
+            }
+        },
+        "gatheringScreen": {
+            "header": {
+                "title": "Reuniões",
+                "titlePathwayConnect": "PathwayConnect",
+                "titleEnglishConnect3": "EnglishConnect3",
+                "subtitlePathwayConnect": "Por favor, agende seu horário de reunião do PC.",
+                "subtitleEnglishConnect3": "Por favor, agende seu horário de reunião do EC3."
+            },
+            "termInfo": {
+                "title": "2025 Período 2",
+                "dates": "3 de Março - 19 de Abril"
+            },
+            "formLabels": {
+                "gatheringType": "Selecionar Fuso Horário",
+                "gatheringTime": "Selecionar Horário da Reunião",
+                "noAvailableTimes": "Nenhum horário disponível funciona para mim",
+                "scheduleButton": "Agendar",
+                "gatheringNotePathwayConnect": "Observação: Os horários das reuniões do PC são exibidos de acordo com o horário da sua área local.",
+                "gatheringNoteEnglishConnect3": "Observação: Os horários das reuniões do EC3 são exibidos de acordo com o horário da sua área local."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Por favor, selecione um fuso horário.",
+                "gatheringTypeRequired": "Por favor, selecione um tipo de reunião (Virtual/Presencial).",
+                "gatheringTimeRequired": "Por favor, selecione um horário de reunião."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Tem certeza que deseja agendar sua reunião em ",
+                "messagePathwayConnect": "reunião do PC em ",
+                "messageEnglishConnect3": "reunião do EC3 em ",
+                "confirmButton": "Confirmar Agendamento",
+                "cancelButton": "Cancelar"
+            },
+            "successAlert": {
+                "title": "Sucesso!",
+                "messagePrefix": "Sua reunião do PC foi agendada com sucesso.",
+                "continueText": "Continuar",
+                "customComponentText": "Continue para selecionar seu horário de reunião de religião."
+            },
+            "loading": {
+                "description": "Agendando sua reunião..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Selecionar fuso horário",
+                "mountainTime": "Horário da Montanha (MDT)",
+                "easternTime": "Horário do Leste (EDT)",
+                "pacificTime": "Horário do Pacífico (PDT)",
+                "selectAnItem": "Selecionar um item",
+                "monday6PM": "Seg 18:00",
+                "tuesday730PM": "Ter 19:30",
+                "wednesday5PM": "Qua 17:00"
+            },
+            "gatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "Presencial"
+            }
         }
     }
 };
