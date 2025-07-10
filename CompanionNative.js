@@ -1673,6 +1673,438 @@ const translations = {
             "attachFileButton": "Attach file",
             "selectedImageLabel": "Selected image",
             "changeImageButton": "Change image"
+        },
+        "notStudentWelcome": {
+            "welcomeTitle": "Welcome to the combined application for BYU-Pathway Worldwide and EnglishConnect 3!",
+            "churchAccountTitle": "Church Account",
+            "churchAccountP1": "You will need a Church account to log in and apply.",
+            "churchAccountBullet1": "If you are not a member of The Church of Jesus Christ of Latter-day Saints, please “Create a new Account” on the first sign-in page and follow the instructions.",
+            "churchAccountBullet2": "If you have a Church account but do not remember your login information, click “I forgot your username or password” and follow the instructions. Please do not create a new account.",
+            "applyButton": "Apply Now",
+            "programSelectionTitle": "Program Selection",
+            "programSelectionP1": "We will use the information in your application to recommend which program you should start with. You will make that final selection at the end of the application.",
+            "currentStudentsTitle": "Current Students",
+            "currentStudentsP1": "If you are currently enrolled in BYU-Pathway or EnglishConnect 3, please DO NOT apply. Log in to your student portal at portal.byupathway.edu to clear holds and register for courses."
+        },
+        "notStudentTermsConditions": {
+            "previousPageButton": "Previous Page",
+            "acknowledgementP1": "By checking the box below, I acknowledge and agree to the terms and conditions described herein, and I have read the Privacy Notice – BYU-Pathway Worldwide (Updated 2024-03-01) in addition to the Legal Disclosures and Select Institutional Policies that pertain to the institution where I have submitted or may submit an application (links above).",
+            "iAcknowledgeTermsAndConditions": "I acknowledge *",
+            "saveAndContinueButton": "Save and Continue",
+            "questionIsMember": "Are you a current or former member of The Church of Jesus Christ of Latter-day Saints?",
+            "questionPresentReligion": "What is your present religion, if any?",
+            "loadingMessage": "Loading...",
+            "errorMessagePrefix": "Error: ",
+            "pickerSelectAnItem": "Select an item",
+            "pickerOptionYes": "Yes",
+            "pickerOptionNo": "No",
+            "pickerOptionCatholic": "Catholic",
+            "pickerOptionNoReligion": "No Religion",
+            "validationRequired": "This field is required",
+            "validationReligionRequired": "This field is required when you are not a member.",
+            "validationAcknowledgeTerms": "You must acknowledge the terms and conditions."
+        },
+        "notStudentTermsConditions2NoMRN": {
+            "termsAndConditionsTitle": "Terms and Conditions",
+            "noMRNAttachedTitle": "NO MEMBERSHIP RECORD NUMBER (MRN) ATTACHED",
+            "mrnExplanation": "All members of The Church of Jesus Christ of Latter-Day Saints are required to have a membership record number (MRN) associated with their Church account to participate in the programs offered through BYU-Pathway Worldwide. The account you’re currently logged in with doesn’t have an MRN attached. See below for troubleshooting options:",
+            "optionOneTitle": "Option one:",
+            "optionOneDescription": "If a different Church account is associated with your MRN, sign in using that account.",
+            "optionOneBullet": "If you do not remember the username or password for that account, go through the steps found on the ",
+            "accountRecoveryLink": "account recovery page",
+            "optionOneBulletPart2": ". Do NOT create a new account.",
+            "optionTwoTitle": "Option two:",
+            "optionTwoDescription": "Add your MRN to your current account.",
+            "optionTwoStep1": "1. Sign out of the application.",
+            "optionTwoStep2": "2. Go to your ",
+            "churchAccountSettingsLink": "Church account membership settings",
+            "optionTwoStep3": "3. Add your MRN. You can find your MRN by:",
+            "optionTwoStep3a": "a. Checking your temple recommend.",
+            "optionTwoStep3b": "b. Contacting your ward or branch clerk.",
+            "optionTwoStep4": "4. Sign back into the application.",
+            "optionThreeTitle": "Option three:",
+            "optionThreeDescription": "If neither of the options above work, contact ",
+            "byuPathwaySupportLink": "BYU-Pathway Support",
+            "formerMembershipTitle": "Former Membership",
+            "formerMembershipP1": "Individuals who currently have formal membership restrictions or have had a voluntary or involuntary withdrawal of membership from The Church of Jesus Christ of Latter-day Saints are not eligible to participate in programs offered through BYU-Pathway Worldwide until reinstated to full fellowship in the Church. Applicants are encouraged to meet with their ecclesiastical leader to discuss the next steps for reinstatement to unrestricted membership status. For additional information or clarification, please contact BYU-Pathway Support."
+        },
+        "notStudentMemberWelcome": {
+            "welcomeGreeting": "Welcome Jhon Doe!",
+            "welcomeMessage": "Welcome to BYU-Pathway Worldwide! Please check if your name and email are correct:",
+            "yourNameLabel": "Your Name:",
+            "yourName": "Jhon Doe",
+            "yourEmailLabel": "Your Email:",
+            "yourEmail": "jhondoe@gmail.com",
+            "signOutMessage": "If this is not you, sign out and log in again with your Church Account.",
+            "contactSupport": "Contact BYU-Pathway Support if you need help.",
+            "startApplicationButton": "Start Application"
+        },
+        "notStudentInformation": {
+            "requestStudentInfoTitle": "Request Student Information",
+            "saveAndContinueButton": "Save and Continue",
+            "loadingMessage": "Loading...",
+            "errorMessagePrefix": "Error: ",
+            "receiveTextMessagesQuestion": "Would you like to receive text messages?",
+            "receiveTextMessagesOptionDoNotAllow": "Do not allow",
+            "receiveTextMessagesOptionAllow": "Allow",
+            "primaryLanguageSelectOption": "Select a language",
+            "validationFirstNameRequired": "First name is required",
+            "validationLastNameRequired": "Last name is required",
+            "validationDateOfBirthRequired": "Date of birth is required",
+            "validationSexRequired": "Sex is required",
+            "validationMaritalStatusRequired": "Marital status is required",
+            "validationPrimaryLanguageRequired": "Primary language is required",
+            "validationCountryRegionRequired": "Country/Region is required",
+            "validationZipInvalid": "Invalid ZIP",
+            "validationZipRequired": "ZIP is required",
+            "validationAddressLine1Required": "Address Line 1 is required",
+            "validationCityRequired": "City is required",
+            "validationEmailInvalid": "Invalid email address",
+            "validationEmailRequired": "Email is required",
+            "validationMobilePhoneInvalid": "Invalid phone number",
+            "validationMobilePhoneRequired": "Mobile Phone is required",
+            "validationHomePhoneInvalid": "Invalid phone number",
+            "validationPreferredPhoneRequired": "Preferred Phone is required",
+            "validationReceiveTextMessagesRequired": "Please select an option for text messages",
+            "validationWhatsAppNumberInvalid": "Invalid phone number"
+        },
+        "studentInfoSection": {
+            "firstNameLabel": "First/Given Name(s)*",
+            "lastNameLabel": "Last/Surname*",
+            "suffixLabel": "Suffix",
+            "dateOfBirthQuestion": "Date of birth*",
+            "sexQuestion": "Sex*",
+            "maritalStatusQuestion": "Marital Status*",
+            "primaryLanguageQuestion": "What is your Primary Language?*"
+        },
+        "currentAddressSection": {
+            "currentAddressTitle": "Current Address",
+            "currentAddressDescription": "This is the address of where you will be living while participating in BYU-Pathway Worldwide.",
+            "countryRegionQuestion": "Country/Region *",
+            "zipLabel": "ZIP*",
+            "stateProvinceLabel": "State/Province",
+            "addressLine1Label": "Address Line 1 *",
+            "cityLabel": "City *"
+        },
+        "contactInfoSection": {
+            "contactInfoTitle": "Contact Information",
+            "emailLabel": "Email *",
+            "mobilePhoneLabel": "Mobile Phone *",
+            "homePhoneLabel": "Home Phone",
+            "preferredPhoneQuestion": "Preferred Phone *",
+            "textMessageDescription": "BYU-Pathway uses text messaging to send enrollment reminders and important notifications. If you don't want to receive text messages, you can opt out below.",
+            "otherContactInfoTitle": "Other Contact Information",
+            "whatsAppNumberLabel": "WhatsApp Number",
+            "facebookMessengerLabel": "Facebook Messenger"
+        },
+        "citizenshipInformation": {
+            "requestStudentInfoTitle": "Request Student Information",
+            "saveAndContinueButton": "Save and Continue",
+            "citizenshipInfoTitle": "Citizenship Information",
+            "ssn": "Please provide your Social Security number (SSN). If you choose not to provide your SSN on this page, you will need to complete additional steps to receive tax forms.",
+            "hispanicLatino": "Do you consider yourself Hispanic/Latino?",
+            "racialCategoriesArray": "Select one or more of the following racial categories to describe yourself",
+            "haveUsCitizenshipQuestion": "Do you have citizenship in the U.S.?*",
+            "completedHighSchool": "Have you completed high school/secondary education? *",
+            "highestEducationQuestion": "What is your highest level of education?*",
+            "attendedUsUniversitiesQuestion": "Have you attended any one or more United States universities/colleges (not including PathwayConnect) after you graduated from high school?*",
+            "earnCreditUsUniversityQuestion": "Did you complete one or more 3+ credit courses with a grade of 'C' or higher at a United States university/college after you graduated from high school? *",
+            "selectSchool": "Select a school you have attended and completed at least one 3+ credit course.*",
+            "selectSchoolTitle": "Select your school:",
+            "selectSchoolNote1": "At this point in the application, you only need to select 1 school, even if you have attended multiple universities/colleges.",
+            "selectSchoolNote2": "For the purposes of this application, we only accept U.S. regionally accredited universities/colleges. If your university/college is not listed, change your response to the question \"Have you attended one or more United States universities/colleges after you graduated from high school?\" to \"No\".",
+            "selectSchoolNote3": "If your university/college was U.S. regionally accredited, but is not listed and has since changed its name, choose the most recent name of the school. Example: For Ricks College, select Brigham Young University-Idaho.",
+            "afterAdmittance": "After admittance to BYU-Pathway, you can submit official transcripts to transfer any previous university/college credits to satisfy program requirements. Some students may be required to submit transcripts for verification purposes",
+            "parentsBachelor": "Did either of your parents earn a bachelor's degree or equivalent?*",
+            "unresolvedLegalRestrictionsQuestion": "Do you have any unresolved legal restrictions, obligations, or fines for a crime you have been convicted of, pleaded guilty to, or were found responsible for (other than a minor traffic violation)? *",
+            "noteForUnresolvedLegalRestrictions": "These include, but are not limited to: current incarceration, probation, parole, listed on a sex-offender registry, court fees, community service, or other legal fines.",
+            "noteBachelor": "By clicking Save and Continue, you confirm that your responses are true and accurate to the best of your knowledge. Providing false information may result in the cancellation of your admission and the loss of any credit earned through BYU-Pathway Worldwide programs.",
+            "loadingMessage": "Loading...",
+            "errorMessagePrefix": "Error: ",
+            "pickerOptions": {
+            "usCitizen": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "hispanicLatino": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "highestEducation": [
+                { "name": "Select a level", "value": "" },
+                { "name": "High School/Secondary Education", "value": "HighSchool" },
+                { "name": "Some College or University", "value": "SomeCollege" },
+                { "name": "Bachelor's Degree", "value": "Bachelors" },
+                { "name": "Master's Degree", "value": "Masters" },
+                { "name": "Doctorate/Professional Degree", "value": "Doctorate" }
+            ],
+            "completedHighSchool": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "attendedUsUniversities": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "earnCreditUsUniversity": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "selectSchool": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Test", "value": "test" }
+            ],
+            "parentsBachelor": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "unresolvedLegalRestrictions": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "convictedTrafficViolation": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ]
+            },
+            "validationCitizenshipStatusRequired": "Citizenship status is required",
+            "validationCompletedHighSchoolRequired": "Please indicate if you have completed the high school/secondary",
+            "validationHighestEducationRequired": "Highest level of education is required",
+            "validationAttendedUsUniversitiesRequired": "Please indicate if you have attended any U.S. universities/colleges.",
+            "validationEarnCreditUsUniversityRequired": "Please indicate if you completed any credit courses in a U.S. program.",
+            "validationParentsBachelorRequired": "Please indicate if either of your parents earned a bachelor's degree or equivalent.",
+            "validationUnresolvedLegalRestrictionsRequired": "Please select an option regarding unresolved legal restrictions, obligations, or fines.",
+            "validationAnticipatedLegalizationDateRequired": "Please provide the anticipated legalization date."
+        },
+        "citizenshipInfoSection": {
+            "biographicInformationTitle": "Biographic Information",
+            "socialSecurityNumberLabel": "Social Security Number",
+            "backgroundInformationTitle": "Background Information",
+            "anticipatedLegalizationDateQuestion": "What is the anticipated legalization date for any of these restrictions, obligations, or liens?*",
+            "racialCategories": [
+            { "code": "111110000", "name": "American Indian or Alaska Native" },
+            { "code": "111110001", "name": "Asian" },
+            { "code": "111110002", "name": "Black or African American" },
+            { "code": "111110003", "name": "Native Hawaiian or Other Pacific Islander" },
+            { "code": "111110004", "name": "White" }
+            ]
+        },
+        "englishLanguageAssessment": {
+            "elaTitle": "English Language Assessment (ELA)",
+            "paragraph1": "A certain level of English proficiency is needed to succeed in BYU-Pathway Worldwide. The PathwayConnect journey often begins with EnglishConnect, a program developed to assist learners with developing their English proficiency in an environment of fellowship and faith.",
+            "paragraph2": "In the following assessments (Writing and Reading), you will demonstrate your current English level so you can enroll in the program that will be most beneficial for you.",
+            "certificationIntro": "When you save and continue this page, you certify:",
+            "certificationBullet1": "You will not use outside help of any kind to answer the questions.",
+            "certificationBullet2": "Your results represent your personal best effort.",
+            "buttonText": "Save and Continue"
+        },
+        "englishWritingTest": {
+            "title": "English Writing Test",
+            "directions": "Directions:",
+            "bullet1": "This test will measure your English Writing ability according to the ACTFL Proficiency Guidelines.",
+            "bullet2": "Do not use dictionaries, electronic devices, or any other helps.",
+            "bullet3": "There are 2 questions on this test.",
+            "bullet4": "The timer for each item is displayed in the top-right of the screen.",
+            "bullet5": "The next page will display a practice question for you to become familiar with the format of the test questions",
+            "buttonText": "Start Test"
+        },
+        "englishWritingTestScreen": {
+            "loadingTestData": "Loading test data...",
+            "submitTestButton": "Submit Test",
+            "continueButton": "Continue",
+            "resetButton": "Reset",
+            "successMessage": "Your writing assessment is complete. It will be graded soon. ",
+            "errorMessage": "There was an error saving your test. Please try again.",
+            "alertCloseContinue": "Continue",
+            "alertCloseOK": "OK",
+            "submittingTestDescription": "Submitting writing test...",
+            "readingAssessmentPrompt": "Now, please complete your reading assessment",
+            "readingAssessmentLinkText": "here",
+            "leftTestMessage": "You left the test. All unsaved progress has been lost and the test has been reset.",
+            "passageValidationRequired": "Passage {number} answer is required.",
+            "passageValidationMinLength": "Please write at least 4-5 sentences for Passage {number}."
+        },
+        "decisionInformation": {
+            "title": "Decision Information",
+            "description1": "Thank you for your interest in BYU-Pathway Worldwide. Based on the information you provided, you may be eligible to participate in one or more of the online programs serviced by BYU-Pathway. Please continue this application to decide the best program for you.",
+            "description2": "Thank you for your interest in BYU-Pathway Worldwide. Unfortunately, because BYU-Pathway is not approved to admit students in your country, you are not eligible at this time. BYU-Pathway is working to be able to offer online education in new countries, so we encourage you too apply again if your country is approved in the future.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "programSelectionScreen": {
+            "title": "Program Selection Page",
+            "description": "In the menu below, you will see the BYU-Pathway programs you are eligible to start with. These might include EnglishConnect 3, PathwayConnect, and/or Certificates and Degrees. If you don’t see the program you want, it means you’re not eligible for it right now, but you might become eligible after completing other programs. You can click on a program to see a summary and important details, like where to find information about tuition costs.",
+            "saveAndContinueButton": "Save and Continue",
+            "selectProgramPlaceholder": "Select a program",
+            "validationProgramRequired": "Please select a program.",
+            "loadingMessage": "Loading...",
+            "errorMessage": "Error: ",
+            "pickerOptions": {
+            "program": [
+                {
+                "name": "Select a program",
+                "value": ""
+                },
+                {
+                "name": "English Connect 3 (Academic English)",
+                "value": "englishConnect3"
+                },
+                {
+                "name": "Pathway Connect (Recommended)",
+                "value": "pathwayConnect"
+                },
+                {
+                "name": "Certificates and Degrees (Advanced)",
+                "value": "certificatesDegrees"
+                }
+            ]
+            }
+        },
+        "programDetailsCertDegreeScreen": {
+            "headerTitle": "Non Student-Settings",
+            "programTitle": "CERTIFICATES & DEGREES PROGRAM SUMMARY",
+            "programDescription": "BYU-Pathway Worldwide provides access to online certificates and degrees in association with BYU-Idaho and Ensign College. While the recommended start to a degree usually begins with PathwayConnect, participants may choose to apply directly to the online certificates and degrees program if they meet the minimum educational background requirements. Tuition is significantly reduced for the entire degree program for those who start with PathwayConnect.",
+            "requirementsTitle": "CERTIFICATES & DEGREES PROGRAM REQUIREMENTS",
+            "instituteGathering": "Weekly gathering attendance for Institute credit, as may be required.",
+            "technologyAccessTitle": "Technology Access",
+            "technologyAccessPoint1": "Success with online coursework depends on students having access to reliable internet, electricity, and a device with minimum computing power. Before enrolling in a program, you should affirm that the following conditions are met:",
+            "technologyAccessPoint2": "You need to have regular access to high-speed internet with adequate data.",
+            "technologyAccessPoint3": "You will need to have regular access to a device that meets the minimum device profile designated for your academic pursuits. For more information on the ",
+            "technologyAccessPoint31": " web page.",
+            "technologyRequirementsLinkText": "BYU-Pathway Technology Requirements",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "tuitionTitle": "Tuition",
+            "tuitionPoint1": "Tuition is due on the fourth Monday of each term (day 22). You will receive a 5% late fee charge for all outstanding balance after this date.",
+            "tuitionPoint2": "Students who do not complete BYU-Pathway Worldwide’s PathwayConnect pay the online standard tuition rate (Advanced Path). Visit ",
+            "tuitionScholarshipsLinkText": "https://www.byupathway.edu/tuition",
+            "tuitionPoint21": " for more information.",
+            "tuitionScholarshipsLinkUrl": "https://www.byupathway.edu/tuition",
+            "tuitionDiscountsPoint": "Visit the ",
+            "tuitionDiscountsLinkText": "Tuition Discounts",
+            "tuitionDiscountsLinkUrl": "https://www.byupathway.edu/tuition-discounts",
+            "tuitionDiscountsPoint2": " page for information regarding guaranteed scholarships and other possible discounts.",
+            "disabilityServicesTitle": "Disability Services",
+            "disabilityServicesPoint1": "Pursuant to Section 504 of the Rehabilitation Act of 1973, BYU-Pathway, BYU–Idaho, and Ensign College (collectively the Institutions) do not discriminate against online degree students with disabilities and provides reasonable accommodations to otherwise qualified individuals.",
+            "disabilityServicesPoint2": "Online Degree Students can request accessibility accommodations through their student portal.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "englishConnectDetailsScreen": {
+            "headerTitle": "Non Student-Settings",
+            "programTitle": "ENGLISHCONNECT 3 PROGRAM SUMMARY",
+            "programDescription": "Learners use the EnglishConnect 3 course to prepare for PathwayConnect and other academic opportunities. In EnglishConnect 3, learners improve their ability to read, write, listen, and speak in English. They can repeat EnglishConnect 3 as many times as needed to accomplish their goals.",
+            "requirementsTitle": "ENGLISHCONNECT 3 PROGRAM REQUIREMENTS",
+            "gatheringsTitle": "Gatherings",
+            "gatheringsPoint": "Weekly EnglishConnect 3 gathering attendance is required (either in-person or virtually). Gathering attendance makes up a significant part of a student’s overall course progress.",
+            "technologyAccessTitle": "Technology Access",
+            "technologyAccessPoint1": "Success with online coursework depends on students having access to reliable internet, electricity, and a device with minimum computing power. Before enrolling in a program, you should affirm that the following conditions are met:",
+            "technologyAccessPoint2": "You need to have regular access to high-speed internet with adequate data.",
+            "technologyAccessPoint3": "You need to be able to record clear audio for your speaking assignments.",
+            "technologyAccessPoint4": "You need to have regular access to a device that meets the minimum device profile designated for your selected academic program, as explained on the ",
+            "technologyRequirementsLinkText": "BYU-Pathway Technology Requirements",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "technologyAccessPoint4_after": " web page. (EnglishConnect 3 follows the same technology requirements as PathwayConnect.)",
+            "tuitionTitle": "Tuition",
+            "tuitionPoint1": "Tuition is due on the fourth Monday of each term (day 22). You will receive a 5% late fee charge for all outstanding balance after this date.",
+            "tuitionPoint2": "To see specific tuition costs for your country, visit the ",
+            "englishConnectTuitionLinkText": "EnglishConnect 3 webpage",
+            "englishConnectTuitionLinkUrl": "https://www.englishconnect.org/",
+            "tuitionPoint2_after": ". If you do not live in the United States, click on 'United States' and choose your location.",
+            "disabilityServicesTitle": "Disability Services",
+            "disabilityServicesPoint1": "While BYU-Pathway is not legally required to provide access and accommodations to EnglishConnect, PathwayConnect, or Institute students with disabilities, it endeavors to provide reasonable assistance to students who need it. Such assistance is provided voluntarily and at BYU-Pathway's sole discretion. The voluntary assistance students receive may differ from accommodations provided by other institutions.",
+            "disabilityServicesPoint2": "EnglishConnect 3 participants can request assistance for disabilities through their student portal.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "pathwayConnectDetailsScreen": {
+            "headerTitle": "Non Student-Settings",
+            "programTitle": "PATHWAYCONNECT PROGRAM SUMMARY",
+            "programDescription": "PathwayConnect is the recommended start to every degree. Offered at a significantly reduced cost, PathwayConnect can be completed in as little as 6 months and includes foundational academic and religion courses that are typically counted towards the completion of a degree. Students who start with PathwayConnect often see increased success in completing a degree online.",
+            "requirementsTitle": "PATHWAYCONNECT PROGRAM REQUIREMENTS",
+            "gatheringsTitle": "Gatherings",
+            "gatheringsPoint1": "Weekly PathwayConnect gathering attendance is required (either in-person or virtually). Gathering attendance makes up a significant part of a student’s overall course grade.",
+            "gatheringsPoint2": "Weekly gathering attendance for Institute courses is also required.",
+            "technologyAccessTitle": "Technology Access",
+            "technologyAccessPoint1": "Success with online coursework depends on students having access to reliable internet, electricity, and a device with minimum computing power. Before enrolling in a program, you should affirm that the following conditions are met:",
+            "technologyAccessPoint2": "You need to have regular access to high-speed internet with adequate data.",
+            "technologyAccessPoint3": "You need to have regular access to a device that meets the minimum device profile designated for your selected academic program, as explained on the ",
+            "technologyRequirementsLinkText": "BYU-Pathway Technology Requirements",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "technologyAccessPoint3_after": " web page.",
+            "tuitionTitle": "Tuition",
+            "tuitionPoint1": "Tuition is due on the fourth Monday of each term (day 22). You will receive a 5% late fee charge for all outstanding balance after this date.",
+            "tuitionPoint2": "Use the ",
+            "pathwayConnectTuitionLinkText": "PathwayConnect Tuition Page",
+            "pathwayConnectTuitionLinkUrl": "https://www.byupathway.edu/tuition",
+            "tuitionPoint2_after": " to see specific tuition costs for your country.",
+            "tuitionPoint3": "Visit the ",
+            "tuitionDiscountsLinkText": "Tuition Discounts",
+            "tuitionDiscountsLinkUrl": "https://www.byupathway.edu/tuition-discounts",
+            "tuitionPoint3_after": " page for information regarding guaranteed scholarships and other possible discounts.",
+            "disabilityServicesTitle": "Disability Services",
+            "disabilityServicesPoint1": "While BYU-Pathway is not legally required to provide access and accommodations to EnglishConnect, PathwayConnect, or Institute students with disabilities, it endeavors to provide reasonable assistance to students who need it. Such assistance is provided voluntarily and at BYU-Pathway's sole discretion. The voluntary assistance students receive may differ from accommodations provided by other institutions.",
+            "disabilityServicesPoint2": "PathwayConnect and Institute students can request assistance for disabilities through their student portal.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "cesAcknowledgementScreen": {
+            "headerTitle": "Non Student-Settings",
+            "acknowledgementTitle": "CES Acknowledgement",
+            "acknowledgementDescription": "The Church Educational System (CES) is sponsored by The Church of Jesus Christ of Latter-day Saints (Church) and directed by the Church Board of Education/Boards of Trustees, with the mission to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities.",
+            "honorCodeTitle": "CES Honor Code",
+            "honorCodeDescription": "The CES Honor Code helps to accomplish the CES mission to build disciples of Jesus Christ. As faculty, administration, staff, and students voluntarily commit to conduct their lives in accordance with the principles of the gospel of Jesus Christ, they strive to maintain the highest standards in their personal conduct regarding honor, integrity, morality, and consideration of others. By accepting appointment, continuing in employment, being admitted, or continuing enrollment, each member of the campus communities personally commits to observe the CES Honor Code approved by the Board of Trustees:",
+            "honorCodePoint1": "Maintain an Ecclesiastical Endorsement, including striving to deepen faith and maintain gospel standards.",
+            "honorCodePoint2": "Be honest.",
+            "honorCodePoint3": "Live a chaste and virtuous life, including abstaining from sexual relations outside marriage between a man and a woman. Living a chaste and virtuous life also includes abstaining from same-sex romantic behavior.",
+            "honorCodePoint4": "Abstain from alcoholic beverages, tobacco, tea, coffee, vaping, marijuana, and other substance abuse.",
+            "honorCodePoint5": "Participate regularly in Church services.",
+            "honorCodePoint6": "Respect others, including the avoidance of profane and vulgar language.",
+            "honorCodePoint7": "Obey the law and follow campus policies, including the CES Dress and Grooming standards.",
+            "honorCodePoint8": "Encourage others in their commitment to comply with the Honor Code and Dress and Grooming standards.",
+            "dressGroomingPrinciplesTitle": "CES Dress and Grooming Principles and Expectations",
+            "dressGroomingPrinciplesDescription": "CES Dress and Grooming Principles and Expectations CES Dress and Grooming Principles and Expectations are part of the CES Honor Code and part of each student’s, employee’s, and volunteer’s commitment.",
+            "dressGroomingPrinciplesDescription2": "When considering Honor Code and dress and grooming decisions, the teachings of the prophets and apostles, as well as Church instruction, such as “For the Strength of Youth: A Guide for Making Choices” can be helpful.",
+            "dressGroomingPrinciplesListTitle": "CES Dress and Grooming Principles",
+            "dressGroomingPrinciplesPoint1": "Each student, employee, and volunteer commits to:",
+            "dressGroomingPrinciplesPoint2": "Represent the Savior Jesus Christ, the Church, and the Church Educational System.",
+            "dressGroomingPrinciplesPoint3": "Preserve an inspiring environment, without distraction or disruption, where covenants are kept in a spirit of unity so the Holy Ghost can teach truth.",
+            "dressGroomingPrinciplesPoint4": "Promote modesty, cleanliness, neatness, and restraint in dress and grooming.",
+            "dressGroomingPrinciplesPoint5": "Maintain an elevated standard distinctive to educational institutions of the Church of Jesus Christ.",
+            "dressGroomingExpectationsNote": "Dress and grooming expectations as in the examples below should align with these principles. However, application of these principles is not limited to the expectations listed. Members of the university community are expected to apply these principles to dress and grooming questions as they arise.",
+            "byuPathwayNote": "BYU–Pathway Worldwide and Seminaries and Institutes of Religion match local Church dress and grooming standards as appropriate for local activities.",
+            "readMoreLinkText": "You can read more about the Honor Code ",
+            "readMoreLinkText2": "here.",
+            "readMoreLinkUrl": "https://www.byupathway.edu/honor-code",
+            "iAcknowledgeCES": "I acknowledge and agree that I have read and will abide by the CES Honor Code and CES requirements. *",
+            "saveAndContinueButton": "SUBMIT YOUR APPLICATION",
+            "validationAcknowledgementRequired": "You must acknowledge to submit.",
+            "loadingMessage": "Loading...",
+            "errorMessage": "Error: "
+        },
+        "applicationDashboardScreen": {
+            "applicationRegistration": "BYU-Pathway Worldwide Application",
+            "dateStarted": "08-06-2025",
+            "dateSubmitted": "08-06-2025",
+            "program1": "PathwayConnect (Recommended)",
+            "program2": "Based on the information you have provided, you qualify for EnglishConnect 3. This course will help you improve your English skills to prepare for future employment and education opportunities through BYU-Pathway Worldwide. Learn how to join today at ",
+            "program3": "Based on the information you have provided, you qualify for EnglishConnect 1 or 2. These courses will help you improve your English skills to prepare for future employment and education opportunities through BYU-Pathway Worldwide. Learn how to join today at ",
+            "program4": "Based on the information you have provided, you qualify for Certificates and Degrees.",
+            "statusSubmitted": "Submitted",
+            "statusApproved": "Approved",
+            "studentEmail": "student@byupathway.edu",
+            "englishConnectURL": "https://www.englishconnect.org",
+            "title": "Application Dashboard",
+            "nextStepsTitle": "Next Steps",
+            "pathwayConnectNextStep1": "1. Register on {PC} course.",
+            "pathwayConnectNextStep2": "2. Select your gathering time.",
+            "pathwayConnectNextStep3": "3. Go to login and start your student experience.",
+            "continueButton": "Continue",
+            "certificatesDegreesNextStep": "Use your institutional email to login: ",
+            "goToLoginButton": "Go to Login"
         }
     },
     "sp": {
@@ -3351,6 +3783,438 @@ const translations = {
             "attachFileButton": "Attach file",
             "selectedImageLabel": "Selected image",
             "changeImageButton": "Change image"
+        },
+        "notStudentWelcome": {
+            "welcomeTitle": "Welcome to the combined application for BYU-Pathway Worldwide and EnglishConnect 3!",
+            "churchAccountTitle": "Church Account",
+            "churchAccountP1": "You will need a Church account to log in and apply.",
+            "churchAccountBullet1": "If you are not a member of The Church of Jesus Christ of Latter-day Saints, please “Create a new Account” on the first sign-in page and follow the instructions.",
+            "churchAccountBullet2": "If you have a Church account but do not remember your login information, click “I forgot your username or password” and follow the instructions. Please do not create a new account.",
+            "applyButton": "Apply Now",
+            "programSelectionTitle": "Program Selection",
+            "programSelectionP1": "We will use the information in your application to recommend which program you should start with. You will make that final selection at the end of the application.",
+            "currentStudentsTitle": "Current Students",
+            "currentStudentsP1": "If you are currently enrolled in BYU-Pathway or EnglishConnect 3, please DO NOT apply. Log in to your student portal at portal.byupathway.edu to clear holds and register for courses."
+        },
+        "notStudentTermsConditions": {
+            "previousPageButton": "Previous Page",
+            "acknowledgementP1": "By checking the box below, I acknowledge and agree to the terms and conditions described herein, and I have read the Privacy Notice – BYU-Pathway Worldwide (Updated 2024-03-01) in addition to the Legal Disclosures and Select Institutional Policies that pertain to the institution where I have submitted or may submit an application (links above).",
+            "iAcknowledgeTermsAndConditions": "I acknowledge *",
+            "saveAndContinueButton": "Save and Continue",
+            "questionIsMember": "Are you a current or former member of The Church of Jesus Christ of Latter-day Saints?",
+            "questionPresentReligion": "What is your present religion, if any?",
+            "loadingMessage": "Loading...",
+            "errorMessagePrefix": "Error: ",
+            "pickerSelectAnItem": "Select an item",
+            "pickerOptionYes": "Yes",
+            "pickerOptionNo": "No",
+            "pickerOptionCatholic": "Catholic",
+            "pickerOptionNoReligion": "No Religion",
+            "validationRequired": "This field is required",
+            "validationReligionRequired": "This field is required when you are not a member.",
+            "validationAcknowledgeTerms": "You must acknowledge the terms and conditions."
+        },
+        "notStudentTermsConditions2NoMRN": {
+            "termsAndConditionsTitle": "Terms and Conditions",
+            "noMRNAttachedTitle": "NO MEMBERSHIP RECORD NUMBER (MRN) ATTACHED",
+            "mrnExplanation": "All members of The Church of Jesus Christ of Latter-Day Saints are required to have a membership record number (MRN) associated with their Church account to participate in the programs offered through BYU-Pathway Worldwide. The account you’re currently logged in with doesn’t have an MRN attached. See below for troubleshooting options:",
+            "optionOneTitle": "Option one:",
+            "optionOneDescription": "If a different Church account is associated with your MRN, sign in using that account.",
+            "optionOneBullet": "If you do not remember the username or password for that account, go through the steps found on the ",
+            "accountRecoveryLink": "account recovery page",
+            "optionOneBulletPart2": ". Do NOT create a new account.",
+            "optionTwoTitle": "Option two:",
+            "optionTwoDescription": "Add your MRN to your current account.",
+            "optionTwoStep1": "1. Sign out of the application.",
+            "optionTwoStep2": "2. Go to your ",
+            "churchAccountSettingsLink": "Church account membership settings",
+            "optionTwoStep3": "3. Add your MRN. You can find your MRN by:",
+            "optionTwoStep3a": "a. Checking your temple recommend.",
+            "optionTwoStep3b": "b. Contacting your ward or branch clerk.",
+            "optionTwoStep4": "4. Sign back into the application.",
+            "optionThreeTitle": "Option three:",
+            "optionThreeDescription": "If neither of the options above work, contact ",
+            "byuPathwaySupportLink": "BYU-Pathway Support",
+            "formerMembershipTitle": "Former Membership",
+            "formerMembershipP1": "Individuals who currently have formal membership restrictions or have had a voluntary or involuntary withdrawal of membership from The Church of Jesus Christ of Latter-day Saints are not eligible to participate in programs offered through BYU-Pathway Worldwide until reinstated to full fellowship in the Church. Applicants are encouraged to meet with their ecclesiastical leader to discuss the next steps for reinstatement to unrestricted membership status. For additional information or clarification, please contact BYU-Pathway Support."
+        },
+        "notStudentMemberWelcome": {
+            "welcomeGreeting": "Welcome Jhon Doe!",
+            "welcomeMessage": "Welcome to BYU-Pathway Worldwide! Please check if your name and email are correct:",
+            "yourNameLabel": "Your Name:",
+            "yourName": "Jhon Doe",
+            "yourEmailLabel": "Your Email:",
+            "yourEmail": "jhondoe@gmail.com",
+            "signOutMessage": "If this is not you, sign out and log in again with your Church Account.",
+            "contactSupport": "Contact BYU-Pathway Support if you need help.",
+            "startApplicationButton": "Start Application"
+        },
+        "notStudentInformation": {
+            "requestStudentInfoTitle": "Request Student Information",
+            "saveAndContinueButton": "Save and Continue",
+            "loadingMessage": "Loading...",
+            "errorMessagePrefix": "Error: ",
+            "receiveTextMessagesQuestion": "Would you like to receive text messages?",
+            "receiveTextMessagesOptionDoNotAllow": "Do not allow",
+            "receiveTextMessagesOptionAllow": "Allow",
+            "primaryLanguageSelectOption": "Select a language",
+            "validationFirstNameRequired": "First name is required",
+            "validationLastNameRequired": "Last name is required",
+            "validationDateOfBirthRequired": "Date of birth is required",
+            "validationSexRequired": "Sex is required",
+            "validationMaritalStatusRequired": "Marital status is required",
+            "validationPrimaryLanguageRequired": "Primary language is required",
+            "validationCountryRegionRequired": "Country/Region is required",
+            "validationZipInvalid": "Invalid ZIP",
+            "validationZipRequired": "ZIP is required",
+            "validationAddressLine1Required": "Address Line 1 is required",
+            "validationCityRequired": "City is required",
+            "validationEmailInvalid": "Invalid email address",
+            "validationEmailRequired": "Email is required",
+            "validationMobilePhoneInvalid": "Invalid phone number",
+            "validationMobilePhoneRequired": "Mobile Phone is required",
+            "validationHomePhoneInvalid": "Invalid phone number",
+            "validationPreferredPhoneRequired": "Preferred Phone is required",
+            "validationReceiveTextMessagesRequired": "Please select an option for text messages",
+            "validationWhatsAppNumberInvalid": "Invalid phone number"
+        },
+        "studentInfoSection": {
+            "firstNameLabel": "First/Given Name(s)*",
+            "lastNameLabel": "Last/Surname*",
+            "suffixLabel": "Suffix",
+            "dateOfBirthQuestion": "Date of birth*",
+            "sexQuestion": "Sex*",
+            "maritalStatusQuestion": "Marital Status*",
+            "primaryLanguageQuestion": "What is your Primary Language?*"
+        },
+        "currentAddressSection": {
+            "currentAddressTitle": "Current Address",
+            "currentAddressDescription": "This is the address of where you will be living while participating in BYU-Pathway Worldwide.",
+            "countryRegionQuestion": "Country/Region *",
+            "zipLabel": "ZIP*",
+            "stateProvinceLabel": "State/Province",
+            "addressLine1Label": "Address Line 1 *",
+            "cityLabel": "City *"
+        },
+        "contactInfoSection": {
+            "contactInfoTitle": "Contact Information",
+            "emailLabel": "Email *",
+            "mobilePhoneLabel": "Mobile Phone *",
+            "homePhoneLabel": "Home Phone",
+            "preferredPhoneQuestion": "Preferred Phone *",
+            "textMessageDescription": "BYU-Pathway uses text messaging to send enrollment reminders and important notifications. If you don't want to receive text messages, you can opt out below.",
+            "otherContactInfoTitle": "Other Contact Information",
+            "whatsAppNumberLabel": "WhatsApp Number",
+            "facebookMessengerLabel": "Facebook Messenger"
+        },
+        "citizenshipInformation": {
+            "requestStudentInfoTitle": "Request Student Information",
+            "saveAndContinueButton": "Save and Continue",
+            "citizenshipInfoTitle": "Citizenship Information",
+            "ssn": "Please provide your Social Security number (SSN). If you choose not to provide your SSN on this page, you will need to complete additional steps to receive tax forms.",
+            "hispanicLatino": "Do you consider yourself Hispanic/Latino?",
+            "racialCategoriesArray": "Select one or more of the following racial categories to describe yourself",
+            "haveUsCitizenshipQuestion": "Do you have citizenship in the U.S.?*",
+            "completedHighSchool": "Have you completed high school/secondary education? *",
+            "highestEducationQuestion": "What is your highest level of education?*",
+            "attendedUsUniversitiesQuestion": "Have you attended any one or more United States universities/colleges (not including PathwayConnect) after you graduated from high school?*",
+            "earnCreditUsUniversityQuestion": "Did you complete one or more 3+ credit courses with a grade of 'C' or higher at a United States university/college after you graduated from high school? *",
+            "selectSchool": "Select a school you have attended and completed at least one 3+ credit course.*",
+            "selectSchoolTitle": "Select your school:",
+            "selectSchoolNote1": "At this point in the application, you only need to select 1 school, even if you have attended multiple universities/colleges.",
+            "selectSchoolNote2": "For the purposes of this application, we only accept U.S. regionally accredited universities/colleges. If your university/college is not listed, change your response to the question \"Have you attended one or more United States universities/colleges after you graduated from high school?\" to \"No\".",
+            "selectSchoolNote3": "If your university/college was U.S. regionally accredited, but is not listed and has since changed its name, choose the most recent name of the school. Example: For Ricks College, select Brigham Young University-Idaho.",
+            "afterAdmittance": "After admittance to BYU-Pathway, you can submit official transcripts to transfer any previous university/college credits to satisfy program requirements. Some students may be required to submit transcripts for verification purposes",
+            "parentsBachelor": "Did either of your parents earn a bachelor's degree or equivalent?*",
+            "unresolvedLegalRestrictionsQuestion": "Do you have any unresolved legal restrictions, obligations, or fines for a crime you have been convicted of, pleaded guilty to, or were found responsible for (other than a minor traffic violation)? *",
+            "noteForUnresolvedLegalRestrictions": "These include, but are not limited to: current incarceration, probation, parole, listed on a sex-offender registry, court fees, community service, or other legal fines.",
+            "noteBachelor": "By clicking Save and Continue, you confirm that your responses are true and accurate to the best of your knowledge. Providing false information may result in the cancellation of your admission and the loss of any credit earned through BYU-Pathway Worldwide programs.",
+            "loadingMessage": "Loading...",
+            "errorMessagePrefix": "Error: ",
+            "pickerOptions": {
+            "usCitizen": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "hispanicLatino": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "highestEducation": [
+                { "name": "Select a level", "value": "" },
+                { "name": "High School/Secondary Education", "value": "HighSchool" },
+                { "name": "Some College or University", "value": "SomeCollege" },
+                { "name": "Bachelor's Degree", "value": "Bachelors" },
+                { "name": "Master's Degree", "value": "Masters" },
+                { "name": "Doctorate/Professional Degree", "value": "Doctorate" }
+            ],
+            "completedHighSchool": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "attendedUsUniversities": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "earnCreditUsUniversity": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "selectSchool": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Test", "value": "test" }
+            ],
+            "parentsBachelor": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "unresolvedLegalRestrictions": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ],
+            "convictedTrafficViolation": [
+                { "name": "Select an option", "value": "" },
+                { "name": "Yes", "value": "Yes" },
+                { "name": "No", "value": "No" }
+            ]
+            },
+            "validationCitizenshipStatusRequired": "Citizenship status is required",
+            "validationCompletedHighSchoolRequired": "Please indicate if you have completed the high school/secondary",
+            "validationHighestEducationRequired": "Highest level of education is required",
+            "validationAttendedUsUniversitiesRequired": "Please indicate if you have attended any U.S. universities/colleges.",
+            "validationEarnCreditUsUniversityRequired": "Please indicate if you completed any credit courses in a U.S. program.",
+            "validationParentsBachelorRequired": "Please indicate if either of your parents earned a bachelor's degree or equivalent.",
+            "validationUnresolvedLegalRestrictionsRequired": "Please select an option regarding unresolved legal restrictions, obligations, or fines.",
+            "validationAnticipatedLegalizationDateRequired": "Please provide the anticipated legalization date."
+        },
+        "citizenshipInfoSection": {
+            "biographicInformationTitle": "Biographic Information",
+            "socialSecurityNumberLabel": "Social Security Number",
+            "backgroundInformationTitle": "Background Information",
+            "anticipatedLegalizationDateQuestion": "What is the anticipated legalization date for any of these restrictions, obligations, or liens?*",
+            "racialCategories": [
+            { "code": "111110000", "name": "American Indian or Alaska Native" },
+            { "code": "111110001", "name": "Asian" },
+            { "code": "111110002", "name": "Black or African American" },
+            { "code": "111110003", "name": "Native Hawaiian or Other Pacific Islander" },
+            { "code": "111110004", "name": "White" }
+            ]
+        },
+        "englishLanguageAssessment": {
+            "elaTitle": "English Language Assessment (ELA)",
+            "paragraph1": "A certain level of English proficiency is needed to succeed in BYU-Pathway Worldwide. The PathwayConnect journey often begins with EnglishConnect, a program developed to assist learners with developing their English proficiency in an environment of fellowship and faith.",
+            "paragraph2": "In the following assessments (Writing and Reading), you will demonstrate your current English level so you can enroll in the program that will be most beneficial for you.",
+            "certificationIntro": "When you save and continue this page, you certify:",
+            "certificationBullet1": "You will not use outside help of any kind to answer the questions.",
+            "certificationBullet2": "Your results represent your personal best effort.",
+            "buttonText": "Save and Continue"
+        },
+        "englishWritingTest": {
+            "title": "English Writing Test",
+            "directions": "Directions:",
+            "bullet1": "This test will measure your English Writing ability according to the ACTFL Proficiency Guidelines.",
+            "bullet2": "Do not use dictionaries, electronic devices, or any other helps.",
+            "bullet3": "There are 2 questions on this test.",
+            "bullet4": "The timer for each item is displayed in the top-right of the screen.",
+            "bullet5": "The next page will display a practice question for you to become familiar with the format of the test questions",
+            "buttonText": "Start Test"
+        },
+        "englishWritingTestScreen": {
+            "loadingTestData": "Loading test data...",
+            "submitTestButton": "Submit Test",
+            "continueButton": "Continue",
+            "resetButton": "Reset",
+            "successMessage": "Your writing assessment is complete. It will be graded soon. ",
+            "errorMessage": "There was an error saving your test. Please try again.",
+            "alertCloseContinue": "Continue",
+            "alertCloseOK": "OK",
+            "submittingTestDescription": "Submitting writing test...",
+            "readingAssessmentPrompt": "Now, please complete your reading assessment",
+            "readingAssessmentLinkText": "here",
+            "leftTestMessage": "You left the test. All unsaved progress has been lost and the test has been reset.",
+            "passageValidationRequired": "Passage {number} answer is required.",
+            "passageValidationMinLength": "Please write at least 4-5 sentences for Passage {number}."
+        },
+        "decisionInformation": {
+            "title": "Decision Information",
+            "description1": "Thank you for your interest in BYU-Pathway Worldwide. Based on the information you provided, you may be eligible to participate in one or more of the online programs serviced by BYU-Pathway. Please continue this application to decide the best program for you.",
+            "description2": "Thank you for your interest in BYU-Pathway Worldwide. Unfortunately, because BYU-Pathway is not approved to admit students in your country, you are not eligible at this time. BYU-Pathway is working to be able to offer online education in new countries, so we encourage you too apply again if your country is approved in the future.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "programSelectionScreen": {
+            "title": "Program Selection Page",
+            "description": "In the menu below, you will see the BYU-Pathway programs you are eligible to start with. These might include EnglishConnect 3, PathwayConnect, and/or Certificates and Degrees. If you don’t see the program you want, it means you’re not eligible for it right now, but you might become eligible after completing other programs. You can click on a program to see a summary and important details, like where to find information about tuition costs.",
+            "saveAndContinueButton": "Save and Continue",
+            "selectProgramPlaceholder": "Select a program",
+            "validationProgramRequired": "Please select a program.",
+            "loadingMessage": "Loading...",
+            "errorMessage": "Error: ",
+            "pickerOptions": {
+            "program": [
+                {
+                "name": "Select a program",
+                "value": ""
+                },
+                {
+                "name": "English Connect 3 (Academic English)",
+                "value": "englishConnect3"
+                },
+                {
+                "name": "Pathway Connect (Recommended)",
+                "value": "pathwayConnect"
+                },
+                {
+                "name": "Certificates and Degrees (Advanced)",
+                "value": "certificatesDegrees"
+                }
+            ]
+            }
+        },
+        "programDetailsCertDegreeScreen": {
+            "headerTitle": "Non Student-Settings",
+            "programTitle": "CERTIFICATES & DEGREES PROGRAM SUMMARY",
+            "programDescription": "BYU-Pathway Worldwide provides access to online certificates and degrees in association with BYU-Idaho and Ensign College. While the recommended start to a degree usually begins with PathwayConnect, participants may choose to apply directly to the online certificates and degrees program if they meet the minimum educational background requirements. Tuition is significantly reduced for the entire degree program for those who start with PathwayConnect.",
+            "requirementsTitle": "CERTIFICATES & DEGREES PROGRAM REQUIREMENTS",
+            "instituteGathering": "Weekly gathering attendance for Institute credit, as may be required.",
+            "technologyAccessTitle": "Technology Access",
+            "technologyAccessPoint1": "Success with online coursework depends on students having access to reliable internet, electricity, and a device with minimum computing power. Before enrolling in a program, you should affirm that the following conditions are met:",
+            "technologyAccessPoint2": "You need to have regular access to high-speed internet with adequate data.",
+            "technologyAccessPoint3": "You will need to have regular access to a device that meets the minimum device profile designated for your academic pursuits. For more information on the ",
+            "technologyAccessPoint31": " web page.",
+            "technologyRequirementsLinkText": "BYU-Pathway Technology Requirements",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "tuitionTitle": "Tuition",
+            "tuitionPoint1": "Tuition is due on the fourth Monday of each term (day 22). You will receive a 5% late fee charge for all outstanding balance after this date.",
+            "tuitionPoint2": "Students who do not complete BYU-Pathway Worldwide’s PathwayConnect pay the online standard tuition rate (Advanced Path). Visit ",
+            "tuitionScholarshipsLinkText": "https://www.byupathway.edu/tuition",
+            "tuitionPoint21": " for more information.",
+            "tuitionScholarshipsLinkUrl": "https://www.byupathway.edu/tuition",
+            "tuitionDiscountsPoint": "Visit the ",
+            "tuitionDiscountsLinkText": "Tuition Discounts",
+            "tuitionDiscountsLinkUrl": "https://www.byupathway.edu/tuition-discounts",
+            "tuitionDiscountsPoint2": " page for information regarding guaranteed scholarships and other possible discounts.",
+            "disabilityServicesTitle": "Disability Services",
+            "disabilityServicesPoint1": "Pursuant to Section 504 of the Rehabilitation Act of 1973, BYU-Pathway, BYU–Idaho, and Ensign College (collectively the Institutions) do not discriminate against online degree students with disabilities and provides reasonable accommodations to otherwise qualified individuals.",
+            "disabilityServicesPoint2": "Online Degree Students can request accessibility accommodations through their student portal.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "englishConnectDetailsScreen": {
+            "headerTitle": "Non Student-Settings",
+            "programTitle": "ENGLISHCONNECT 3 PROGRAM SUMMARY",
+            "programDescription": "Learners use the EnglishConnect 3 course to prepare for PathwayConnect and other academic opportunities. In EnglishConnect 3, learners improve their ability to read, write, listen, and speak in English. They can repeat EnglishConnect 3 as many times as needed to accomplish their goals.",
+            "requirementsTitle": "ENGLISHCONNECT 3 PROGRAM REQUIREMENTS",
+            "gatheringsTitle": "Gatherings",
+            "gatheringsPoint": "Weekly EnglishConnect 3 gathering attendance is required (either in-person or virtually). Gathering attendance makes up a significant part of a student’s overall course progress.",
+            "technologyAccessTitle": "Technology Access",
+            "technologyAccessPoint1": "Success with online coursework depends on students having access to reliable internet, electricity, and a device with minimum computing power. Before enrolling in a program, you should affirm that the following conditions are met:",
+            "technologyAccessPoint2": "You need to have regular access to high-speed internet with adequate data.",
+            "technologyAccessPoint3": "You need to be able to record clear audio for your speaking assignments.",
+            "technologyAccessPoint4": "You need to have regular access to a device that meets the minimum device profile designated for your selected academic program, as explained on the ",
+            "technologyRequirementsLinkText": "BYU-Pathway Technology Requirements",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "technologyAccessPoint4_after": " web page. (EnglishConnect 3 follows the same technology requirements as PathwayConnect.)",
+            "tuitionTitle": "Tuition",
+            "tuitionPoint1": "Tuition is due on the fourth Monday of each term (day 22). You will receive a 5% late fee charge for all outstanding balance after this date.",
+            "tuitionPoint2": "To see specific tuition costs for your country, visit the ",
+            "englishConnectTuitionLinkText": "EnglishConnect 3 webpage",
+            "englishConnectTuitionLinkUrl": "https://www.englishconnect.org/",
+            "tuitionPoint2_after": ". If you do not live in the United States, click on 'United States' and choose your location.",
+            "disabilityServicesTitle": "Disability Services",
+            "disabilityServicesPoint1": "While BYU-Pathway is not legally required to provide access and accommodations to EnglishConnect, PathwayConnect, or Institute students with disabilities, it endeavors to provide reasonable assistance to students who need it. Such assistance is provided voluntarily and at BYU-Pathway's sole discretion. The voluntary assistance students receive may differ from accommodations provided by other institutions.",
+            "disabilityServicesPoint2": "EnglishConnect 3 participants can request assistance for disabilities through their student portal.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "pathwayConnectDetailsScreen": {
+            "headerTitle": "Non Student-Settings",
+            "programTitle": "PATHWAYCONNECT PROGRAM SUMMARY",
+            "programDescription": "PathwayConnect is the recommended start to every degree. Offered at a significantly reduced cost, PathwayConnect can be completed in as little as 6 months and includes foundational academic and religion courses that are typically counted towards the completion of a degree. Students who start with PathwayConnect often see increased success in completing a degree online.",
+            "requirementsTitle": "PATHWAYCONNECT PROGRAM REQUIREMENTS",
+            "gatheringsTitle": "Gatherings",
+            "gatheringsPoint1": "Weekly PathwayConnect gathering attendance is required (either in-person or virtually). Gathering attendance makes up a significant part of a student’s overall course grade.",
+            "gatheringsPoint2": "Weekly gathering attendance for Institute courses is also required.",
+            "technologyAccessTitle": "Technology Access",
+            "technologyAccessPoint1": "Success with online coursework depends on students having access to reliable internet, electricity, and a device with minimum computing power. Before enrolling in a program, you should affirm that the following conditions are met:",
+            "technologyAccessPoint2": "You need to have regular access to high-speed internet with adequate data.",
+            "technologyAccessPoint3": "You need to have regular access to a device that meets the minimum device profile designated for your selected academic program, as explained on the ",
+            "technologyRequirementsLinkText": "BYU-Pathway Technology Requirements",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "technologyAccessPoint3_after": " web page.",
+            "tuitionTitle": "Tuition",
+            "tuitionPoint1": "Tuition is due on the fourth Monday of each term (day 22). You will receive a 5% late fee charge for all outstanding balance after this date.",
+            "tuitionPoint2": "Use the ",
+            "pathwayConnectTuitionLinkText": "PathwayConnect Tuition Page",
+            "pathwayConnectTuitionLinkUrl": "https://www.byupathway.edu/tuition",
+            "tuitionPoint2_after": " to see specific tuition costs for your country.",
+            "tuitionPoint3": "Visit the ",
+            "tuitionDiscountsLinkText": "Tuition Discounts",
+            "tuitionDiscountsLinkUrl": "https://www.byupathway.edu/tuition-discounts",
+            "tuitionPoint3_after": " page for information regarding guaranteed scholarships and other possible discounts.",
+            "disabilityServicesTitle": "Disability Services",
+            "disabilityServicesPoint1": "While BYU-Pathway is not legally required to provide access and accommodations to EnglishConnect, PathwayConnect, or Institute students with disabilities, it endeavors to provide reasonable assistance to students who need it. Such assistance is provided voluntarily and at BYU-Pathway's sole discretion. The voluntary assistance students receive may differ from accommodations provided by other institutions.",
+            "disabilityServicesPoint2": "PathwayConnect and Institute students can request assistance for disabilities through their student portal.",
+            "saveAndContinueButton": "Save and Continue"
+        },
+        "cesAcknowledgementScreen": {
+            "headerTitle": "Non Student-Settings",
+            "acknowledgementTitle": "CES Acknowledgement",
+            "acknowledgementDescription": "The Church Educational System (CES) is sponsored by The Church of Jesus Christ of Latter-day Saints (Church) and directed by the Church Board of Education/Boards of Trustees, with the mission to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities.",
+            "honorCodeTitle": "CES Honor Code",
+            "honorCodeDescription": "The CES Honor Code helps to accomplish the CES mission to build disciples of Jesus Christ. As faculty, administration, staff, and students voluntarily commit to conduct their lives in accordance with the principles of the gospel of Jesus Christ, they strive to maintain the highest standards in their personal conduct regarding honor, integrity, morality, and consideration of others. By accepting appointment, continuing in employment, being admitted, or continuing enrollment, each member of the campus communities personally commits to observe the CES Honor Code approved by the Board of Trustees:",
+            "honorCodePoint1": "Maintain an Ecclesiastical Endorsement, including striving to deepen faith and maintain gospel standards.",
+            "honorCodePoint2": "Be honest.",
+            "honorCodePoint3": "Live a chaste and virtuous life, including abstaining from sexual relations outside marriage between a man and a woman. Living a chaste and virtuous life also includes abstaining from same-sex romantic behavior.",
+            "honorCodePoint4": "Abstain from alcoholic beverages, tobacco, tea, coffee, vaping, marijuana, and other substance abuse.",
+            "honorCodePoint5": "Participate regularly in Church services.",
+            "honorCodePoint6": "Respect others, including the avoidance of profane and vulgar language.",
+            "honorCodePoint7": "Obey the law and follow campus policies, including the CES Dress and Grooming standards.",
+            "honorCodePoint8": "Encourage others in their commitment to comply with the Honor Code and Dress and Grooming standards.",
+            "dressGroomingPrinciplesTitle": "CES Dress and Grooming Principles and Expectations",
+            "dressGroomingPrinciplesDescription": "CES Dress and Grooming Principles and Expectations CES Dress and Grooming Principles and Expectations are part of the CES Honor Code and part of each student’s, employee’s, and volunteer’s commitment.",
+            "dressGroomingPrinciplesDescription2": "When considering Honor Code and dress and grooming decisions, the teachings of the prophets and apostles, as well as Church instruction, such as “For the Strength of Youth: A Guide for Making Choices” can be helpful.",
+            "dressGroomingPrinciplesListTitle": "CES Dress and Grooming Principles",
+            "dressGroomingPrinciplesPoint1": "Each student, employee, and volunteer commits to:",
+            "dressGroomingPrinciplesPoint2": "Represent the Savior Jesus Christ, the Church, and the Church Educational System.",
+            "dressGroomingPrinciplesPoint3": "Preserve an inspiring environment, without distraction or disruption, where covenants are kept in a spirit of unity so the Holy Ghost can teach truth.",
+            "dressGroomingPrinciplesPoint4": "Promote modesty, cleanliness, neatness, and restraint in dress and grooming.",
+            "dressGroomingPrinciplesPoint5": "Maintain an elevated standard distinctive to educational institutions of the Church of Jesus Christ.",
+            "dressGroomingExpectationsNote": "Dress and grooming expectations as in the examples below should align with these principles. However, application of these principles is not limited to the expectations listed. Members of the university community are expected to apply these principles to dress and grooming questions as they arise.",
+            "byuPathwayNote": "BYU–Pathway Worldwide and Seminaries and Institutes of Religion match local Church dress and grooming standards as appropriate for local activities.",
+            "readMoreLinkText": "You can read more about the Honor Code ",
+            "readMoreLinkText2": "here.",
+            "readMoreLinkUrl": "https://www.byupathway.edu/honor-code",
+            "iAcknowledgeCES": "I acknowledge and agree that I have read and will abide by the CES Honor Code and CES requirements. *",
+            "saveAndContinueButton": "SUBMIT YOUR APPLICATION",
+            "validationAcknowledgementRequired": "You must acknowledge to submit.",
+            "loadingMessage": "Loading...",
+            "errorMessage": "Error: "
+        },
+        "applicationDashboardScreen": {
+            "applicationRegistration": "BYU-Pathway Worldwide Application",
+            "dateStarted": "08-06-2025",
+            "dateSubmitted": "08-06-2025",
+            "program1": "PathwayConnect (Recommended)",
+            "program2": "Based on the information you have provided, you qualify for EnglishConnect 3. This course will help you improve your English skills to prepare for future employment and education opportunities through BYU-Pathway Worldwide. Learn how to join today at ",
+            "program3": "Based on the information you have provided, you qualify for EnglishConnect 1 or 2. These courses will help you improve your English skills to prepare for future employment and education opportunities through BYU-Pathway Worldwide. Learn how to join today at ",
+            "program4": "Based on the information you have provided, you qualify for Certificates and Degrees.",
+            "statusSubmitted": "Submitted",
+            "statusApproved": "Approved",
+            "studentEmail": "student@byupathway.edu",
+            "englishConnectURL": "https://www.englishconnect.org",
+            "title": "Application Dashboard",
+            "nextStepsTitle": "Next Steps",
+            "pathwayConnectNextStep1": "1. Register on {PC} course.",
+            "pathwayConnectNextStep2": "2. Select your gathering time.",
+            "pathwayConnectNextStep3": "3. Go to login and start your student experience.",
+            "continueButton": "Continue",
+            "certificatesDegreesNextStep": "Use your institutional email to login: ",
+            "goToLoginButton": "Go to Login"
         }
     },
     "pt": {
@@ -5023,6 +5887,549 @@ const translations = {
             "attachFileButton": "Anexar arquivo",
             "selectedImageLabel": "Imagem selecionada",
             "changeImageButton": "Alterar imagem"
+        },
+        "notStudentWelcome": {
+            "welcomeTitle": "Bem-vindo ao aplicativo combinado para BYU-Pathway Worldwide e EnglishConnect 3!",
+            "churchAccountTitle": "Conta da Igreja",
+            "churchAccountP1": "Você precisará de uma Conta da Igreja para fazer login e se inscrever.",
+            "churchAccountBullet1": "Se você não é membro de A Igreja de Jesus Cristo dos Santos dos Últimos Dias, por favor, “Crie uma nova conta” na primeira página de login e siga as instruções.",
+            "churchAccountBullet2": "Se você tem uma Conta da Igreja, mas não se lembra de suas informações de login, clique em “Esqueci meu nome de usuário ou senha” e siga as instruções. Por favor, não crie uma nova conta.",
+            "applyButton": "Aplicar Agora",
+            "programSelectionTitle": "Seleção de Programa",
+            "programSelectionP1": "Usaremos as informações em sua inscrição para recomendar o programa com o qual você deve começar. Você fará essa seleção final no final da inscrição.",
+            "currentStudentsTitle": "Alunos Atuais",
+            "currentStudentsP1": "Se você está atualmente matriculado no BYU-Pathway ou EnglishConnect 3, por favor, NÃO se inscreva. Faça login no seu portal do aluno em portal.byupathway.edu para limpar impedimentos e se registrar para os cursos."
+        },
+        "notStudentTermsConditions": {
+            "previousPageButton": "Página Anterior",
+            "acknowledgementP1": "Ao marcar a caixa abaixo, eu reconheço e concordo com os termos e condições aqui descritos, e li o Aviso de Privacidade – BYU-Pathway Worldwide (Atualizado em 01/03/2024), além das Divulgações Legais e Políticas Institucionais Selecionadas que pertencem à instituição onde enviei ou posso enviar uma inscrição (links acima).",
+            "iAcknowledgeTermsAndConditions": "Eu reconheço *",
+            "saveAndContinueButton": "Salvar e Continuar",
+            "questionIsMember": "Você é um membro atual ou ex-membro de A Igreja de Jesus Cristo dos Santos dos Últimos Dias?",
+            "questionPresentReligion": "Qual é a sua religião atual, se houver?",
+            "loadingMessage": "Carregando...",
+            "errorMessagePrefix": "Erro: ",
+            "pickerSelectAnItem": "Selecione um item",
+            "pickerOptionYes": "Sim",
+            "pickerOptionNo": "Não",
+            "pickerOptionCatholic": "Católico",
+            "pickerOptionNoReligion": "Nenhuma Religião",
+            "validationRequired": "Este campo é obrigatório",
+            "validationReligionRequired": "Este campo é obrigatório quando você não é membro.",
+            "validationAcknowledgeTerms": "Você deve reconhecer os termos e condições."
+        },
+        "notStudentTermsConditions2NoMRN": {
+            "termsAndConditionsTitle": "Termos e Condições",
+            "noMRNAttachedTitle": "NENHUM NÚMERO DE REGISTRO DE MEMBRO (MRN) ANEXADO",
+            "mrnExplanation": "Todos os membros de A Igreja de Jesus Cristo dos Santos dos Últimos Dias são obrigados a ter um número de registro de membro (MRN) associado à sua Conta da Igreja para participar dos programas oferecidos através do BYU-Pathway Worldwide. A conta com a qual você está logado atualmente não tem um MRN anexado. Veja abaixo as opções de solução de problemas:",
+            "optionOneTitle": "Opção um:",
+            "optionOneDescription": "Se uma Conta da Igreja diferente estiver associada ao seu MRN, faça login usando essa conta.",
+            "optionOneBullet": "Se você não se lembra do nome de usuário ou senha dessa conta, siga as etapas encontradas na ",
+            "accountRecoveryLink": "página de recuperação de conta",
+            "optionOneBulletPart2": ". NÃO crie uma nova conta.",
+            "optionTwoTitle": "Opção dois:",
+            "optionTwoDescription": "Adicione seu MRN à sua conta atual.",
+            "optionTwoStep1": "1. Saia do aplicativo.",
+            "optionTwoStep2": "2. Vá para as suas ",
+            "churchAccountSettingsLink": "configurações de membro da Conta da Igreja",
+            "optionTwoStep3": "3. Adicione seu MRN. Você pode encontrar seu MRN ao:",
+            "optionTwoStep3a": "a. Verificar sua recomendação para o templo.",
+            "optionTwoStep3b": "b. Entrar em contato com o secretário de sua ala ou ramo.",
+            "optionTwoStep4": "4. Faça login novamente no aplicativo.",
+            "optionThreeTitle": "Opção três:",
+            "optionThreeDescription": "Se nenhuma das opções acima funcionar, entre em contato com o ",
+            "byuPathwaySupportLink": "Suporte do BYU-Pathway",
+            "formerMembershipTitle": "Antiga Filiação",
+            "formerMembershipP1": "Indivíduos que atualmente têm restrições formais de filiação ou tiveram uma retirada voluntária ou involuntária de filiação de A Igreja de Jesus Cristo dos Santos dos Últimos Dias não são elegíveis para participar de programas oferecidos através do BYU-Pathway Worldwide até que sejam reintegrados à plena comunhão na Igreja. Os candidatos são encorajados a se reunir com seu líder eclesiástico para discutir os próximos passos para a reintegração ao status de membro irrestrito. Para informações adicionais ou esclarecimentos, entre em contato com o Suporte do BYU-Pathway."
+        },
+        "notStudentMemberWelcome": {
+            "welcomeGreeting": "Bem-vindo(a), Jhon Doe!",
+            "welcomeMessage": "Bem-vindo(a) ao BYU-Pathway Worldwide! Por favor, verifique se seu nome e e-mail estão corretos:",
+            "yourNameLabel": "Seu Nome:",
+            "yourName": "Jhon Doe",
+            "yourEmailLabel": "Seu E-mail:",
+            "yourEmail": "jhondoe@gmail.com",
+            "signOutMessage": "Se este não for você, saia e faça login novamente com sua Conta da Igreja.",
+            "contactSupport": "Entre em contato com o Suporte do BYU-Pathway se precisar de ajuda.",
+            "startApplicationButton": "Iniciar Candidatura"
+        },
+        "notStudentInformation": {
+            "requestStudentInfoTitle": "Solicitar Informações do Aluno",
+            "saveAndContinueButton": "Salvar e Continuar",
+            "loadingMessage": "Carregando...",
+            "errorMessagePrefix": "Erro: ",
+            "receiveTextMessagesQuestion": "Gostaria de receber mensagens de texto?",
+            "receiveTextMessagesOptionDoNotAllow": "Não permitir",
+            "receiveTextMessagesOptionAllow": "Permitir",
+            "primaryLanguageSelectOption": "Selecione um idioma",
+            "validationFirstNameRequired": "O nome é obrigatório",
+            "validationLastNameRequired": "O sobrenome é obrigatório",
+            "validationDateOfBirthRequired": "A data de nascimento é obrigatória",
+            "validationSexRequired": "O sexo é obrigatório",
+            "validationMaritalStatusRequired": "O estado civil é obrigatório",
+            "validationPrimaryLanguageRequired": "O idioma principal é obrigatório",
+            "validationCountryRegionRequired": "País/Região é obrigatório",
+            "validationZipInvalid": "CEP inválido",
+            "validationZipRequired": "O CEP é obrigatório",
+            "validationAddressLine1Required": "O endereço (Linha 1) é obrigatório",
+            "validationCityRequired": "A cidade é obrigatória",
+            "validationEmailInvalid": "Endereço de e-mail inválido",
+            "validationEmailRequired": "O e-mail é obrigatório",
+            "validationMobilePhoneInvalid": "Número de telefone inválido",
+            "validationMobilePhoneRequired": "O telefone celular é obrigatório",
+            "validationHomePhoneInvalid": "Número de telefone inválido",
+            "validationPreferredPhoneRequired": "O telefone preferencial é obrigatório",
+            "validationReceiveTextMessagesRequired": "Por favor, selecione uma opção para mensagens de texto",
+            "validationWhatsAppNumberInvalid": "Número de telefone inválido"
+        },
+        "studentInfoSection": {
+            "firstNameLabel": "Nome(s)*",
+            "lastNameLabel": "Sobrenome*",
+            "suffixLabel": "Sufixo",
+            "dateOfBirthQuestion": "Data de nascimento*",
+            "sexQuestion": "Sexo*",
+            "maritalStatusQuestion": "Estado civil*",
+            "primaryLanguageQuestion": "Qual é o seu idioma principal?*"
+        },
+        "currentAddressSection": {
+            "currentAddressTitle": "Endereço Atual",
+            "currentAddressDescription": "Este é o endereço de onde você estará morando enquanto participa do BYU-Pathway Worldwide.",
+            "countryRegionQuestion": "País/Região *",
+            "zipLabel": "CEP*",
+            "stateProvinceLabel": "Estado/Província",
+            "addressLine1Label": "Endereço (Linha 1) *",
+            "cityLabel": "Cidade *"
+        },
+        "contactInfoSection": {
+            "contactInfoTitle": "Informações de Contato",
+            "emailLabel": "E-mail *",
+            "mobilePhoneLabel": "Telefone Celular *",
+            "homePhoneLabel": "Telefone Residencial",
+            "preferredPhoneQuestion": "Telefone Preferencial *",
+            "textMessageDescription": "BYU-Pathway usa mensagens de texto para enviar lembretes de matrícula e notificações importantes. Se você não deseja receber mensagens de texto, pode desativá-las abaixo.",
+            "otherContactInfoTitle": "Outras Informações de Contato",
+            "whatsAppNumberLabel": "Número do WhatsApp",
+            "facebookMessengerLabel": "Facebook Messenger"
+        },
+        "citizenshipInformation": {
+            "requestStudentInfoTitle": "Solicitar Informações do Aluno",
+            "saveAndContinueButton": "Salvar e Continuar",
+            "citizenshipInfoTitle": "Informações de Cidadania",
+            "ssn": "Por favor, forneça seu número de Social Security (SSN). Se você optar por não fornecer seu SSN nesta página, precisará concluir etapas adicionais para receber formulários fiscais.",
+            "hispanicLatino": "Você se considera Hispânico/Latino?",
+            "racialCategoriesArray": "Selecione uma ou mais das seguintes categorias raciais para se descrever",
+            "haveUsCitizenshipQuestion": "Você tem cidadania nos EUA?*",
+            "completedHighSchool": "Você concluiu o ensino médio/educação secundária? *",
+            "highestEducationQuestion": "Qual é o seu nível mais alto de educação?*",
+            "attendedUsUniversitiesQuestion": "Você frequentou uma ou mais universidades/faculdades dos Estados Unidos (não incluindo PathwayConnect) depois de se formar no ensino médio?*",
+            "earnCreditUsUniversityQuestion": "Você concluiu um ou mais cursos de 3+ créditos com nota 'C' ou superior em uma universidade/faculdade dos Estados Unidos depois de se formar no ensino médio? *",
+            "selectSchool": "Selecione uma escola que você frequentou e concluiu pelo menos um curso de 3+ créditos.*",
+            "selectSchoolTitle": "Selecione sua escola:",
+            "selectSchoolNote1": "Neste ponto do aplicativo, você só precisa selecionar 1 escola, mesmo que tenha frequentado várias universidades/faculdades.",
+            "selectSchoolNote2": "Para os propósitos desta aplicação, aceitamos apenas universidades/faculdades credenciadas regionalmente nos EUA. Se sua universidade/faculdade não estiver listada, altere sua resposta para a pergunta \"Você frequentou uma ou mais universidades/faculdades dos Estados Unidos depois de se formar no ensino médio?\" para \"Não\".",
+            "selectSchoolNote3": "Se sua universidade/faculdade era credenciada regionalmente nos EUA, mas não está listada e desde então mudou seu nome, escolha o nome mais recente da escola. Exemplo: Para Ricks College, selecione Brigham Young University-Idaho.",
+            "afterAdmittance": "Após a admissão no BYU-Pathway, você pode enviar históricos escolares oficiais para transferir quaisquer créditos universitários/faculdade anteriores para satisfazer os requisitos do programa. Alguns alunos podem ser obrigados a enviar históricos para fins de verificação.",
+            "parentsBachelor": "Algum de seus pais obteve um diploma de bacharel ou equivalente?*",
+            "unresolvedLegalRestrictionsQuestion": "Você tem alguma restrição legal, obrigação ou multa não resolvida por um crime pelo qual você foi condenado, se declarou culpado ou foi considerado responsável (exceto uma pequena infração de trânsito)? *",
+            "noteForUnresolvedLegalRestrictions": "Isso inclui, mas não se limita a: encarceramento atual, liberdade condicional, liberdade condicional, listado em um registro de agressores sexuais, taxas judiciais, serviço comunitário ou outras multas legais.",
+            "noteBachelor": "Ao clicar em Salvar e Continuar, você confirma que suas respostas são verdadeiras e precisas, tanto quanto você sabe. Fornecer informações falsas pode resultar no cancelamento de sua admissão e na perda de quaisquer créditos obtidos por meio dos programas BYU-Pathway Worldwide.",
+            "loadingMessage": "Carregando...",
+            "errorMessagePrefix": "Erro: ",
+            "pickerOptions": {
+            "usCitizen": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ],
+            "hispanicLatino": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ],
+            "highestEducation": [
+                {
+                "name": "Selecione um nível",
+                "value": ""
+                },
+                {
+                "name": "Ensino Médio/Educação Secundária",
+                "value": "HighSchool"
+                },
+                {
+                "name": "Alguma faculdade ou universidade",
+                "value": "SomeCollege"
+                },
+                {
+                "name": "Bacharelado",
+                "value": "Bachelors"
+                },
+                {
+                "name": "Mestrado",
+                "value": "Masters"
+                },
+                {
+                "name": "Doutorado/Grau Profissional",
+                "value": "Doctorate"
+                }
+            ],
+            "completedHighSchool": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ],
+            "attendedUsUniversities": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ],
+            "earnCreditUsUniversity": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ],
+            "selectSchool": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Teste",
+                "value": "test"
+                }
+            ],
+            "parentsBachelor": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ],
+            "unresolvedLegalRestrictions": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ],
+            "convictedTrafficViolation": [
+                {
+                "name": "Selecione uma opção",
+                "value": ""
+                },
+                {
+                "name": "Sim",
+                "value": "Yes"
+                },
+                {
+                "name": "Não",
+                "value": "No"
+                }
+            ]
+            },
+            "validationCitizenshipStatusRequired": "O status de cidadania é obrigatório",
+            "validationCompletedHighSchoolRequired": "Por favor, indique se você concluiu o ensino médio/secundário",
+            "validationHighestEducationRequired": "O nível mais alto de educação é obrigatório",
+            "validationAttendedUsUniversitiesRequired": "Por favor, indique se você frequentou alguma universidade/faculdade dos EUA.",
+            "validationEarnCreditUsUniversityRequired": "Por favor, indique se você concluiu algum curso com crédito em um programa dos EUA.",
+            "validationParentsBachelorRequired": "Por favor, indique se algum de seus pais obteve um diploma de bacharel ou equivalente.",
+            "validationUnresolvedLegalRestrictionsRequired": "Por favor, selecione uma opção sobre restrições legais, obrigações ou multas não resolvidas.",
+            "validationAnticipatedLegalizationDateRequired": "Por favor, forneça a data prevista de legalização."
+        },
+        "citizenshipInfoSection": {
+            "biographicInformationTitle": "Informações Biográficas",
+            "socialSecurityNumberLabel": "Número do Seguro Social",
+            "backgroundInformationTitle": "Informações de Histórico",
+            "anticipatedLegalizationDateQuestion": "Qual é a data prevista de legalização para qualquer uma dessas restrições, obrigações ou ônus?*",
+            "racialCategories": [
+            {
+                "code": "111110000",
+                "name": "Índio Americano ou Nativo do Alasca"
+            },
+            {
+                "code": "111110001",
+                "name": "Asiático"
+            },
+            {
+                "code": "111110002",
+                "name": "Preto ou Afro-Americano"
+            },
+            {
+                "code": "111110003",
+                "name": "Natali do Havaí ou Outras Ilhas do Pacífico"
+            },
+            {
+                "code": "111110004",
+                "name": "Branco"
+            }
+            ]
+        },
+        "englishLanguageAssessment": {
+            "elaTitle": "Avaliação de Língua Inglesa (ELA)",
+            "paragraph1": "Um certo nível de proficiência em inglês é necessário para ter sucesso no BYU-Pathway Worldwide. A jornada do PathwayConnect frequentemente começa com o EnglishConnect, um programa desenvolvido para auxiliar os alunos a desenvolver sua proficiência em inglês em um ambiente de companheirismo e fé.",
+            "paragraph2": "Nas seguintes avaliações (Escrita e Leitura), você demonstrará seu nível atual de inglês para que possa se inscrever no programa que será mais benéfico para você.",
+            "certificationIntro": "Ao salvar e continuar esta página, você certifica:",
+            "certificationBullet1": "Você não usará ajuda externa de qualquer tipo para responder às perguntas.",
+            "certificationBullet2": "Seus resultados representam seu melhor esforço pessoal.",
+            "buttonText": "Salvar e Continuar"
+        },
+        "englishWritingTest": {
+            "title": "Teste de Escrita em Inglês",
+            "directions": "Instruções:",
+            "bullet1": "Este teste medirá sua habilidade de escrita em inglês de acordo com as Diretrizes de Proficiência da ACTFL.",
+            "bullet2": "Não use dicionários, dispositivos eletrônicos ou qualquer outra ajuda.",
+            "bullet3": "Existem 2 perguntas neste teste.",
+            "bullet4": "O temporizador para cada item é exibido no canto superior direito da tela.",
+            "bullet5": "A próxima página exibirá uma pergunta de prática para você se familiarizar com o formato das perguntas do teste.",
+            "buttonText": "Iniciar Teste"
+        },
+        "englishWritingTestScreen": {
+            "loadingTestData": "Carregando dados do teste...",
+            "submitTestButton": "Enviar Teste",
+            "continueButton": "Continuar",
+            "resetButton": "Redefinir",
+            "successMessage": "Sua avaliação de escrita está completa. Ela será avaliada em breve. ",
+            "errorMessage": "Ocorreu um erro ao salvar seu teste. Por favor, tente novamente.",
+            "alertCloseContinue": "Continuar",
+            "alertCloseOK": "OK",
+            "submittingTestDescription": "Enviando teste de escrita...",
+            "readingAssessmentPrompt": "Agora, por favor, complete sua avaliação de leitura",
+            "readingAssessmentLinkText": "aqui",
+            "leftTestMessage": "Você saiu do teste. Todo o progresso não salvo foi perdido e o teste foi redefinido.",
+            "passageValidationRequired": "A resposta da Passagem {number} é obrigatória.",
+            "passageValidationMinLength": "Por favor, escreva pelo menos 4-5 frases para a Passagem {number}."
+        },
+        "decisionInformation": {
+            "title": "Informações de Decisão",
+            "description1": "Obrigado pelo seu interesse no BYU-Pathway Worldwide. Com base nas informações fornecidas, você pode ser elegível para participar de um ou mais dos programas online atendidos pelo BYU-Pathway. Por favor, continue este aplicativo para decidir o melhor programa para você.",
+            "description2": "Obrigado pelo seu interesse no BYU-Pathway Worldwide. Infelizmente, como o BYU-Pathway não está aprovado para admitir alunos em seu país, você não é elegível no momento. O BYU-Pathway está trabalhando para poder oferecer educação online em novos países, por isso o encorajamos a se candidatar novamente se seu país for aprovado no futuro.",
+            "saveAndContinueButton": "Salvar e Continuar"
+        },
+        "programSelectionScreen": {
+            "title": "Página de Seleção de Programa",
+            "description": "No menu abaixo, você verá os programas BYU-Pathway com os quais você é elegível para começar. Isso pode incluir EnglishConnect 3, PathwayConnect e/ou Certificados e Diplomas. Se você não vir o programa que deseja, isso significa que você não é elegível para ele agora, mas poderá se tornar elegível após a conclusão de outros programas. Você pode clicar em um programa para ver um resumo e detalhes importantes, como onde encontrar informações sobre os custos das mensalidades.",
+            "saveAndContinueButton": "Salvar e Continuar",
+            "selectProgramPlaceholder": "Selecione um programa",
+            "validationProgramRequired": "Por favor, selecione um programa.",
+            "loadingMessage": "Carregando...",
+            "errorMessage": "Erro: ",
+            "pickerOptions": {
+            "program": [
+                {
+                "name": "Selecione um programa",
+                "value": ""
+                },
+                {
+                "name": "English Connect 3 (Inglês Acadêmico)",
+                "value": "englishConnect3"
+                },
+                {
+                "name": "Pathway Connect (Recomendado)",
+                "value": "pathwayConnect"
+                },
+                {
+                "name": "Certificados e Diplomas (Avançado)",
+                "value": "certificatesDegrees"
+                }
+            ]
+            }
+        },
+        "programDetailsCertDegreeScreen": {
+            "headerTitle": "Configurações para Não-Estudantes",
+            "programTitle": "RESUMO DO PROGRAMA DE CERTIFICADOS E DIPLOMAS",
+            "programDescription": "BYU-Pathway Worldwide oferece acesso a certificados e diplomas online em associação com BYU-Idaho e Ensign College. Embora o início recomendado para um diploma geralmente comece com PathwayConnect, os participantes podem optar por se candidatar diretamente ao programa de certificados e diplomas online se atenderem aos requisitos mínimos de formação educacional. A mensalidade é significativamente reduzida para todo o programa de graduação para aqueles que começam com PathwayConnect.",
+            "requirementsTitle": "REQUISITOS DO PROGRAMA DE CERTIFICADOS E DIPLOMAS",
+            "instituteGathering": "Participação semanal nas reuniões para crédito do Instituto, conforme possa ser exigido.",
+            "technologyAccessTitle": "Acesso à Tecnologia",
+            "technologyAccessPoint1": "O sucesso com os cursos online depende do acesso dos alunos a internet confiável, eletricidade e um dispositivo com poder de computação mínimo. Antes de se inscrever em um programa, você deve confirmar que as seguintes condições são atendidas:",
+            "technologyAccessPoint2": "Você precisa ter acesso regular a internet de alta velocidade com dados adequados.",
+            "technologyAccessPoint3": "Você precisará ter acesso regular a um dispositivo que atenda ao perfil mínimo de dispositivo designado para suas atividades acadêmicas. Para mais informações na ",
+            "technologyAccessPoint31": " página web.",
+            "technologyRequirementsLinkText": "Requisitos de Tecnologia do BYU-Pathway",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "tuitionTitle": "Mensalidade",
+            "tuitionPoint1": "A mensalidade vence na quarta segunda-feira de cada período (dia 22). Você receberá uma multa de 5% por atraso para todo saldo pendente após esta data.",
+            "tuitionPoint2": "Alunos que não completam o PathwayConnect do BYU-Pathway Worldwide pagam a taxa de mensalidade padrão online (Caminho Avançado). Visite ",
+            "tuitionScholarshipsLinkText": "https://www.byupathway.edu/tuition",
+            "tuitionPoint21": " para mais informações.",
+            "tuitionScholarshipsLinkUrl": "https://www.byupathway.edu/tuition",
+            "tuitionDiscountsPoint": "Visite a página de ",
+            "tuitionDiscountsLinkText": "Descontos na Mensalidade",
+            "tuitionDiscountsLinkUrl": "https://www.byupathway.edu/tuition-discounts",
+            "tuitionDiscountsPoint2": " para informações sobre bolsas de estudo garantidas e outros possíveis descontos.",
+            "disabilityServicesTitle": "Serviços para Pessoas com Deficiência",
+            "disabilityServicesPoint1": "De acordo com a Seção 504 do Rehabilitation Act de 1973, BYU-Pathway, BYU–Idaho e Ensign College (coletivamente as Instituições) não discriminam alunos de graduação online com deficiência e fornecem acomodações razoáveis para indivíduos qualificados.",
+            "disabilityServicesPoint2": "Alunos de Graduação Online podem solicitar acomodações de acessibilidade através de seu portal do aluno.",
+            "saveAndContinueButton": "Salvar e Continuar"
+        },
+        "englishConnectDetailsScreen": {
+            "headerTitle": "Configurações para Não-Estudantes",
+            "programTitle": "RESUMO DO PROGRAMA ENGLISHCONNECT 3",
+            "programDescription": "Os alunos usam o curso EnglishConnect 3 para se preparar para o PathwayConnect e outras oportunidades acadêmicas. No EnglishConnect 3, os alunos melhoram sua capacidade de ler, escrever, ouvir e falar em inglês. Eles podem repetir o EnglishConnect 3 quantas vezes forem necessárias para atingir seus objetivos.",
+            "requirementsTitle": "REQUISITOS DO PROGRAMA ENGLISHCONNECT 3",
+            "gatheringsTitle": "Reuniões",
+            "gatheringsPoint": "A participação semanal nas reuniões do EnglishConnect 3 é obrigatória (presencial ou virtualmente). A participação nas reuniões constitui uma parte significativa do progresso geral do curso do aluno.",
+            "technologyAccessTitle": "Acesso à Tecnologia",
+            "technologyAccessPoint1": "O sucesso com os cursos online depende do acesso dos alunos a internet confiável, eletricidade e um dispositivo com poder de computação mínimo. Antes de se inscrever em um programa, você deve confirmar que as seguintes condições são atendidas:",
+            "technologyAccessPoint2": "Você precisa ter acesso regular a internet de alta velocidade com dados adequados.",
+            "technologyAccessPoint3": "Você precisa ser capaz de gravar áudio claro para suas tarefas de fala.",
+            "technologyAccessPoint4": "Você precisa ter acesso regular a um dispositivo que atenda ao perfil mínimo de dispositivo designado para o seu programa acadêmico selecionado, conforme explicado na ",
+            "technologyRequirementsLinkText": "página de Requisitos de Tecnologia do BYU-Pathway",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "technologyAccessPoint4_after": ". (EnglishConnect 3 segue os mesmos requisitos de tecnologia do PathwayConnect.)",
+            "tuitionTitle": "Mensalidade",
+            "tuitionPoint1": "A mensalidade vence na quarta segunda-feira de cada período (dia 22). Você receberá uma multa de 5% por atraso para todo saldo pendente após esta data.",
+            "tuitionPoint2": "Para ver os custos específicos da mensalidade para o seu país, visite a ",
+            "englishConnectTuitionLinkText": "página da web do EnglishConnect 3",
+            "englishConnectTuitionLinkUrl": "https://www.englishconnect.org/",
+            "tuitionPoint2_after": ". Se você não mora nos Estados Unidos, clique em 'United States' e escolha sua localização.",
+            "disabilityServicesTitle": "Serviços para Pessoas com Deficiência",
+            "disabilityServicesPoint1": "Embora o BYU-Pathway não seja legalmente obrigado a fornecer acesso e acomodações para alunos do EnglishConnect, PathwayConnect ou Instituto com deficiência, ele se esforça para fornecer assistência razoável aos alunos que precisam. Essa assistência é fornecida voluntariamente e a critério exclusivo do BYU-Pathway. A assistência voluntária que os alunos recebem pode diferir das acomodações fornecidas por outras instituições.",
+            "disabilityServicesPoint2": "Os participantes do EnglishConnect 3 podem solicitar assistência para deficiências através de seu portal do aluno.",
+            "saveAndContinueButton": "Salvar e Continuar"
+        },
+        "pathwayConnectDetailsScreen": {
+            "headerTitle": "Configurações para Não-Estudantes",
+            "programTitle": "RESUMO DO PROGRAMA PATHWAYCONNECT",
+            "programDescription": "PathwayConnect é o início recomendado para qualquer diploma. Oferecido a um custo significativamente reduzido, o PathwayConnect pode ser concluído em apenas 6 meses e inclui cursos acadêmicos e religiosos fundamentais que são tipicamente contados para a conclusão de um diploma. Alunos que começam com o PathwayConnect geralmente veem um aumento no sucesso na conclusão de um diploma online.",
+            "requirementsTitle": "REQUISITOS DO PROGRAMA PATHWAYCONNECT",
+            "gatheringsTitle": "Reuniões",
+            "gatheringsPoint1": "A participação semanal nas reuniões do PathwayConnect é obrigatória (presencial ou virtualmente). A participação nas reuniões constitui uma parte significativa da nota geral do curso do aluno.",
+            "gatheringsPoint2": "A participação semanal nas reuniões dos cursos do Instituto também é obrigatória.",
+            "technologyAccessTitle": "Acesso à Tecnologia",
+            "technologyAccessPoint1": "O sucesso com os cursos online depende do acesso dos alunos a internet confiável, eletricidade e um dispositivo com poder de computação mínimo. Antes de se inscrever em um programa, você deve confirmar que as seguintes condições são atendidas:",
+            "technologyAccessPoint2": "Você precisa ter acesso regular a internet de alta velocidade com dados adequados.",
+            "technologyAccessPoint3": "Você precisa ter acesso regular a um dispositivo que atenda ao perfil mínimo de dispositivo designado para o seu programa acadêmico selecionado, conforme explicado na ",
+            "technologyRequirementsLinkText": "página de Requisitos de Tecnologia BYU-Pathway",
+            "technologyRequirementsLinkUrl": "https://www.byupathway.edu/technology-requirements",
+            "technologyAccessPoint3_after": ".",
+            "tuitionTitle": "Mensalidade",
+            "tuitionPoint1": "A mensalidade vence na quarta segunda-feira de cada período (dia 22). Você receberá uma multa de 5% por atraso para todo saldo pendente após esta data.",
+            "tuitionPoint2": "Use a ",
+            "pathwayConnectTuitionLinkText": "Página de Mensalidade do PathwayConnect",
+            "pathwayConnectTuitionLinkUrl": "https://www.byupathway.edu/tuition",
+            "tuitionPoint2_after": " para ver os custos específicos da mensalidade para o seu país.",
+            "tuitionPoint3": "Visite a página de ",
+            "tuitionDiscountsLinkText": "Descontos na Mensalidade",
+            "tuitionDiscountsLinkUrl": "https://www.byupathway.edu/tuition-discounts",
+            "tuitionPoint3_after": " para informações sobre bolsas de estudo garantidas e outros possíveis descontos.",
+            "disabilityServicesTitle": "Serviços para Pessoas com Deficiência",
+            "disabilityServicesPoint1": "Embora o BYU-Pathway não seja legalmente obrigado a fornecer acesso e acomodações para alunos do EnglishConnect, PathwayConnect ou Instituto com deficiência, ele se esforça para fornecer assistência razoável aos alunos que precisam. Essa assistência é fornecida voluntariamente e a critério exclusivo do BYU-Pathway. A assistência voluntária que os alunos recebem pode diferir das acomodações fornecidas por outras instituições.",
+            "disabilityServicesPoint2": "Os alunos do PathwayConnect e do Instituto podem solicitar assistência para deficiências através de seu portal do aluno.",
+            "saveAndContinueButton": "Salvar e Continuar"
+        },
+        "cesAcknowledgementScreen": {
+            "headerTitle": "Configurações para Não-Estudantes",
+            "acknowledgementTitle": "Reconhecimento do CES",
+            "acknowledgementDescription": "O Sistema Educacional da Igreja (CES) é patrocinado por A Igreja de Jesus Cristo dos Santos dos Últimos Dias (Igreja) e dirigido pelo Conselho de Educação da Igreja/Conselhos de Curadores, com a missão de desenvolver discípulos de Jesus Cristo que são líderes em seus lares, na Igreja e em suas comunidades.",
+            "honorCodeTitle": "Código de Honra do CES",
+            "honorCodeDescription": "O Código de Honra do CES ajuda a cumprir a missão do CES de edificar discípulos de Jesus Cristo. Como professores, administração, funcionários e alunos se comprometem voluntariamente a conduzir suas vidas de acordo com os princípios do evangelho de Jesus Cristo, eles se esforçam para manter os mais altos padrões em sua conduta pessoal em relação à honra, integridade, moralidade e consideração pelos outros. Ao aceitar a nomeação, continuar no emprego, ser admitido ou continuar a matrícula, cada membro das comunidades do campus se compromete pessoalmente a observar o Código de Honra do CES aprovado pelo Conselho de Curadores:",
+            "honorCodePoint1": "Manter um Endosso Eclesiástico, incluindo esforçar-se para aprofundar a fé e manter os padrões do evangelho.",
+            "honorCodePoint2": "Ser honesto.",
+            "honorCodePoint3": "Viver uma vida casta e virtuosa, incluindo abster-se de relações sexuais fora do casamento entre um homem e uma mulher. Viver uma vida casta e virtuosa também inclui abster-se de comportamento romântico do mesmo sexo.",
+            "honorCodePoint4": "Abster-se de bebidas alcoólicas, tabaco, chá, café, vaping, maconha e outros abusos de substâncias.",
+            "honorCodePoint5": "Participar regularmente dos serviços da Igreja.",
+            "honorCodePoint6": "Respeitar os outros, incluindo a abstenção de linguagem profana e vulgar.",
+            "honorCodePoint7": "Obedecer à lei e seguir as políticas do campus, incluindo os padrões de Vestuário e Aparência do CES.",
+            "honorCodePoint8": "Incentivar outros em seu compromisso de cumprir o Código de Honra e os padrões de Vestuário e Aparência.",
+            "dressGroomingPrinciplesTitle": "Princípios e Expectativas de Vestuário e Aparência do CES",
+            "dressGroomingPrinciplesDescription": "Os Princípios e Expectativas de Vestuário e Aparência do CES fazem parte do Código de Honra do CES e parte do compromisso de cada aluno, funcionário e voluntário.",
+            "dressGroomingPrinciplesDescription2": "Ao considerar o Código de Honra e as decisões de vestuário e aparência, os ensinamentos dos profetas e apóstolos, bem como as instruções da Igreja, como “Para o Vigor da Juventude: Um Guia para Fazer Escolhas” podem ser úteis.",
+            "dressGroomingPrinciplesListTitle": "Princípios de Vestuário e Aparência do CES",
+            "dressGroomingPrinciplesPoint1": "Cada aluno, funcionário e voluntário se compromete a:",
+            "dressGroomingPrinciplesPoint2": "Representar o Salvador Jesus Cristo, a Igreja e o Sistema Educacional da Igreja.",
+            "dressGroomingPrinciplesPoint3": "Preservar um ambiente inspirador, sem distração ou interrupção, onde os convênios são guardados em espírito de unidade para que o Espírito Santo possa ensinar a verdade.",
+            "dressGroomingPrinciplesPoint4": "Promover modéstia, limpeza, asseio e sobriedade no vestuário e na aparência.",
+            "dressGroomingPrinciplesPoint5": "Manter um padrão elevado e distintivo das instituições de ensino da Igreja de Jesus Cristo.",
+            "dressGroomingExpectationsNote": "As expectativas de vestuário e aparência, como nos exemplos abaixo, devem estar alinhadas com esses princípios. No entanto, a aplicação desses princípios não se limita às expectativas listadas. Os membros da comunidade universitária devem aplicar esses princípios às questões de vestuário e aparência que surgirem.",
+            "byuPathwayNote": "BYU–Pathway Worldwide e Seminários e Institutos de Religião correspondem aos padrões locais de vestuário e aparência da Igreja, conforme apropriado para as atividades locais.",
+            "readMoreLinkText": "Você pode ler mais sobre o Código de Honra ",
+            "readMoreLinkText2": "aqui.",
+            "readMoreLinkUrl": "https://www.byupathway.edu/honor-code",
+            "iAcknowledgeCES": "Reconheço e concordo que li e cumprirei o Código de Honra do CES e os requisitos do CES. *",
+            "saveAndContinueButton": "ENVIAR SUA APLICAÇÃO",
+            "validationAcknowledgementRequired": "Você deve reconhecer para enviar.",
+            "loadingMessage": "Carregando...",
+            "errorMessage": "Erro: "
+        },
+        "applicationDashboardScreen": {
+            "applicationRegistration": "Inscrição no BYU-Pathway Worldwide",
+            "dateStarted": "08-06-2025",
+            "dateSubmitted": "08-06-2025",
+            "program1": "PathwayConnect (Recomendado)",
+            "program2": "Com base nas informações fornecidas, você se qualifica para o EnglishConnect 3. Este curso o ajudará a aprimorar suas habilidades em inglês para se preparar para futuras oportunidades de emprego e educação através do BYU-Pathway Worldwide. Saiba como se inscrever hoje em ",
+            "program3": "Com base nas informações fornecidas, você se qualifica para o EnglishConnect 1 ou 2. Estes cursos o ajudarão a aprimorar suas habilidades em inglês para se preparar para futuras oportunidades de emprego e educação através do BYU-Pathway Worldwide. Saiba como se inscrever hoje em ",
+            "program4": "Com base nas informações fornecidas, você se qualifica para Certificados e Diplomas.",
+            "statusSubmitted": "Enviado",
+            "statusApproved": "Aprovado",
+            "studentEmail": "student@byupathway.edu",
+            "englishConnectURL": "https://www.englishconnect.org",
+            "title": "Painel de Candidatura",
+            "nextStepsTitle": "Próximos Passos",
+            "pathwayConnectNextStep1": "1. Registre-se no curso {PC}.",
+            "pathwayConnectNextStep2": "2. Selecione seu horário de reunião.",
+            "pathwayConnectNextStep3": "3. Faça login e inicie sua experiência de estudante.",
+            "continueButton": "Continuar",
+            "certificatesDegreesNextStep": "Use seu e-mail institucional para fazer login: ",
+            "goToLoginButton": "Ir para o Login"
         }
     }
 };
