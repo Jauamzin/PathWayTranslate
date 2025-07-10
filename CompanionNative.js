@@ -1679,6 +1679,7 @@ const translations = {
             "changeImageButton": "Change image"
         },
         "notStudentWelcome": {
+            "header": "Application",
             "welcomeTitle": "Welcome to the combined application for BYU-Pathway Worldwide and EnglishConnect 3!",
             "churchAccountTitle": "Church Account",
             "churchAccountP1": "You will need a Church account to log in and apply.",
@@ -1689,6 +1690,20 @@ const translations = {
             "programSelectionP1": "We will use the information in your application to recommend which program you should start with. You will make that final selection at the end of the application.",
             "currentStudentsTitle": "Current Students",
             "currentStudentsP1": "If you are currently enrolled in BYU-Pathway or EnglishConnect 3, please DO NOT apply. Log in to your student portal at portal.byupathway.edu to clear holds and register for courses."
+        },
+        "onlineStudentTerms": {
+            "onlineStudentTitle": "Online Student Terms and Conditions — BYU-Pathway Worldwide, Ensign College, BYU-Idaho, and Seminaries and Institutes of Religion (collectively the “Institutions”)",
+            "enrollmentAgreementP1": "When you enroll in any online educational program offered by the Institutions through this site, you acknowledge that you agree to be subject to the academic policies and student services policies applicable to the particular institution in which you enroll; such policies being provided to you as part of the process at the time you submit your application to that institution.",
+            "infoReleaseStatementTitle": "Information Release Statement",
+            "infoReleaseStatementP1": "As applicable to the application process, I hereby authorize the Institutions to examine, as deemed necessary, my academic preparation, moral character, respect for others, and commitment to live by the standards of The Church of Jesus Christ of Latter-day Saints ('Church'). I also authorize the Institutions and their employees and agents to inspect and make copies of any documents, records, notes, evaluations, scores, letters, recommendations, endorsements, statements of opinion, or other information pertaining to me and considered part of my application, admission file, or student record (collectively, the “Student Record”).",
+            "infoReleaseStatementP2": "I release the Institutions and their employees and agents from liability for damages of every nature and kind occurring in the performance of and within the scope of their official duties when considering my application and Student Record.",
+            "infoReleaseStatementP3": "I further release from liability for damages of every nature and kind each and every person or entity who discloses or communicates to the Institutions any information included in my Student Record.",
+            "listBullet1": "Ensign College Legal Disclosures and Select Institutional Policies",
+            "listBullet2": "BYU-Idaho Legal Disclosures and Select Institutional Policies",
+            "listBullet3": "Seminaries and Institutes at Religion Disclosures",
+            "listBullet4": "Privacy Notice – BYU-Pathway Worldwide (updated 2021-03-01)",
+            "listBullet5": "EnglishConnect Student Privacy Notice",
+            "listBullet6": "BYU-Idaho Student Privacy Notice"
         },
         "notStudentTermsConditions": {
             "previousPageButton": "Previous Page",
@@ -1733,12 +1748,11 @@ const translations = {
             "formerMembershipP1": "Individuals who currently have formal membership restrictions or have had a voluntary or involuntary withdrawal of membership from The Church of Jesus Christ of Latter-day Saints are not eligible to participate in programs offered through BYU-Pathway Worldwide until reinstated to full fellowship in the Church. Applicants are encouraged to meet with their ecclesiastical leader to discuss the next steps for reinstatement to unrestricted membership status. For additional information or clarification, please contact BYU-Pathway Support."
         },
         "notStudentMemberWelcome": {
-            "welcomeGreeting": "Welcome Jhon Doe!",
+            "welcomeGreeting": "Welcome ",
+            "welcomeGreeting2": "!",
             "welcomeMessage": "Welcome to BYU-Pathway Worldwide! Please check if your name and email are correct:",
             "yourNameLabel": "Your Name:",
-            "yourName": "Jhon Doe",
             "yourEmailLabel": "Your Email:",
-            "yourEmail": "jhondoe@gmail.com",
             "signOutMessage": "If this is not you, sign out and log in again with your Church Account.",
             "contactSupport": "Contact BYU-Pathway Support if you need help.",
             "startApplicationButton": "Start Application"
@@ -1771,6 +1785,27 @@ const translations = {
             "validationPreferredPhoneRequired": "Preferred Phone is required",
             "validationReceiveTextMessagesRequired": "Please select an option for text messages",
             "validationWhatsAppNumberInvalid": "Invalid phone number"
+        },
+        "pickerOptions": {
+            "selectAnItem": "Select an item",
+            "sex": {
+                "male": "Male",
+                "female": "Female"
+            },
+            "maritalStatus": {
+                "single": "Single",
+                "married": "Married",
+                "divorced": "Divorced",
+                "widowed": "Widowed",
+                "separated": "Separated",
+                "domesticPartnership": "Domestic Partnership"
+            },
+            "countryRegion": {
+                "bolivia": "Bolivia"
+            },
+            "preferredPhone": {
+                "whatsapp": "WhatsApp"
+            }
         },
         "studentInfoSection": {
             "firstNameLabel": "First/Given Name(s)*",
@@ -3793,6 +3828,7 @@ const translations = {
             "changeImageButton": "Change image"
         },
         "notStudentWelcome": {
+            "header": "Application",
             "welcomeTitle": "Welcome to the combined application for BYU-Pathway Worldwide and EnglishConnect 3!",
             "churchAccountTitle": "Church Account",
             "churchAccountP1": "You will need a Church account to log in and apply.",
@@ -3803,6 +3839,20 @@ const translations = {
             "programSelectionP1": "We will use the information in your application to recommend which program you should start with. You will make that final selection at the end of the application.",
             "currentStudentsTitle": "Current Students",
             "currentStudentsP1": "If you are currently enrolled in BYU-Pathway or EnglishConnect 3, please DO NOT apply. Log in to your student portal at portal.byupathway.edu to clear holds and register for courses."
+        },
+        "onlineStudentTerms": {
+            "onlineStudentTitle": "Online Student Terms and Conditions — BYU-Pathway Worldwide, Ensign College, BYU-Idaho, and Seminaries and Institutes of Religion (collectively the “Institutions”)",
+            "enrollmentAgreementP1": "When you enroll in any online educational program offered by the Institutions through this site, you acknowledge that you agree to be subject to the academic policies and student services policies applicable to the particular institution in which you enroll; such policies being provided to you as part of the process at the time you submit your application to that institution.",
+            "infoReleaseStatementTitle": "Information Release Statement",
+            "infoReleaseStatementP1": "As applicable to the application process, I hereby authorize the Institutions to examine, as deemed necessary, my academic preparation, moral character, respect for others, and commitment to live by the standards of The Church of Jesus Christ of Latter-day Saints ('Church'). I also authorize the Institutions and their employees and agents to inspect and make copies of any documents, records, notes, evaluations, scores, letters, recommendations, endorsements, statements of opinion, or other information pertaining to me and considered part of my application, admission file, or student record (collectively, the “Student Record”).",
+            "infoReleaseStatementP2": "I release the Institutions and their employees and agents from liability for damages of every nature and kind occurring in the performance of and within the scope of their official duties when considering my application and Student Record.",
+            "infoReleaseStatementP3": "I further release from liability for damages of every nature and kind each and every person or entity who discloses or communicates to the Institutions any information included in my Student Record.",
+            "listBullet1": "Ensign College Legal Disclosures and Select Institutional Policies",
+            "listBullet2": "BYU-Idaho Legal Disclosures and Select Institutional Policies",
+            "listBullet3": "Seminaries and Institutes at Religion Disclosures",
+            "listBullet4": "Privacy Notice – BYU-Pathway Worldwide (updated 2021-03-01)",
+            "listBullet5": "EnglishConnect Student Privacy Notice",
+            "listBullet6": "BYU-Idaho Student Privacy Notice"
         },
         "notStudentTermsConditions": {
             "previousPageButton": "Previous Page",
@@ -3847,12 +3897,11 @@ const translations = {
             "formerMembershipP1": "Individuals who currently have formal membership restrictions or have had a voluntary or involuntary withdrawal of membership from The Church of Jesus Christ of Latter-day Saints are not eligible to participate in programs offered through BYU-Pathway Worldwide until reinstated to full fellowship in the Church. Applicants are encouraged to meet with their ecclesiastical leader to discuss the next steps for reinstatement to unrestricted membership status. For additional information or clarification, please contact BYU-Pathway Support."
         },
         "notStudentMemberWelcome": {
-            "welcomeGreeting": "Welcome Jhon Doe!",
+            "welcomeGreeting": "Welcome ",
+            "welcomeGreeting2": "!",
             "welcomeMessage": "Welcome to BYU-Pathway Worldwide! Please check if your name and email are correct:",
             "yourNameLabel": "Your Name:",
-            "yourName": "Jhon Doe",
             "yourEmailLabel": "Your Email:",
-            "yourEmail": "jhondoe@gmail.com",
             "signOutMessage": "If this is not you, sign out and log in again with your Church Account.",
             "contactSupport": "Contact BYU-Pathway Support if you need help.",
             "startApplicationButton": "Start Application"
@@ -3885,6 +3934,27 @@ const translations = {
             "validationPreferredPhoneRequired": "Preferred Phone is required",
             "validationReceiveTextMessagesRequired": "Please select an option for text messages",
             "validationWhatsAppNumberInvalid": "Invalid phone number"
+        },
+        "pickerOptions": {
+            "selectAnItem": "Select an item",
+            "sex": {
+                "male": "Male",
+                "female": "Female"
+            },
+            "maritalStatus": {
+                "single": "Single",
+                "married": "Married",
+                "divorced": "Divorced",
+                "widowed": "Widowed",
+                "separated": "Separated",
+                "domesticPartnership": "Domestic Partnership"
+            },
+            "countryRegion": {
+                "bolivia": "Bolivia"
+            },
+            "preferredPhone": {
+                "whatsapp": "WhatsApp"
+            }
         },
         "studentInfoSection": {
             "firstNameLabel": "First/Given Name(s)*",
@@ -5901,6 +5971,7 @@ const translations = {
             "changeImageButton": "Alterar imagem"
         },
         "notStudentWelcome": {
+            "header": "Candidatura",
             "welcomeTitle": "Bem-vindo ao aplicativo combinado para BYU-Pathway Worldwide e EnglishConnect 3!",
             "churchAccountTitle": "Conta da Igreja",
             "churchAccountP1": "Você precisará de uma Conta da Igreja para fazer login e se inscrever.",
@@ -5911,6 +5982,20 @@ const translations = {
             "programSelectionP1": "Usaremos as informações em sua inscrição para recomendar o programa com o qual você deve começar. Você fará essa seleção final no final da inscrição.",
             "currentStudentsTitle": "Alunos Atuais",
             "currentStudentsP1": "Se você está atualmente matriculado no BYU-Pathway ou EnglishConnect 3, por favor, NÃO se inscreva. Faça login no seu portal do aluno em portal.byupathway.edu para limpar impedimentos e se registrar para os cursos."
+        },
+        "onlineStudentTerms": {
+            "onlineStudentTitle": "Termos e Condições do Aluno Online — BYU-Pathway Worldwide, Ensign College, BYU-Idaho e Seminários e Institutos de Religião (coletivamente as “Instituições”)",
+            "enrollmentAgreementP1": "Ao se matricular em qualquer programa educacional online oferecido pelas Instituições por meio deste site, você reconhece que concorda em estar sujeito às políticas acadêmicas e de serviços estudantis aplicáveis à instituição específica na qual você se matricula; tais políticas sendo fornecidas a você como parte do processo no momento em que você envia sua inscrição para essa instituição.",
+            "infoReleaseStatementTitle": "Declaração de Liberação de Informações",
+            "infoReleaseStatementP1": "Conforme aplicável ao processo de inscrição, eu, por meio deste, autorizo as Instituições a examinar, conforme julgado necessário, minha preparação acadêmica, caráter moral, respeito pelos outros e compromisso de viver de acordo com os padrões de A Igreja de Jesus Cristo dos Santos dos Últimos Dias ('Igreja'). Também autorizo as Instituições e seus funcionários e agentes a inspecionar e fazer cópias de quaisquer documentos, registros, notas, avaliações, pontuações, cartas, recomendações, endossos, declarações de opinião ou outras informações pertencentes a mim e consideradas parte de minha inscrição, arquivo de admissão ou registro de estudante (coletivamente, o “Registro do Estudante”).",
+            "infoReleaseStatementP2": "Eu isento as Instituições e seus funcionários e agentes de responsabilidade por danos de toda natureza e espécie que ocorram no desempenho e dentro do escopo de suas funções oficiais ao considerar minha inscrição e Registro do Estudante.",
+            "infoReleaseStatementP3": "Eu, ainda, isento de responsabilidade por danos de toda natureza e espécie cada pessoa ou entidade que divulgar ou comunicar às Instituições qualquer informação incluída em meu Registro do Estudante.",
+            "listBullet1": "Divulgações Legais e Políticas Institucionais Selecionadas do Ensign College",
+            "listBullet2": "Divulgações Legais e Políticas Institucionais Selecionadas da BYU-Idaho",
+            "listBullet3": "Divulgações dos Seminários e Institutos de Religião",
+            "listBullet4": "Aviso de Privacidade – BYU-Pathway Worldwide (atualizado em 01/03/2021)",
+            "listBullet5": "Aviso de Privacidade do Aluno EnglishConnect",
+            "listBullet6": "Aviso de Privacidade do Aluno BYU-Idaho"
         },
         "notStudentTermsConditions": {
             "previousPageButton": "Página Anterior",
@@ -5955,12 +6040,11 @@ const translations = {
             "formerMembershipP1": "Indivíduos que atualmente têm restrições formais de filiação ou tiveram uma retirada voluntária ou involuntária de filiação de A Igreja de Jesus Cristo dos Santos dos Últimos Dias não são elegíveis para participar de programas oferecidos através do BYU-Pathway Worldwide até que sejam reintegrados à plena comunhão na Igreja. Os candidatos são encorajados a se reunir com seu líder eclesiástico para discutir os próximos passos para a reintegração ao status de membro irrestrito. Para informações adicionais ou esclarecimentos, entre em contato com o Suporte do BYU-Pathway."
         },
         "notStudentMemberWelcome": {
-            "welcomeGreeting": "Bem-vindo(a), Jhon Doe!",
+            "welcomeGreeting": "Bem-vindo(a), ",
+            "welcomeGreeting2": "!",
             "welcomeMessage": "Bem-vindo(a) ao BYU-Pathway Worldwide! Por favor, verifique se seu nome e e-mail estão corretos:",
             "yourNameLabel": "Seu Nome:",
-            "yourName": "Jhon Doe",
             "yourEmailLabel": "Seu E-mail:",
-            "yourEmail": "jhondoe@gmail.com",
             "signOutMessage": "Se este não for você, saia e faça login novamente com sua Conta da Igreja.",
             "contactSupport": "Entre em contato com o Suporte do BYU-Pathway se precisar de ajuda.",
             "startApplicationButton": "Iniciar Candidatura"
@@ -5993,6 +6077,27 @@ const translations = {
             "validationPreferredPhoneRequired": "O telefone preferencial é obrigatório",
             "validationReceiveTextMessagesRequired": "Por favor, selecione uma opção para mensagens de texto",
             "validationWhatsAppNumberInvalid": "Número de telefone inválido"
+        },
+        "pickerOptions": {
+            "selectAnItem": "Selecione um item",
+            "sex": {
+                "male": "Masculino",
+                "female": "Feminino"
+            },
+            "maritalStatus": {
+                "single": "Solteiro(a)",
+                "married": "Casado(a)",
+                "divorced": "Divorciado(a)",
+                "widowed": "Viúvo(a)",
+                "separated": "Separado(a)",
+                "domesticPartnership": "União Estável"
+            },
+            "countryRegion": {
+            "bolivia": "Bolívia"
+            },
+            "preferredPhone": {
+            "whatsapp": "WhatsApp"
+            }
         },
         "studentInfoSection": {
             "firstNameLabel": "Nome(s)*",
