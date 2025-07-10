@@ -138,15 +138,19 @@ const translations = {
             "infoPopup": {
                 "message": "This artificial intelligence (AI) chatbot is powered by generative AI technology that refers to the BYU-Pathway website and Support Knowledge Base website. This chatbot can analyze questions, search the mentioned websites, and summarize potentially relevant information. Generative AI is not always correct. Please personally confirm the answer provided by this chatbot by reading the sections it identifies in the mentioned websites. Use of this chatbot is anonymous. Do not enter any personal information. By using this chatbot, you agree that anything you enter can be saved and reviewed by Church personnel to improve this chatbot and make it more accurate",
                 "button": "Acknowledge"
-        },
-        "typeBoxMessage" : "Type a message...",
-        "assistantSwitcher": {
-            "title" :"AI Assistats",
-            "options": [
-                { "label": "Companion Assistant" },
-                { "label": "Course Assistant" }
-            ]
-        }
+            },
+            "assistantSelection": {
+                "loading": "Loading Assistant...",
+                "hello": "Hello Companion!"
+            },
+            "typeBoxMessage" : "Type a message...",
+            "assistantSwitcher": {
+                "title" :"AI Assistats",
+                "options": [
+                    { "label": "Companion Assistant" },
+                    { "label": "Course Assistant" }
+                ]
+            }
         },
         "appsMenuScreen": {
             "title": "Apps",
@@ -2244,15 +2248,19 @@ const translations = {
             "infoPopup": {
                 "message": "This artificial intelligence (AI) chatbot is powered by generative AI technology that refers to the BYU-Pathway website and Support Knowledge Base website. This chatbot can analyze questions, search the mentioned websites, and summarize potentially relevant information. Generative AI is not always correct. Please personally confirm the answer provided by this chatbot by reading the sections it identifies in the mentioned websites. Use of this chatbot is anonymous. Do not enter any personal information. By using this chatbot, you agree that anything you enter can be saved and reviewed by Church personnel to improve this chatbot and make it more accurate",
                 "button": "Acknowledge"
-        },
-        "typeBoxMessage" : "Type a message...",
-        "assistantSwitcher": {
-            "title" :"AI Assistats",
-            "options": [
-                { "label": "Companion Assistant" },
-                { "label": "Course Assistant" }
-            ]
-        }
+            },
+            "assistantSelection": {
+                "loading": "Loading Assistant...",
+                "hello": "Hello Companion!"
+            },
+            "typeBoxMessage" : "Type a message...",
+            "assistantSwitcher": {
+                "title" :"AI Assistats",
+                "options": [
+                    { "label": "Companion Assistant" },
+                    { "label": "Course Assistant" }
+                ]
+            }
         },
         "appsMenuScreen": {
             "title": "Apps",
@@ -4352,6 +4360,10 @@ const translations = {
             "infoPopup": {
                 "message": "Este chatbot de inteligência artificial (IA) é alimentado por tecnologia de IA generativa que faz referência ao site da BYU-Pathway e ao site da Base de Conhecimento de Suporte. Este chatbot pode analisar perguntas, pesquisar os sites mencionados e resumir informações potencialmente relevantes. A IA generativa nem sempre está correta. Por favor, confirme pessoalmente a resposta fornecida por este chatbot lendo as seções que ele identifica nos sites mencionados. O uso deste chatbot é anônimo. Não insira nenhuma informação pessoal. Ao usar este chatbot, você concorda que tudo o que você inserir pode ser salvo e revisado pela equipe da Igreja para melhorar este chatbot e torná-lo mais preciso.",
                 "button": "Reconhecer"
+            },
+            "assistantSelection": {
+                "loading": "Carregando Assistente...",
+                "hello": "Olá Companion!"
             },
             "typeBoxMessage" : "Digite uma mensagem...",
             "assistantSwitcher": {
