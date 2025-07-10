@@ -4223,7 +4223,7 @@ const translations = {
                 "onboardingCarousel": [
                 {
                     "title": "Notificações",
-                    "description": "Receba as últimas notificações diretamente no seu dispositivo móvel para se manter atualizado sobre prazos importantes, casos enviados, quando as inscrições abrem e muito mais! Iremos informá-lo sobre tudo para que você não perca nada."
+                    "description": "Receba as últimas notificações diretamente no seu dispositivo móvel para se manter atualizado sobre prazos importantes, casos enviados, quando as inscrições abrem e muito mais! Vamos mantê-lo informado sobre tudo para que você não perca nada."
                 },
                 {
                     "title": "Serviços",
@@ -4231,7 +4231,7 @@ const translations = {
                 },
                 {
                     "title": "Assistência de IA",
-                    "description": "Acesse a Assistência de IA projetada especialmente para você! Essa assistência pode ajudá-lo frequentemente com perguntas frequentes, perguntas específicas do curso e melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
+                    "description": "Acesse a Assistência de IA projetada especialmente para você!Essa assistência pode ajudá-lo com perguntas frequentes, dúvidas específicas sobre cursos e também a melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
                 }
                 ],
                 "buttons": [
@@ -4247,7 +4247,7 @@ const translations = {
                 "termsText3": ". Por favor, leia-os cuidadosamente antes de usar o aplicativo."
             },
             "notStudentScreen": {
-                "banner": "BYU-Pathway Worldwide oferece acesso a diplomas com base espiritual, completamente online e com preços acessíveis.",
+                "banner": "BYU-Pathway Worldwide oferece acesso a diplomas fundamentados em princípios espirituais, completamente online e com preços acessíveis.",
                 "ourStudents&Alumni": {
                 "title": "Nossos Alunos e Ex-Alunos",
                 "testimonialsCarousel": [
@@ -4255,10 +4255,10 @@ const translations = {
                     "text": "Nunca há um momento perfeito para terminar seu diploma. Sempre haverá coisas que tornarão isso difícil, mas você pode fazer coisas difíceis. Aprendi exatamente o que precisava aprender e isso não só me ajudou academicamente, mas também na minha vida!"
                 },
                 {
-                    "text": "Decidi me esforçar ao máximo para pavimentar o caminho para meu sonho de obter um diploma, matriculando-me nos cursos da BYU-Pathway Worldwide."
+                    "text": "Decidi me esforçar ao máximo para trilhar o caminho em direção ao meu sonho de obter um diploma, matriculando-me nos cursos da BYU-Pathway Worldwide."
                 },
                 {
-                    "text": "Como não sou membro de A Igreja de Jesus Cristo dos Santos dos Últimos Dias, ingressar na BYU-Pathway me causou apreensão inicial. No entanto, fui imediatamente recebido de braços abertos pelos missionários e meus colegas de classe."
+                    "text": "Como não sou membro de A Igreja de Jesus Cristo dos Santos dos Últimos Dias, ingressar na BYU-Pathway me causou apreensão inicial. No entanto, fui recebido imediatamente de braços abertos pelos missionários e meus colegas de classe."
                 }
                     ]
                 },
@@ -4350,7 +4350,7 @@ const translations = {
         "aiAssistanceScreen": {
             "title": "Assistente Companion",
             "infoPopup": {
-                "message": "Este chatbot de inteligência artificial (IA) é alimentado por tecnologia de IA generativa que faz referência ao site da BYU-Pathway e ao site da Base de Conhecimento de Suporte. Este chatbot pode analisar perguntas, pesquisar os sites mencionados e resumir informações potencialmente relevantes. A IA generativa nem sempre está correta. Por favor, confirme pessoalmente a resposta fornecida por este chatbot lendo as seções que ele identifica nos sites mencionados. O uso deste chatbot é anônimo. Não insira nenhuma informação pessoal. Ao usar este chatbot, você concorda que tudo o que você inserir pode ser salvo e revisado pelo pessoal da Igreja para melhorar este chatbot e torná-lo mais preciso.",
+                "message": "Este chatbot de inteligência artificial (IA) é alimentado por tecnologia de IA generativa que faz referência ao site da BYU-Pathway e ao site da Base de Conhecimento de Suporte. Este chatbot pode analisar perguntas, pesquisar os sites mencionados e resumir informações potencialmente relevantes. A IA generativa nem sempre está correta. Por favor, confirme pessoalmente a resposta fornecida por este chatbot lendo as seções que ele identifica nos sites mencionados. O uso deste chatbot é anônimo. Não insira nenhuma informação pessoal. Ao usar este chatbot, você concorda que tudo o que você inserir pode ser salvo e revisado pela equipe da Igreja para melhorar este chatbot e torná-lo mais preciso.",
                 "button": "Reconhecer"
             },
             "typeBoxMessage" : "Digite uma mensagem...",
@@ -4380,21 +4380,21 @@ const translations = {
                 "ResultHolds": {
                     "title": "Retenções de Resultado",
                     "description": "As Retenções de Conta exigem que você siga etapas específicas para se registrar e concluir o curso.",
-                    "button": "Tomar Ação"
+                    "button": "Agir"
                 }
                 },
                 {
                 "EcclesiasticalEndorsement": {
                     "title": "Endosso Eclesiástico",
                     "description": "É hora de renovar seu Endosso Eclesiástico.",
-                    "button": "Tomar Ação"
+                    "button": "Agir"
                 }
                 },
                 {
                 "HerbertJGrantScholarship": {
                     "title": "Bolsa de Estudo Herbert J. Grant",
                     "description": "Inscreva-se na Bolsa HJG até 21 de março.",
-                    "button": "Tomar Ação"
+                    "button": "Agir"
                 }
                 },
                 {
@@ -4489,7 +4489,7 @@ const translations = {
                             "5. Mordomia e Reabastecimento"
                         ]
                 },
-                "timeEstimate": "Você deve prever que este módulo levará de 45 a 60 minutos para ser concluído. Se você não tiver tanto tempo, por favor, espere para iniciar o módulo em outro momento.",
+                "timeEstimate": "Este módulo deve levar cerca de 45 a 60 minutos para ser concluído. Se você não tiver tanto tempo, por favor, espere para iniciar o módulo em outro momento.",
                 "resourceBenefitText": "Este recurso não só ajudará a BYU-Pathway a avaliar suas necessidades financeiras, mas também ajudará a cultivar as características necessárias para o seu sucesso contínuo como estudante da BYU-Pathway. Obrigado."
             },
             "bioSection": {
@@ -4516,12 +4516,12 @@ const translations = {
                         ]
                     },
                     "reliableHousing": {
-                    "question": "Você tem moradia confiável?",
+                    "question": "Você tem moradia estavel?",
                     "options": [
-                        "Não, não tenho moradia confiável e me preocupo onde estarei morando mensalmente",
+                        "Não, não tenho moradia estavel e me preocupo onde estarei morando mensalmente",
                         "Não, luto para fazer pagamentos mensais de moradia, o que às vezes coloca minha situação de moradia em risco",
-                        "Sim, tenho moradia confiável, mas fazer pagamentos mensais é um desafio para mim",
-                        "Sim, tenho moradia confiável"
+                        "Sim, tenho moradia estavel, mas fazer pagamentos mensais é um desafio para mim",
+                        "Sim, tenho moradia estavel"
                     ]
                     },
                     "struggleMeals": {
@@ -4542,12 +4542,12 @@ const translations = {
                         ]
                     },
                     "reliableInternet": {
-                        "question": "Você tem acesso a internet confiável?",
+                        "question": "Você tem acesso a internet estavel?",
                         "options": [
                             "Não, e não tenho certeza de como pagarei pelo acesso",
                             "Não, mas tenho um plano para obter acesso",
                             "Sim, tenho acesso, mas luto para pagar por ele",
-                            "Sim, tenho acesso a internet diária confiável"
+                            "Sim, tenho acesso a internet diária estavel"
                         ]
                     },
                     "tuitionAffordability": {
