@@ -83,7 +83,9 @@ const translations = {
             "loadingStudentExperience": "Loading Student Experience..."
         },
         "menuScreen": {
-            "greeting": "Hello 👋🏻, {studentName}",
+            "greeting": "Hello ",
+            "knownIssues": "Known Issues",
+            "noKnownIssues": "No known issues at this time. Please check back later for updates.",
             "appsSection": {
                 "title": "Apps",
                 "appsCarousel": [
@@ -101,6 +103,10 @@ const translations = {
             },
             "academicProgressSection": {
                 "title": "My Academic Progress",
+                "confirmExit": "Are you sure you want to exit the application?",
+                "confirmExitTitle": "Exit",
+                "cancel": "Cancel",
+                "exit": "Exit",
                 "programsCarousel":[
                     {
                     "subject": "Religion",
@@ -116,6 +122,10 @@ const translations = {
                     }
                 ]
             }
+        },
+        "knownIssues": {
+            "knownIssue": "Known Issue",
+            "notFound": "Issue not found",
         },
         "academicProgress": {
             "loadingEnrollmentData": "Loading enrollment data...",
@@ -162,6 +172,16 @@ const translations = {
                 { "Jobs": "Jobs" }
                 ]
         },
+        "appsList": {
+            "academicCenter": "Academic Center",
+            "tickets": "Tickets",
+            "network": "Network",
+            "registration": "Registration",
+            "jobs": "Jobs",
+            "feedback": "Feedback",
+            "aiAssistants": "AI Assistants",
+            "ec3": "EC3"
+        },
         "academicCenterScreen": {
             "recommendedActions": {
             "title": "Recommended Actions",
@@ -183,7 +203,8 @@ const translations = {
                 {
                 "HerbertJGrantScholarship": {
                     "title": "Herbert J. Grant Scholarship",
-                    "description": "Apply to HJG Scholarship by March 21.",
+                    "description": "Apply to HJG Scholarship by ",
+                    "description2": " for the discount to be applied during ",
                     "button": "Take Action"
                 }
                 },
@@ -228,6 +249,13 @@ const translations = {
                 }
                 }
             ]
+            },
+            "courseCard": {
+                "status": {
+                    "registered": "Registered",
+                    "notRegistered": "Not Registered"
+                },
+                "noCoursesRegistered": "No courses registered"
             },
             "courseRegistration": {
                 "title": "Course Registration",
@@ -1968,7 +1996,8 @@ const translations = {
             "readingAssessmentPrompt": "Now, please complete your reading assessment",
             "readingAssessmentLinkText": "here",
             "leftTestMessage": "You left the test. All unsaved progress has been lost and the test has been reset.",
-            "passageValidationRequired": "Passage {number} answer is required.",
+            "passageValidationRequired1": "Passage 1 answer is required.",
+            "passageValidationRequired2": "Passage 2 answer is required.",
             "passageValidationMinLength": "Please write at least 4-5 sentences for Passage {number}."
         },
         "decisionInformation": {
@@ -2144,6 +2173,277 @@ const translations = {
             "continueButton": "Continue",
             "certificatesDegreesNextStep": "Use your institutional email to login: ",
             "goToLoginButton": "Go to Login"
+        },
+        "registrationScreen": {
+            "title": "Registration",
+            "subtitle": "Register your first course.",
+            "termTitle": "2025 Term 2",
+            "termDates": "Mar 3 - Apr 19",
+            "selectCourseQuestion": "Select Course",
+            "registerButton": "Register",
+            "validationMessage": {
+                "courseRequired": "Please select a course to register."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to register on ",
+                "confirmButton": "Confirm Registration",
+                "cancelButton": "Cancel"
+            },
+            "alert": {
+                "successTitle": "Registration Successful",
+                "successMessagePrefix": "You have registered for: ",
+                "nextStepMessage": "Now, please select your gathering time."
+            },
+            "loadingDescription": "Registering your course..."
+        },
+        "religionGatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "title2": "Religion",
+                "subtitle": "Please schedule your religion gathering time, even if you have completed all required religion courses."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "religionGatheringNote": "Please note: Religion gathering times are shown in your local time zone ({dynamicTimezone})."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messageSuffix": " at ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your religion gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Now, please lead to continue with your student experience."
+            },
+            "loading": {
+                "description": "Scheduling your religion gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "thur6PM": "Thur 6:00 PM",
+                "fri730PM": "Fri 7:30 PM",
+                "sat5PM": "Sat 5:00 PM"
+            },
+            "religionGatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
+        },
+        "gatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "titlePathwayConnect": "PathwayConnect",
+                "titleEnglishConnect3": "EnglishConnect3",
+                "subtitlePathwayConnect": "Please schedule your PC gathering time.",
+                "subtitleEnglishConnect3": "Please schedule your EC3 gathering time."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "gatheringNotePathwayConnect": "Please note: PC gathering times are displayed according to your local area schedule.",
+                "gatheringNoteEnglishConnect3": "Please note: EC3 gathering times are displayed according to your local area schedule."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messagePathwayConnect": "PC gathering on ",
+                "messageEnglishConnect3": "EC3 gathering on ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your PC gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Continue to select your religion gathering time."
+            },
+            "loading": {
+                "description": "Scheduling your gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "monday6PM": "Mon 6:00 PM",
+                "tuesday730PM": "Tue 7:30 PM",
+                "wednesday5PM": "Wed 5:00 PM"
+            },
+            "gatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
+        },
+        "offlineQueue": {
+            "subject": "Your offline requests are ready to submit",
+            "description": "Submit the requests you created while you were offline.",
+            "actionRequiredTitle": "Action Required",
+            "emptyListDescription": "No requests available in the queue.",
+            "loadingStateDescription": "Loading...",
+            "headerTitle": "Offline Queue",
+            "selectAll": "Select All",
+            "deselectAll": "Deselect All",
+            "discardButton": "Discard",
+            "submitButton": "Submit",
+            "selectedItemsCount": " item(s) selected",
+            "noItemsSelectedAlertTitle": "No items selected",
+            "noItemsSelectedAlertMessage": "Please select items to discard.",
+            "confirmDiscardAlertTitle": "Confirm Discard",
+            "confirmDiscardAlertMessage": "Are you sure you want to discard ",
+            "confirmDiscardAlertMessage2": " selected item(s)?",
+            "cancelButton": "Cancel",
+            "discardedAlertTitle": "Discarded",
+            "discardedAlertMessage": "Selected items have been discarded successfully.",
+            "discardErrorAlertTitle": "Error",
+            "discardErrorAlertMessage": "Failed to discard items.",
+            "submitNoItemsSelectedAlertMessage": "Please select items to submit.",
+            "submissionCompleteAlertTitle": "Submission Complete",
+            "submissionCompleteAlertMessage": "Successfully submitted ",
+            "submissionCompleteAlertMessage2": " item(s).\nFailed to submit ",
+            "submissionCompleteAlertMessage3": " item(s).",
+            "unknownRequestTypeWarning": "Unknown request type. Skipping submission.",
+            "unsupportedRequestTypeMessage": "Request type not supported",
+            "requestRequeuedOfflineWarning": "Request ",
+            "requestRequeuedOfflineWarning2": " was re-queued offline instead of submitted.",
+            "requestFailed404Error": "Request ",
+            "requestFailed404Error2": " failed with 404:",
+            "failedToSendRequestError": "Failed to send request ",
+            "status": {
+                "active": "Active",
+                "hold": "Hold",
+                "closed": "Closed",
+            }
+        },
+        "howToUseClassPlanner": {
+            "headerTitle": "Learn How to Use the Class Planner",
+            "videoTranscriptLink": "Video Transcript",
+            "step1": {
+                "title": "Step 1",
+                "description": "Select Your Courses",
+                "text": "Browse available courses and add your selections for review."
+            },
+            "step2": {
+                "title": "Step 2",
+                "description": "Courses in Review",
+                "text": "These courses have been submitted and are awaiting approval"
+            },
+            "step3": {
+                "title": "Step 3",
+                "description": "Registered Courses",
+                "text": "These are your registered courses. Tap \"Edit\" to drop a course if needed."
+            },
+            "helpSection": {
+                "title": "Need help with Class Planner?",
+                "description": "Your mentor can help with...",
+                "guidancePoints": [
+                    "Course selection guidance",
+                    "Academic planning assistance",
+                    "Registration support",
+                    "Schedule optimization"
+                ]
+            },
+            "goToClassPlannerButton": "Go to Class Planner"
+        },
+        "classPlanner": {
+            "title": "Class Planner",
+            "loading": "Loading class planner...",
+            "selectCourses": {
+                "sectionTitle": "Select Your Courses",
+                "description": "Browse available courses and add your selections for review.",
+                "remainingSlots": "You can still add up to ",
+                "remainingSlots2": " additional course(s) this block.",
+                "unknownTerm": "Unknown Term",
+                "coursesRegisteredStatus": " courses registered",
+                "addCoursesButton": "Add Course(s)"
+            },
+            "registeredCourses": {
+                "sectionTitle": "Registered Courses",
+                "descriptionWithCourses": "These are your registered courses. Tap \"Edit\" to drop a course if needed.",
+                "descriptionNoCourses": "No courses are currently registered for this term.",
+                "status": "Registered",
+                "editButton": "Edit",
+                "unknownTerm": "Unknown Term"
+            },
+            "courseRequest": {
+                "sectionTitle": "Course Request",
+                "descriptionWithRequests": "These courses are being processed for registration.",
+                "descriptionNoRequests": "No courses have been requested for registration yet.",
+                "course": "Course",
+                "defaultCourseName": "Details not available",
+                "unknownTerm": "Unknown Term"
+            }
+        },
+        "registrationScreenNew": {
+            "loading": "Loading...",
+            "classPlannerTitle": "Class Planner",
+            "registrationTitle": "Registration",
+            "courseListAvailable": "Course List Available",
+            "registeredCoursesSection": {
+                "title": "Registered Courses",
+                "noCoursesMessage": "No courses registered for this term.",
+                "limitNote": "*You can register up to 4 courses per block (including registered and pending courses)."
+            },
+            "pendingRegistrationsSection": {
+                "title": "Pending Registrations",
+                "coursesBeingProcessed": "Courses Being Processed",
+                "detailsNotAvailable": "Details not available"
+            },
+            "collapseTitles": {
+                "certificates": "Certificates",
+                "requirements": "Requirements",
+                "bachelorsDegreeGeneralEducationCourses": "Bachelor's Degree General Education Courses",
+                "associateDegreeCourses": "Associate Degree Courses",
+                "associateDegreeProgram": "Associate Degree Program",
+                "religion": "Religion",
+                "pathwayConnect": "PathwayConnect",
+                "pathwayConnectCourses": "PathwayConnect Courses",
+                "retakeCourses": "Retake Courses",
+                "coursesYouCanRetake": "Courses you can retake"
+            },
+            "buttons": {
+                "courseHelp": "Course Help",
+                "addCourses": "Add Course(s)"
+            },
+            "alerts": {
+                "registrationSuccessTitle": "Success",
+                "registrationSuccessMessage": "Course registration request submitted successfully. Your courses will appear once processed.",
+                "courseLimitReachedTitle": "Course Limit Reached",
+                "courseLimitReachedMessage": "You can only register up to 4 courses per block.",
+                "selectAtLeastOneCourseTitle": "Error",
+                "selectAtLeastOneCourseMessage": "Please select at least one course.",
+                "registrationFailedTitle": "Registration Failed",
+                "registrationFailedMessage": "There was an error registering your courses. Please try again."
+            }
         }
     },
     "sp": {
@@ -2228,7 +2528,9 @@ const translations = {
             "loadingStudentExperience": "Loading Student Experience..."
         },
         "menuScreen": {
-            "greeting": "Hello 👋🏻, {studentName}",
+            "greeting": "Hello ",
+            "knownIssues": "Known Issues",
+            "noKnownIssues": "No known issues at this time. Please check back later for updates.",
             "appsSection": {
                 "title": "Apps",
                 "appsCarousel": [
@@ -2246,6 +2548,10 @@ const translations = {
             },
             "academicProgressSection": {
                 "title": "My Academic Progress",
+                "confirmExit": "Are you sure you want to exit the application?",
+                "confirmExitTitle": "Exit",
+                "cancel": "Cancel",
+                "exit": "Exit",
                 "programsCarousel":[
                     {
                     "subject": "Religion",
@@ -2261,6 +2567,10 @@ const translations = {
                     }
                 ]
             }
+        },
+        "knownIssues": {
+            "knownIssue": "Known Issue",
+            "notFound": "Issue not found",
         },
         "academicProgress": {
             "loadingEnrollmentData": "Loading enrollment data...",
@@ -2307,6 +2617,16 @@ const translations = {
                 { "Jobs": "Jobs" }
                 ]
         },
+        "appsList": {
+            "academicCenter": "Academic Center",
+            "tickets": "Tickets",
+            "network": "Network",
+            "registration": "Registration",
+            "jobs": "Jobs",
+            "feedback": "Feedback",
+            "aiAssistants": "AI Assistants",
+            "ec3": "EC3"
+        },
         "academicCenterScreen": {
             "recommendedActions": {
             "title": "Recommended Actions",
@@ -2331,7 +2651,8 @@ const translations = {
                 {
                 "HerbertJGrantScholarship": {
                     "title": "Herbert J. Grant Scholarship",
-                    "description": "Apply to HJG Scholarship by March 21.",
+                    "description": "Apply to HJG Scholarship by ",
+                    "description2": " for the discount to be applied during ",
                     "button": "Take Action"
                 }
                 },
@@ -2376,6 +2697,13 @@ const translations = {
                     }
                     }
                 ]
+            },
+            "courseCard": {
+                "status": {
+                    "registered": "Registered",
+                    "notRegistered": "Not Registered"
+                },
+                "noCoursesRegistered": "No courses registered"
             },
             "courseRegistration": {
                 "title": "Course Registration",
@@ -4117,7 +4445,8 @@ const translations = {
             "readingAssessmentPrompt": "Now, please complete your reading assessment",
             "readingAssessmentLinkText": "here",
             "leftTestMessage": "You left the test. All unsaved progress has been lost and the test has been reset.",
-            "passageValidationRequired": "Passage {number} answer is required.",
+            "passageValidationRequired1": "Passage 1 answer is required.",
+            "passageValidationRequired2": "Passage 2 answer is required.",
             "passageValidationMinLength": "Please write at least 4-5 sentences for Passage {number}."
         },
         "decisionInformation": {
@@ -4293,6 +4622,277 @@ const translations = {
             "continueButton": "Continue",
             "certificatesDegreesNextStep": "Use your institutional email to login: ",
             "goToLoginButton": "Go to Login"
+        },
+        "registrationScreen": {
+            "title": "Registration",
+            "subtitle": "Register your first course.",
+            "termTitle": "2025 Term 2",
+            "termDates": "Mar 3 - Apr 19",
+            "selectCourseQuestion": "Select Course",
+            "registerButton": "Register",
+            "validationMessage": {
+                "courseRequired": "Please select a course to register."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to register on ",
+                "confirmButton": "Confirm Registration",
+                "cancelButton": "Cancel"
+            },
+            "alert": {
+                "successTitle": "Registration Successful",
+                "successMessagePrefix": "You have registered for: ",
+                "nextStepMessage": "Now, please select your gathering time."
+            },
+            "loadingDescription": "Registering your course..."
+        },
+        "religionGatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "title2": "Religion",
+                "subtitle": "Please schedule your religion gathering time, even if you have completed all required religion courses."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "religionGatheringNote": "Please note: Religion gathering times are shown in your local time zone ({dynamicTimezone})."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messageSuffix": " at ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your religion gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Now, please lead to continue with your student experience."
+            },
+            "loading": {
+                "description": "Scheduling your religion gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "thur6PM": "Thur 6:00 PM",
+                "fri730PM": "Fri 7:30 PM",
+                "sat5PM": "Sat 5:00 PM"
+            },
+            "religionGatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
+        },
+        "gatheringScreen": {
+            "header": {
+                "title": "Gatherings",
+                "titlePathwayConnect": "PathwayConnect",
+                "titleEnglishConnect3": "EnglishConnect3",
+                "subtitlePathwayConnect": "Please schedule your PC gathering time.",
+                "subtitleEnglishConnect3": "Please schedule your EC3 gathering time."
+            },
+            "termInfo": {
+                "title": "2025 Term 2",
+                "dates": "Mar 3 - Apr 19"
+            },
+            "formLabels": {
+                "gatheringType": "Select Timezone",
+                "gatheringTime": "Select Gathering Time",
+                "noAvailableTimes": "No available times work for me",
+                "scheduleButton": "Schedule",
+                "gatheringNotePathwayConnect": "Please note: PC gathering times are displayed according to your local area schedule.",
+                "gatheringNoteEnglishConnect3": "Please note: EC3 gathering times are displayed according to your local area schedule."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Please select a timezone.",
+                "gatheringTypeRequired": "Please select a gathering type (Virtual/In-person).",
+                "gatheringTimeRequired": "Please select a gathering time."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Are you sure you want to schedule your gathering on ",
+                "messagePathwayConnect": "PC gathering on ",
+                "messageEnglishConnect3": "EC3 gathering on ",
+                "confirmButton": "Confirm Schedule",
+                "cancelButton": "Cancel"
+            },
+            "successAlert": {
+                "title": "Success!",
+                "messagePrefix": "Your PC gathering has been successfully scheduled.",
+                "continueText": "Continue",
+                "customComponentText": "Continue to select your religion gathering time."
+            },
+            "loading": {
+                "description": "Scheduling your gathering..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Select timezone",
+                "mountainTime": "Mountain Time (MDT)",
+                "easternTime": "Eastern Time (EDT)",
+                "pacificTime": "Pacific Time (PDT)",
+                "selectAnItem": "Select an item",
+                "monday6PM": "Mon 6:00 PM",
+                "tuesday730PM": "Tue 7:30 PM",
+                "wednesday5PM": "Wed 5:00 PM"
+            },
+            "gatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "In-person"
+            }
+        },
+        "offlineQueue": {
+            "subject": "Your offline requests are ready to submit",
+            "description": "Submit the requests you created while you were offline.",
+            "actionRequiredTitle": "Action Required",
+            "emptyListDescription": "No requests available in the queue.",
+            "loadingStateDescription": "Loading...",
+            "headerTitle": "Offline Queue",
+            "selectAll": "Select All",
+            "deselectAll": "Deselect All",
+            "discardButton": "Discard",
+            "submitButton": "Submit",
+            "selectedItemsCount": " item(s) selected",
+            "noItemsSelectedAlertTitle": "No items selected",
+            "noItemsSelectedAlertMessage": "Please select items to discard.",
+            "confirmDiscardAlertTitle": "Confirm Discard",
+            "confirmDiscardAlertMessage": "Are you sure you want to discard ",
+            "confirmDiscardAlertMessage2": " selected item(s)?",
+            "cancelButton": "Cancel",
+            "discardedAlertTitle": "Discarded",
+            "discardedAlertMessage": "Selected items have been discarded successfully.",
+            "discardErrorAlertTitle": "Error",
+            "discardErrorAlertMessage": "Failed to discard items.",
+            "submitNoItemsSelectedAlertMessage": "Please select items to submit.",
+            "submissionCompleteAlertTitle": "Submission Complete",
+            "submissionCompleteAlertMessage": "Successfully submitted ",
+            "submissionCompleteAlertMessage2": " item(s).\nFailed to submit ",
+            "submissionCompleteAlertMessage3": " item(s).",
+            "unknownRequestTypeWarning": "Unknown request type. Skipping submission.",
+            "unsupportedRequestTypeMessage": "Request type not supported",
+            "requestRequeuedOfflineWarning": "Request ",
+            "requestRequeuedOfflineWarning2": " was re-queued offline instead of submitted.",
+            "requestFailed404Error": "Request ",
+            "requestFailed404Error2": " failed with 404:",
+            "failedToSendRequestError": "Failed to send request ",
+            "status": {
+                "active": "Active",
+                "hold": "Hold",
+                "closed": "Closed",
+            }
+        },
+        "howToUseClassPlanner": {
+            "headerTitle": "Learn How to Use the Class Planner",
+            "videoTranscriptLink": "Video Transcript",
+            "step1": {
+            "title": "Step 1",
+            "description": "Select Your Courses",
+            "text": "Browse available courses and add your selections for review."
+            },
+            "step2": {
+            "title": "Step 2",
+            "description": "Courses in Review",
+            "text": "These courses have been submitted and are awaiting approval"
+            },
+            "step3": {
+            "title": "Step 3",
+            "description": "Registered Courses",
+            "text": "These are your registered courses. Tap \"Edit\" to drop a course if needed."
+            },
+            "helpSection": {
+            "title": "Need help with Class Planner?",
+            "description": "Your mentor can help with...",
+            "guidancePoints": [
+                "Course selection guidance",
+                "Academic planning assistance",
+                "Registration support",
+                "Schedule optimization"
+            ]
+            },
+            "goToClassPlannerButton": "Go to Class Planner"
+        },
+        "classPlanner": {
+            "title": "Class Planner",
+            "loading": "Loading class planner...",
+            "selectCourses": {
+                "sectionTitle": "Select Your Courses",
+                "description": "Browse available courses and add your selections for review.",
+                "remainingSlots": "You can still add up to ",
+                "remainingSlots2": " additional course(s) this block.",
+                "unknownTerm": "Unknown Term",
+                "coursesRegisteredStatus": " courses registered",
+                "addCoursesButton": "Add Course(s)"
+            },
+            "registeredCourses": {
+                "sectionTitle": "Registered Courses",
+                "descriptionWithCourses": "These are your registered courses. Tap \"Edit\" to drop a course if needed.",
+                "descriptionNoCourses": "No courses are currently registered for this term.",
+                "status": "Registered",
+                "editButton": "Edit",
+                "unknownTerm": "Unknown Term"
+            },
+            "courseRequest": {
+                "sectionTitle": "Course Request",
+                "descriptionWithRequests": "These courses are being processed for registration.",
+                "descriptionNoRequests": "No courses have been requested for registration yet.",
+                "course": "Course",
+                "defaultCourseName": "Details not available",
+                "unknownTerm": "Unknown Term"
+            }
+        },
+        "registrationScreenNew": {
+            "loading": "Loading...",
+            "classPlannerTitle": "Class Planner",
+            "registrationTitle": "Registration",
+            "courseListAvailable": "Course List Available",
+            "registeredCoursesSection": {
+                "title": "Registered Courses",
+                "noCoursesMessage": "No courses registered for this term.",
+                "limitNote": "*You can register up to 4 courses per block (including registered and pending courses)."
+            },
+            "pendingRegistrationsSection": {
+                "title": "Pending Registrations",
+                "coursesBeingProcessed": "Courses Being Processed",
+                "detailsNotAvailable": "Details not available"
+            },
+            "collapseTitles": {
+                "certificates": "Certificates",
+                "requirements": "Requirements",
+                "bachelorsDegreeGeneralEducationCourses": "Bachelor's Degree General Education Courses",
+                "associateDegreeCourses": "Associate Degree Courses",
+                "associateDegreeProgram": "Associate Degree Program",
+                "religion": "Religion",
+                "pathwayConnect": "PathwayConnect",
+                "pathwayConnectCourses": "PathwayConnect Courses",
+                "retakeCourses": "Retake Courses",
+                "coursesYouCanRetake": "Courses you can retake"
+            },
+            "buttons": {
+                "courseHelp": "Course Help",
+                "addCourses": "Add Course(s)"
+            },
+            "alerts": {
+                "registrationSuccessTitle": "Success",
+                "registrationSuccessMessage": "Course registration request submitted successfully. Your courses will appear once processed.",
+                "courseLimitReachedTitle": "Course Limit Reached",
+                "courseLimitReachedMessage": "You can only register up to 4 courses per block.",
+                "selectAtLeastOneCourseTitle": "Error",
+                "selectAtLeastOneCourseMessage": "Please select at least one course.",
+                "registrationFailedTitle": "Registration Failed",
+                "registrationFailedMessage": "There was an error registering your courses. Please try again."
+            }
         }
     },
     "pt": {
@@ -4375,7 +4975,9 @@ const translations = {
             "loadingStudentExperience": "Carregando Experiência do Aluno..."
         },
         "menuScreen": {
-            "greeting": "Olá 👋🏻, {studentName}",
+            "greeting": "Olá ",
+            "knownIssues": "Problemas Conhecidos",
+            "noKnownIssues": "Nenhum problema conhecido no momento. Por favor, volte mais tarde para atualizações.",
             "appsSection": {
                 "title": "Aplicativos",
                 "appsCarousel": [
@@ -4393,6 +4995,10 @@ const translations = {
             },
             "academicProgressSection": {
                 "title": "Meu Progresso Acadêmico",
+                "confirmExit": "Tem certeza de que deseja sair do aplicativo?",
+                "confirmExitTitle": "Sair",
+                "cancel": "Cancelar",
+                "exit": "Sair",
                 "programsCarousel":[
                     {
                     "subject": "Religião",
@@ -4408,6 +5014,10 @@ const translations = {
                     }
                 ]
             }
+        },
+        "knownIssues": {
+            "knownIssue": "Problema Conhecido",
+            "notFound": "Problema não encontrado"
         },
         "academicProgress": {
             "loadingEnrollmentData": "A carregar dados de inscrição...",
@@ -4454,6 +5064,16 @@ const translations = {
                 { "Jobs": "Vagas de Emprego" }
                 ]
         },
+        "appsList": {
+            "academicCenter": "Centro Acadêmico",
+            "tickets": "Solicitações",
+            "network": "Rede",
+            "registration": "Matrícula",
+            "jobs": "Vagas de Emprego",
+            "feedback": "Feedback",
+            "aiAssistants": "Assistentes de IA",
+            "ec3": "EC3"
+        },
         "academicCenterScreen": {
             "recommendedActions": {
             "title": "Ações Recomendadas",
@@ -4475,7 +5095,8 @@ const translations = {
                 {
                 "HerbertJGrantScholarship": {
                     "title": "Bolsa de Estudo Herbert J. Grant",
-                    "description": "Inscreva-se na Bolsa HJG até 21 de março.",
+                    "description": "Inscreva-se na Bolsa HJG até ",
+                    "description2": " para que o desconto seja aplicado durante ",
                     "button": "Agir"
                 }
                 },
@@ -4520,6 +5141,13 @@ const translations = {
                         }
                     }
                 ]
+            },
+           "courseCard": {
+                "status": {
+                "registered": "Registrado",
+                "notRegistered": "Não Registrado"
+                },
+                "noCoursesRegistered": "Nenhum curso registrado"
             },
             "courseRegistration": {
                 "title": "Matrícula no Curso",
@@ -6371,7 +6999,8 @@ const translations = {
             "readingAssessmentPrompt": "Agora, por favor, complete sua avaliação de leitura",
             "readingAssessmentLinkText": "aqui",
             "leftTestMessage": "Você saiu do teste. Todo o progresso não salvo foi perdido e o teste foi redefinido.",
-            "passageValidationRequired": "A resposta da Passagem {number} é obrigatória.",
+            "passageValidationRequired1": "A resposta da Passagem 1 é obrigatória.",
+            "passageValidationRequired2": "A resposta da Passagem 2 é obrigatória.",
             "passageValidationMinLength": "Por favor, escreva pelo menos 4-5 frases para a Passagem {number}."
         },
         "decisionInformation": {
@@ -6547,13 +7176,284 @@ const translations = {
             "continueButton": "Continuar",
             "certificatesDegreesNextStep": "Use seu e-mail institucional para fazer login: ",
             "goToLoginButton": "Ir para o Login"
+        },
+        "registrationScreen": {
+            "title": "Registro",
+            "subtitle": "Registre seu primeiro curso.",
+            "termTitle": "2025 Período 2",
+            "termDates": "3 de Março - 19 de Abril",
+            "selectCourseQuestion": "Selecionar Curso",
+            "registerButton": "Registrar",
+            "validationMessage": {
+                "courseRequired": "Por favor, selecione um curso para registrar."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Tem certeza que deseja se registrar em ",
+                "confirmButton": "Confirmar Registro",
+                "cancelButton": "Cancelar"
+            },
+            "alert": {
+                "successTitle": "Registro Bem-sucedido",
+                "successMessagePrefix": "Você se registrou para: ",
+                "nextStepMessage": "Agora, por favor, selecione seu horário de reunião."
+            },
+            "loadingDescription": "Registrando seu curso..."
+        },
+        "religionGatheringScreen": {
+            "header": {
+                "title": "Reuniões",
+                "title2": "Religião",
+                "subtitle": "Por favor, agende seu horário de reunião de religião, mesmo que você tenha completado todos os cursos de religião necessários."
+            },
+            "termInfo": {
+                "title": "2025 Período 2",
+                "dates": "3 de Março - 19 de Abril"
+            },
+            "formLabels": {
+                "gatheringType": "Selecionar Fuso Horário",
+                "gatheringTime": "Selecionar Horário da Reunião",
+                "noAvailableTimes": "Nenhum horário disponível funciona para mim",
+                "scheduleButton": "Agendar",
+                "religionGatheringNote": "Observação: Os horários das reuniões de religião são mostrados no seu fuso horário local ({dynamicTimezone})."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Por favor, selecione um fuso horário.",
+                "gatheringTypeRequired": "Por favor, selecione um tipo de reunião (Virtual/Presencial).",
+                "gatheringTimeRequired": "Por favor, selecione um horário de reunião."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Tem certeza que deseja agendar sua reunião em ",
+                "messageSuffix": " às ",
+                "confirmButton": "Confirmar Agendamento",
+                "cancelButton": "Cancelar"
+            },
+            "successAlert": {
+            "title": "Sucesso!",
+                "messagePrefix": "Sua reunião de religião foi agendada com sucesso.",
+                "continueText": "Continuar",
+                "customComponentText": "Agora, por favor, continue para prosseguir com sua experiência de estudante."
+            },
+            "loading": {
+                "description": "Agendando sua reunião de religião..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Selecionar fuso horário",
+                "mountainTime": "Horário da Montanha (MDT)",
+                "easternTime": "Horário do Leste (EDT)",
+                "pacificTime": "Horário do Pacífico (PDT)",
+                "selectAnItem": "Selecionar um item",
+                "thur6PM": "Qui 18:00",
+                "fri730PM": "Sex 19:30",
+                "sat5PM": "Sáb 17:00"
+            },
+            "religionGatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "Presencial"
+            }
+        },
+        "gatheringScreen": {
+            "header": {
+                "title": "Reuniões",
+                "titlePathwayConnect": "PathwayConnect",
+                "titleEnglishConnect3": "EnglishConnect3",
+                "subtitlePathwayConnect": "Por favor, agende seu horário de reunião do PC.",
+                "subtitleEnglishConnect3": "Por favor, agende seu horário de reunião do EC3."
+            },
+            "termInfo": {
+                "title": "2025 Período 2",
+                "dates": "3 de Março - 19 de Abril"
+            },
+            "formLabels": {
+                "gatheringType": "Selecionar Fuso Horário",
+                "gatheringTime": "Selecionar Horário da Reunião",
+                "noAvailableTimes": "Nenhum horário disponível funciona para mim",
+                "scheduleButton": "Agendar",
+                "gatheringNotePathwayConnect": "Observação: Os horários das reuniões do PC são exibidos de acordo com o horário da sua área local.",
+                "gatheringNoteEnglishConnect3": "Observação: Os horários das reuniões do EC3 são exibidos de acordo com o horário da sua área local."
+            },
+            "validationMessages": {
+                "timezoneRequired": "Por favor, selecione um fuso horário.",
+                "gatheringTypeRequired": "Por favor, selecione um tipo de reunião (Virtual/Presencial).",
+                "gatheringTimeRequired": "Por favor, selecione um horário de reunião."
+            },
+            "confirmationModal": {
+                "messagePrefix": "Tem certeza que deseja agendar sua reunião em ",
+                "messagePathwayConnect": "reunião do PC em ",
+                "messageEnglishConnect3": "reunião do EC3 em ",
+                "confirmButton": "Confirmar Agendamento",
+                "cancelButton": "Cancelar"
+            },
+            "successAlert": {
+                "title": "Sucesso!",
+                "messagePrefix": "Sua reunião do PC foi agendada com sucesso.",
+                "continueText": "Continuar",
+                "customComponentText": "Continue para selecionar seu horário de reunião de religião."
+            },
+            "loading": {
+                "description": "Agendando sua reunião..."
+            },
+            "pickerOptions": {
+                "selectTimezone": "Selecionar fuso horário",
+                "mountainTime": "Horário da Montanha (MDT)",
+                "easternTime": "Horário do Leste (EDT)",
+                "pacificTime": "Horário do Pacífico (PDT)",
+                "selectAnItem": "Selecionar um item",
+                "monday6PM": "Seg 18:00",
+                "tuesday730PM": "Ter 19:30",
+                "wednesday5PM": "Qua 17:00"
+            },
+            "gatheringTypeOptions": {
+                "virtual": "Virtual",
+                "inPerson": "Presencial"
+            }
+        },
+        "offlineQueue": {
+            "subject": "Suas solicitações offline estão prontas para serem enviadas",
+            "description": "Envie as solicitações que você criou enquanto estava offline.",
+            "actionRequiredTitle": "Ação Necessária",
+            "emptyListDescription": "Nenhuma solicitação disponível na fila.",
+            "loadingStateDescription": "Carregando...",
+            "headerTitle": "Fila Offline",
+            "selectAll": "Selecionar Todos",
+            "deselectAll": "Desselecionar Todos",
+            "discardButton": "Descartar",
+            "submitButton": "Enviar",
+            "selectedItemsCount": " item(s) selecionado(s)",
+            "noItemsSelectedAlertTitle": "Nenhum item selecionado",
+            "noItemsSelectedAlertMessage": "Por favor, selecione itens para descartar.",
+            "confirmDiscardAlertTitle": "Confirmar Descarte",
+            "confirmDiscardAlertMessage": "Tem certeza que deseja descartar ",
+            "confirmDiscardAlertMessage2": " item(s) selecionado(s)?",
+            "cancelButton": "Cancelar",
+            "discardedAlertTitle": "Descartado",
+            "discardedAlertMessage": "Os itens selecionados foram descartados com sucesso.",
+            "discardErrorAlertTitle": "Erro",
+            "discardErrorAlertMessage": "Falha ao descartar itens.",
+            "submitNoItemsSelectedAlertMessage": "Por favor, selecione itens para enviar.",
+            "submissionCompleteAlertTitle": "Envio Concluído",
+            "submissionCompleteAlertMessage": "Sucesso ao enviar ",
+            "submissionCompleteAlertMessage2": " item(s).\nFalha ao enviar ",
+            "submissionCompleteAlertMessage3": " item(s).",
+            "unknownRequestTypeWarning": "Tipo de solicitação desconhecido. Ignorando envio.",
+            "unsupportedRequestTypeMessage": "Tipo de solicitação não suportado",
+            "requestRequeuedOfflineWarning": "A solicitação ",
+            "requestRequeuedOfflineWarning2": " foi reenfileirada offline em vez de enviada.",
+            "requestFailed404Error": "A solicitação ",
+            "requestFailed404Error2": " falhou com 404:",
+            "failedToSendRequestError": "Falha ao enviar a solicitação ",
+            "status": {
+            "active": "Ativo",
+            "hold": "Em Espera",
+            "closed": "Fechado"
+            }
+        },
+        "howToUseClassPlanner": {
+            "headerTitle": "Aprenda a Usar o Planejador de Cursos",
+            "videoTranscriptLink": "Transcrição do Vídeo",
+            "step1": {
+                "title": "Passo 1",
+                "description": "Selecione Seus Cursos",
+                "text": "Navegue pelos cursos disponíveis e adicione suas seleções para revisão."
+            },
+            "step2": {
+                "title": "Passo 2",
+                "description": "Cursos em Revisão",
+                "text": "Estes cursos foram submetidos e estão aguardando aprovação."
+            },
+            "step3": {
+                "title": "Passo 3",
+                "description": "Cursos Registrados",
+                "text": "Estes são seus cursos registrados. Toque em \"Editar\" para remover um curso, se necessário."
+            },
+            "helpSection": {
+                "title": "Precisa de ajuda com o Planejador de Cursos?",
+                "description": "Seu mentor pode ajudar com...",
+                "guidancePoints": [
+                    "Orientação na seleção de cursos",
+                    "Assistência no planejamento acadêmico",
+                    "Suporte para registro",
+                    "Otimização de horários"
+                ]
+            },
+            "goToClassPlannerButton": "Ir para o Planejador de Cursos"
+        },
+        "classPlanner": {
+            "title": "Planejador de Cursos",
+            "loading": "Carregando planejador de cursos...",
+            "selectCourses": {
+                "sectionTitle": "Selecione Seus Cursos",
+                "description": "Navegue pelos cursos disponíveis e adicione suas seleções para revisão.",
+                "remainingSlots": "Você ainda pode adicionar até ",
+                "remainingSlots2": " curso(s) adicional(is) neste bloco.",
+                "unknownTerm": "Período Desconhecido",
+                "coursesRegisteredStatus": " cursos registrados",
+                "addCoursesButton": "Adicionar Curso(s)"
+            },
+            "registeredCourses": {
+                "sectionTitle": "Cursos Registrados",
+                "descriptionWithCourses": "Estes são seus cursos registrados. Toque em \"Editar\" para remover um curso, se necessário.",
+                "descriptionNoCourses": "Nenhum curso está atualmente registrado para este período.",
+                "status": "Registrado",
+                "editButton": "Editar",
+                "unknownTerm": "Período Desconhecido"
+            },
+            "courseRequest": {
+                "sectionTitle": "Solicitação de Curso",
+                "descriptionWithRequests": "Estes cursos estão sendo processados para registro.",
+                "descriptionNoRequests": "Nenhum curso foi solicitado para registro ainda.",
+                "course": "Curso",
+                "defaultCourseName": "Detalhes não disponíveis",
+                "unknownTerm": "Período Desconhecido"
+            }
+        },
+        "registrationScreenNew": {
+            "loading": "Carregando...",
+            "classPlannerTitle": "Planejador de Cursos",
+            "registrationTitle": "Registro",
+            "courseListAvailable": "Lista de Cursos Disponíveis",
+            "registeredCoursesSection": {
+                "title": "Cursos Registrados",
+                "noCoursesMessage": "Nenhum curso registrado para este período.",
+                "limitNote": "*Você pode registrar até 4 cursos por bloco (incluindo cursos registrados e pendentes)."
+            },
+            "pendingRegistrationsSection": {
+                "title": "Registros Pendentes",
+                "coursesBeingProcessed": "Cursos em Processamento",
+                "detailsNotAvailable": "Detalhes não disponíveis"
+            },
+            "collapseTitles": {
+                "certificates": "Certificados",
+                "requirements": "Requisitos",
+                "bachelorsDegreeGeneralEducationCourses": "Cursos de Educação Geral para Bacharelado",
+                "associateDegreeCourses": "Cursos de Graduação Associada",
+                "associateDegreeProgram": "Programa de Graduação Associada",
+                "religion": "Religião",
+                "pathwayConnect": "PathwayConnect",
+                "pathwayConnectCourses": "Cursos PathwayConnect",
+                "retakeCourses": "Cursos para Refazer",
+                "coursesYouCanRetake": "Cursos que você pode refazer"
+            },
+            "buttons": {
+                "courseHelp": "Ajuda com Cursos",
+                "addCourses": "Adicionar Curso(s)"
+            },
+            "alerts": {
+                "registrationSuccessTitle": "Sucesso",
+                "registrationSuccessMessage": "Solicitação de registro de curso enviada com sucesso. Seus cursos aparecerão assim que forem processados.",
+                "courseLimitReachedTitle": "Limite de Cursos Atingido",
+                "courseLimitReachedMessage": "Você pode registrar apenas até 4 cursos por bloco.",
+                "selectAtLeastOneCourseTitle": "Erro",
+                "selectAtLeastOneCourseMessage": "Por favor, selecione pelo menos um curso.",
+                "registrationFailedTitle": "Registro Falhou",
+                "registrationFailedMessage": "Ocorreu um erro ao registrar seus cursos. Por favor, tente novamente."
+            }
         }
     }
 };
 
 export const langCodeMap = {
   "English": "en",
-  "Spanish": "es",
+  "Spanish": "sp",
   "Portuguese": "pt",
   "French": "fr"
 };
