@@ -3359,15 +3359,15 @@ const translations = {
                 "onboardingCarousel": [
                 {
                     "title": "Notificações",
-                    "description": "Receba as últimas notificações diretamente no seu dispositivo móvel para se manter atualizado sobre prazos importantes, casos enviados, quando as inscrições abrem e muito mais! Vamos mantê-lo informado sobre tudo para que você não perca nada."
+                    "description": "Fique por dentro das novidades diretamente no seu celular para se manter atualizado sobre prazos importantes, casos enviados, veja quando as inscrições estão abertas e muito mais! Você vai ficar por dentro de tudo para que você não perca nada."
                 },
                 {
                     "title": "Serviços",
-                    "description": "Se você estiver enfrentando um problema, pode criar, atualizar e revisar casos enviados. Você também tem acesso fácil a serviços como solicitações de histórico escolar oficial, verificação de matrícula, solicitação de graduação e registro para os próximos períodos."
+                    "description": "Se você estiver enfrentando um problema, pode criar, atualizar e revisar casos enviados. Você pode acessar facilmente serviços como solicitações de histórico escolar oficial, verificação de matrícula, solicitação de graduação e registro para os próximos períodos."
                 },
                 {
                     "title": "Assistência de IA",
-                    "description": "Acesse a Assistência de IA projetada especialmente para você!Essa assistência pode ajudá-lo com perguntas frequentes, dúvidas específicas sobre cursos e também a melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
+                    "description": "Acesse a Assistência de IA projetada especialmente para você! Essa assistência pode ajudá-lo com perguntas frequentes, dúvidas específicas sobre cursos e também a melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
                 }
                 ],
                 "buttons": [
@@ -3419,7 +3419,7 @@ const translations = {
                     "buttonLabel": "Solicitar Informações"
                     },
                     {
-                    "help": "Precisa de Ajuda? Nosso Assistente de IA Tem Respostas",
+                    "help": "Precisa de Ajuda? Nosso Assistente de IA  tem as Respostas",
                     "buttonLabel": "Assistente de IA"
                     }
                 ],
@@ -3545,7 +3545,7 @@ const translations = {
                 "title": "Serviços",
                 "carousel": [
                     { "enrollmentVerification": "Verificação de Matrícula" },
-                    { "officialTransferRequest": "Solicitação de Transferência Oficial" },
+                    { "officialTransferRequest": "Solicitação de Transferência" },
                     { "academicAcception": "Aceitação Acadêmica" },
                     { "graduationApplication": "Solicitação de Colação de Grau" },
                     { "allServices": "Todos os Serviços" }
@@ -3622,10 +3622,10 @@ const translations = {
                             "2. Persistência e Tenacidade",
                             "3. Amor pelo Aprendizado",
                             "4. Autossuficiência",
-                            "5. Mordomia e Reabastecimento"
+                            "5. Responsabilidade e Reabastecimento"
                         ]
                 },
-                "timeEstimate": "Este módulo deve levar cerca de 45 a 60 minutos para ser concluído. Se você não tiver tanto tempo, por favor, espere para iniciar o módulo em outro momento.",
+                "timeEstimate": "Este módulo deve levar cerca de 45 a 60 minutos para ser concluído. Se você não tiver tempo, por favor, espere para iniciar o módulo em outro momento.",
                 "resourceBenefitText": "Este recurso não só ajudará a BYU-Pathway a avaliar suas necessidades financeiras, mas também ajudará a cultivar as características necessárias para o seu sucesso contínuo como estudante da BYU-Pathway. Obrigado."
             },
             "bioSection": {
@@ -3652,12 +3652,12 @@ const translations = {
                         ]
                     },
                     "reliableHousing": {
-                    "question": "Você tem moradia estavel?",
+                    "question": "Você tem moradia estável?",
                     "options": [
-                        "Não, não tenho moradia estavel e me preocupo onde estarei morando mensalmente",
+                        "Não, não tenho moradia estável e me preocupo onde estarei morando mensalmente",
                         "Não, luto para fazer pagamentos mensais de moradia, o que às vezes coloca minha situação de moradia em risco",
-                        "Sim, tenho moradia estavel, mas fazer pagamentos mensais é um desafio para mim",
-                        "Sim, tenho moradia estavel"
+                        "Sim, tenho moradia estável, mas fazer pagamentos mensais é um desafio para mim",
+                        "Sim, tenho moradia estável"
                     ]
                     },
                     "struggleMeals": {
@@ -3678,12 +3678,12 @@ const translations = {
                         ]
                     },
                     "reliableInternet": {
-                        "question": "Você tem acesso a internet estavel?",
+                        "question": "Você tem acesso a internet estável?",
                         "options": [
                             "Não, e não tenho certeza de como pagarei pelo acesso",
                             "Não, mas tenho um plano para obter acesso",
                             "Sim, tenho acesso, mas luto para pagar por ele",
-                            "Sim, tenho acesso a internet diária estavel"
+                            "Sim, tenho acesso a internet diária estável"
                         ]
                     },
                     "tuitionAffordability": {
@@ -4952,12 +4952,12 @@ const translations = {
         "profileScreen": {
             "title": "Perfil",
             "fields": {
-            "preferredName": "Nome Preferido",
+            "preferredName": "Nome",
             "pathwayEmail": "Email BYU-Pathway",
-            "studentID": "ID de Estudante",
-            "preferredContact": "Método de Contato Preferido",
+            "studentID": "ID Estudantil",
+            "preferredContact": "Contato",
             "whatsappNumber": "Número de WhatsApp",
-            "preferredLanguage": "Idioma Preferido",
+            "preferredLanguage": "Idioma",
             "updateButton": "Atualizar",
             "emailAddress": "Endereço de Email",
             "phoneNumber": "Número de Telefone",
@@ -4984,7 +4984,7 @@ const translations = {
                 "version": "Versão",
                 "build": "Compilação",
                 "sendCrashReports": "Enviar relatórios de erro",
-                "submitTicket": "Enviar um tíquete",
+                "submitTicket": "Abrir um incidente",
                 "suggestions": "Sugestões",
                 "termsOfService": "Termos de Serviço",
                 "privacyPolicy": "Política de Privacidade"
@@ -5002,7 +5002,7 @@ const translations = {
         },
         "common": {
             "comentsTitle": "Comentários",
-            "reopenRequest": "Para reabrir esta solicitação, por favor adicione sua razão na seção de comentários abaixo",
+            "reopenRequest": "Para reabrir esta solicitação, por favor selecione o motivo na seção abaixo",
             "statusLabel": "Status:",
             "resolvedLabel": "Resolvido:",
             "lastModifiedLabel": "Última Modificação:",
