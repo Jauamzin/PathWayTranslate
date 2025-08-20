@@ -160,6 +160,11 @@ const translations = {
                     { "label": "Companion Assistant" },
                     { "label": "Course Assistant" }
                 ]
+            },
+            "closeChat": {
+                "message": "Are you sure you want to close the chat?",
+                "yes": "Yes",
+                "no": "No"
             }
         },
         "appsMenuScreen": {
@@ -221,7 +226,7 @@ const translations = {
             "carousel": [
                 { "enrollmentVerification": "Enrollment Verification" },
                 { "officialTransferRequest": "Official Transfer Request" },
-                { "academicAcception": "Academic Acception" },
+                { "academicException": "Academic Exception" },
                 { "graduationApplication": "Graduation Application" },
                 { "allServices": "All Services" }
             ]
@@ -259,6 +264,7 @@ const translations = {
             },
             "courseRegistration": {
                 "title": "Course Registration",
+                "howToUse": "How to use Class Planner",
                 "carousel": [
                     {
                     "term": "2025 Term 2",
@@ -411,8 +417,9 @@ const translations = {
                 "title": "Section 2: Persistence & Tenacity",
                 "description": "Poverty defined Heber's growing years, but not negatively. Having little money was a challenge that never deterred him. Wanting to learn to pitch a baseball but not having enough money for a ball, Heber earned the money by shining boots for his mother's boarders. Later he longed to attend the Salt Lake Theatre; instead of feeling sorry that he had no money to buy tickets, he obtained a job as a water carrier for theater patrons and was thus allowed to watch the plays.\n\nAs Heber grew older, his persistence and fortitude were put to good use in business ventures. Offered an appointment to the United States Naval Academy, he opted to stay near his mother and to become a businessman instead. After finishing his schooling at age 16, Heber got a job as a bank clerk and learned bookkeeping. His honesty, ability to work hard, and great desire to learn soon opened up many opportunities. By the time he was 20 years old, he had been made the assistant cashier of Zion's Savings Bank and Trust Company, and he had purchased an insurance agency. The poverty of Heber's youth made him compassionate and prepared him to lead the Church through the aftermath of World War I, the Great Depression, and World War II.",
                 "video": {
-                "text": "Watch the following video:",
-                "transcriptLinkText": "If you would like to read a transcript of this video instead click here"
+                    "text": "Watch the following video:",
+                    "transcriptLinkText": "If you would like to read a transcript of this video instead click ",
+                    "transcriptLinkText2": "here",
                 }
             },
             "form": {
@@ -420,21 +427,28 @@ const translations = {
                 "usedMoneyFor": {
                     "question": "How have you used money or resources to overcome challenges related to your education?",
                     "options": [
-                    "Purchased study materials",
-                    "Paid for transportation",
-                    "Covered living expenses",
-                    "Invested in a device for coursework",
-                    "Other (please specify)"
+                        "Purchased study materials",
+                        "Paid for transportation",
+                        "Covered living expenses",
+                        "Invested in a device for coursework",
+                        "Other (please specify)"
                     ]
                 },
                 "scriptureReview": {
                     "text": "Please choose one of the following scriptures to review:",
                     "links": [
-                    "Mosiah 2:14",
-                    "Mosiah 27:5",
-                    "Doctrine & Covenants 42:42",
-                    "Moses 4:25",
-                    "Joseph Smith - History 1:55"
+                        "Mosiah 2:14",
+                        "Mosiah 27:5",
+                        "Doctrine & Covenants 42:42",
+                        "Moses 4:25",
+                        "Joseph Smith — History 1:55"
+                    ],
+                    "scriptures": [
+                        `“And even I, myself, have labored with mine own hands that I might serve you, and that ye should not be laden with taxes, and that there should nothing come upon you which was grievous to be borne—and of all these things which I have spoken, ye yourselves are witnesses this day.”`,
+                        `“Yea, and all their priests and teachers should labor with their own hands for their support, in all cases save it were in sickness, or in much want; and doing these things, they did abound in the grace of God.”`,
+                        `“Thou shalt not be idle; for he that is idle shall not eat the bread nor wear the garments of the laborer.”`,
+                        `“By the sweat of thy face shalt thou eat bread, until thou shalt return unto the ground—for thou shalt surely die—for out of it wast thou taken: for dust thou wast, and unto dust shalt thou return.”`,
+                        `“As my father’s worldly circumstances were very limited, we were under the necessity of laboring with our hands, hiring out by day’s work and otherwise, as we could get opportunity. Sometimes we were at home, and sometimes abroad, and by continuous labor were enabled to get a comfortable maintenance.”`
                     ]
                 },
                 "scriptureSelected": {
@@ -442,6 +456,10 @@ const translations = {
                     "placeholder": "Type Here"
                 }
                 }
+            },
+            "videoTranscript": {
+                "title": "Preparation of Heber J. Grant: Persistence and Tenacity",
+                "messageContent": `Heber J. Grant was endowed with the gifts of persistence and tenacity. Fatherless from his infancy, young Heber, at his widowed mother’s encouragement, worked through the struggles of everyday life by laboring diligently with his hands, heart, and brain to overcome any personal weakness or lack of talent.\n\nFor example, as a boy, Heber longed to play baseball with the neighborhood team, but lacking athleticism, Heber was mocked in his attempts to throw and bat. [Heber J. Grant said], “One of the reasons for this was that I could not throw the ball from one base to the other. Another reason was that I lacked the physical strength to run or bat well. When I picked up a ball, the boys would generally shout, ‘Throw it here, sissy!’ So much fun was engendered on my account that I solemnly vowed that I would play baseball in the nine that would win the championship of the territory of Utah. Often my arm would ache so that I could scarcely go to sleep at night. But I kept on practicing and finally succeeded. Having thus made good my promise to myself, I retired from the baseball arena.”\n\nSpeaking of Heber's penmanship, a friend once kidded, “It looks like lightning struck an ink bottle.” His pride hurt, Heber set to work diligently practicing his handwriting until his penmanship became so skilled and beautiful that he was paid for writing greeting cards, invitations, and labeling maps.\n\nThe qualities of persistence and tenacity were certainly needed in the young man who would eventually grow up to guide the church as a prophet, seer, and revelator through an era of financial gloom and world wars.`
             },
             "previousButton": "Previous",
             "nextButton": "Next",
@@ -498,6 +516,10 @@ const translations = {
                     ]
                 }
                 }
+            },
+            "videoTranscript": {
+                "title": "Teachings of Heber J. Grant: The Lord’s Law of Financial Success",
+                "messageContent": `In his lifetime, President Heber J. Grant witnessed both wealth and poverty. He was acquainted with the success of a well-managed, profitable business, yet he was all too familiar with the bitterness and bondage of debt. It was this financial wisdom, this understanding of both sides of the coin, that helped guide President Grant and the Church through the dark years of the Depression as well as two world wars.\n\nThough proven as a man of financial expertise, Heber J. Grant chose service in the Lord's Kingdom. In the role as a priesthood leader, his economic insight was shared with the\n\nChurch membership. His advice focused on three financial guides—pay an honest tithe, contribute an honest fast offering, and stay out of debt.\n\n[President Heber J. Grant said], “Prosperity comes to those who observe the law of tithing. Let me promise you here today that if the Latter-day Saints will honestly and conscientiously keep the monthly fast and pay into the hands of their bishops the actual amount that they would have spent for food, and if in addition to that they will pay their honest tithing, it will solve all the problems in connection with taking care of the Latter-day Saints. We would have all the money necessary to take care of all the poor.”\n\n[President Heber J. Grant said], “If a person owned what he had and did not have to pay interest and only bought as he had the money to buy, the majority of people would be in reasonably comfortable circumstances. It has been due to debt, I think, that the main part of this suffering has come.”`
             },
             "previousButton": "Previous",
             "nextButton": "Next",
@@ -2443,6 +2465,45 @@ const translations = {
                 "selectAtLeastOneCourseMessage": "Please select at least one course.",
                 "registrationFailedTitle": "Registration Failed",
                 "registrationFailedMessage": "There was an error registering your courses. Please try again."
+            },
+            "holds": {
+                "title": "Holds",
+                "description": "You currently have a hold on your account and are unable to register for courses. Please resolve the pending holds. You can go to your Student Portal to clear your holds.",
+            },
+            "editCourses": {
+                "editCoursesTitle": "Edit Courses",
+                "registeredCoursesHeading": "Registered Courses",
+                "selectCoursesToDropMessage": "Select the courses you would like to drop below.",
+                "noRegisteredCoursesMessage": "You are not registered in any courses for this term.",
+                "unknownTermMessage": "Unknown Term",
+                "processingButtonText": "Processing...",
+                "dropSelectedButtonText": "Drop ",
+                "dropSelectedButtonText2": " selected",
+                "selectCoursesToDropButtonText": "Select courses to drop",
+                "noCoursesAvailableMessage": "No courses available to drop.",
+                "selectAtLeastOneCourseError": "Please select at least one course to drop.",
+                "confirmDropTitle": "Confirm Drop",
+                "confirmDropMessage": "Are you sure you want to drop ",
+                "confirmDropMessage2": " course(s)?",
+                "cancelButtonText": "Cancel",
+                "confirmButtonText": "Confirm",
+                "droppingCoursesLoadingMessage": "Dropping courses, please wait...",
+                "dropSuccessMessage": "The courses were successfully dropped.",
+                "dropErrorMessage": "An error occurred while trying to drop the courses. Please try again."
+            },
+            "feedback": {
+                "thankYouTitle": "Thank you!",
+                "thankYouMessage": "Your feedback has been submitted successfully. You will be redirected to the home screen shortly.",
+                "registrationCompleteTitle": "Registration Complete",
+                "courseRegistrationFeedbackTitle": "Course Registration Feedback",
+                "rateExperiencePrompt": "Please rate your registration experience:",
+                "accuracyRatingLabel": "How accurate were the course recommendations?",
+                "overallExperienceRatingLabel": "How was your overall experience?",
+                "additionalCommentsLabel": "Additional Comments (Optional)",
+                "commentsPlaceholder": "Share any additional feedback or suggestions...",
+                "submitButtonText": "Submit Feedback",
+                "processingButtonText": "Processing...",
+                "betaWarningText": "This is only a Beta version of the app and does not represent a real registration."
             }
         }
     },
@@ -2605,6 +2666,11 @@ const translations = {
                     { "label": "Companion Assistant" },
                     { "label": "Course Assistant" }
                 ]
+            },
+            "closeChat": {
+                "message": "Are you sure you want to close the chat?",
+                "yes": "Yes",
+                "no": "No"
             }
         },
         "appsMenuScreen": {
@@ -2669,7 +2735,7 @@ const translations = {
             "carousel": [
                 { "enrollmentVerification": "Enrollment Verification" },
                 { "officialTransferRequest": "Official Transfer Request" },
-                { "academicAcception": "Academic Acception" },
+                { "academicException": "Academic Exception" },
                 { "graduationApplication": "Graduation Application" },
                 { "allServices": "All Services" }
             ]
@@ -2707,6 +2773,7 @@ const translations = {
             },
             "courseRegistration": {
                 "title": "Course Registration",
+                "howToUse": "How to use Class Planner",
                 "carousel": [
                     {
                     "term": "2025 Term 2",
@@ -2860,8 +2927,9 @@ const translations = {
                 "title": "Section 2: Persistence & Tenacity",
                 "description": "Poverty defined Heber's growing years, but not negatively. Having little money was a challenge that never deterred him. Wanting to learn to pitch a baseball but not having enough money for a ball, Heber earned the money by shining boots for his mother's boarders. Later he longed to attend the Salt Lake Theatre; instead of feeling sorry that he had no money to buy tickets, he obtained a job as a water carrier for theater patrons and was thus allowed to watch the plays.\n\nAs Heber grew older, his persistence and fortitude were put to good use in business ventures. Offered an appointment to the United States Naval Academy, he opted to stay near his mother and to become a businessman instead. After finishing his schooling at age 16, Heber got a job as a bank clerk and learned bookkeeping. His honesty, ability to work hard, and great desire to learn soon opened up many opportunities. By the time he was 20 years old, he had been made the assistant cashier of Zion's Savings Bank and Trust Company, and he had purchased an insurance agency. The poverty of Heber's youth made him compassionate and prepared him to lead the Church through the aftermath of World War I, the Great Depression, and World War II.",
                 "video": {
-                "text": "Watch the following video:",
-                "transcriptLinkText": "If you would like to read a transcript of this video instead click here"
+                    "text": "Watch the following video:",
+                    "transcriptLinkText": "If you would like to read a transcript of this video instead click ",
+                    "transcriptLinkText2": "here",
                 }
             },
             "form": {
@@ -2869,21 +2937,28 @@ const translations = {
                 "usedMoneyFor": {
                     "question": "How have you used money or resources to overcome challenges related to your education?",
                     "options": [
-                    "Purchased study materials",
-                    "Paid for transportation",
-                    "Covered living expenses",
-                    "Invested in a device for coursework",
-                    "Other (please specify)"
+                        "Purchased study materials",
+                        "Paid for transportation",
+                        "Covered living expenses",
+                        "Invested in a device for coursework",
+                        "Other (please specify)"
                     ]
                 },
                 "scriptureReview": {
                     "text": "Please choose one of the following scriptures to review:",
                     "links": [
-                    "Mosiah 2:14",
-                    "Mosiah 27:5",
-                    "Doctrine & Covenants 42:42",
-                    "Moses 4:25",
-                    "Joseph Smith - History 1:55"
+                        "Mosiah 2:14",
+                        "Mosiah 27:5",
+                        "Doctrine & Covenants 42:42",
+                        "Moses 4:25",
+                        "Joseph Smith — History 1:55"
+                    ],
+                    "scriptures": [
+                        `“And even I, myself, have labored with mine own hands that I might serve you, and that ye should not be laden with taxes, and that there should nothing come upon you which was grievous to be borne—and of all these things which I have spoken, ye yourselves are witnesses this day.”`,
+                        `“Yea, and all their priests and teachers should labor with their own hands for their support, in all cases save it were in sickness, or in much want; and doing these things, they did abound in the grace of God.”`,
+                        `“Thou shalt not be idle; for he that is idle shall not eat the bread nor wear the garments of the laborer.”`,
+                        `“By the sweat of thy face shalt thou eat bread, until thou shalt return unto the ground—for thou shalt surely die—for out of it wast thou taken: for dust thou wast, and unto dust shalt thou return.”`,
+                        `“As my father’s worldly circumstances were very limited, we were under the necessity of laboring with our hands, hiring out by day’s work and otherwise, as we could get opportunity. Sometimes we were at home, and sometimes abroad, and by continuous labor were enabled to get a comfortable maintenance.”`
                     ]
                 },
                 "scriptureSelected": {
@@ -2891,6 +2966,10 @@ const translations = {
                     "placeholder": "Type Here"
                 }
                 }
+            },
+            "videoTranscript": {
+                "title": "Preparation of Heber J. Grant: Persistence and Tenacity",
+                "messageContent": `Heber J. Grant was endowed with the gifts of persistence and tenacity. Fatherless from his infancy, young Heber, at his widowed mother’s encouragement, worked through the struggles of everyday life by laboring diligently with his hands, heart, and brain to overcome any personal weakness or lack of talent.\n\nFor example, as a boy, Heber longed to play baseball with the neighborhood team, but lacking athleticism, Heber was mocked in his attempts to throw and bat. [Heber J. Grant said], “One of the reasons for this was that I could not throw the ball from one base to the other. Another reason was that I lacked the physical strength to run or bat well. When I picked up a ball, the boys would generally shout, ‘Throw it here, sissy!’ So much fun was engendered on my account that I solemnly vowed that I would play baseball in the nine that would win the championship of the territory of Utah. Often my arm would ache so that I could scarcely go to sleep at night. But I kept on practicing and finally succeeded. Having thus made good my promise to myself, I retired from the baseball arena.”\n\nSpeaking of Heber's penmanship, a friend once kidded, “It looks like lightning struck an ink bottle.” His pride hurt, Heber set to work diligently practicing his handwriting until his penmanship became so skilled and beautiful that he was paid for writing greeting cards, invitations, and labeling maps.\n\nThe qualities of persistence and tenacity were certainly needed in the young man who would eventually grow up to guide the church as a prophet, seer, and revelator through an era of financial gloom and world wars.`
             },
             "previousButton": "Previous",
             "nextButton": "Next",
@@ -2947,6 +3026,10 @@ const translations = {
                     ]
                 }
                 }
+            },
+            "videoTranscript": {
+                "title": "Teachings of Heber J. Grant: The Lord’s Law of Financial Success",
+                "messageContent": `In his lifetime, President Heber J. Grant witnessed both wealth and poverty. He was acquainted with the success of a well-managed, profitable business, yet he was all too familiar with the bitterness and bondage of debt. It was this financial wisdom, this understanding of both sides of the coin, that helped guide President Grant and the Church through the dark years of the Depression as well as two world wars.\n\nThough proven as a man of financial expertise, Heber J. Grant chose service in the Lord's Kingdom. In the role as a priesthood leader, his economic insight was shared with the\n\nChurch membership. His advice focused on three financial guides—pay an honest tithe, contribute an honest fast offering, and stay out of debt.\n\n[President Heber J. Grant said], “Prosperity comes to those who observe the law of tithing. Let me promise you here today that if the Latter-day Saints will honestly and conscientiously keep the monthly fast and pay into the hands of their bishops the actual amount that they would have spent for food, and if in addition to that they will pay their honest tithing, it will solve all the problems in connection with taking care of the Latter-day Saints. We would have all the money necessary to take care of all the poor.”\n\n[President Heber J. Grant said], “If a person owned what he had and did not have to pay interest and only bought as he had the money to buy, the majority of people would be in reasonably comfortable circumstances. It has been due to debt, I think, that the main part of this suffering has come.”`
             },
             "previousButton": "Previous",
             "nextButton": "Next",
@@ -4892,6 +4975,45 @@ const translations = {
                 "selectAtLeastOneCourseMessage": "Please select at least one course.",
                 "registrationFailedTitle": "Registration Failed",
                 "registrationFailedMessage": "There was an error registering your courses. Please try again."
+            },
+            "holds": {
+                "title": "Holds",
+                "description": "You currently have a hold on your account and are unable to register for courses. Please resolve the pending holds. You can go to your Student Portal to clear your holds.",
+            },
+            "editCourses": {
+                "editCoursesTitle": "Edit Courses",
+                "registeredCoursesHeading": "Registered Courses",
+                "selectCoursesToDropMessage": "Select the courses you would like to drop below.",
+                "noRegisteredCoursesMessage": "You are not registered in any courses for this term.",
+                "unknownTermMessage": "Unknown Term",
+                "processingButtonText": "Processing...",
+                "dropSelectedButtonText": "Drop ",
+                "dropSelectedButtonText2": " selected",
+                "selectCoursesToDropButtonText": "Select courses to drop",
+                "noCoursesAvailableMessage": "No courses available to drop.",
+                "selectAtLeastOneCourseError": "Please select at least one course to drop.",
+                "confirmDropTitle": "Confirm Drop",
+                "confirmDropMessage": "Are you sure you want to drop ",
+                "confirmDropMessage2": " course(s)?",
+                "cancelButtonText": "Cancel",
+                "confirmButtonText": "Confirm",
+                "droppingCoursesLoadingMessage": "Dropping courses, please wait...",
+                "dropSuccessMessage": "The courses were successfully dropped.",
+                "dropErrorMessage": "An error occurred while trying to drop the courses. Please try again."
+            },
+            "feedback": {
+                "thankYouTitle": "Thank you!",
+                "thankYouMessage": "Your feedback has been submitted successfully. You will be redirected to the home screen shortly.",
+                "registrationCompleteTitle": "Registration Complete",
+                "courseRegistrationFeedbackTitle": "Course Registration Feedback",
+                "rateExperiencePrompt": "Please rate your registration experience:",
+                "accuracyRatingLabel": "How accurate were the course recommendations?",
+                "overallExperienceRatingLabel": "How was your overall experience?",
+                "additionalCommentsLabel": "Additional Comments (Optional)",
+                "commentsPlaceholder": "Share any additional feedback or suggestions...",
+                "submitButtonText": "Submit Feedback",
+                "processingButtonText": "Processing...",
+                "betaWarningText": "This is only a Beta version of the app and does not represent a real registration."
             }
         }
     },
@@ -4901,15 +5023,15 @@ const translations = {
                 "onboardingCarousel": [
                 {
                     "title": "Notificações",
-                    "description": "Receba as últimas notificações diretamente no seu dispositivo móvel para se manter atualizado sobre prazos importantes, casos enviados, quando as inscrições abrem e muito mais! Vamos mantê-lo informado sobre tudo para que você não perca nada."
+                    "description": "Fique por dentro das novidades diretamente no seu celular para se manter atualizado sobre prazos importantes, casos enviados, veja quando as inscrições estão abertas e muito mais! Você vai ficar por dentro de tudo para que você não perca nada."
                 },
                 {
                     "title": "Serviços",
-                    "description": "Se você estiver enfrentando um problema, pode criar, atualizar e revisar casos enviados. Você também tem acesso fácil a serviços como solicitações de histórico escolar oficial, verificação de matrícula, solicitação de graduação e registro para os próximos períodos."
+                    "description": "Se você estiver enfrentando um problema, pode criar, atualizar e revisar casos enviados. Você pode acessar facilmente serviços como solicitações de histórico escolar oficial, verificação de matrícula, solicitação de graduação e registro para os próximos períodos."
                 },
                 {
                     "title": "Assistência de IA",
-                    "description": "Acesse a Assistência de IA projetada especialmente para você!Essa assistência pode ajudá-lo com perguntas frequentes, dúvidas específicas sobre cursos e também a melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
+                    "description": "Acesse a Assistência de IA projetada especialmente para você! Essa assistência pode ajudá-lo com perguntas frequentes, dúvidas específicas sobre cursos e também a melhorar seu inglês. Você pode encontrar este recurso no aplicativo 'Assistentes de IA'."
                 }
                 ],
                 "buttons": [
@@ -4961,7 +5083,7 @@ const translations = {
                     "buttonLabel": "Solicitar Informações"
                     },
                     {
-                    "help": "Precisa de Ajuda? Nosso Assistente de IA Tem Respostas",
+                    "help": "Precisa de Ajuda? Nosso Assistente de IA  tem as Respostas",
                     "buttonLabel": "Assistente de IA"
                     }
                 ],
@@ -5052,6 +5174,11 @@ const translations = {
                     { "label": "Assistente Companion" },
                     { "label": "Assistente de Curso" }
                 ]
+            },
+            "closeChat": {
+                "message": "Tem certeza de que deseja fechar o chat?",
+                "yes": "Sim",
+                "no": "Não"
             }
         },
         "appsMenuScreen": {
@@ -5112,8 +5239,8 @@ const translations = {
                 "title": "Serviços",
                 "carousel": [
                     { "enrollmentVerification": "Verificação de Matrícula" },
-                    { "officialTransferRequest": "Solicitação de Transferência Oficial" },
-                    { "academicAcception": "Aceitação Acadêmica" },
+                    { "officialTransferRequest": "Solicitação de Transferência" },
+                    { "academicException": "Exceção Acadêmica" },
                     { "graduationApplication": "Solicitação de Colação de Grau" },
                     { "allServices": "Todos os Serviços" }
                 ]
@@ -5151,6 +5278,7 @@ const translations = {
             },
             "courseRegistration": {
                 "title": "Matrícula no Curso",
+                "howToUse": "Como usar o Planejador de Aulas",
                 "carousel": [
                     {
                     "term": "Período 2 de 2025",
@@ -5196,10 +5324,10 @@ const translations = {
                             "2. Persistência e Tenacidade",
                             "3. Amor pelo Aprendizado",
                             "4. Autossuficiência",
-                            "5. Mordomia e Reabastecimento"
+                            "5. Responsabilidade e Reabastecimento"
                         ]
                 },
-                "timeEstimate": "Este módulo deve levar cerca de 45 a 60 minutos para ser concluído. Se você não tiver tanto tempo, por favor, espere para iniciar o módulo em outro momento.",
+                "timeEstimate": "Este módulo deve levar cerca de 45 a 60 minutos para ser concluído. Se você não tiver tempo, por favor, espere para iniciar o módulo em outro momento.",
                 "resourceBenefitText": "Este recurso não só ajudará a BYU-Pathway a avaliar suas necessidades financeiras, mas também ajudará a cultivar as características necessárias para o seu sucesso contínuo como estudante da BYU-Pathway. Obrigado."
             },
             "bioSection": {
@@ -5226,12 +5354,12 @@ const translations = {
                         ]
                     },
                     "reliableHousing": {
-                    "question": "Você tem moradia estavel?",
+                    "question": "Você tem moradia estável?",
                     "options": [
-                        "Não, não tenho moradia estavel e me preocupo onde estarei morando mensalmente",
+                        "Não, não tenho moradia estável e me preocupo onde estarei morando mensalmente",
                         "Não, luto para fazer pagamentos mensais de moradia, o que às vezes coloca minha situação de moradia em risco",
-                        "Sim, tenho moradia estavel, mas fazer pagamentos mensais é um desafio para mim",
-                        "Sim, tenho moradia estavel"
+                        "Sim, tenho moradia estável, mas fazer pagamentos mensais é um desafio para mim",
+                        "Sim, tenho moradia estável"
                     ]
                     },
                     "struggleMeals": {
@@ -5252,12 +5380,12 @@ const translations = {
                         ]
                     },
                     "reliableInternet": {
-                        "question": "Você tem acesso a internet estavel?",
+                        "question": "Você tem acesso a internet estável?",
                         "options": [
                             "Não, e não tenho certeza de como pagarei pelo acesso",
                             "Não, mas tenho um plano para obter acesso",
                             "Sim, tenho acesso, mas luto para pagar por ele",
-                            "Sim, tenho acesso a internet diária estavel"
+                            "Sim, tenho acesso a internet diária estável"
                         ]
                     },
                     "tuitionAffordability": {
@@ -5304,7 +5432,8 @@ const translations = {
                 "description": "A pobreza definiu os anos de crescimento de Heber, mas não de forma negativa. Ter pouco dinheiro era um desafio que nunca o deteve. Querendo aprender a arremessar uma bola de beisebol, mas não tendo dinheiro suficiente para uma bola, Heber ganhou o dinheiro engraxando botas para os inquilinos de sua mãe. Mais tarde, ele desejava ir ao Teatro Salt Lake; em vez de sentir pena por não ter dinheiro para comprar ingressos, ele conseguiu um emprego como carregador de água para os frequentadores do teatro e, assim, foi autorizado a assistir às peças.\n\nÀ medida que Heber crescia, sua persistência e fortaleza foram bem utilizadas em empreendimentos comerciais. Tendo recebido uma nomeação para a Academia Naval dos Estados Unidos, ele optou por permanecer perto de sua mãe e se tornar um empresário. Depois de terminar seus estudos aos 16 anos, Heber conseguiu um emprego como balconista de banco e aprendeu contabilidade. Sua honestidade, capacidade de trabalhar duro e grande desejo de aprender logo abriram muitas oportunidades. Aos 20 anos, ele havia sido nomeado assistente de caixa do Zion's Savings Bank and Trust Company e havia comprado uma agência de seguros. A pobreza da juventude de Heber o tornou compassivo e o preparou para liderar a Igreja após a Primeira Guerra Mundial, a Grande Depressão e a Segunda Guerra Mundial.",
                 "video": {
                     "text": "Assista ao seguinte vídeo:",
-                    "transcriptLinkText": "Se você preferir ler uma transcrição deste vídeo, clique aqui"
+                    "transcriptLinkText": "Se você preferir ler uma transcrição deste vídeo, clique ",
+                    "transcriptLinkText2": "aqui"
                 }
             },
             "form": {
@@ -5326,7 +5455,14 @@ const translations = {
                             "Mosias 27:5",
                             "Doutrina e Convênios 42:42",
                             "Moisés 4:25",
-                            "Joseph Smith - História 1:55"
+                            "Joseph Smith — História 1:55"
+                        ],
+                        "scriptures": [
+                            `“E eu mesmo tenho trabalhado com minhas próprias mãos, a fim de vos servir; e para que não sejais sobrecarregados com impostos e não recaiam sobre vós coisas difíceis de suportar — e vós mesmos sois testemunhas, neste dia, de todas estas coisas que falei.”`,
+                            `“Sim, e para que todos os seus sacerdotes e mestres trabalhassem com as próprias mãos para prover o seu sustento em todas as circunstâncias, a não ser em caso de doença ou de grande necessidade; e assim fazendo, receberam a graça de Deus copiosamente.”`,
+                            `“Não serás ocioso; porque o ocioso não comerá o pão nem usará as vestes do trabalhador.”`,
+                            `“Pelo suor de teu rosto comerás o pão, até que retornes à terra — pois certamente morrerás — pois dela foste tirado; pois eras pó e ao pó retornarás.”`,
+                            `“Como a situação econômica de meu pai fosse muito limitada, víamo-nos obrigados a trabalhar com as mãos, empregando-nos fora, por dia ou de outras maneiras, segundo surgia a oportunidade. Às vezes estávamos em casa, outras, fora; e, trabalhando continuamente, conseguíamos viver de maneira confortável.”`
                         ]
                     },
                     "scriptureSelected": {
@@ -5334,6 +5470,10 @@ const translations = {
                         "placeholder": "Digite Aqui"
                     }
                 }
+            },
+            "videoTranscript": {
+                "title": "A Preparação de Heber J. Grant: Persistência e Tenacidade",
+                "messageContent": "Heber J. Grant foi dotado dos dons de persistência e tenacidade. Órfão de pai desde a infância, o jovem Heber, encorajado por sua mãe viúva, superou as lutas do dia a dia trabalhando diligentemente com as mãos, o coração e o cérebro para vencer qualquer fraqueza pessoal ou falta de talento.\n\nPor exemplo, quando menino, Heber ansiava por jogar beisebol com o time da vizinhança, mas, por não ter talento para o esporte, ele era ridicularizado em suas tentativas de arremessar e rebater. [Heber J. Grant disse]: \"Uma das razões para isso era que eu não conseguia arremessar a bola de uma base para a outra. Outra razão era que eu não tinha força física para correr ou rebater bem. Quando eu pegava uma bola, os garotos geralmente gritavam: 'Joga aqui, garotinho!' Tanta gozação foi feita por minha causa que eu prometi solenemente que jogaria beisebol no time dos nove que ganharia o campeonato do território de Utah. Muitas vezes meu braço doía tanto que eu mal conseguia dormir à noite. Mas continuei praticando e, finalmente, tive sucesso. Tendo assim cumprido minha promessa a mim mesmo, eu me aposentei da arena do beisebol.\"\n\nFalando da caligrafia de Heber, um amigo uma vez brincou: \"Parece que um raio atingiu um tinteiro.\" Com o orgulho ferido, Heber se dedicou a praticar diligentemente sua caligrafia até que ela se tornou tão habilidosa e bonita que ele foi pago para escrever cartões de felicitações, convites e rotular mapas.\n\nAs qualidades de persistência e tenacidade foram certamente necessárias para o jovem que, eventualmente, cresceria para guiar a igreja como profeta, vidente e revelador durante uma era de crise financeira e guerras mundiais."
             },
             "previousButton": "Anterior",
             "nextButton": "Próximo",
@@ -5348,7 +5488,7 @@ const translations = {
            },
            "section": {
                "title": "Seção 3: Amor pelo Aprendizado",
-               "description": "Em 1901, Heber J. Grant foi chamado para abrir e presidir a Missão Japonesa. Lá, Élder Grant dedicou a terra para a pregação e recepção do evangelho. Mas a missão não floresceu imediatamente, em parte devido às diferenças culturais e barreiras de comunicação. Isso não deteve o Élder Grant. Ele trabalhou diligentemente para aprender a nova língua e a nova cultura em que estava imerso. Apesar do sucesso missionário limitado na época, o Élder Grant supervisionou a primeira tradução do Livro de Mórmon para o japonês. Sobre seus esforços missionários, o Presidente Grant ensinou mais tarde: \"Quero que vocês, jovens, saibam que em todos os meus trabalhos me aproximei mais do Senhor, e realizei mais e tive mais alegria no campo missionário do que nunca antes ou depois. O homem existe para ter alegria, e a alegria que tive no campo missionário foi superior a qualquer outra que já havia experimentado em outro lugar.\"\n\nO Presidente Grant adorava dar livros a todos ao seu redor; ele sabia que aprender era uma das coisas mais importantes que se podia fazer para progredir, e sentia uma verdadeira sensação de paz ao dar livros que o haviam ensinado no passado. Ele distribuiu milhares deles, a maioria dos quais ele pessoalmente dedicou. Ao dar tantos presentes, às vezes perdia a noção do que havia feito. \"Uma vez dei um livro a um homem\", disse ele, \"e ele me agradeceu muito gentilmente, e disse: 'Irmão Grant, aprecio muito este livro. É a terceira cópia que você me dá dele.'\" Após essa experiência, o Presidente Grant manteve um índice dos livros que havia dado."
+               "description": "Em 1901, Heber J. Grant foi chamado para abrir e presidir a Missão Japonesa. Lá, Élder Grant dedicou a terra para a pregação e recepção do evangelho. Mas a missão não floresceu imediatamente, em parte devido às diferenças culturais e barreiras de comunicação. Isso não deteve o Élder Grant. Ele trabalhou diligentemente para aprender a nova língua e a nova cultura em que estava imerso. Mesmo com pouco sucesso missionário na época, o Élder Grant supervisionou a primeira tradução do Livro de Mórmon para o japonês. Sobre seus esforços missionários, o Presidente Grant ensinou mais tarde: \"Quero que vocês, jovens, saibam que em todos os meus trabalhos me aproximei mais do Senhor, e realizei mais e tive mais alegria no campo missionário do que nunca antes ou depois. O homem existe para ter alegria, e a alegria que tive no campo missionário foi superior a qualquer outra que já havia experimentado em outro lugar.\"\n\nO Presidente Grant adorava dar livros a todos ao seu redor; ele sabia que aprender era uma das coisas mais importantes que se podia fazer para progredir, e sentia uma verdadeira sensação de paz ao dar livros que o haviam ensinado no passado. Ele distribuiu milhares deles, a maioria dos quais ele pessoalmente dedicou. Ao dar tantos presentes, às vezes perdia a noção do que havia feito. \"Uma vez dei um livro a um homem\", disse ele, \"e ele me agradeceu muito gentilmente, e disse: 'Irmão Grant, aprecio muito este livro. É a terceira cópia que você me dá dele.'\" Após essa experiência, o Presidente Grant manteve um índice dos livros que havia dado."
            },
            "form": {
                "questions": {
@@ -5391,6 +5531,10 @@ const translations = {
                }
                }
            },
+           "videoTranscript": {
+                "title": "Ensinamentos de Heber J. Grant: A Lei do Senhor para o Sucesso Financeiro",
+                "messageContent": "Em sua vida, o Presidente Heber J. Grant presenciou tanto a riqueza quanto a pobreza. Ele conheceu o sucesso de um negócio bem-sucedido e lucrativo, mas estava mais do que familiarizado com a amargura e a servidão da dívida. Foi essa sabedoria financeira, essa compreensão de ambos os lados da moeda, que ajudou a guiar o Presidente Grant e a Igreja durante os anos sombrios da Depressão, bem como duas guerras mundiais.\n\nEmbora comprovadamente um homem de conhecimento financeiro, Heber J. Grant escolheu servir no Reino do Senhor. No papel de líder do sacerdócio, sua visão econômica foi compartilhada com os membros da Igreja. Seu conselho se concentrou em três guias financeiros: pagar um dízimo honesto, contribuir com uma oferta de jejum honesta e ficar livre de dívidas.\n\n[O Presidente Heber J. Grant disse]: “A prosperidade chega àqueles que observam a lei do dízimo. Deixem-me prometer-lhes hoje que, se os santos dos últimos dias mantiverem o jejum mensal de forma honesta e conscienciosa e pagarem a seus bispos a quantia real que teriam gasto com comida, e se, além disso, pagarem seu dízimo honesto, isso resolverá todos os problemas relacionados ao cuidado dos santos dos últimos dias. Teríamos todo o dinheiro necessário para cuidar de todos os pobres.”\n\n[O Presidente Heber J. Grant disse]: “Se uma pessoa possuísse o que tinha e não tivesse que pagar juros e só comprasse conforme tivesse o dinheiro para comprar, a maioria das pessoas estaria em circunstâncias razoavelmente confortáveis. Acho que a maior parte desse sofrimento veio por causa das dívidas.”"
+            },
            "previousButton": "Anterior",
            "nextButton": "Próximo",
            "saveProgressButton": "Salvar Progresso",
@@ -6526,12 +6670,12 @@ const translations = {
         "profileScreen": {
             "title": "Perfil",
             "fields": {
-            "preferredName": "Nome Preferido",
+            "preferredName": "Nome",
             "pathwayEmail": "Email BYU-Pathway",
-            "studentID": "ID de Estudante",
-            "preferredContact": "Método de Contato Preferido",
+            "studentID": "ID Estudantil",
+            "preferredContact": "Contato",
             "whatsappNumber": "Número de WhatsApp",
-            "preferredLanguage": "Idioma Preferido",
+            "preferredLanguage": "Idioma",
             "updateButton": "Atualizar",
             "emailAddress": "Endereço de Email",
             "phoneNumber": "Número de Telefone",
@@ -6558,7 +6702,7 @@ const translations = {
                 "version": "Versão",
                 "build": "Compilação",
                 "sendCrashReports": "Enviar relatórios de erro",
-                "submitTicket": "Enviar um tíquete",
+                "submitTicket": "Abrir um incidente",
                 "suggestions": "Sugestões",
                 "termsOfService": "Termos de Serviço",
                 "privacyPolicy": "Política de Privacidade"
@@ -6576,7 +6720,7 @@ const translations = {
         },
         "common": {
             "comentsTitle": "Comentários",
-            "reopenRequest": "Para reabrir esta solicitação, por favor adicione sua razão na seção de comentários abaixo",
+            "reopenRequest": "Para reabrir esta solicitação, por favor selecione o motivo na seção abaixo",
             "statusLabel": "Status:",
             "resolvedLabel": "Resolvido:",
             "lastModifiedLabel": "Última Modificação:",
@@ -7446,6 +7590,45 @@ const translations = {
                 "selectAtLeastOneCourseMessage": "Por favor, selecione pelo menos um curso.",
                 "registrationFailedTitle": "Registro Falhou",
                 "registrationFailedMessage": "Ocorreu um erro ao registrar seus cursos. Por favor, tente novamente."
+            },
+            "holds": {
+                "title": "Bloqueios",
+                "description": "Atualmente, há um bloqueio em sua conta e você não pode se registrar em cursos. Resolva os bloqueios pendentes. Você pode ir ao Portal do Aluno para limpar os bloqueios."
+            },
+            "editCourses": {
+                "editCoursesTitle": "Editar Cursos",
+                "registeredCoursesHeading": "Cursos Registrados",
+                "selectCoursesToDropMessage": "Selecione os cursos que você gostaria de cancelar abaixo.",
+                "noRegisteredCoursesMessage": "Você não está registrado em nenhum curso para este período.",
+                "unknownTermMessage": "Período Desconhecido",
+                "processingButtonText": "Processando...",
+                "dropSelectedButtonText": "Cancelar ",
+                "dropSelectedButtonText2": " selecionado(s)",
+                "selectCoursesToDropButtonText": "Selecionar cursos para cancelar",
+                "noCoursesAvailableMessage": "Nenhum curso disponível para cancelar.",
+                "selectAtLeastOneCourseError": "Por favor, selecione pelo menos um curso para cancelar.",
+                "confirmDropTitle": "Confirmar Cancelamento",
+                "confirmDropMessage": "Tem certeza de que deseja cancelar ",
+                "confirmDropMessage2": " curso(s)?",
+                "cancelButtonText": "Cancelar",
+                "confirmButtonText": "Confirmar",
+                "droppingCoursesLoadingMessage": "Cancelando cursos, por favor, aguarde...",
+                "dropSuccessMessage": "Os cursos foram cancelados com sucesso.",
+                "dropErrorMessage": "Ocorreu um erro ao tentar cancelar os cursos. Por favor, tente novamente."
+            },
+            "feedback": {
+                "thankYouTitle": "Obrigado!",
+                "thankYouMessage": "Seu feedback foi enviado com sucesso. Você será redirecionado para a tela inicial em breve.",
+                "registrationCompleteTitle": "Registro Concluído",
+                "courseRegistrationFeedbackTitle": "Feedback de Registro de Curso",
+                "rateExperiencePrompt": "Por favor, avalie sua experiência de registro:",
+                "accuracyRatingLabel": "Qual a precisão das recomendações de cursos?",
+                "overallExperienceRatingLabel": "Como foi sua experiência geral?",
+                "additionalCommentsLabel": "Comentários Adicionais (Opcional)",
+                "commentsPlaceholder": "Compartilhe qualquer feedback ou sugestão adicional...",
+                "submitButtonText": "Enviar Feedback",
+                "processingButtonText": "Processando...",
+                "betaWarningText": "Esta é apenas uma versão Beta do aplicativo e não representa um registro real."
             }
         }
     }
