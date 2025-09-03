@@ -1,0 +1,2542 @@
+{
+  "en": {
+    "serviceWorker": {
+      "registrationCancelled": "Service Worker registration cancelled"
+    },
+    "fileUpload": {
+      "failedToFetch": "Failed to fetch JSON due to",
+      "cannotObtainBuffer": "Cannot obtain ArrayBuffer to uploading file",
+      "thanksForUploading": "Thanks for uploading the file(s):"
+    },
+    "chat": {
+      "welcome": "Welcome to the Companion App",
+      "signIn": "Sign in",
+      "signInDescription": "Please sign in for a personalized chat bot experience for students."
+    },
+    "notifications": {
+      "disableQuestion": "Are you sure you would like to disable notifications?",
+      "notificationsNotEnabled": "Notifications not enabled",
+      "enableQuestion": "Would you like to enable notifications?",
+      "addHomeScreen": "App is not added to home screen",
+      "addHomeScreenInstructions": "Please follow the instructions in the More > How to Download the App option to enable notifications"
+    },
+    "refresh": {
+      "appQuestion": "Are you sure you would like to refresh Companion?",
+      "botQuestion": "Are you sure you would like to refresh Companion?"
+    },
+    "buttons": {
+      "yes": "Yes",
+      "no": "No",
+      "close": "Close",
+      "goBack": "Go Back"
+    },
+    "ui": {
+      "howToAddHome": "How to Add to Home Screen",
+      "disableNotifications": "Disable Notifications",
+      "termsAndConditions": "Online Student Terms and Conditions",
+      "privacyNotice": "Privacy Notice – BYU-Pathway Worldwide",
+      "cookiePreferences": "Cookie Preferences",
+      "allRightsReserved": "©2024 by Intellectual Reserve, Inc. All rights reserved.",
+      "companionTitle": "Companion",
+      "loading": "Loading",
+      "servicesTitle": "Services",
+      "academicExceptions": "Academic Exceptions Petition",
+      "enrollmentVerification": "Enrollment Verification",
+      "graduationApplication": "Graduation Application",
+      "officialTranscripts": "Official Transcripts",
+      "registration": "Registration",
+      "supportCases": "Support Cases",
+      "onlineStudentGrievance": "Online Student Grievance Form",
+      "requestsTitle": "Requests",
+      "openCases": "Open Cases",
+      "closedCases": "Closed Cases",
+      "submitNewCase": "Submit New Case",
+      "networkTitle": "Network",
+      "assignMentor": "Assign Me a Mentor",
+      "mentorInfo": "Mentor Info",
+      "pcGathering": "PathwayConnect Gathering Info",
+      "ecGathering": "EnglishConnect 3 Gathering Info",
+      "noNetworkFound": "No Network Information Found",
+      "jobsTitle": "Jobs",
+      "tier1JobsAvailable": "Tier 1 Jobs Available",
+      "jobsAppliedFor": "Jobs I Have Applied For",
+      "submitInternship": "Submit internship",
+      "network": "Network",
+      "services": "Services",
+      "chat": "Chat",
+      "jobs": "Jobs",
+      "notifications": "Notifications",
+      "more": "More"
+    },
+    "showAction": {
+      "login": {
+        "title": "Welcome to the Companion App",
+        "button_text": "Sign in",
+        "paragraph": "Please sign in for a personalized chat bot experience for students."
+      },
+      "disableNotifications": {
+        "title": "Are you sure you would like to disable notifications?",
+        "button_yes": "Yes",
+        "button_no": "No"
+      },
+      "refresh": {
+        "title": "Are you sure you would like to refresh Companion?",
+        "button_yes": "Yes",
+        "button_no": "No"
+      },
+      "refreshBot": {
+        "title": "Are you sure you would like to refresh Companion?",
+        "button_yes": "Yes",
+        "button_no": "No"
+      },
+      "enableNotifications": {
+        "title": "Notifications not enabled",
+        "paragraph": "Would you like to enable notifications?",
+        "button_yes": "Yes",
+        "button_no": "No"
+      },
+      "addHomeScreen": {
+        "title": "App is not added to home screen",
+        "paragraph": "Please follow the instructions in the More > How to Download the App option to enable notifications",
+        "button_close": "Close"
+      },
+      "jobPopup": {
+        "title": "A request has been submitted!",
+        "paragraph": "You'll be contacted shortly by your new mentor.",
+        "button_enable_notifications": "Enable Notifications",
+        "button_close": "Close"
+      },
+      "mentorInfo": {
+        "close_button": "Close",
+        "title": "Mentor Information",
+        "button_whatsapp": "Send a WhatsApp",
+        "button_email": "Send an Email",
+        "button_form": "Mentor Concern Form"
+      },
+      "gatheringInfo": {
+        "close_button": "Close",
+        "title": "Gathering Information",
+        "button_link": "Gathering Meeting Link"
+      },
+      "cases": {
+        "close_button": "Close"
+      },
+      "jobListing": {
+        "close_button": "Close"
+      },
+      "timeline": {
+        "close_button": "Close"
+      },
+      "submitRequest": {
+        "close_button": "Close",
+        "form_elements": {
+          "label_main_topic": "Main Topic *",
+          "select_default": "Select one",
+          "options": [
+            "Class Schedule – Add a Course",
+            "Class Schedule – Drop a Course",
+            "Class Schedule – Incorrect Classes Showing in My Plan",
+            "Class Schedule - No courses available/Can't see future terms",
+            "Canvas – Course Issue",
+            "Canvas – Login Issue",
+            "EnglishConnect Module – Login Issue",
+            "Canvas Access",
+            "EnglishConnect",
+            "EnglishConnect Module – Course Issue",
+            "Finance – Payment Issue",
+            "Finance – Heber J. Grant Discount",
+            "Gathering Questions",
+            "Hold – Finance",
+            "Hold – Gathering",
+            "Hold - Ecclesiastical Endorsement",
+            "Meet with an Academic Advisor",
+            "Mentoring",
+            "Microsoft Office – Login Issue",
+            "Student Portal – Login Issue",
+            "Student Wellness",
+            "Transfer Evaluation",
+            "Work Study",
+            "Other"
+          ],
+          "paragraph_link": "To continue with the creation of this case, please go to ",
+          "label_description": "Detailed Description *",
+          "label_contact_method": "Preferred Contact Method *",
+          "contact_method_options": [
+            "Select one",
+            "Email",
+            "Phone"
+          ],
+          "label_contact_info": "Your Contact Info *",
+          "label_screenshot": "Submit a Screenshot with your ticket",
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        }
+      },
+      "exceptions": {
+        "close_button": "Close",
+        "disclaimer": {
+          "bold_text": "Disclaimer:",
+          "paragraph": "Submitting this request does not guarantee approval. Approval or denial of this petition may affect your tuition, academic status, international status, etc. It is your responsibility to explore and understand these impacts. Decisions by the committee are permanent and final."
+        },
+        "form_elements": {
+          "label_exception_type": "What academic exception would you like to escalate? *",
+          "exception_options": [
+            "Select one",
+            "Withdraw/Drop",
+            "Other"
+          ],
+          "other_option_notice_title": "Notice:",
+          "other_option_notice_paragraph1": "The “Other” category for academic exception requests is reserved only for issues that directly impact graduation and do not fall under standard exception types.",
+          "do_not_use_title": "Please do not use this form for the following:",
+          "list_do_not_use": [
+            "Dropping or withdrawing from a course – Use the Standard Academic Exception process.",
+            "Grade changes – Contact your instructor to initiate a Grade Change Form.",
+            "Instructor grievances – Submit an Instructor Grievance Form.",
+            "Course registration – Our office does not register students. For registration assistance, please contact Student Support."
+          ],
+          "valid_other_requests_title": "Examples of valid “Other” requests include:",
+          "list_valid_requests": [
+            "Exceptions related to overall credit requirements",
+            "Issues with upper-division credit totals",
+            "Requests involving catalog year or degree requirement discrepancies"
+          ],
+          "consult_support_paragraph": "If your situation does not clearly relate to graduation requirements, please consult with Student Support before submitting.",
+          "label_reason_exception": "Please explain what is your academic exception petition: *",
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        },
+        "term_select_section": {
+          "label": "Select the term from which you would like to submit the exception: *",
+          "select_default": "Select one"
+        },
+        "no_courses_message": "You don't have any courses available for exception. If you feel this is an error, please contact support by clicking the \"Support Cases\" button and submitting a new case.",
+        "courses_section": {
+            "label_courses": "Select the courses you would like to send the exception for. *",
+            "withdrawal_request_title": "Course Withdrawal Request:",
+            "withdrawal_request_paragraph1": "The drop date will be backdated to the Withdraw Course Deadline and the student will receive a \"W\" grade on their transcript.",
+            "withdrawal_request_paragraph2": "A \"W\" grade does not affect GPA, but indicates that the student started the course and later withdrew.",
+            "drop_request_title": "Course Drop Request:",
+            "drop_request_paragraph": "The drop date will be backdated to the Drop/Auto-Drop Deadline (day 8 of the semester), the course grade will be removed from the record.",
+            "label_request_type": "What would you like to request? *",
+            "request_type_options": [
+              "Select one",
+              "Drop",
+              "Withdraw"
+            ]
+        }
+      },
+        "officialTranscripts": {
+          "paragraph1": "An Official Transcript is a copy of your permanent academic record issued by Student Records & Registration and is typically sent to third parties, e.g., (colleges, graduate programs, companies).*",
+          "paragraph2": "An Unofficial Transcript is only available through your student account and is typically for personal use.*",
+          "disclaimer": "* Please contact your recipient regarding which transcript type they will accept and meets their requirements.",
+          "button": "Order Official Transcripts"
+        },
+        "orderOfficial": {
+          "close_button": "Close",
+          "title": "Order Official Transcripts",
+          "policy_title": "Official Transcript Request Policy",
+          "policy_paragraph1": "BYU-Pathway Worldwide will cover the cost of the first two official transcript requests for each institution:",
+          "institutions": [
+            "BYU-Pathway Worldwide",
+            "BYU-Idaho",
+            "Ensign College"
+          ],
+          "policy_paragraph2": "Additional official transcript requests may be subject to a fee. Students are encouraged to plan accordingly. Students may view their unofficial transcripts at no cost through their student portal.",
+          "label_institution_request": "From which institution are you requesting your transcript? *",
+          "select_default": "Select one",
+          "select_options": [
+            "BYU-Pathway Worldwide",
+            "BYU-Idaho",
+            "Ensign College"
+          ],
+          "label_recipient_name": "Name of institution, group, or person receiving this transcript: *",
+          "label_recipient_email": "Enter the email of the recipient that should receive your official transcript: *",
+          "checkbox_label": "I understand that BYU-Pathway Worldwide processes transcript requests as they are received and does not hold or delay them until grades are posted.",
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        },
+        "enrollmentVerification": {
+          "close_button": "Close",
+          "title": "Enrollment Verification",
+          "paragraph1": "This form allows students to request official enrollment verification to provide to a third party as proof of their enrollment at BYU-Pathway Worldwide.",
+          "paragraph2": "For details about your enrolled courses, please visit your student portal. On the homepage, navigate to the \"Classes\" tile for up-to-date enrollment information.",
+          "label_institution": "Which institution would you like your enrollment verification for? *",
+          "institution_note": "Enrollment verifications are specific to the enrollment",
+          "institution_options": [
+            "BYU-Idaho",
+            "Ensign College",
+            "BYU-Pathway"
+          ],
+          "label_include_info": "What would you like to include on your enrollment verification?: *",
+          "include_info_note": "All verifications will list your full name and your student ID. Choose what else you would like to be provided below:",
+          "include_info_options": [
+            "Enrollment Status",
+            "Date of Birth",
+            "Address",
+            "Social Security Number",
+            "Declared Programs",
+            "Grade Point Average (GPA)",
+            "Earned Credentials (Certificates & Degrees)",
+            "Withdraw Date (if applicable)",
+            "Academic Standing",
+            "Tuition Cost (per credit hour)"
+          ],
+          "label_course_details": "Would you like to include details about your currently enrolled course(s)? *",
+          "course_details_note": "The following information will be provided for any course(s) you are currently enrolled in: Course Code, Section, Title, Credits, and Instructor Name.",
+          "course_details_options": [
+            "Yes, include information about my current courses",
+            "No, do not include information about my current courses"
+          ],
+          "label_summary_info": "What would you like to include on your enrollment verification?: *",
+          "summary_info_note": "All verifications will list your full name and your student ID. Choose what else you would like to be provided below:",
+          "summary_info_options": [
+            "Provide Current Term Summary",
+            "Provide Future Term Summary"
+          ],
+          "label_reason": "Which reason best describers why you need an enrollment verification? *",
+          "reason_options": [
+            "Provide to Employer",
+            "Housing Request",
+            "Scholarship/Financial Aid",
+            "Verify Current Courses",
+            "Other"
+          ],
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        },
+        "graduationApplication": {
+          "close_button": "Close",
+          "title": "Application for Graduation",
+          "paragraph1": "This application is for EnglishConnect, PathwayConnect, and all Certificates & Degrees offered through BYU-Pathway Worldwide in partnership with BYU-Idaho and Ensign College.",
+          "paragraph2_note": "You will need to fill out a separate graduation application for each credential you are applying for.",
+          "label_term": "In which term/semester will you complete requirements for the credential you are applying for? If you have already completed, you should apply for the current term. *",
+          "term_select_options": [
+            "Select one",
+            "2025 Term 5",
+            "2025 Term 6"
+          ],
+          "label_credential": "What credential are you completing requirements for? *",
+          "credential_options": [
+            "Select one",
+            "PathwayConnect Completion Certificate",
+            "EnglishConnect Completion Certificate",
+            "Certificate",
+            "Associate degree",
+            "Bachelor’s degree"
+          ],
+          "label_certificate_institution": "Which institution will you be receiving your diploma from? *",
+          "certificate_institution_options": [
+            "Select one",
+            "BYU-Idaho",
+            "Ensign College"
+          ],
+          "label_certificate_name": "What is the name of the certificate you are applying for? *",
+          "label_certificate_major": "What is your currently declared major? *",
+          "label_certificate_catalog": "What is your current catalog year? *",
+          "label_degree_major": "What is your currently declared major? *",
+          "label_degree_catalog": "What is your current catalog year? *",
+          "disclaimer_closed": "The deadline has passed to have your name included in the program for the upcoming in-person commencement on April 11, 2025. Students are still welcome to purchase a cap and gown and attend the in-person commencement event, but will not have their name in the program",
+          "disclaimer_open1": "If you plan to participate in the upcoming commencement ceremony in person, you will need to fill out the Graduation Survey on the next window after submitting your application",
+          "disclaimer_open2": "If you have a FERPA restriction on your account, your name will not be printed in the program",
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        },
+        "GraduationApplicationFinish": {
+          "close_button": "Close",
+          "title": "Graduation Application",
+          "paragraph": "The application for Term 2 has closed, the application will open again for Term 3 on May 12, 2025"
+        },
+        "graduationComplete": {
+          "close_button": "Close",
+          "title": "Graduation Application Submitted",
+          "paragraph1": "You have successfully completed your Graduation Application.",
+          "paragraph2": "Please allow 8-10 weeks for verification and awarding of your credentials.",
+          "survey_paragraph": "Please fill out this brief survey to let us know whether or not you will be attending the up coming commencement ceremony in person.",
+          "survey_button": "Open Survey"
+        },
+        "mentorConcernForm": {
+          "close_button": "Close",
+          "title": "Mentor Concern Form",
+          "label_concern_type": "Please select a general category *",
+          "concern_options": [
+            "Select one",
+            "The Mentor has not responded and 24 hours have passed.",
+            "The Mentor did not provide needed answers or information.",
+            "I would like the contact information for my Mentor.",
+            "I am not assigned a Mentor and am currently enrolled."
+          ],
+          "label_concern_experience": "Please add any additional details about the experience with the Mentor. *",
+          "label_contact_method": "Preferred Contact Method *",
+          "contact_method_options": [
+            "Select one",
+            "Email",
+            "Phone"
+          ],
+          "label_contact_info": "Your Contact Info *",
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        },
+        "completedSurvey": {
+          "close_button": "Close",
+          "title": "Profile Completed!",
+          "paragraph": "Your Jobs Profile has been submitted. While we won’t be in touch immediately, rest assured that we have your information, and we’ll reach out with next steps and guidance when the time is right. In the meantime, please visit https://www.byupathway.edu/career-services for more resources. Remember to also download the app and enable notifications to receive news faster."
+        },
+        "crescendoAction": {
+          "close_button": "Close",
+          "title": "Join Crescendo!",
+          "paragraph": "BYU-Pathway encourages employers to look for students on Crescendo, a job platform designed specifically for BYU-Pathway students. Will you go to the website and create a profile so employers can find you?",
+          "button": "Join Crescendo"
+        },
+        "test": {
+          "close_button": "Close",
+          "label": "Test Label:",
+          "select": ""
+        },
+        "Holds": {
+          "close_button": "Close",
+          "title": "Holds",
+          "paragraph1": "Your account is currently on hold for the following reasons:",
+          "paragraph2": "You won't be able to register for courses until you have cleared all your holds.",
+          "link_text": "Learn more"
+        },
+        "MRPApplication": {
+          "close_button": "Close",
+          "title": "MRP Internship Application Form",
+          "intro_paragraph": "Please complete this form to apply for the Mountain River Partners Internship Program. The skills taught during the program are aimed to complement what students are learning in their educational programs through BYU-Pathway Worldwide. These are invaluable skills for securing remote and in-person roles in several areas.",
+          "how_to_loom": {
+            "title": "How to Record a Loom Video",
+            "step1": "Go to Loom - Visit www.loom.com and sign up (or log in).",
+            "step2": "Install Loom - Download the Loom desktop app OR install the Chrome extension.",
+            "step3": "Start Recording - Click the Loom icon, choose Screen + Camera (to show your face) or Screen Only, then press Start Recording.",
+            "step4": "Stop & Share - Click the Stop button when done. Loom will create a link—copy and paste it into your application."
+          },
+          "loom_tip": "Keep it short (1-2 min) and test your mic before recording!",
+          "label_loom_link": "Record a of video of yourself explaining why do you want to do this internship. *",
+          "label_pathway_certificate": "I have a PathwayConnect certificate *",
+          "pathway_certificate_options": {
+            "select_default": "Select an option",
+            "yes": "Yes",
+            "no": "No"
+          },
+          "label_internship_selection": "Which Internship are you most interested in? *",
+          "internship_options": {
+            "select_default": "Select an option",
+            "bookkeeping": "Bookkeeping Internship",
+            "commercial_real_estate": "Commercial Real Estate Internship",
+            "finance": "Finance Internship",
+            "entrepreneurship": "Entrepreneurship Internship"
+          },
+          "label_bachelor_selection": "Which bachelor's degree are you currently working towards? (Or which bachelor's degree have you received?) *",
+          "bachelor_options": {
+            "select_default": "Select an option",
+            "applied_health": "Applied Health",
+            "communication": "Communication",
+            "applied_business_management": "Applied Business Management",
+            "software_development": "Software Development",
+            "information_technology": "Information Technology",
+            "professional_studies": "Professional Studies",
+            "family_and_human_services": "Family and Human Services"
+          },
+          "label_linkedin_url": "Enter your LinkedIn profile url: *",
+          "label_resume_upload": "Upload your resume or CV (in PDF) *",
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        },
+        "MRPApplication2": {
+          "close_button": "Close",
+          "title": "MRP Internship Application Form",
+          "intro_paragraph": "BYU-Pathway Worldwide is building relationships with employers who want to offer jobs to our students. Mountain River Partners provides work experience to a global community of students while they are pursuing education to improve their lives. Submit your application between April 1-14, to be considered for this opportunity! Positions for this internship are limited and the selection decisions are completely made by Mountain River Partners without influence from BYU-Pathway Worldwide.",
+          "how_to_loom": {
+            "title": "How to Record a Loom Video",
+            "step1": "Go to Loom - Visit www.loom.com and sign up (or log in).",
+            "step2": "Install Loom - Download the Loom desktop app OR install the Chrome extension.",
+            "step3": "Start Recording - Click the Loom icon, choose Screen + Camera (to show your face) or Screen Only, then press Start Recording.",
+            "step4": "Stop & Share - Click the Stop button when done. Loom will create a link—copy and paste it into your application."
+          },
+          "loom_tip": "Keep it short (1-2 min) and test your mic before recording!",
+          "label_loom_link": "Record a of video of yourself explaining why do you want to do this internship. *",
+          "label_personal_experience": "Please describe a personal experience that demonstrates your commitment level. (Limit to 200 words): *",
+          "label_linkedin_url": "Enter your LinkedIn profile url: *",
+          "label_resume_upload": "Upload your resume or CV (in PDF) *",
+          "required_legend": "Fields marked with * are required.",
+          "submit_button": "Submit"
+        },
+        "careerSurvey": {
+          "save_button": "Save Progress",
+          "close_button": "Close",
+          "help_button": "Help",
+          "title": "Jobs Profile",
+          "intro_paragraph": "Welcome to the Jobs Profile. This tool helps us gather key information to support your career goals. Please fill it out honestly and completely so we can best understand your goals. We recommend using a computer for the best results. If you need a break, click 'Save Progress' to return and continue later.",
+          "question1_label": "1.- Are you seeking a better job? *",
+          "question1_options": {
+            "select_default": "Select an option",
+            "yes": "Yes",
+            "no": "No"
+          },
+          "job_permissions": {
+            "question2_label": "2.- Do we have your permission to share your information with third-party hiring firms and other employers? *",
+            "question2_options": {
+              "select_default": "Select an option",
+              "yes": "Yes",
+              "no": "No"
+            },
+            "question3_label": "3.- Do we have your permission to share your information with other departments in The Church of Jesus Christ of Latter-day Saints? *",
+            "question3_options": {
+              "select_default": "Select an option",
+              "yes": "Yes",
+              "no": "No"
+            },
+            "more_info_button": "Click here for details on what information may be shared."
+          },
+          "full_form": {
+            "question4_label": "4.- What is the best way to contact you? *",
+            "question4_options": {
+              "select_default": "Select an option",
+              "whatsapp": "WhatsApp",
+              "email": "Email"
+            },
+            "question5_label": "5.- Enter your WhatsApp (Make sure to add your country code): *",
+            "question6_label": "6.- What languages do you speak? Select all that apply. *",
+            "question7_label": "7.- What type of job are you looking for? Select all that apply. *",
+            "job_types_options": {
+              "remote": "Remote",
+              "in_person_local": "In-person (local)"
+            },
+            "question8_label": "8.- How many hours are you available to work per week? Select all that apply. *",
+            "job_hours_options": {
+              "full_time": "Full-Time (up to 40 hours per week)",
+              "part_time": "Part-Time (up to 20 hours per week)"
+            },
+            "question9_label": "9.- What industries are you interested in? Select all that apply. *",
+            "job_industries_options": {
+              "accounting_finance": "Accounting/Finance",
+              "healthcare": "Healthcare",
+              "technology": "Technology",
+              "artificial_intelligence": "Artificial Intelligence",
+              "marketing": "Marketing"
+            },
+            "question10_label": "10.- Please indicate how much money you usually earn in one month in your local currency. *",
+            "currency_list_label": "Select an option",
+            "currenciesList": {
+              "AED": "UAE Dirham - UNITED ARAB EMIRATES (THE)",
+              "AFN": "Afghani - AFGHANISTAN",
+              "ALL": "Lek - ALBANIA",
+              "AMD": "Armenian Dram - ARMENIA",
+              "ANG": "Netherlands Antillean Guilder - NETHERLANDS ANTILLES",
+              "AOA": "Kwanza - ANGOLA",
+              "ARS": "Argentine Peso - ARGENTINA",
+              "AUD": "Australian Dollar - AUSTRALIA",
+              "AWG": "Aruban Florin - ARUBA",
+              "AZN": "Azerbaijan Manat - AZERBAIJAN",
+              "BAM": "Convertible Mark - BOSNIA AND HERZEGOVINA",
+              "BBD": "Barbados Dollar - BARBADOS",
+              "BDT": "Taka - BANGLADESH",
+              "BGN": "Bulgarian Lev - BULGARIA",
+              "BHD": "Bahraini Dinar - BAHRAIN",
+              "BIF": "Burundi Franc - BURUNDI",
+              "BMD": "Bermudian Dollar - BERMUDA",
+              "BND": "Brunei Dollar - BRUNEI DARUSSALAM",
+              "BOB": "Boliviano - BOLIVIA (PLURINATIONAL STATE OF)",
+              "BRL": "Brazilian Real - BRAZIL",
+              "BSD": "Bahamian Dollar - BAHAMAS (THE)",
+              "BTN": "Ngultrum - BHUTAN",
+              "BWP": "Pula - BOTSWANA",
+              "BYN": "Belarusian Ruble - BELARUS",
+              "BZD": "Belize Dollar - BELIZE",
+              "CAD": "Canadian Dollar - CANADA",
+              "CDF": "Congolese Franc - CONGO (THE DEMOCRATIC REPUBLIC OF THE)",
+              "CHF": "Swiss Franc - SWITZERLAND",
+              "CLP": "Chilean Peso - CHILE",
+              "CNY": "Yuan Renminbi - CHINA",
+              "COP": "Colombian Peso - COLOMBIA",
+              "CRC": "Costa Rican Colon - COSTA RICA",
+              "CUP": "Cuban Peso - CUBA",
+              "CVE": "Cabo Verde Escudo - CABO VERDE",
+              "CZK": "Czech Koruna - CZECHIA",
+              "DJF": "Djibouti Franc - DJIBOUTI",
+              "DKK": "Danish Krone - DENMARK, GREENLAND",
+              "DOP": "Dominican Peso - DOMINICAN REPUBLIC (THE)",
+              "DZD": "Algerian Dinar - ALGERIA",
+              "EGP": "Egyptian Pound - EGYPT",
+              "ERN": "Nakfa - ERITREA",
+              "ETB": "Ethiopian Birr - ETHIOPIA",
+              "EUR": "Euro - EURO AREA COUNTRIES",
+              "FJD": "Fiji Dollar - FIJI",
+              "FKP": "Falkland Islands Pound - FALKLAND ISLANDS (THE) [MALVINAS]",
+              "GBP": "Pound Sterling - UNITED KINGDOM",
+              "GEL": "Lari - GEORGIA",
+              "GGP": "Lari - GEORGIA",
+              "GHS": "Ghana Cedi - GHANA",
+              "GIP": "Gibraltar Pound - GIBRALTAR",
+              "GMD": "Dalasi - GAMBIA (THE)",
+              "GNF": "Guinean Franc - GUINEA",
+              "GPX": "Genovian Peso - GENOVIA",
+              "GTQ": "Quetzal - GUATEMALA",
+              "GYD": "Guyana Dollar - GUYANA",
+              "HKD": "Hong Kong Dollar - HONG KONG",
+              "HNL": "Lempira - HONDURAS",
+              "HTG": "Gourde - HAITI",
+              "HUF": "Forint - HUNGARY",
+              "IDR": "Rupiah - INDONESIA, TIMOR-LESTE",
+              "ILS": "New Israeli Sheqel - ISRAEL",
+              "INR": "Indian Rupee - INDIA",
+              "IQD": "Iraqi Dinar - IRAQ",
+              "IRR": "Iranian Rial - IRAN (ISLAMIC REPUBLIC OF)",
+              "ISK": "Iceland Krona - ICELAND",
+              "JEP": "Italian Lira - SAN MARINO",
+              "JMD": "Jamaican Dollar - JAMAICA",
+              "JOD": "Jordanian Dinar - JORDAN",
+              "JPY": "Yen - JAPAN",
+              "KES": "Kenyan Shilling - KENYA",
+              "KGS": "Som - KYRGYZSTAN",
+              "KHR": "Riel - CAMBODIA",
+              "KMF": "Comorian Franc - COMOROS (THE)",
+              "KPW": "North Korean Won - KOREA (THE DEMOCRATIC PEOPLE'S REPUBLIC OF)",
+              "KRW": "Won - KOREA (THE REPUBLIC OF)",
+              "KWD": "Kuwaiti Dinar - KUWAIT",
+              "KYD": "Cayman Islands Dollar - CAYMAN ISLANDS (THE)",
+              "KZT": "Tenge - KAZAKHSTAN",
+              "LAK": "Lao Kip - LAO PEOPLE'S DEMOCRATIC REPUBLIC (THE)",
+              "LBP": "Lebanese Pound - LEBANON",
+              "LKR": "Sri Lanka Rupee - SRI LANKA",
+              "LRD": "Liberian Dollar - LIBERIA",
+              "LSL": "Loti - LESOTHO",
+              "LYD": "Libyan Dinar - LIBYA",
+              "MAD": "Moroccan Dirham - MOROCCO",
+              "MDL": "Moldovan Leu - MOLDOVA (THE REPUBLIC OF)",
+              "MGA": "Malagasy Ariary - MADAGASCAR",
+              "MKD": "Denar - NORTH MACEDONIA",
+              "MMK": "Kyat - MYANMAR",
+              "MNT": "Tugrik - MONGOLIA",
+              "MOP": "Pataca - MACAO",
+              "MRU": "Ouguiya - MAURITANIA",
+              "MUR": "Mauritius Rupee - MAURITIUS",
+              "MVR": "Rufiyaa - MALDIVES",
+              "MWK": "Kwacha - MALAWI",
+              "MXN": "Mexican Peso - MEXICO",
+              "MYR": "Malaysian Ringgit - MALAYSIA",
+              "MZN": "Mozambique Metical - MOZAMBIQUE",
+              "NAD": "Namibia Dollar - NAMIBIA",
+              "NGN": "Naira - NIGERIA",
+              "NIO": "Cordoba Oro - NICARAGUA",
+              "NOK": "Norwegian Krone - NORWAY",
+              "NPR": "Nepalese Rupee - NEPAL",
+              "NZD": "New Zealand Dollar - NEW ZEALAND",
+              "OMR": "Rial Omani - OMAN",
+              "PAB": "Balboa - PANAMA",
+              "PEN": "Nuevo Sol - PERU",
+              "PGK": "Kina - PAPUA NEW GUINEA",
+              "PHP": "Philippine Peso - PHILIPPINES (THE)",
+              "PKR": "Pakistan Rupee - PAKISTAN",
+              "PLN": "Zloty - POLAND",
+              "PYG": "Guarani - PARAGUAY",
+              "QAR": "Qatari Rial - QATAR",
+              "RON": "New Romanian Leu - ROMANIA",
+              "RSD": "Serbian Dinar - SERBIA",
+              "RUB": "Russian Ruble - RUSSIAN FEDERATION (THE)",
+              "RWF": "Rwanda Franc - RWANDA",
+              "SAR": "Saudi Riyal - SAUDI ARABIA",
+              "SBD": "Solomon Islands Dollar - SOLOMON ISLANDS",
+              "SCR": "Seychelles Rupee - SEYCHELLES",
+              "SDG": "Sudanese Pound - SOUTH SUDAN",
+              "SEK": "Swedish Krona - SWEDEN",
+              "SGD": "Singapore Dollar - SINGAPORE",
+              "SHP": "Saint Helena Pound - SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",
+              "SLE": "Leone (New) - SIERRA LEONE",
+              "SLL": "Leone (Old) - SIERRA LEONE",
+              "SOS": "Somali Shilling - SOMALIA",
+              "SRD": "Surinam Dollar - SURINAME",
+              "SSP": "South Sudanese Pound - SOUTH SUDAN",
+              "STN": "Dobra - SAO TOME AND PRINCIPE",
+              "SYP": "Syrian Pound - SYRIAN ARAB REPUBLIC",
+              "SZL": "Lilangeni - ESWATINI",
+              "THB": "Baht - THAILAND",
+              "TJS": "Somoni - TAJIKISTAN",
+              "TMT": "Turkmenistan New Manat - TURKMENISTAN",
+              "TND": "Tunisian Dinar - TUNISIA",
+              "TOP": "Pa'anga - TONGA",
+              "TRY": "New Turkish Lira - TURKEY",
+              "TTD": "Trinidad and Tobago Dollar - TRINIDAD AND TOBAGO",
+              "TWD": "New Taiwan Dollar - TAIWAN (PROVINCE OF CHINA)",
+              "TZS": "Tanzanian Shilling - TANZANIA, UNITED REPUBLIC OF",
+              "UAH": "Hryvnia - UKRAINE",
+              "UGX": "Uganda Shilling - UGANDA",
+              "USD": "US Dollar - UNITED STATES (U.S.)",
+              "UYU": "Peso Uruguayo - URUGUAY",
+              "UZS": "Uzbekistan Sum - UZBEKISTAN",
+              "VED": "Bolivar - VENEZUELA",
+              "VES": "Bolivar Soberano - VENEZUELA",
+              "VND": "Dong - VIET NAM",
+              "VUV": "Vatu - VANUATU",
+              "WST": "Tala - SAMOA",
+              "XAF": "CFA Franc BEAC - CENTRAL AFRICAN CRA COUNTRIES",
+              "XCD": "East Caribbean Dollar - EAST CARIBBEAN XCD COUNTRIES",
+              "XDR": "SDR (Special Drawing Right) - INTERNATIONAL MONETARY FUND (IMF)",
+              "XOF": "CFA Franc BCEAO - WEST AFRICAN CFA COUNTRIES",
+              "XPF": "CFP Franc - FRENCH POLYNESIA",
+              "YER": "Yemeni Rial - YEMEN",
+              "ZAR": "Rand - SOUTH AFRICA",
+              "ZMW": "Zambian Kwacha - ZAMBIA",
+              "ZWL": "Zimbabwean Dollar - ZIMBABWE"
+            },
+            "employment_history_title": "Employment History",
+            "question11_label": "11.- Please share with us your employment history, starting one year before you started BYU-Pathway Worldwide.",
+            "add_button": "+ Add",
+            "employment_table_headers": {
+              "title": "Title",
+              "details": "Details"
+            },
+            "education_history_title": "Education History",
+            "question12_label": "12.- Please describe any higher education you completed prior to BYU-Pathway, including degrees, diplomas, or certificates from other colleges or universities. Do not include BYU-Pathway, BYU-Idaho, or Ensign College certificates or degrees.",
+            "education_table_headers": {
+              "title": "Title",
+              "details": "Details"
+            },
+            "question13_label": "13.- What electronic devices do you have access to? Select all that apply. *",
+            "electronic_devices_options": {
+              "computer_personal": "Computer (personal)",
+              "computer_shared_public": "Computer (shared or public)",
+              "smartphone_personal": "Smartphone (personal)",
+              "smartphone_shared_public": "Smartphone (shared or public)",
+              "tablet_personal": "Tablet (personal)",
+              "tablet_shared_public": "Tablet (shared or public)"
+            },
+            "question14_label": "14.- On average, how many times a week do you experience power outages? *",
+            "power_outages_options": {
+              "select_default": "Select an option",
+              "0": "0",
+              "1_2": "1-2",
+              "3_5": "3-5",
+              "5_10": "5-10",
+              "10+": "10+"
+            },
+            "outage_plan": {
+              "question15_label": "15.- Do you have a back plan for power outages? *",
+              "question15_options": {
+                "select_default": "Select an option",
+                "yes": "Yes",
+                "no": "No"
+              }
+            },
+            "question16_label": "16.- Are you currently on a Phone or a Computer? *",
+            "device_options": {
+              "select_default": "Select an option",
+              "phone": "Phone",
+              "computer": "Computer"
+            },
+            "typing_test": {
+              "question_label": "16.1.- Typing Test",
+              "instructions": {
+                "link_text": "this link",
+                "instructions_text": "Click on {link} and complete the test. Once finished, *",
+                "step1": "take a screenshot of your results,",
+                "step2": "enter your Words Per Minute (WPM) result here, and",
+                "step3": "attach the screenshot in the next question."
+              },
+              "screenshot_instructions_mac": "To take a screenshot on a Mac computer, press Command + Shift + 3",
+              "screenshot_instructions_windows": "To take a screenshot on a Windows computer, press PrtSc or Shift + Windows Key + S",
+              "more_guidance_link": "https://www.pcmag.com/how-to/how-to-take-a-screenshot-on-any-device",
+              "screenshot_attachment_label": "16.2.- Typing Test<br> Attach the screenshot from the previous step here: *"
+            },
+            "internet_speed_test": {
+              "question_label": "16.3.- Internet Speed Test",
+              "instructions": {
+                "link_text": "this link",
+                "instructions_text": "Click on {link} and run an internet Speed Test. Once finished, *",
+                "step1": "take a screenshot of your results,",
+                "step2": "enter your results here, and",
+                "step3": "attach the screenshot in the next question."
+              },
+              "download_speed_label": "Download Speed",
+              "upload_speed_label": "Upload Speed",
+              "screenshot_instructions_mac": "To take a screenshot on a Mac computer, press Command + Shift + 3",
+              "screenshot_instructions_windows": "To take a screenshot on a Windows computer, press PrtSc or Shift + Windows Key + S",
+              "more_guidance_link": "https://www.pcmag.com/how-to/how-to-take-a-screenshot-on-any-device",
+              "screenshot_attachment_label": "16.4.- Internet Speed Test<br> Attach the screenshot from the previous step here: *"
+            },
+            "profile_questions": {
+              "question17_1_label": "17.1.- Profile Questions",
+              "question17_1_prompt": "Describe an experience where you used your leadership skills. What was the situation? What did you do? What was the result?",
+              "recording_instructions": "Answer the following question as thoroughly as possible. 2 minutes max *",
+              "start_recording_label": "Start Recording",
+              "stop_recording_label": "Stop Recording",
+              "question17_2_label": "17.2.- Profile Questions",
+              "question17_2_prompt": "Your team member let you borrow something. When you were using it, you accidently broke it. Leave a voicemail for your team member to explain the problem and recommend a solution."
+            },
+            "required_legend": "Fields marked with * are required.",
+            "submit_button": "Submit"
+          }
+        },
+        "wellnessSurvey": {
+          "close_button": "Close",
+          "banner_alt_text": "logo",
+          "title": "Online Student Grievance Form",
+          "intro_paragraph": "Students are encouraged to work directly with their instructor or administrator to resolve academic or administrative concerns related to their experience with BYU-Pathway Worldwide (BYU-Pathway), BYU Idaho, Ensign College, or Institutes of Religion (collectively, Institutions). If a student’s concern is not resolved, they are encouraged to submit a formal grievance. For general questions that are not a grievance, please visit https://help.byupathway.edu/.",
+          "phone_number_label": "What is your phone number? *",
+          "email_label": "Which email address would you prefer us to contact you on? *",
+          "grievance_type_label": "What is the nature of your grievance? *",
+          "grievance_type_options": {
+            "academic": "Academic",
+            "administrative": "Administrative"
+          },
+          "academic_disclaimer": {
+            "title": "Disclaimer",
+            "intro_paragraph": "If you wish to file a complaint about an instructor, here are some things to consider:",
+            "list_items": [
+              "If you feel you deserve a better score on an assignment, please know that grades are determined by each instructor based upon his or her evaluation. Disagreeing with an instructor's grade is not by itself a sufficient reason to submit a complaint. If you feel your instructor has violated policy, procedure, or treated you unfairly, you may file a complaint.",
+              "The complaint process involves extensive investigation of both student and instructor. This process is not meant to be used on a frequent basis and should be used only with serious concerns that cannot be resolved in other ways."
+            ],
+            "contact_instructor_question": "Have you already contacted your instructor about this issue? *",
+            "contact_instructor_options": {
+              "yes": "Yes",
+              "no": "No"
+            },
+            "contact_instructor_warning": {
+              "title": "Contact Your Instructor",
+              "text": "Please speak with your instructor. No action will be taken until there is an attempt at resolution between you and your instructor."
+            }
+          },
+          "form_fields": {
+            "problem_description_label": "Please describe the problem in detail. *",
+            "expected_outcome_label": "What is the desired outcome? *",
+            "attachments_label": "Attach any relevant documents and/or screenshots that would help us investigate this issue.",
+            "add_attachment_button": "Add Attachment",
+            "submit_button": "Submit"
+          }
+        }
+    },
+    "loading": {
+      "logging_in": "Please wait while we log you in...",
+      "updating_info": "Updating your personal info...",
+      "alert_error": "An error has occured while trying to log you in. Please contact your mentor for more information",
+      "failed_update_gathering": "Failed to update Gathering Information"
+    },
+    "chat2": {
+      "signed_in": "You are signed in! Please wait while we connect to your account…",
+      "notifications_prompt_pwa": "You are being logged in! \n **Turn on notifications** to stay updated on deadlines, self-help tools, system outages, and more!",
+      "mobile_app_prompt_no_pwa": "You are being logged in! \n **Download the mobile app** to get access to notifications, new upcoming features, and a faster experience!"
+    },
+    "jobs": {
+      "apply_mrp_internship": "Apply to MRP Internship",
+      "edit_mrp_internship": "Edit MRP Internship Application",
+      "applyTo": "Apply to ",
+      "edit": "Edit ",
+      "application": " Application"
+    },
+    "modals": {
+      "mobile_only": "Mobile Only",
+      "android_devices": "For Android Devices",
+      "ios_devices": "For iPhone Devices",
+      "step_1_android": "Open Companion in Chrome: ",
+      "step_1_android_desc": "Use the Chrome browser to open the Companion website.",
+      "step_2_android": "Tap the Menu Icon: ",
+      "step_2_android_desc": "In the top-right corner of the browser, tap the three-dot menu icon.",
+      "step_3_android": "Select “Add to Home Screen”: ",
+      "step_3_android_desc": "From the dropdown menu, tap on ",
+      "step_3_android_bold": "“Add to Home Screen”.",
+      "step_4_android": "Confirm: ",
+      "step_4_android_desc": "You’ll see a pop-up window. Confirm by tapping ",
+      "step_4_android_bold": "“Add”.",
+      "step_5_android": "Access Companion: ",
+      "step_5_android_desc": "Companion App will now appear on your home screen like a regular app. You can tap the icon to open it anytime.",
+      "step_1_ios": "Open Companion in Safari: ",
+      "step_1_ios_desc": "Open Safari and navigate to the Companion website (this feature is only supported in Safari on iPhone).",
+      "step_2_ios": "Tap the Share Icon: ",
+      "step_2_ios_desc": "At the bottom of the screen, tap the ",
+      "step_2_ios_bold": "Share",
+      "step_2_ios_bold_desc": " icon (a square with an upward arrow).",
+      "step_3_ios": "Select “Add to Home Screen”: ",
+      "step_3_ios_desc": "Scroll down in the Share menu and select ",
+      "step_3_ios_bold": "“Add to Home Screen”.",
+      "step_4_ios": "Rename (Optional): ",
+      "step_4_ios_desc": "You can edit the name of the app if desired, then tap ",
+      "step_4_ios_bold": "“Add”.",
+      "step_5_ios": "Access Companion: ",
+      "step_5_ios_desc": "The Companion icon will now appear on your home screen, just like any other app. Tap it to open Companion directly.",
+      "ai_warning": "This artificial intelligence (AI) chatbot is powered by generative AI technology that references the BYU-Pathway website and the Support Knowledge Base website. This chatbot can analyze questions, search the mentioned websites, and summarize potentially relevant information. Generative AI is not always correct. Please personally confirm the answers provided by this chatbot by reading the sections it identifies in the mentioned websites. Use of this chatbot is anonymous. Do not enter any personal information. By using this chatbot, you agree that anything you enter can be saved and reviewed by Church personnel to improve this chatbot and make it more accurate. Feedback can be submitted using the Submit Feedback button."
+    },
+    "jobs2": {
+      "failed_update_job_info": "Failed to update Job Information"
+    },
+    "cases": {
+      "failed_update_cases": "Failed to update cases",
+      "open_requests_title": "Open Requests",
+      "closed_requests_title": "Closed Requests",
+      "open_requests_none": "You don't have any open requests at the moment",
+      "closed_requests_none": "You don't have any closed requests at the moment",
+      "case_number": "Case Number:",
+      "date_created": "Date Created:",
+      "description": "Description:",
+      "status": "Status:",
+      "status_reason": "Status Reason:",
+      "last_modified": "Last Modified:",
+      "see_timeline_button": "See Timeline",
+      "add_comments_prompt": "To add comments to this request, please add them in the comments section below",
+      "reopen_request_prompt": "To reopen this request, please add your reason in the comments section below",
+      "comments_label": "Add your comments here:",
+      "screenshot_label": "You can add a screenshot related to your ticket down below",
+      "submit_button": "Submit",
+      "timeline_title_suffix": " Timeline",
+      "case_created": "Case Created",
+      "case_created_description": "The case was created",
+      "adding_comments": "Adding your comments to the request...",
+      "reopening_request": "Reopening your request...",
+      "failed_update": "failed update",
+      "comment": "Comment",
+      "reopen": "Reopen"
+    },
+    "requests": {
+      "submitting": "Submitting your Request...",
+      "updating_cases": "Updating your cases...",
+      "failed_to_escalate": "Failed to escalate your request"
+    },
+    "enrollment_verification": {
+      "loading_text": "Requesting your Enrollment Verification",
+      "alert_success": "Your request has been submitted. Please check your open support cases"
+    },
+    "graduation_application": {
+      "loading_text": "Submitting your application...",
+      "certificate_term_message1": "If you applied for graduation for the Fall 2024 semester through BYU-Idaho or Ensign College, you do not need to re-apply. Both of these institutions are currently in their awarding process and you will be notified by them when your credential is ready.",
+      "certificate_term_message2": "If you feel you completed the requirements for and should have been awarded a certificate or degree but weren't, please fill out the following form to send a case to the Graduation Department: ",
+      "certificate_term_message2_url": "https://nam.dcv.ms/0ofXwxC195",
+      "question_term_complete": "Which semester did/will you complete requirements? ",
+      "question_credential": "Credential? ",
+      "question_declared_major": "Declared Major? ",
+      "question_certificate_name": "Name of the certificate you are applying for? ",
+      "question_catalog_year": "Current catalog year? ",
+      "question_degree_major": "Current Declared Major? ",
+      "question_degree_catalog": "Current catalog year? "
+    },
+    "course_exceptions": {
+      "failed_to_disable_notifications": "Failed to disable notifications."
+    },
+    "exceptions": {
+      "withdraw_form_fields": {
+        "last_date_label": "What was your approximate last date of participation in the course(s)? *",
+        "reason_label": "What prevented you from logging into the registration portal and withdrawing from your course(s) before the withdrawal deadline? *",
+        "details_label": "Please provide any further information (include specific dates of events where possible) of why you did not withdraw from your course(s) before the deadline. *",
+        "grade_accept_label": "Why would a \"W\" grade [or a drop] be a more accurate reflection of your experience in this/these course(s)? *",
+        "going_forward_label": "If your petition is denied what does this mean for you going forward? *",
+        "circumstances_label": "What were the circumstances that led you to needing to petition for some, but not all of your classes this semester? *",
+        "required_legend": "Fields marked with * are required.",
+        "submit_button": "Submit"
+      },
+      "drop_form_fields": {
+        "last_date_label": "What was your approximate last date of participation in the course(s)? *",
+        "reason_label": "What prevented you from logging into the registration portal and dropping your course(s) before the drop deadline? *",
+        "details_label": "Please provide any further information (include specific dates of events where possible) of why you did not drop your course(s) before the deadline. *",
+        "grade_accept_label": "Why would a drop be a more accurate reflection of your experience in the course? *",
+        "going_forward_label": "If your petition is denied what does this mean for you going forward? *",
+        "required_legend": "Fields marked with * are required.",
+        "submit_button": "Submit"
+      },
+      "loading_courses": "Getting previous courses, please wait...",
+      "submitting": "Submitting your Exception...",
+      "updating_cases": "Updating Cases...",
+      "submit_error": "Unable to submit your Exception, please contact your mentor for more information."
+    },
+    "holds": {
+      "failed_update": "Failed to update holds"
+    },
+    "schedule": {
+      "loading_schedule": "Getting your schedule, this may take a while...",
+      "no_plan_message": "noPlanForm",
+      "no_plan_form_hide": "coursesForm",
+      "no_plan_hide": "noPlanForm",
+      "credits": "credits",
+      "select_option_default": "Select an option",
+      "options": [
+        "Course 1 only",
+        "Courses 1 and 2",
+        "Courses 1, 2, and 3",
+        "All four courses"
+      ],
+      "already_registered_container_show": "coursesAlreadyRegisteredContainer",
+      "course_details": {
+        "name": "Name: ",
+        "code": "Code: ",
+        "credits": "Credits: "
+      },
+      "registration_summary_title": "Summary",
+      "registration_summary_text1": "You have selected the following term and courses to register for:",
+      "registration_summary_text2_term": "- Term: 2025 Term ",
+      "registration_summary_text3_courses": "- Course(s): ",
+      "registration_summary_text4_credits": "- Total Credits: ",
+      "registration_summary_text5": "If this is correct select Confirm. Otherwise, select Close to edit your selections.",
+      "confirm_button": "Confirm",
+      "confirm_title": "Confirm Selection",
+      "confirm_text": "By selecting Register, you will be registered for the selected term and course(s).",
+      "register_button": "Register",
+      "cancel_button": "Cancel and return to edit my selections",
+      "registering_courses": "Registering ",
+      "register_success_alert": "Registration request submitted correctly.",
+      "register_success_text": "Request submitted. Please check Support Cases for more information.",
+      "register_fail_alert": "Failed to register courses. Please contact your mentor or escalate a case for help.",
+      "no_courses_alert": "Failed to get courses"
+    },
+    "network": {
+      "escalating_request": "Escalating your request...",
+      "escalate_error": "There was an error escalating your request"
+    },
+    "mentor": {
+      "submitting_concern": "Submitting your concern...",
+      "submit_concern_failure": "Failed to submit the concern form."
+    },
+    "gathering": {
+      "missionary_details": {
+        "name": "Name: ",
+        "email": "Email: "
+      }
+    },
+    "job_profile": {
+      "info_dropdown": {
+        "title": "",
+        "list_items": [
+          "The answers you provided in this survey.",
+          "Your contact information including name, address, phone number, email, etc.",
+          "Any credentials you have earned, including a PathwayConnect completion certificate and/or any online certificates and degrees you have completed or are currently working toward. This could also include any relevant coursework.",
+          "Information related to marketable skills and language abilities."
+        ]
+      },
+      "forms": {
+        "add_education_title": "Add Education",
+        "add_education_form_fields": {
+          "title": "Add Education",
+          "college_name_label": "College/University Name: *",
+          "country_label": "Country: *",
+          "degree_type_label": "Degree Type: *",
+          "select_degree_default": "Select one",
+          "degree_type_certificate": "Certificate",
+          "degree_type_associate": "Associate",
+          "degree_type_bachelor": "Bachelor",
+          "degree_type_master": "Master",
+          "degree_type_doctorate": "Doctorate",
+          "date_awarded_label": "Date Awarded: *",
+          "degree_name_label": "Degree Name: *",
+          "add_button": "+ Add"
+        },
+        "add_employment_title": "Add New Employment",
+        "add_employment_form_fields": {
+          "title_label": "1.- Title: *",
+          "company_name_label": "2.- Company Name: *",
+          "type_label": "3.- Type: *",
+          "select_type_default": "Select one",
+          "remote_option": "Remote: The company is headquartered in a country different from the one I reside in.",
+          "local_option": "Local: The company is headquartered in my country of residence.",
+          "entrepreneurship_option": "Entrepreneurship: I am self-employed or own my own business.",
+          "start_date_label": "4.- Start Date: *",
+          "end_date_label": "5.- End Date: *",
+          "current_role_checkbox": "I'm currently working in this role",
+          "monthly_earnings_label": "6.- Monthly Earnings in Local Currency: *",
+          "hours_per_week_label": "7.- Hours Per Week: *",
+          "select_hours_default": "Select one",
+          "reason_for_leaving_label": "8.- Reason for Leaving: *",
+          "select_reason_default": "Select one",
+          "better_job_option": "Better Job Opportunity: I was offered a better job with a different company.",
+          "internal_promotion_option": "Internal Promotion: I was offered a better role within the same company.",
+          "termination_option": "Termination: The company ended my employment.",
+          "resignation_option": "Resignation: I chose to leave the job on my own.",
+          "relocation_option": "Relocation: I had to leave due to moving to a new location.",
+          "career_change_option": "Career Change: I left to pursue a different career path or industry.",
+          "education_option": "Education: I left to focus on my studies.",
+          "other_option": "Other",
+          "add_button": "+ Add"
+        },
+        "rowTypeObject": {
+          "111110000": "Remote",
+          "111110001": "Local",
+          "111110002": "Entrepreneurship"
+        },
+        "rowLeaveObject": {
+          "current": "Current Role",
+          "111110000": "Better Job",
+          "111110001": "Internal Promotion",
+          "111110002": "Termination",
+          "111110003": "Resignation",
+          "111110004": "Relocation",
+          "111110005": "Career Change",
+          "111110006": "Education",
+          "111110007": "Other"
+        }
+      },
+      "history_details": {
+        "employment": {
+          "company_name_label": "Company Name",
+          "type_label": "Type",
+          "start_date_label": "Start Date",
+          "end_date_label": "End Date",
+          "monthly_earnings_label": "Monthly Earnings",
+          "hours_per_week_label": "Hours Per Week",
+          "reason_for_leaving_label": "Reason for Leaving",
+          "remove_button": "Remove from Table"
+        },
+        "education": {
+          "college_name_label": "College Name",
+          "country_label": "Country",
+          "degree_type_label": "Degree Type",
+          "degree_name_label": "Degree Name",
+          "date_awarded_label": "Date Awarded",
+          "remove_button": "Remove from Table"
+        },
+        "see_details_button": "See Details",
+        "current": "Current"
+      },
+      "transcript_order": {
+        "policy_title": "Official Transcript Request Policy",
+        "policy_text1": "BYU-Pathway Worldwide will cover the cost of the first two official transcript requests for each institution:",
+        "policy_text2": "Additional official transcript requests may be subject to a fee. Students are encouraged to plan accordingly.",
+        "policy_text3": "Students may view their unofficial transcripts at no cost through their student portal.",
+        "confirm_question": "Are you sure you would like to continue?",
+        "continue_button": "Continue",
+        "submitting_order": "Submitting your order...",
+        "order_success": "Order submitted!",
+        "order_failure": "We were unable to submit your profile. Please contact your mentor for more information"
+      }
+    },
+    "career_survey": {
+      "saving_answers": "Saving your answers...",
+      "save_error": "Unable to save your responses. Please contact your mentor for more information.",
+      "uploading_profile": "Uploading your profile...",
+      "upload_error": "We were unable to submit your profile. Please contact your mentor for more information",
+      "help_form": {
+        "title": "Need Help?",
+        "description_label": "Provide details of the issue you need support with. We'll get in contact with you as soon as possible: *",
+        "submit_button": "Submit"
+      },
+      "help_request_loading": "Submitting your request...",
+      "help_request_error": "We were not able to submit your help request. Please contact your mentor for more information",
+      "save_progress_loading": "Saving your profile...",
+      "save_progress_error": "We were unable to save your profile. Please use the Help button at the top of the form to contact a career coach.",
+      "phone_alert_title": "Save progress",
+      "phone_alert_message": "To complete the typing and internet speed tests you should click on \"Save Progress\" and return to complete them on a computer.",
+      "phone_alert_button": "Save Progress"
+    },
+    "internship_application": {
+      "submitting": "Submitting your application...",
+      "commercial_real_estate_closed_alert": "Applications are closed for Commercial Real Estate Internship",
+      "success_alert": "Internship Application submitted correctly",
+      "error_alert": "An error ocurred while processing your application."
+    },
+    "jobs_section": {
+      "job_listing": {
+        "jobTypes": {
+          "available": "Available",
+          "applied": "Applied",
+          "dateCreated":"Date Created:",
+          "description":"Description:",
+          "jobType":"Job Type:"
+        },
+        "titles": {
+          "available": "Tier 1 Jobs Available",
+          "applied": "Jobs I Have Applied For"
+        },
+        "noJobsMessage": "No Jobs Found",
+        "bloomCheck": {
+          "label": "Do you work now or have you ever worked for Bloom, GMS, or Springboard? *",
+          "options": {
+            "yes": "Yes",
+            "no": "No"
+          }
+        },
+        "resume": {
+          "label": "Add your resume here: *"
+        },
+        "buttonTexts": {
+          "apply": "Apply for this Job",
+          "update": "Update Job Application",
+          "remove": "Remove Application"
+        }
+      },
+      "api_calls": {
+        "applyToJob": {
+          "loading": "Submitting your Application...",
+          "error": "We were unable to submit your application. Please contact your career coach for more information."
+        },
+        "dropApplication": {
+          "loading": "Dropping your Application...",
+          "error": "We were unable to drop your application. Please contact your mentor for more information."
+        }
+      }
+    },
+    "notifications_logic": {
+      "subscribeError": "Failed to subscribe to push notifications:",
+      "enableAlertFailure": "Failed to enable notifications.",
+      "unsupportedAlert": "Notifications or Service Workers are not supported in your browser.",
+      "permissionDeniedAlert": "Notification permission denied.",
+      "blockedAlert": "Notifications are blocked. Please enable them in browser settings.",
+      "unsubscribeAlertFailure": "Failed to disable notifications."
+    },
+    "notification_rendering": {
+      "emptyMessage": "You haven't received any notifications yet",
+      "dateSent": "Date Sent:"
+    },
+    "recording":{
+      "restartRecording": "Restart Recording",
+      "stop": "Stop"
+    },
+    "languages_list": {
+      "Afrikaans": "Afrikaans",
+      "Albanian": "Albanian",
+      "Arabic": "Arabic",
+      "Armenian": "Armenian",
+      "Basque": "Basque",
+      "Bengali": "Bengali",
+      "Bulgarian": "Bulgarian",
+      "Catalan": "Catalan",
+      "Cambodian": "Cambodian",
+      "Chinese_Mandarin": "Chinese (Mandarin)",
+      "Croatian": "Croatian",
+      "Czech": "Czech",
+      "Danish": "Danish",
+      "Dutch": "Dutch",
+      "English": "English",
+      "Estonian": "Estonian",
+      "Fiji": "Fiji",
+      "Finnish": "Finnish",
+      "French": "French",
+      "Georgian": "Georgian",
+      "German": "German",
+      "Greek": "Greek",
+      "Gujarati": "Gujarati",
+      "Hebrew": "Hebrew",
+      "Hindi": "Hindi",
+      "Hungarian": "Hungarian",
+      "Icelandic": "Icelandic",
+      "Indonesian": "Indonesian",
+      "Irish": "Irish",
+      "Italian": "Italian",
+      "Japanese": "Japanese",
+      "Javanese": "Javanese",
+      "Korean": "Korean",
+      "Latin": "Latin",
+      "Latvian": "Latvian",
+      "Lithuanian": "Lithuanian",
+      "Macedonian": "Macedonian",
+      "Malay": "Malay",
+      "Malayalam": "Malayalam",
+      "Maltese": "Maltese",
+      "Maori": "Maori",
+      "Marathi": "Marathi",
+      "Mongolian": "Mongolian",
+      "Nepali": "Nepali",
+      "Norwegian": "Norwegian",
+      "Persian": "Persian",
+      "Polish": "Polish",
+      "Portuguese": "Portuguese",
+      "Punjabi": "Punjabi",
+      "Quechua": "Quechua",
+      "Romanian": "Romanian",
+      "Russian": "Russian",
+      "Samoan": "Samoan",
+      "Serbian": "Serbian",
+      "Slovak": "Slovak",
+      "Slovenian": "Slovenian",
+      "Spanish": "Spanish",
+      "Swahili": "Swahili",
+      "Swedish": "Swedish",
+      "Tamil": "Tamil",
+      "Tatar": "Tatar",
+      "Telugu": "Telugu",
+      "Thai": "Thai",
+      "Tibetan": "Tibetan",
+      "Tonga": "Tonga",
+      "Turkish": "Turkish",
+      "Ukrainian": "Ukrainian",
+      "Urdu": "Urdu",
+      "Uzbek": "Uzbek",
+      "Vietnamese": "Vietnamese",
+      "Welsh": "Welsh",
+      "Xhosa": "Xhosa",
+      "Tagalog": "Tagalog",
+      "placeholder": "Select an option"
+      },
+      "general": {
+        "accessDenied": "Access Denied",
+        "accessDeniedMessage": "We're sorry, this site is not available in your country."
+      },
+      "forms": {
+        "terms": {
+          "2025_term_3": "2025 Term 3",
+          "2025_term_4": "2025 Term 4",
+          "2025_term_5": "2025 Term 5",
+          "2025_term_6": "2025 Term 6"
+        },
+        "wellness": {
+          "removeButton": "Remove",
+          "submitLoading": "Submitting your Complaint…",
+          "submitSuccess": "Request submitted correctly!",
+          "submitFailure": "We were unable to submit your complaint. Please try again or contact support."
+        }
+      }
+  },
+  "pt": {
+    "serviceWorker": {
+        "registrationCancelled": "O registro do Service Worker foi cancelado"
+      },
+      "fileUpload": {
+        "failedToFetch": "Falha ao buscar JSON devido a",
+        "cannotObtainBuffer": "Não foi possível obter ArrayBuffer para fazer upload do arquivo",
+        "thanksForUploading": "Obrigado por enviar o(s) arquivo(s):"
+      },
+      "chat": {
+        "welcome": "Bem-vindo ao Aplicativo Companion",
+        "signIn": "Entrar",
+        "signInDescription": "Por favor, entre para uma experiência de chatbot personalizada para estudantes."
+      },
+      "notifications": {
+        "disableQuestion": "Tem certeza de que gostaria de desativar as notificações?",
+        "notificationsNotEnabled": "Notificações não habilitadas",
+        "enableQuestion": "Gostaria de habilitar as notificações?",
+        "addHomeScreen": "O aplicativo não foi adicionado à tela inicial",
+        "addHomeScreenInstructions": "Por favor, siga as instruções na opção Mais > Como Baixar o Aplicativo para habilitar as notificações"
+      },
+      "refresh": {
+        "appQuestion": "Tem certeza de que gostaria de atualizar o Companion?",
+        "botQuestion": "Tem certeza de que gostaria de atualizar o Companion?"
+      },
+      "buttons": {
+        "yes": "Sim",
+        "no": "Não",
+        "close": "Fechar",
+        "goBack": "Voltar"
+      },
+      "ui": {
+        "howToAddHome": "Como Adicionar à Tela Inicial",
+        "disableNotifications": "Desativar Notificações",
+        "termsAndConditions": "Termos e Condições para Estudantes Online",
+        "privacyNotice": "Aviso de Privacidade – BYU-Pathway Worldwide",
+        "cookiePreferences": "Preferências de Cookies",
+        "allRightsReserved": "©2024 por Intellectual Reserve, Inc. Todos os direitos reservados.",
+        "companionTitle": "Companion",
+        "loading": "Carregando",
+        "servicesTitle": "Serviços",
+        "academicExceptions": "Petição de Exceções Acadêmicas",
+        "enrollmentVerification": "Verificação de Matrícula",
+        "graduationApplication": "Inscrição para a Formatura",
+        "officialTranscripts": "Histórico Escolar Oficial",
+        "registration": "Matrícula",
+        "supportCases": "Casos de Suporte",
+        "onlineStudentGrievance": "Formulário de Reclamação de Estudantes Online",
+        "requestsTitle": "Solicitações",
+        "openCases": "Casos Abertos",
+        "closedCases": "Casos Fechados",
+        "submitNewCase": "Enviar Novo Caso",
+        "networkTitle": "Rede",
+        "assignMentor": "Atribuir um Mentor para Mim",
+        "mentorInfo": "Informações do Mentor",
+        "pcGathering": "Informações da Reunião do PathwayConnect",
+        "ecGathering": "Informações da Reunião do EnglishConnect 3",
+        "noNetworkFound": "Nenhuma Informação de Rede Encontrada",
+        "jobsTitle": "Empregos",
+        "tier1JobsAvailable": "Vagas de Emprego Nível 1 Disponíveis",
+        "jobsAppliedFor": "Vagas que me Candidatei",
+        "submitInternship": "Enviar Inscrição de Estágio",
+        "network": "Rede",
+        "services": "Serviços",
+        "chat": "Conversar",
+        "jobs": "Empregos",
+        "notifications": "Notificações",
+        "more": "Mais"
+      },
+      "showAction": {
+        "login": {
+          "title": "Bem-vindo ao Aplicativo Companion",
+          "button_text": "Entrar",
+          "paragraph": "Por favor, entre para uma experiência de chatbot personalizada para estudantes."
+        },
+        "disableNotifications": {
+          "title": "Tem certeza de que gostaria de desativar as notificações?",
+          "button_yes": "Sim",
+          "button_no": "Não"
+        },
+        "refresh": {
+          "title": "Tem certeza de que gostaria de atualizar o Companion?",
+          "button_yes": "Sim",
+          "button_no": "Não"
+        },
+        "refreshBot": {
+          "title": "Tem certeza de que gostaria de atualizar o Companion?",
+          "button_yes": "Sim",
+          "button_no": "Não"
+        },
+        "enableNotifications": {
+          "title": "Notificações não habilitadas",
+          "paragraph": "Gostaria de habilitar as notificações?",
+          "button_yes": "Sim",
+          "button_no": "Não"
+        },
+        "addHomeScreen": {
+          "title": "O aplicativo não foi adicionado à tela inicial",
+          "paragraph": "Por favor, siga as instruções na opção Mais > Como Baixar o Aplicativo para habilitar as notificações",
+          "button_close": "Fechar"
+        },
+        "jobPopup": {
+          "title": "Uma solicitação foi enviada!",
+          "paragraph": "Você será contatado em breve pelo seu novo mentor.",
+          "button_enable_notifications": "Habilitar Notificações",
+          "button_close": "Fechar"
+        },
+        "mentorInfo": {
+          "close_button": "Fechar",
+          "title": "Informações do Mentor",
+          "button_whatsapp": "Enviar um WhatsApp",
+          "button_email": "Enviar um E-mail",
+          "button_form": "Formulário de Preocupação com o Mentor"
+        },
+        "gatheringInfo": {
+          "close_button": "Fechar",
+          "title": "Informações da Reunião",
+          "button_link": "Link da Reunião"
+        },
+        "cases": {
+          "close_button": "Fechar"
+        },
+        "jobListing": {
+          "close_button": "Fechar"
+        },
+        "timeline": {
+          "close_button": "Fechar"
+        },
+        "submitRequest": {
+          "close_button": "Fechar",
+          "form_elements": {
+            "label_main_topic": "Tópico Principal *",
+            "select_default": "Selecione um",
+            "options": [
+              "Horário de Aula – Adicionar um Curso",
+              "Horário de Aula – Deletar um Curso",
+              "Horário de Aula – Aulas Incorretas Aparecendo no Meu Plano",
+              "Horário de Aula - Nenhum curso disponível/Não consigo ver termos futuros",
+              "Canvas – Problema com o Curso",
+              "Canvas – Problema de Login",
+              "Módulo EnglishConnect – Problema de Login",
+              "Acesso ao Canvas",
+              "EnglishConnect",
+              "Módulo EnglishConnect – Problema com o Curso",
+              "Finanças – Problema de Pagamento",
+              "Finanças – Desconto Heber J. Grant",
+              "Perguntas sobre a Reunião",
+              "Retenção – Finanças",
+              "Retenção – Reunião",
+              "Retenção - Recomendação Eclesiástica",
+              "Reunir com um Orientador Acadêmico",
+              "Mentoria",
+              "Microsoft Office – Problema de Login",
+              "Portal do Aluno – Problema de Login",
+              "Bem-estar do Aluno",
+              "Avaliação de Transferência",
+              "Estudo e Trabalho",
+              "Outro"
+            ],
+            "paragraph_link": "Para continuar com a criação deste caso, por favor, vá para https://help.byupathway.edu/create-case/",
+            "label_description": "Descrição Detalhada *",
+            "label_contact_method": "Método de Contato Preferido *",
+            "contact_method_options": [
+              "Selecione um",
+              "E-mail",
+              "Telefone"
+            ],
+            "label_contact_info": "Suas Informações de Contato *",
+            "label_screenshot": "Envie uma Captura de Tela com seu tíquete",
+            "required_legend": "Campos marcados com * são obrigatórios.",
+            "submit_button": "Enviar"
+          }
+        },
+        "exceptions": {
+          "close_button": "Fechar",
+          "disclaimer": {
+            "bold_text": "Aviso:",
+            "paragraph": "O envio desta solicitação não garante a aprovação. A aprovação ou negação desta petição pode afetar sua mensalidade, status acadêmico, status internacional, etc. É sua responsabilidade explorar e entender esses impactos. As decisões do comitê são permanentes e finais."
+          },
+          "form_elements": {
+            "label_exception_type": "Que exceção acadêmica você gostaria de escalar? *",
+            "exception_options": [
+              "Selecione um",
+              "Desistência/Abandono",
+              "Outro"
+            ],
+            "other_option_notice_title": "Aviso:",
+            "other_option_notice_paragraph1": "A categoria 'Outro' para solicitações de exceção acadêmica é reservada apenas para problemas que afetam diretamente a formatura e não se enquadram em tipos de exceção padrão.",
+            "do_not_use_title": "Por favor, não use este formulário para o seguinte:",
+            "list_do_not_use": [
+              "Deletar ou desistir de um curso – Use o processo de Exceção Acadêmica Padrão.",
+              "Mudanças de nota – Entre em contato com seu instrutor para iniciar um Formulário de Mudança de Nota.",
+              "Reclamações sobre instrutores – Envie um Formulário de Reclamação sobre o Instrutor.",
+              "Matrícula em curso – Nosso escritório não matricula estudantes. Para assistência com a matrícula, por favor, entre em contato com o Suporte ao Aluno."
+            ],
+            "valid_other_requests_title": "Exemplos de solicitações 'Outras' válidas incluem:",
+            "list_valid_requests": [
+              "Exceções relacionadas aos requisitos gerais de crédito",
+              "Problemas com o total de créditos de nível superior",
+              "Solicitações envolvendo discrepâncias no ano do catálogo ou nos requisitos do curso"
+            ],
+            "consult_support_paragraph": "Se sua situação não se relaciona claramente aos requisitos de formatura, por favor, consulte o Suporte ao Aluno antes de enviar.",
+            "label_reason_exception": "Por favor, explique qual é a sua petição de exceção acadêmica: *",
+            "required_legend": "Campos marcados com * são obrigatórios.",
+            "submit_button": "Enviar"
+          },
+          "term_select_section": {
+            "label": "Selecione o termo a partir do qual você gostaria de enviar a exceção: *",
+            "select_default": "Selecione um"
+          },
+          "no_courses_message": "Você não tem nenhum curso disponível para exceção. Se você acha que isso é um erro, por favor, entre em contato com o suporte clicando no botão 'Casos de Suporte' e enviando um novo caso.",
+          "courses_section": {
+            "label_courses": "Selecione os cursos para os quais você gostaria de enviar a exceção. *",
+            "withdrawal_request_title": "Solicitação de Desistência de Curso:",
+            "withdrawal_request_paragraph1": "A data de desistência será retroativa à Data Limite de Desistência do Curso e o aluno receberá uma nota 'W' em seu histórico.",
+            "withdrawal_request_paragraph2": "Uma nota 'W' não afeta o GPA, mas indica que o aluno iniciou o curso e depois desistiu.",
+            "drop_request_title": "Solicitação de Abandono de Curso:",
+            "drop_request_paragraph": "A data de abandono será retroativa à Data Limite de Abandono/Abandono Automático (dia 8 do semestre), a nota do curso será removida do registro.",
+            "label_request_type": "O que você gostaria de solicitar? *",
+            "request_type_options": [
+              "Selecione um",
+              "Abandono",
+              "Desistência"
+            ]
+          }
+        },
+        "officialTranscripts": {
+          "paragraph1": "Um Histórico Escolar Oficial é uma cópia do seu registro acadêmico permanente emitida pela Student Records & Registration e é tipicamente enviada a terceiros, por exemplo, (faculdades, programas de pós-graduação, empresas).*",
+          "paragraph2": "Um Histórico Escolar Não Oficial está disponível apenas através da sua conta de estudante e é tipicamente para uso pessoal.*",
+          "disclaimer": "* Por favor, entre em contato com o destinatário para saber qual tipo de histórico ele aceita e atende aos seus requisitos.",
+          "button": "Solicitar Histórico Escolar Oficial"
+        },
+        "orderOfficial": {
+          "close_button": "Fechar",
+          "title": "Solicitar Histórico Escolar Oficial",
+          "policy_title": "Política de Solicitação de Histórico Escolar Oficial",
+          "policy_paragraph1": "A BYU-Pathway Worldwide cobrirá o custo das duas primeiras solicitações de histórico escolar oficial para cada instituição:",
+          "institutions": [
+            "BYU-Pathway Worldwide",
+            "BYU-Idaho",
+            "Ensign College"
+          ],
+          "policy_paragraph2": "Solicitações adicionais de histórico escolar oficial podem estar sujeitas a uma taxa. Os estudantes são encorajados a planejar adequadamente. Os estudantes podem ver seus históricos não oficiais sem custo através do seu portal de estudante.",
+          "label_institution_request": "De qual instituição você está solicitando seu histórico escolar? *",
+          "select_default": "Selecione um",
+          "select_options": [
+            "BYU-Pathway Worldwide",
+            "BYU-Idaho",
+            "Ensign College"
+          ],
+          "label_recipient_name": "Nome da instituição, grupo ou pessoa que receberá este histórico: *",
+          "label_recipient_email": "Digite o e-mail do destinatário que deve receber seu histórico escolar oficial: *",
+          "checkbox_label": "Eu entendo que a BYU-Pathway Worldwide processa as solicitações de histórico escolar assim que são recebidas e não as retém ou atrasa até que as notas sejam publicadas.",
+          "required_legend": "Campos marcados com * são obrigatórios.",
+          "submit_button": "Enviar"
+        },
+        "enrollmentVerification": {
+          "close_button": "Fechar",
+          "title": "Verificação de Matrícula",
+          "paragraph1": "Este formulário permite aos estudantes solicitar uma verificação oficial de matrícula para fornecer a terceiros como prova de sua matrícula na BYU-Pathway Worldwide.",
+          "paragraph2": "Para detalhes sobre os cursos em que você está matriculado, por favor, visite seu portal de estudante. Na página inicial, navegue até a seção 'Classes' para obter informações de matrícula atualizadas.",
+          "label_institution": "Para qual instituição você gostaria de sua verificação de matrícula? *",
+          "institution_note": "As verificações de matrícula são específicas para a matrícula",
+          "institution_options": [
+            "BYU-Idaho",
+            "Ensign College",
+            "BYU-Pathway"
+          ],
+          "label_include_info": "O que você gostaria de incluir em sua verificação de matrícula?: *",
+          "include_info_note": "Todas as verificações listarão seu nome completo e seu ID de estudante. Escolha o que mais você gostaria de fornecer abaixo:",
+          "include_info_options": [
+            "Status de Matrícula",
+            "Data de Nascimento",
+            "Endereço",
+            "Número de Segurança Social",
+            "Programas Declarados",
+            "Média de Notas (GPA)",
+            "Credenciais Conquistadas (Certificados & Diplomas)",
+            "Data de Desistência (se aplicável)",
+            "Situação Acadêmica",
+            "Custo da Mensalidade (por hora de crédito)"
+          ],
+          "label_course_details": "Gostaria de incluir detalhes sobre seu(s) curso(s) atualmente matriculado(s)? *",
+          "course_details_note": "As seguintes informações serão fornecidas para qualquer curso(s) em que você esteja atualmente matriculado: Código do Curso, Seção, Título, Créditos e Nome do Instrutor.",
+          "course_details_options": [
+            "Sim, incluir informações sobre meus cursos atuais",
+            "Não, não incluir informações sobre meus cursos atuais"
+          ],
+          "label_summary_info": "O que você gostaria de incluir em sua verificação de matrícula?: *",
+          "summary_info_note": "Todas as verificações listarão seu nome completo e seu ID de estudante. Escolha o que mais você gostaria de fornecer abaixo:",
+          "summary_info_options": [
+            "Fornecer Resumo do Termo Atual",
+            "Fornecer Resumo do Termo Futuro"
+          ],
+          "label_reason": "Qual o motivo que melhor descreve por que você precisa de uma verificação de matrícula? *",
+          "reason_options": [
+            "Fornecer ao Empregador",
+            "Solicitação de Moradia",
+            "Bolsa de Estudos/Ajuda Financeira",
+            "Verificar Cursos Atuais",
+            "Outro"
+          ],
+          "required_legend": "Campos marcados com * são obrigatórios.",
+          "submit_button": "Enviar"
+        },
+        "graduationApplication": {
+          "close_button": "Fechar",
+          "title": "Inscrição para a Formatura",
+          "paragraph1": "Esta inscrição é para EnglishConnect, PathwayConnect e todos os Certificados & Diplomas oferecidos através da BYU-Pathway Worldwide em parceria com a BYU-Idaho e Ensign College.",
+          "paragraph2_note": "Você precisará preencher uma inscrição de formatura separada para cada credencial que está solicitando.",
+          "label_term": "Em qual termo/semestre você completará os requisitos para a credencial que está solicitando? Se você já completou, deve se inscrever para o termo atual. *",
+          "term_select_options": [
+            "Selecione um",
+            "Termo 5 de 2025",
+            "Termo 6 de 2025"
+          ],
+          "label_credential": "Para qual credencial você está completando os requisitos? *",
+          "credential_options": [
+            "Selecione um",
+            "Certificado de Conclusão PathwayConnect",
+            "Certificado de Conclusão EnglishConnect",
+            "Certificado",
+            "Grau de Associado",
+            "Grau de Bacharel"
+          ],
+          "label_certificate_institution": "De qual instituição você receberá seu diploma? *",
+          "certificate_institution_options": [
+            "Selecione um",
+            "BYU-Idaho",
+            "Ensign College"
+          ],
+          "label_certificate_name": "Qual é o nome do certificado que você está solicitando? *",
+          "label_certificate_major": "Qual é a sua principal especialização declarada atualmente? *",
+          "label_certificate_catalog": "Qual é o seu ano de catálogo atual? *",
+          "label_degree_major": "Qual é a sua principal especialização declarada atualmente? *",
+          "label_degree_catalog": "Qual é o seu ano de catálogo atual? *",
+          "disclaimer_closed": "O prazo para ter seu nome incluído no programa para a próxima cerimônia de formatura presencial em 11 de abril de 2025, já passou. Os estudantes ainda podem comprar uma beca e capelo e participar do evento de formatura presencial, mas não terão seus nomes no programa",
+          "disclaimer_open1": "Se você planeja participar da próxima cerimônia de formatura presencial, você precisará preencher a Pesquisa de Formatura na próxima janela após enviar sua inscrição",
+          "disclaimer_open2": "Se você tem uma restrição FERPA em sua conta, seu nome não será impresso no programa",
+          "required_legend": "Campos marcados com * são obrigatórios.",
+          "submit_button": "Enviar"
+        },
+        "GraduationApplicationFinish": {
+          "close_button": "Fechar",
+          "title": "Inscrição para a Formatura",
+          "paragraph": "A inscrição para o Termo 2 foi encerrada, a inscrição será reaberta para o Termo 3 em 12 de maio de 2025"
+        },
+        "graduationComplete": {
+          "close_button": "Fechar",
+          "title": "Inscrição para a Formatura Enviada",
+          "paragraph1": "Você concluiu com sucesso sua Inscrição para a Formatura.",
+          "paragraph2": "Por favor, aguarde de 8 a 10 semanas para a verificação e concessão de suas credenciais.",
+          "survey_paragraph": "Por favor, preencha esta breve pesquisa para nos informar se você estará ou não comparecendo à próxima cerimônia de formatura presencial.",
+          "survey_button": "Abrir Pesquisa"
+        },
+        "mentorConcernForm": {
+          "close_button": "Fechar",
+          "title": "Formulário de Preocupação com o Mentor",
+          "label_concern_type": "Por favor, selecione uma categoria geral *",
+          "concern_options": [
+            "Selecione um",
+            "O Mentor não respondeu e 24 horas se passaram.",
+            "O Mentor não forneceu as respostas ou informações necessárias.",
+            "Eu gostaria das informações de contato do meu Mentor.",
+            "Eu não tenho um Mentor atribuído e estou atualmente matriculado."
+          ],
+          "label_concern_experience": "Por favor, adicione quaisquer detalhes adicionais sobre a experiência com o Mentor. *",
+          "label_contact_method": "Método de Contato Preferido *",
+          "contact_method_options": [
+            "Selecione um",
+            "E-mail",
+            "Telefone"
+          ],
+          "label_contact_info": "Suas Informações de Contato *",
+          "required_legend": "Campos marcados com * são obrigatórios.",
+          "submit_button": "Enviar"
+        },
+        "completedSurvey": {
+          "close_button": "Fechar",
+          "title": "Perfil Concluído!",
+          "paragraph": "Seu Perfil de Empregos foi enviado. Embora não entremos em contato imediatamente, tenha a certeza de que temos suas informações e entraremos em contato com os próximos passos e orientações quando for a hora certa. Enquanto isso, por favor, visite https://www.byupathway.edu/career-services para mais recursos. Lembre-se também de baixar o aplicativo e habilitar as notificações para receber notícias mais rapidamente."
+        },
+        "crescendoAction": {
+          "close_button": "Fechar",
+          "title": "Junte-se ao Crescendo!",
+          "paragraph": "A BYU-Pathway encoraja os empregadores a procurar estudantes no Crescendo, uma plataforma de empregos projetada especificamente para estudantes da BYU-Pathway. Você irá ao site e criará um perfil para que os empregadores possam encontrá-lo?",
+          "button": "Juntar-se ao Crescendo"
+        },
+        "test": {
+          "close_button": "Fechar",
+          "label": "Etiqueta de Teste:",
+          "select": ""
+        },
+        "Holds": {
+          "close_button": "Fechar",
+          "title": "Retenções",
+          "paragraph1": "Sua conta está atualmente retida pelos seguintes motivos:",
+          "paragraph2": "Você não poderá se matricular em cursos até que tenha resolvido todas as suas retenções.",
+          "link_text": "Saiba mais"
+        },
+        "MRPApplication": {
+          "close_button": "Fechar",
+          "title": "Formulário de Candidatura para Estágio MRP",
+          "intro_paragraph": "Por favor, preencha este formulário para se candidatar ao Programa de Estágio Mountain River Partners. As habilidades ensinadas durante o programa visam complementar o que os estudantes estão aprendendo em seus programas educacionais através da BYU-Pathway Worldwide. Estas são habilidades inestimáveis para conseguir papéis remotos e presenciais em várias áreas.",
+          "how_to_loom": {
+            "title": "Como Gravar um Vídeo Loom",
+            "step1": "Vá para o Loom - Visite www.loom.com e inscreva-se (ou faça login).",
+            "step2": "Instale o Loom - Baixe o aplicativo de desktop do Loom OU instale a extensão do Chrome.",
+            "step3": "Comece a Gravar - Clique no ícone do Loom, escolha Tela + Câmera (para mostrar seu rosto) ou Apenas Tela, e depois pressione Iniciar Gravação.",
+            "step4": "Pare & Compartilhe - Clique no botão Parar quando terminar. O Loom criará um link—copie e cole-o em sua inscrição."
+          },
+          "loom_tip": "Mantenha-o curto (1-2 min) e teste seu microfone antes de gravar!",
+          "label_loom_link": "Grave um vídeo seu explicando por que você quer fazer este estágio. *",
+          "label_pathway_certificate": "Eu tenho um certificado PathwayConnect *",
+          "pathway_certificate_options": {
+            "select_default": "Selecione uma opção",
+            "yes": "Sim",
+            "no": "Não"
+          },
+          "label_internship_selection": "Em qual estágio você está mais interessado? *",
+          "internship_options": {
+            "select_default": "Selecione uma opção",
+            "bookkeeping": "Estágio em Contabilidade",
+            "commercial_real_estate": "Estágio em Imóveis Comerciais",
+            "finance": "Estágio em Finanças",
+            "entrepreneurship": "Estágio em Empreendedorismo"
+          },
+          "label_bachelor_selection": "Para qual grau de bacharel você está trabalhando atualmente? (Ou qual grau de bacharel você recebeu?) *",
+          "bachelor_options": {
+            "select_default": "Selecione uma opção",
+            "applied_health": "Saúde Aplicada",
+            "communication": "Comunicação",
+            "applied_business_management": "Gestão de Negócios Aplicada",
+            "software_development": "Desenvolvimento de Software",
+            "information_technology": "Tecnologia da Informação",
+            "professional_studies": "Estudos Profissionais",
+            "family_and_human_services": "Serviços Familiares e Humanos"
+          },
+          "label_linkedin_url": "Digite a URL do seu perfil no LinkedIn: *",
+          "label_resume_upload": "Envie seu currículo ou CV (em PDF) *",
+          "required_legend": "Campos marcados com * são obrigatórios.",
+          "submit_button": "Enviar"
+        },
+        "MRPApplication2": {
+          "close_button": "Fechar",
+          "title": "Formulário de Candidatura para Estágio MRP",
+          "intro_paragraph": "A BYU-Pathway Worldwide está construindo relacionamentos com empregadores que querem oferecer empregos aos nossos estudantes. A Mountain River Partners oferece experiência de trabalho a uma comunidade global de estudantes enquanto eles buscam educação para melhorar suas vidas. Envie sua inscrição entre 1 e 14 de abril para ser considerado para esta oportunidade! As vagas para este estágio são limitadas e as decisões de seleção são feitas inteiramente pela Mountain River Partners sem influência da BYU-Pathway Worldwide.",
+          "how_to_loom": {
+            "title": "Como Gravar um Vídeo Loom",
+            "step1": "Vá para o Loom - Visite www.loom.com e inscreva-se (ou faça login).",
+            "step2": "Instale o Loom - Baixe o aplicativo de desktop do Loom OU instale a extensão do Chrome.",
+            "step3": "Comece a Gravar - Clique no ícone do Loom, escolha Tela + Câmera (para mostrar seu rosto) ou Apenas Tela, e depois pressione Iniciar Gravação.",
+            "step4": "Pare & Compartilhe - Clique no botão Parar quando terminar. O Loom criará um link—copie e cole-o em sua inscrição."
+          },
+          "loom_tip": "Mantenha-o curto (1-2 min) e teste seu microfone antes de gravar!",
+          "label_loom_link": "Grave um vídeo seu explicando por que você quer fazer este estágio. *",
+          "label_personal_experience": "Por favor, descreva uma experiência pessoal que demonstre seu nível de comprometimento. (Limite de 200 palavras): *",
+          "label_linkedin_url": "Digite a URL do seu perfil no LinkedIn: *",
+          "label_resume_upload": "Envie seu currículo ou CV (em PDF) *",
+          "required_legend": "Campos marcados com * são obrigatórios.",
+          "submit_button": "Enviar"
+        },
+        "careerSurvey": {
+          "save_button": "Salvar Progresso",
+          "close_button": "Fechar",
+          "help_button": "Ajuda",
+          "title": "Perfil de Empregos",
+          "intro_paragraph": "Bem-vindo ao Perfil de Empregos. Esta ferramenta nos ajuda a coletar informações-chave para apoiar seus objetivos de carreira. Por favor, preencha-o de forma honesta e completa para que possamos entender melhor seus objetivos. Recomendamos usar um computador para obter os melhores resultados. Se precisar de uma pausa, clique em 'Salvar Progresso' para retornar e continuar mais tarde.",
+          "question1_label": "1.- Você está procurando um emprego melhor? *",
+          "question1_options": {
+            "select_default": "Selecione uma opção",
+            "yes": "Sim",
+            "no": "Não"
+          },
+          "job_permissions": {
+            "question2_label": "2.- Temos sua permissão para compartilhar suas informações com empresas de recrutamento de terceiros e outros empregadores? *",
+            "question2_options": {
+              "select_default": "Selecione uma opção",
+              "yes": "Sim",
+              "no": "Não"
+            },
+            "question3_label": "3.- Temos sua permissão para compartilhar suas informações com outros departamentos da A Igreja de Jesus Cristo dos Santos dos Últimos Dias? *",
+            "question3_options": {
+              "select_default": "Selecione uma opção",
+              "yes": "Sim",
+              "no": "Não"
+            },
+            "more_info_button": "Clique aqui para detalhes sobre quais informações podem ser compartilhadas."
+          },
+          "full_form": {
+            "question4_label": "4.- Qual é a melhor maneira de entrarmos em contato com você? *",
+            "question4_options": {
+              "select_default": "Selecione uma opção",
+              "whatsapp": "WhatsApp",
+              "email": "E-mail"
+            },
+            "question5_label": "5.- Digite seu WhatsApp (certifique-se de adicionar o código do seu país): *",
+            "question6_label": "6.- Que idiomas você fala? Selecione todos os que se aplicam. *",
+            "question7_label": "7.- Que tipo de emprego você está procurando? Selecione todos os que se aplicam. *",
+            "job_types_options": {
+              "remote": "Remoto",
+              "in_person_local": "Presencial (local)"
+            },
+            "question8_label": "8.- Quantas horas você está disponível para trabalhar por semana? Selecione todas as que se aplicam. *",
+            "job_hours_options": {
+              "full_time": "Tempo Integral (até 40 horas por semana)",
+              "part_time": "Tempo Parcial (até 20 horas por semana)"
+            },
+            "question9_label": "9.- Em quais setores você está interessado? Selecione todos os que se aplicam. *",
+            "job_industries_options": {
+              "accounting_finance": "Contabilidade/Finanças",
+              "healthcare": "Saúde",
+              "technology": "Tecnologia",
+              "artificial_intelligence": "Inteligência Artificial",
+              "marketing": "Marketing"
+            }
+          },
+          "question10_label": "10.- Por favor, indique quanto dinheiro você costuma ganhar em um mês na sua moeda local. *",
+          "currency_list_label": "Selecione uma opção",
+          "currenciesList": {
+            "AED": "Dirham dos Emirados Árabes Unidos - EMIRADOS ÁRABES UNIDOS (OS)",
+            "AFN": "Afegane - AFEGANISTÃO",
+            "ALL": "Lek - ALBÂNIA",
+            "AMD": "Dram Armênio - ARMÊNIA",
+            "ANG": "Florim das Antilhas Holandesas - ANTILHAS HOLANDESAS",
+            "AOA": "Kwanza - ANGOLA",
+            "ARS": "Peso Argentino - ARGENTINA",
+            "AUD": "Dólar Australiano - AUSTRÁLIA",
+            "AWG": "Florim de Aruba - ARUBA",
+            "AZN": "Manat do Azerbaijão - AZERBAIJÃO",
+            "BAM": "Marco Conversível - BÓSNIA E HERZEGOVINA",
+            "BBD": "Dólar de Barbados - BARBADOS",
+            "BDT": "Taka - BANGLADESH",
+            "BGN": "Lev Búlgaro - BULGÁRIA",
+            "BHD": "Dinar do Bahrein - BAHREIN",
+            "BIF": "Franco do Burundi - BURUNDI",
+            "BMD": "Dólar das Bermudas - BERMUDAS",
+            "BND": "Dólar de Brunei - BRUNEI DARUSSALAM",
+            "BOB": "Boliviano - BOLÍVIA (ESTADO PLURINACIONAL DA)",
+            "BRL": "Real Brasileiro - BRASIL",
+            "BSD": "Dólar das Bahamas - BAHAMAS (AS)",
+            "BTN": "Ngultrum - BUTÃO",
+            "BWP": "Pula - BOTSUANA",
+            "BYN": "Rublo Bielorrusso - BIELORRÚSSIA",
+            "BZD": "Dólar de Belize - BELIZE",
+            "CAD": "Dólar Canadense - CANADÁ",
+            "CDF": "Franco Congolês - CONGO (A REPÚBLICA DEMOCRÁTICA DO)",
+            "CHF": "Franco Suíço - SUÍÇA",
+            "CLP": "Peso Chileno - CHILE",
+            "CNY": "Yuan Renminbi - CHINA",
+            "COP": "Peso Colombiano - COLÔMBIA",
+            "CRC": "Colón Costa-Riquenho - COSTA RICA",
+            "CUP": "Peso Cubano - CUBA",
+            "CVE": "Escudo de Cabo Verde - CABO VERDE",
+            "CZK": "Coroa Tcheca - REPÚBLICA TCHECA",
+            "DJF": "Franco do Djibuti - DJIBUTI",
+            "DKK": "Coroa Dinamarquesa - DINAMARCA, GROELÂNDIA",
+            "DOP": "Peso Dominicano - REPÚBLICA DOMINICANA (A)",
+            "DZD": "Dinar Argelino - ARGÉLIA",
+            "EGP": "Libra Egípcia - EGITO",
+            "ERN": "Nakfa - ERITREIA",
+            "ETB": "Birr Etíope - ETIÓPIA",
+            "EUR": "Euro - PAÍSES DA ÁREA DO EURO",
+            "FJD": "Dólar de Fiji - FIJI",
+            "FKP": "Libra das Ilhas Falkland - ILHAS FALKLAND (AS) [MALVINAS]",
+            "GBP": "Libra Esterlina - REINO UNIDO",
+            "GEL": "Lari - GEÓRGIA",
+            "GGP": "Lari - GEÓRGIA",
+            "GHS": "Cedi de Gana - GANA",
+            "GIP": "Libra de Gibraltar - GIBRALTAR",
+            "GMD": "Dalasi - GÂMBIA (A)",
+            "GNF": "Franco Guineano - GUINÉ",
+            "GPX": "Peso Genoviano - GENÓVIA",
+            "GTQ": "Quetzal - GUATEMALA",
+            "GYD": "Dólar da Guiana - GUIANA",
+            "HKD": "Dólar de Hong Kong - HONG KONG",
+            "HNL": "Lempira - HONDURAS",
+            "HTG": "Gourde - HAITI",
+            "HUF": "Forint - HUNGRIA",
+            "IDR": "Rupia - INDONÉSIA, TIMOR-LESTE",
+            "ILS": "Novo Sheqel Israelense - ISRAEL",
+            "INR": "Rupia Indiana - ÍNDIA",
+            "IQD": "Dinar Iraquiano - IRAQUE",
+            "IRR": "Rial Iraniano - IRÃ (REPÚBLICA ISLÂMICA DO)",
+            "ISK": "Coroa Islandesa - ISLÂNDIA",
+            "JEP": "Lira Italiana - SAN MARINO",
+            "JMD": "Dólar Jamaicano - JAMAICA",
+            "JOD": "Dinar Jordaniano - JORDÂNIA",
+            "JPY": "Iene - JAPÃO",
+            "KES": "Xelim Queniano - QUÊNIA",
+            "KGS": "Som - QUIRGUISTÃO",
+            "KHR": "Riel - CAMBOJA",
+            "KMF": "Franco Comoriano - COMORES (AS)",
+            "KPW": "Won Norte-Coreano - CORÉIA (A REPÚBLICA POPULAR DEMOCRÁTICA DA)",
+            "KRW": "Won - CORÉIA (A REPÚBLICA DA)",
+            "KWD": "Dinar do Kuwait - KUWAIT",
+            "KYD": "Dólar das Ilhas Cayman - ILHAS CAYMAN (AS)",
+            "KZT": "Tenge - CAZAQUISTÃO",
+            "LAK": "Kip do Laos - REPÚBLICA DEMOCRÁTICA POPULAR DO LAOS (A)",
+            "LBP": "Libra Libanesa - LÍBANO",
+            "LKR": "Rupia do Sri Lanka - SRI LANKA",
+            "LRD": "Dólar Liberiano - LIBÉRIA",
+            "LSL": "Loti - LESOTO",
+            "LYD": "Dinar Líbio - LÍBIA",
+            "MAD": "Dirham Marroquino - MARROCOS",
+            "MDL": "Leu Moldavo - MOLDÁVIA (A REPÚBLICA DA)",
+            "MGA": "Ariary Malgaxe - MADAGASCAR",
+            "MKD": "Denar - MACEDÔNIA DO NORTE",
+            "MMK": "Kyat - MIANMAR",
+            "MNT": "Tugrik - MONGÓLIA",
+            "MOP": "Pataca - MACAU",
+            "MRU": "Ouguiya - MAURITÂNIA",
+            "MUR": "Rupia das Maurícias - MAURÍCIO",
+            "MVR": "Rufiyaa - MALDIVAS",
+            "MWK": "Kwacha - MALÁUI",
+            "MXN": "Peso Mexicano - MÉXICO",
+            "MYR": "Ringgit da Malásia - MALÁSIA",
+            "MZN": "Metical de Moçambique - MOÇAMBIQUE",
+            "NAD": "Dólar da Namíbia - NAMÍBIA",
+            "NGN": "Naira - NIGÉRIA",
+            "NIO": "Córdoba Oro - NICARÁGUA",
+            "NOK": "Coroa Norueguesa - NORUEGA",
+            "NPR": "Rupia Nepalesa - NEPAL",
+            "NZD": "Dólar da Nova Zelândia - NOVA ZELÂNDIA",
+            "OMR": "Rial de Omã - OMÃ",
+            "PAB": "Balboa - PANAMÁ",
+            "PEN": "Nuevo Sol - PERU",
+            "PGK": "Kina - PAPUA NOVA GUINÉ",
+            "PHP": "Peso Filipino - FILIPINAS (AS)",
+            "PKR": "Rupia Paquistanesa - PAQUISTÃO",
+            "PLN": "Zloty - POLÔNIA",
+            "PYG": "Guarani - PARAGUAI",
+            "QAR": "Rial do Catar - CATAR",
+            "RON": "Novo Leu Romeno - ROMÊNIA",
+            "RSD": "Dinar Sérvio - SÉRVIA",
+            "RUB": "Rublo Russo - FEDERAÇÃO RUSSA (A)",
+            "RWF": "Franco Ruandês - RUANDA",
+            "SAR": "Riyal Saudita - ARÁBIA SAUDITA",
+            "SBD": "Dólar das Ilhas Salomão - ILHAS SALOMÃO",
+            "SCR": "Rupia das Seychelles - SEYCHELLES",
+            "SDG": "Libra Sudanesa - SUDÃO DO SUL",
+            "SEK": "Coroa Sueca - SUÉCIA",
+            "SGD": "Dólar de Singapura - SINGAPURA",
+            "SHP": "Libra de Santa Helena - SANTA HELENA, ASCENSÃO E TRISTÃO DA CUNHA",
+            "SLE": "Leone (Novo) - SERRA LEOA",
+            "SLL": "Leone (Antigo) - SERRA LEOA",
+            "SOS": "Xelim Somali - SOMÁLIA",
+            "SRD": "Dólar do Suriname - SURINAME",
+            "SSP": "Libra Sul-Sudanesa - SUDÃO DO SUL",
+            "STN": "Dobra - SÃO TOMÉ E PRÍNCIPE",
+            "SYP": "Libra Síria - REPÚBLICA ÁRABE SÍRIA",
+            "SZL": "Lilangeni - ESSUATÍNI",
+            "THB": "Baht - TAILÂNDIA",
+            "TJS": "Somoni - TAJIQUISTÃO",
+            "TMT": "Novo Manat do Turcomenistão - TURCOMENISTÃO",
+            "TND": "Dinar Tunisiano - TUNÍSIA",
+            "TOP": "Pa'anga - TONGA",
+            "TRY": "Nova Lira Turca - TURQUIA",
+            "TTD": "Dólar de Trinidad e Tobago - TRINIDAD E TOBAGO",
+            "TWD": "Novo Dólar de Taiwan - TAIWAN (PROVÍNCIA DA CHINA)",
+            "TZS": "Xelim da Tanzânia - TANZÂNIA, REPÚBLICA UNIDA DA",
+            "UAH": "Hryvnia - UCRÂNIA",
+            "UGX": "Xelim de Uganda - UGANDA",
+            "USD": "Dólar Americano - ESTADOS UNIDOS (E.U.A.)",
+            "UYU": "Peso Uruguaio - URUGUAI",
+            "UZS": "Som do Uzbequistão - UZBEQUISTÃO",
+            "VED": "Bolívar - VENEZUELA",
+            "VES": "Bolívar Soberano - VENEZUELA",
+            "VND": "Dong - VIETNÃ",
+            "VUV": "Vatu - VANUATU",
+            "WST": "Tala - SAMOA",
+            "XAF": "Franco CFA BEAC - PAÍSES CFA DA ÁFRICA CENTRAL",
+            "XCD": "Dólar do Caribe Oriental - PAÍSES XCD DO CARIBE ORIENTAL",
+            "XDR": "DES (Direito Especial de Saque) - FUNDO MONETÁRIO INTERNACIONAL (FMI)",
+            "XOF": "Franco CFA BCEAO - PAÍSES CFA DA ÁFRICA OCIDENTAL",
+            "XPF": "Franco CFP - POLINÉSIA FRANCESA",
+            "YER": "Rial Iemenita - IÊMEN",
+            "ZAR": "Rand - ÁFRICA DO SUL",
+            "ZMW": "Kwacha da Zâmbia - ZÂMBIA",
+            "ZWL": "Dólar do Zimbábue - ZIMBÁBUE"
+          },
+          "employment_history_title": "Histórico de Emprego",
+          "question11_label": "11.- Por favor, compartilhe conosco seu histórico de emprego, começando um ano antes de você iniciar a BYU-Pathway Worldwide.",
+          "add_button": "+ Adicionar",
+          "employment_table_headers": {
+            "title": "Título",
+            "details": "Detalhes"
+          },
+          "education_history_title": "Histórico de Educação",
+          "question12_label": "12.- Por favor, descreva qualquer educação superior que você concluiu antes da BYU-Pathway, incluindo diplomas, certificações ou certificados de outras faculdades ou universidades. Não inclua certificados ou diplomas da BYU-Pathway, BYU-Idaho ou Ensign College.",
+          "education_table_headers": {
+            "title": "Título",
+            "details": "Detalhes"
+          },
+          "question13_label": "13.- A quais dispositivos eletrônicos você tem acesso? Selecione todos os que se aplicam. *",
+          "electronic_devices_options": {
+            "computer_personal": "Computador (pessoal)",
+            "computer_shared_public": "Computador (compartilhado ou público)",
+            "smartphone_personal": "Smartphone (pessoal)",
+            "smartphone_shared_public": "Smartphone (compartilhado ou público)",
+            "tablet_personal": "Tablet (pessoal)",
+            "tablet_shared_public": "Tablet (compartilhado ou público)"
+          },
+          "question14_label": "14.- Em média, quantas vezes por semana você experimenta quedas de energia? *",
+          "power_outages_options": {
+            "select_default": "Selecione uma opção",
+            "0": "0",
+            "1_2": "1-2",
+            "3_5": "3-5",
+            "5_10": "5-10",
+            "10+": "10+"
+          },
+          "outage_plan": {
+            "question15_label": "15.- Você tem um plano de contingência para quedas de energia? *",
+            "question15_options": {
+              "select_default": "Selecione uma opção",
+              "yes": "Sim",
+              "no": "Não"
+            }
+          },
+          "question16_label": "16.- Você está usando um Telefone ou um Computador atualmente? *",
+          "device_options": {
+            "select_default": "Selecione uma opção",
+            "phone": "Telefone",
+            "computer": "Computador"
+          },
+          "typing_test": {
+            "question_label": "16.1.- Teste de Digitação",
+            "instructions": {
+              "link_text": "este link",
+              "instructions_text": "Clique em {link} e complete o teste. Assim que terminar, *",
+              "step1": "tire uma captura de tela dos seus resultados,",
+              "step2": "digite seu resultado de Palavras Por Minuto (WPM) aqui, e",
+              "step3": "anexe a captura de tela na próxima pergunta."
+            },
+            "screenshot_instructions_mac": "Para tirar uma captura de tela em um computador Mac, pressione Command + Shift + 3",
+            "screenshot_instructions_windows": "Para tirar uma captura de tela em um computador Windows, pressione PrtSc ou Shift + Windows Key + S",
+            "more_guidance_link": "https://www.pcmag.com/how-to/how-to-take-a-screenshot-on-any-device",
+            "screenshot_attachment_label": "16.2.- Teste de Digitação<br> Anexe a captura de tela da etapa anterior aqui: *"
+          },
+          "internet_speed_test": {
+            "question_label": "16.3.- Teste de Velocidade da Internet",
+            "instructions": {
+              "link_text": "este link",
+              "instructions_text": "Clique em {link} e execute um Teste de Velocidade da internet. Assim que terminar, *",
+              "step1": "tire uma captura de tela dos seus resultados,",
+              "step2": "digite seus resultados aqui, e",
+              "step3": "anexe a captura de tela na próxima pergunta."
+            },
+            "download_speed_label": "Velocidade de Download",
+            "upload_speed_label": "Velocidade de Upload",
+            "screenshot_instructions_mac": "Para tirar uma captura de tela em um computador Mac, pressione Command + Shift + 3",
+            "screenshot_instructions_windows": "Para tirar uma captura de tela em um computador Windows, pressione PrtSc ou Shift + Windows Key + S",
+            "more_guidance_link": "https://www.pcmag.com/how-to/how-to-take-a-screenshot-on-any-device",
+            "screenshot_attachment_label": "16.4.- Teste de Velocidade da Internet<br> Anexe a captura de tela da etapa anterior aqui: *"
+          },
+          "profile_questions": {
+            "question17_1_label": "17.1.- Perguntas do Perfil",
+            "question17_1_prompt": "Descreva uma experiência em que você usou suas habilidades de liderança. Qual era a situação? O que você fez? Qual foi o resultado?",
+            "recording_instructions": "Responda à seguinte pergunta o mais detalhadamente possível. Máximo de 2 minutos *",
+            "start_recording_label": "Iniciar Gravação",
+            "stop_recording_label": "Parar Gravação",
+            "question17_2_label": "17.2.- Perguntas do Perfil",
+            "question17_2_prompt": "Um membro da sua equipe te emprestou algo. Enquanto você estava usando, você acidentalmente o quebrou. Deixe uma mensagem de voz para o membro da equipe para explicar o problema e recomendar uma solução."
+          },
+          "required_legend": "Campos marcados com * são obrigatórios.",
+          "submit_button": "Enviar"
+        },
+        "wellnessSurvey": {
+          "close_button": "Fechar",
+          "banner_alt_text": "logotipo",
+          "title": "Formulário de Reclamação de Estudantes Online",
+          "intro_paragraph": "Os estudantes são encorajados a trabalhar diretamente com seu instrutor ou administrador para resolver preocupações acadêmicas ou administrativas relacionadas à sua experiência com a BYU-Pathway Worldwide (BYU-Pathway), BYU Idaho, Ensign College, ou Institutos de Religião (coletivamente, Instituições). Se a preocupação de um estudante não for resolvida, ele é encorajado a enviar uma reclamação formal. Para perguntas gerais que não são uma reclamação, por favor, visite https://help.byupathway.edu/.",
+          "phone_number_label": "Qual é o seu número de telefone? *",
+          "email_label": "Qual endereço de e-mail você prefere que usemos para entrar em contato com você? *",
+          "grievance_type_label": "Qual é a natureza da sua reclamação? *",
+          "grievance_type_options": {
+            "academic": "Acadêmica",
+            "administrative": "Administrativa"
+          },
+          "academic_disclaimer": {
+            "title": "Aviso",
+            "intro_paragraph": "Se você deseja registrar uma reclamação sobre um instrutor, aqui estão algumas coisas a considerar:",
+            "list_items": [
+              "Se você acha que merece uma nota melhor em uma tarefa, saiba que as notas são determinadas por cada instrutor com base em sua avaliação. Discordar da nota de um instrutor não é por si só um motivo suficiente para enviar uma reclamação. Se você sentir que seu instrutor violou a política, o procedimento ou o tratou de forma injusta, você pode registrar uma reclamação.",
+              "O processo de reclamação envolve uma investigação extensa tanto do estudante quanto do instrutor. Este processo não se destina a ser usado com frequência e deve ser usado apenas para preocupações sérias que não podem ser resolvidas de outras maneiras."
+            ],
+            "contact_instructor_question": "Você já contatou seu instrutor sobre este problema? *",
+            "contact_instructor_options": {
+              "yes": "Sim",
+              "no": "Não"
+            },
+            "contact_instructor_warning": {
+              "title": "Entre em Contato com Seu Instrutor",
+              "text": "Por favor, converse com seu instrutor. Nenhuma ação será tomada até que haja uma tentativa de resolução entre você e seu instrutor."
+            }
+          },
+          "form_fields": {
+            "problem_description_label": "Por favor, descreva o problema em detalhes. *",
+            "expected_outcome_label": "Qual é o resultado desejado? *",
+            "attachments_label": "Anexe quaisquer documentos e/ou capturas de tela relevantes que nos ajudem a investigar este problema.",
+            "add_attachment_button": "Adicionar Anexo",
+            "submit_button": "Enviar"
+          }
+        }
+    },
+    "loading": {
+      "logging_in": "Aguarde enquanto fazemos o login...",
+      "updating_info": "Atualizando suas informações pessoais...",
+      "alert_error": "Ocorreu um erro ao tentar fazer login. Por favor, entre em contato com seu mentor para mais informações",
+      "failed_update_gathering": "Falha ao atualizar as informações da Reunião"
+    },
+    "chat2": {
+      "signed_in": "Você está conectado! Por favor, aguarde enquanto nos conectamos à sua conta...",
+      "notifications_prompt_pwa": "Você está sendo conectado! \n **Ative as notificações** para ficar por dentro de prazos, ferramentas de autoajuda, interrupções do sistema e muito mais!",
+      "mobile_app_prompt_no_pwa": "Você está sendo conectado! \n **Baixe o aplicativo móvel** para ter acesso a notificações, novos recursos e uma experiência mais rápida!"
+    },
+    "jobs": {
+      "apply_mrp_internship": "Candidatar-se ao Estágio MRP",
+      "edit_mrp_internship": "Editar Candidatura ao Estágio MRP",
+      "applyTo": "Candidatar-se a ",
+      "edit": "Editar",
+      "application": " Candidatura"
+    },
+    "modals": {
+      "mobile_only": "Somente para Celular",
+      "android_devices": "Para Dispositivos Android",
+      "ios_devices": "Para Dispositivos iPhone",
+      "step_1_android": "Abra o Companion no Chrome: ",
+      "step_1_android_desc": "Use o navegador Chrome para abrir o site do Companion.",
+      "step_2_android": "Toque no Ícone do Menu: ",
+      "step_2_android_desc": "No canto superior direito do navegador, toque no ícone de menu de três pontos.",
+      "step_3_android": "Selecione “Adicionar à Tela Inicial”: ",
+      "step_3_android_desc": "No menu suspenso, toque em ",
+      "step_3_android_bold": "“Adicionar à Tela Inicial”.",
+      "step_4_android": "Confirmar: ",
+      "step_4_android_desc": "Uma janela pop-up será exibida. Confirme tocando em ",
+      "step_4_android_bold": "“Adicionar”.",
+      "step_5_android": "Acessar o Companion: ",
+      "step_5_android_desc": "O aplicativo Companion agora aparecerá na sua tela inicial como um aplicativo comum. Você pode tocar no ícone para abri-lo a qualquer momento.",
+      "step_1_ios": "Abra o Companion no Safari: ",
+      "step_1_ios_desc": "Abra o Safari e navegue até o site do Companion (este recurso só é suportado no Safari em iPhones).",
+      "step_2_ios": "Toque no Ícone de Compartilhar: ",
+      "step_2_ios_desc": "Na parte inferior da tela, toque no ícone de ",
+      "step_2_ios_bold": "Compartilhar",
+      "step_2_ios_bold_desc": " (um quadrado com uma seta para cima).",
+      "step_3_ios": "Selecione “Adicionar à Tela Inicial”: ",
+      "step_3_ios_desc": "Role para baixo no menu Compartilhar e selecione ",
+      "step_3_ios_bold": "“Adicionar à Tela Inicial”.",
+      "step_4_ios": "Renomear (Opcional): ",
+      "step_4_ios_desc": "Você pode editar o nome do aplicativo, se desejar, e depois tocar em ",
+      "step_4_ios_bold": "“Adicionar”.",
+      "step_5_ios": "Acessar o Companion: ",
+      "step_5_ios_desc": "O ícone do Companion aparecerá na sua tela inicial, assim como qualquer outro aplicativo. Toque nele para abrir o Companion diretamente.",
+      "ai_warning": "Este chatbot de inteligência artificial (IA) é alimentado por tecnologia de IA generativa que faz referência ao site da BYU-Pathway e ao site da Base de Conhecimento de Suporte. Este chatbot pode analisar perguntas, buscar nos sites mencionados e resumir informações potencialmente relevantes. A IA generativa nem sempre está correta. Por favor, confirme pessoalmente as respostas fornecidas por este chatbot lendo as seções que ele identifica nos sites mencionados. O uso deste chatbot é anônimo. Não insira nenhuma informação pessoal. Ao usar este chatbot, você concorda que tudo o que você inserir pode ser salvo e revisado pelo pessoal da Igreja para melhorar este chatbot e torná-lo mais preciso. O feedback pode ser enviado usando o botão Enviar Feedback."
+    },
+    "jobs2": {
+      "failed_update_job_info": "Falha ao atualizar as informações de emprego"
+    },
+    "cases": {
+      "failed_update_cases": "Falha ao atualizar os casos",
+      "open_requests_title": "Solicitações Abertas",
+      "closed_requests_title": "Solicitações Fechadas",
+      "open_requests_none": "Você não tem nenhuma solicitação aberta no momento",
+      "closed_requests_none": "Você não tem nenhuma solicitação fechada no momento",
+      "case_number": "Número do Caso:",
+      "date_created": "Data de Criação:",
+      "description": "Descrição:",
+      "status": "Status:",
+      "status_reason": "Motivo do Status:",
+      "last_modified": "Última Modificação:",
+      "see_timeline_button": "Ver Cronograma",
+      "add_comments_prompt": "Para adicionar comentários a esta solicitação, por favor, adicione-os na seção de comentários abaixo",
+      "reopen_request_prompt": "Para reabrir esta solicitação, por favor, adicione seu motivo na seção de comentários abaixo",
+      "comments_label": "Adicione seus comentários aqui:",
+      "screenshot_label": "Você pode adicionar uma captura de tela relacionada ao seu chamado abaixo",
+      "submit_button": "Enviar",
+      "timeline_title_suffix": " Cronograma",
+      "case_created": "Caso Criado",
+      "case_created_description": "O caso foi criado",
+      "adding_comments": "Adicionando seus comentários à solicitação...",
+      "reopening_request": "Reabrindo sua solicitação...",
+      "failed_update": "falha na atualização",
+      "comment": "Comentário",
+      "reopen": "Reabrir"
+    },
+    "requests": {
+      "submitting": "Enviando sua Solicitação...",
+      "updating_cases": "Atualizando seus casos...",
+      "failed_to_escalate": "Falha ao encaminhar sua solicitação"
+    },
+    "enrollment_verification": {
+      "loading_text": "Solicitando sua Verificação de Matrícula",
+      "alert_success": "Sua solicitação foi enviada. Por favor, verifique seus casos de suporte abertos"
+    },
+    "graduation_application": {
+      "loading_text": "Enviando sua aplicação...",
+      "certificate_term_message1": "Se você se candidatou para a graduação no semestre de Outono de 2024 através da BYU-Idaho ou Ensign College, você não precisa se candidatar novamente. Ambas as instituições estão atualmente em processo de concessão e você será notificado por elas quando sua credencial estiver pronta.",
+      "certificate_term_message2": "Se você acha que completou os requisitos e deveria ter recebido um certificado ou diploma, mas não recebeu, por favor, preencha o formulário a seguir para enviar um caso ao Departamento de Graduação: ",
+      "certificate_term_message2_url": "https://nam.dcv.ms/0ofXwxC195",
+      "question_term_complete": "Em qual semestre você concluiu/concluirá os requisitos? ",
+      "question_credential": "Credencial? ",
+      "question_declared_major": "Curso Declarado? ",
+      "question_certificate_name": "Nome do certificado para o qual você está se candidatando? ",
+      "question_catalog_year": "Ano do catálogo atual? ",
+      "question_degree_major": "Curso Declarado Atualmente? ",
+      "question_degree_catalog": "Ano do catálogo atual? "
+    },
+    "course_exceptions": {
+      "failed_to_disable_notifications": "Falha ao desabilitar as notificações."
+    },
+    "exceptions": {
+      "withdraw_form_fields": {
+        "last_date_label": "Qual foi a sua última data aproximada de participação no(s) curso(s)? *",
+        "reason_label": "O que o impediu de entrar no portal de registro e se retirar do(s) seu(s) curso(s) antes do prazo de retirada? *",
+        "details_label": "Por favor, forneça qualquer informação adicional (incluindo datas específicas de eventos, se possível) sobre por que você não se retirou do(s) seu(s) curso(s) antes do prazo. *",
+        "grade_accept_label": "Por que uma nota \"W\" [ou uma desistência] seria um reflexo mais preciso da sua experiência neste(s) curso(s)? *",
+        "going_forward_label": "Se sua petição for negada, o que isso significa para você daqui para frente? *",
+        "circumstances_label": "Quais foram as circunstâncias que o levaram a precisar solicitar uma petição para algumas, mas não todas as suas aulas neste semestre? *",
+        "required_legend": "Os campos marcados com * são obrigatórios.",
+        "submit_button": "Enviar"
+      },
+      "drop_form_fields": {
+        "last_date_label": "Qual foi a sua última data aproximada de participação no(s) curso(s)? *",
+        "reason_label": "O que o impediu de entrar no portal de registro e desistir do(s) seu(s) curso(s) antes do prazo de desistência? *",
+        "details_label": "Por favor, forneça qualquer informação adicional (incluindo datas específicas de eventos, se possível) sobre por que você não desistiu do(s) seu(s) curso(s) antes do prazo. *",
+        "grade_accept_label": "Por que uma desistência seria um reflexo mais preciso da sua experiência no curso? *",
+        "going_forward_label": "Se sua petição for negada, o que isso significa para você daqui para frente? *",
+        "required_legend": "Os campos marcados com * são obrigatórios.",
+        "submit_button": "Enviar"
+      },
+      "loading_courses": "Obtendo cursos anteriores, por favor, aguarde...",
+      "submitting": "Enviando sua Exceção...",
+      "updating_cases": "Atualizando Casos...",
+      "submit_error": "Não foi possível enviar sua Exceção, por favor, entre em contato com seu mentor para mais informações."
+    },
+    "holds": {
+      "failed_update": "Falha ao atualizar retenções"
+    },
+    "schedule": {
+      "loading_schedule": "Obtendo sua agenda, isso pode demorar um pouco...",
+      "no_plan_message": "noPlanForm",
+      "no_plan_form_hide": "coursesForm",
+      "no_plan_hide": "noPlanForm",
+      "credits": "créditos",
+      "select_option_default": "Selecione uma opção",
+      "options": [
+        "Somente Curso 1",
+        "Cursos 1 e 2",
+        "Cursos 1, 2 e 3",
+        "Todos os quatro cursos"
+      ],
+      "already_registered_container_show": "coursesAlreadyRegisteredContainer",
+      "course_details": {
+        "name": "Nome: ",
+        "code": "Código: ",
+        "credits": "Créditos: "
+      },
+      "registration_summary_title": "Resumo",
+      "registration_summary_text1": "Você selecionou o seguinte período e cursos para se registrar:",
+      "registration_summary_text2_term": "- Período: 2025 Período ",
+      "registration_summary_text3_courses": "- Curso(s): ",
+      "registration_summary_text4_credits": "- Créditos Totais: ",
+      "registration_summary_text5": "Se estiver correto, selecione Confirmar. Caso contrário, selecione Fechar para editar suas seleções.",
+      "confirm_button": "Confirmar",
+      "confirm_title": "Confirmar Seleção",
+      "confirm_text": "Ao selecionar Registrar, você será matriculado para o período e curso(s) selecionado(s).",
+      "register_button": "Registrar",
+      "cancel_button": "Cancelar e voltar para editar minhas seleções",
+      "registering_courses": "Registrando ",
+      "register_success_alert": "Solicitação de registro enviada corretamente.",
+      "register_success_text": "Solicitação enviada. Verifique os Casos de Suporte para mais informações.",
+      "register_fail_alert": "Falha ao registrar os cursos. Por favor, entre em contato com seu mentor ou abra um caso para obter ajuda.",
+      "no_courses_alert": "Falha ao obter os cursos"
+    },
+    "network": {
+      "escalating_request": "Encaminhando sua solicitação...",
+      "escalate_error": "Ocorreu um erro ao encaminhar sua solicitação"
+    },
+    "mentor": {
+    "submitting_concern": "Enviando sua preocupação...",
+    "submit_concern_failure": "Falha ao enviar o formulário de preocupação."
+  },
+  "gathering": {
+    "missionary_details": {
+      "name": "Nome: ",
+      "email": "Email: "
+    }
+  },
+  "job_profile": {
+    "info_dropdown": {
+      "title": "",
+      "list_items": [
+        "As respostas que você forneceu nesta pesquisa.",
+        "Suas informações de contato, incluindo nome, endereço, número de telefone, e-mail, etc.",
+        "Quaisquer credenciais que você tenha obtido, incluindo um certificado de conclusão do PathwayConnect e/ou quaisquer certificados e diplomas online que você tenha concluído ou esteja cursando. Isso também pode incluir qualquer curso relevante.",
+        "Informações relacionadas a habilidades de mercado e habilidades linguísticas."
+      ]
+    },
+    "forms": {
+      "add_education_title": "Adicionar Formação Acadêmica",
+      "add_education_form_fields": {
+        "title": "Adicionar Formação",
+        "college_name_label": "Nome da Faculdade/Universidade: *",
+        "country_label": "País: *",
+        "degree_type_label": "Tipo de Grau: *",
+        "select_degree_default": "Selecione um",
+        "degree_type_certificate": "Certificado",
+        "degree_type_associate": "Tecnólogo/Associado",
+        "degree_type_bachelor": "Bacharelado",
+        "degree_type_master": "Mestrado",
+        "degree_type_doctorate": "Doutorado",
+        "date_awarded_label": "Data de Conclusão: *",
+        "degree_name_label": "Nome do Grau: *",
+        "add_button": "+ Adicionar"
+      },
+      "add_employment_title": "Adicionar Novo Emprego",
+      "add_employment_form_fields": {
+        "title_label": "1.- Título: *",
+        "company_name_label": "2.- Nome da Empresa: *",
+        "type_label": "3.- Tipo: *",
+        "select_type_default": "Selecione um",
+        "remote_option": "Remoto: A sede da empresa fica em um país diferente do que eu resido.",
+        "local_option": "Local: A sede da empresa fica no meu país de residência.",
+        "entrepreneurship_option": "Empreendedorismo: Sou autônomo ou tenho meu próprio negócio.",
+        "start_date_label": "4.- Data de Início: *",
+        "end_date_label": "5.- Data de Término: *",
+        "current_role_checkbox": "Atualmente estou trabalhando nesta função",
+        "monthly_earnings_label": "6.- Ganhos Mensais em Moeda Local: *",
+        "hours_per_week_label": "7.- Horas Por Semana: *",
+        "select_hours_default": "Selecione um",
+        "reason_for_leaving_label": "8.- Motivo da Saída: *",
+        "select_reason_default": "Selecione um",
+        "better_job_option": "Melhor Oportunidade de Emprego: Recebi uma oferta de um emprego melhor em uma empresa diferente.",
+        "internal_promotion_option": "Promoção Interna: Recebi uma oferta de uma função melhor dentro da mesma empresa.",
+        "termination_option": "Demissão: A empresa encerrou meu contrato de trabalho.",
+        "resignation_option": "Resignação: Eu escolhi sair do emprego por conta própria.",
+        "relocation_option": "Mudança: Tive que sair devido à mudança para um novo local.",
+        "career_change_option": "Mudança de Carreira: Saí para seguir um caminho ou setor de carreira diferente.",
+        "education_option": "Educação: Saí para focar nos meus estudos.",
+        "other_option": "Outro",
+        "add_button": "+ Adicionar"
+      },
+      "rowTypeObject": {
+        "111110000": "Remoto",
+        "111110001": "Local",
+        "111110002": "Empreendedorismo"
+      },
+      "rowLeaveObject": {
+        "current": "Cargo Atual",
+        "111110000": "Melhor Emprego",
+        "111110001": "Promoção Interna",
+        "111110002": "Rescisão",
+        "111110003": "Demissão",
+        "111110004": "Transferência",
+        "111110005": "Mudança de Carreira",
+        "111110006": "Educação",
+        "111110007": "Outro"
+      }
+    },
+    "history_details": {
+      "employment": {
+        "company_name_label": "Nome da Empresa",
+        "type_label": "Tipo",
+        "start_date_label": "Data de Início",
+        "end_date_label": "Data de Término",
+        "monthly_earnings_label": "Ganhos Mensais",
+        "hours_per_week_label": "Horas Por Semana",
+        "reason_for_leaving_label": "Motivo da Saída",
+        "remove_button": "Remover da Tabela"
+      },
+      "education": {
+        "college_name_label": "Nome da Faculdade",
+        "country_label": "País",
+        "degree_type_label": "Tipo de Diploma",
+        "degree_name_label": "Nome do Diploma",
+        "date_awarded_label": "Data de Concessão",
+        "remove_button": "Remover da Tabela"
+      },
+      "see_details_button": "Ver Detalhes",
+      "current": "Atual"
+    },
+    "transcript_order": {
+      "policy_title": "Política de Solicitação de Histórico Escolar Oficial",
+      "policy_text1": "A BYU-Pathway Worldwide cobrirá o custo das duas primeiras solicitações de histórico escolar oficial para cada instituição:",
+      "policy_text2": "Solicitações adicionais de histórico escolar oficial podem estar sujeitas a uma taxa. Os alunos são incentivados a se planejar de acordo.",
+      "policy_text3": "Os alunos podem visualizar seus históricos não oficiais sem custo por meio de seu portal do aluno.",
+      "confirm_question": "Você tem certeza de que gostaria de continuar?",
+      "continue_button": "Continuar",
+      "submitting_order": "Enviando seu pedido...",
+      "order_success": "Pedido enviado!",
+      "order_failure": "Não foi possível enviar seu perfil. Entre em contato com seu mentor para mais informações."
+    }
+  },
+  "career_survey": {
+    "saving_answers": "Salvando suas respostas...",
+    "save_error": "Não foi possível salvar suas respostas. Entre em contato com seu mentor para mais informações.",
+    "uploading_profile": "Enviando seu perfil...",
+    "upload_error": "Não foi possível enviar seu perfil. Entre em contato com seu mentor para mais informações.",
+    "help_form": {
+      "title": "Precisa de Ajuda?",
+      "description_label": "Forneça detalhes do problema com o qual você precisa de suporte. Entraremos em contato com você o mais breve possível: *",
+      "submit_button": "Enviar"
+    },
+    "help_request_loading": "Enviando sua solicitação...",
+    "help_request_error": "Não foi possível enviar sua solicitação de ajuda. Entre em contato com seu mentor para mais informações.",
+    "save_progress_loading": "Salvando seu perfil...",
+    "save_progress_error": "Não foi possível salvar seu perfil. Por favor, use o botão de Ajuda no topo do formulário para entrar em contato com um orientador de carreira.",
+    "phone_alert_title": "Salvar progresso",
+    "phone_alert_message": "Para completar os testes de digitação e velocidade da internet, você deve clicar em \"Salvar Progresso\" e retornar para completá-los em um computador.",
+    "phone_alert_button": "Salvar Progresso"
+  },
+  "internship_application": {
+    "submitting": "Enviando sua candidatura...",
+    "commercial_real_estate_closed_alert": "As candidaturas para o Estágio em Imóveis Comerciais estão encerradas.",
+    "success_alert": "Candidatura de Estágio enviada corretamente",
+    "error_alert": "Ocorreu um erro ao processar sua candidatura."
+  },
+  "jobs_section": {
+      "job_listing": {
+        "jobTypes": {
+          "available": "Disponíveis",
+          "applied": "Candidatadas",
+          "dateCreated": "Data de Criação:",
+          "description": "Descrição:",
+          "jobType": "Tipo de Trabalho:"
+        },
+        "titles": {
+          "available": "Vagas Tier 1 Disponíveis",
+          "applied": "Vagas às Quais Me Candidatei"
+        },
+        "noJobsMessage": "Nenhuma Vaga Encontrada",
+        "bloomCheck": {
+          "label": "Você trabalha ou já trabalhou para a Bloom, GMS ou Springboard? *",
+          "options": {
+            "yes": "Sim",
+            "no": "Não"
+          }
+        },
+        "resume": {
+          "label": "Adicione seu currículo aqui: *"
+        },
+        "buttonTexts": {
+          "apply": "Candidatar-se para esta Vaga",
+          "update": "Atualizar Candidatura de Vaga",
+          "remove": "Remover Candidatura"
+        }
+      },
+      "api_calls": {
+        "applyToJob": {
+          "loading": "Enviando sua Candidatura...",
+          "error": "Não foi possível enviar sua candidatura. Entre em contato com seu orientador de carreira para mais informações."
+        },
+        "dropApplication": {
+          "loading": "Removendo sua Candidatura...",
+          "error": "Não foi possível remover sua candidatura. Entre em contato com seu mentor para mais informações."
+        }
+      }
+    },
+    "notifications_logic": {
+      "subscribeError": "Falha ao assinar notificações push:",
+      "enableAlertFailure": "Falha ao habilitar notificações.",
+      "unsupportedAlert": "Notificações ou Service Workers não são suportados no seu navegador.",
+      "permissionDeniedAlert": "Permissão para notificação negada.",
+      "blockedAlert": "As notificações estão bloqueadas. Por favor, habilite-as nas configurações do navegador.",
+      "unsubscribeAlertFailure": "Falha ao desabilitar notificações."
+    },
+    "notification_rendering": {
+      "emptyMessage": "Você ainda não recebeu nenhuma notificação",
+      "dateSent": "Data de Envio: "
+    },
+    "recording":{
+      "restartRecording": "Reiniciar Gravação",
+      "stop": "Parar"
+    }
+  },
+  "languages_list": {
+    "Afrikaans": "Africâner",
+    "Albanian": "Albanês",
+    "Arabic": "Árabe",
+    "Armenian": "Armênio",
+    "Basque": "Basco",
+    "Bengali": "Bengalês",
+    "Bulgarian": "Búlgaro",
+    "Catalan": "Catalão",
+    "Cambodian": "Cambojano",
+    "Chinese_Mandarin": "Chinês (Mandarim)",
+    "Croatian": "Croata",
+    "Czech": "Tcheco",
+    "Danish": "Dinamarquês",
+    "Dutch": "Holandês",
+    "English": "Inglês",
+    "Estonian": "Estoniano",
+    "Fiji": "Fijiano",
+    "Finnish": "Finlandês",
+    "French": "Francês",
+    "Georgian": "Georgiano",
+    "German": "Alemão",
+    "Greek": "Grego",
+    "Gujarati": "Guzerate",
+    "Hebrew": "Hebraico",
+    "Hindi": "Hindi",
+    "Hungarian": "Húngaro",
+    "Icelandic": "Islandês",
+    "Indonesian": "Indonésio",
+    "Irish": "Irlandês",
+    "Italian": "Italiano",
+    "Japanese": "Japonês",
+    "Javanese": "Javanês",
+    "Korean": "Coreano",
+    "Latin": "Latim",
+    "Latvian": "Letão",
+    "Lithuanian": "Lituano",
+    "Macedonian": "Macedônio",
+    "Malay": "Malaio",
+    "Malayalam": "Malaiala",
+    "Maltese": "Maltês",
+    "Maori": "Maori",
+    "Marathi": "Marata",
+    "Mongolian": "Mongol",
+    "Nepali": "Nepalês",
+    "Norwegian": "Norueguês",
+    "Persian": "Persa",
+    "Polish": "Polonês",
+    "Portuguese": "Português",
+    "Punjabi": "Punjabi",
+    "Quechua": "Quéchua",
+    "Romanian": "Romeno",
+    "Russian": "Russo",
+    "Samoan": "Samoano",
+    "Serbian": "Sérvio",
+    "Slovak": "Eslovaco",
+    "Slovenian": "Esloveno",
+    "Spanish": "Espanhol",
+    "Swahili": "Suaíli",
+    "Swedish": "Sueco",
+    "Tamil": "Tâmil",
+    "Tatar": "Tártaro",
+    "Telugu": "Télugo",
+    "Thai": "Tailandês",
+    "Tibetan": "Tibetano",
+    "Tonga": "Tonganês",
+    "Turkish": "Turco",
+    "Ukrainian": "Ucraniano",
+    "Urdu": "Urdu",
+    "Uzbek": "Uzbeque",
+    "Vietnamese": "Vietnamita",
+    "Welsh": "Galês",
+    "Xhosa": "Xhosa",
+    "Tagalog": "Tagalo",
+    "placeholder": "Selecione uma opção"
+  },
+  "general": {
+    "accessDenied": "Acesso Negado",
+    "accessDeniedMessage": "Lamentamos, mas este site não está disponível em seu país."
+  },
+  "forms": {
+    "terms": {
+      "2025_term_3": "2025 Período 3",
+      "2025_term_4": "2025 Período 4",
+      "2025_term_5": "2025 Período 5",
+      "2025_term_6": "2025 Período 6"
+    },
+    "wellness": {
+      "removeButton": "Remover",
+      "submitLoading": "Enviando sua Reclamação...",
+      "submitSuccess": "Solicitação enviada corretamente!",
+      "submitFailure": "Não foi possível enviar sua reclamação. Por favor, tente novamente ou entre em contato com o suporte."
+    }
+  }
+}
